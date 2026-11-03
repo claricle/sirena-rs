@@ -40,26 +40,38 @@ fn fmax(a: f64, b: f64) -> f64 {
 /// Positions of `sizes` (width, height) joined by `edges`, for layout direction
 /// `dir` (DOWN, UP, LEFT or RIGHT) at 50 spacing.
 pub fn place(sizes: &[(f64, f64)], edges: &[Edge], dir: &str) -> Result<Vec<(f64, f64)>, Error> {
+    let pos = place_flat(sizes, edges, dir, 50.0, &[])?;
+    // margin_page
+    let left = pos.iter().map(|p| p.0).fold(f64::INFINITY, f64::min);
+    let top = pos.iter().map(|p| p.1).fold(f64::INFINITY, f64::min);
+    let (dx, dy) = (PAGE_MARGIN - left, PAGE_MARGIN - top);
+    Ok(pos.iter().map(|p| (p.0 + dx, p.1 + dy)).collect())
+}
+
+/// One level of `DirectedPlacement#place_flat`: the boxes laid out at
+/// `rank` spacing, turned back and mirrored, without the page margin.
+/// `clusters[i]` marks box `i` as a subgraph box (for component packing).
+#[allow(dead_code)]
+pub fn place_flat(sizes: &[(f64, f64)], edges: &[Edge], dir: &str, rank: f64, clusters: &[bool]) -> Result<Vec<(f64, f64)>, Error> {
     let sideways = dir == "LEFT" || dir == "RIGHT";
     let mut bs: Vec<Bx> = sizes.iter().map(|&(w, h)| Bx { x: f64::NAN, y: f64::NAN, w, h }).collect();
     if sideways {
         transpose(&mut bs);
     }
     // EdgeOrder
-    let mut rank: HashMap<usize, usize> = HashMap::new();
+    let mut rank_of: HashMap<usize, usize> = HashMap::new();
     for e in edges {
         for id in [e.src, e.tgt] {
-            let n = rank.len();
-            rank.entry(id).or_insert(n);
+            let n = rank_of.len();
+            rank_of.entry(id).or_insert(n);
         }
     }
-    let mut linked: Vec<usize> = (0..bs.len()).filter(|i| rank.contains_key(i)).collect();
-    linked.sort_by_key(|i| rank[i]);
+    let mut linked: Vec<usize> = (0..bs.len()).filter(|i| rank_of.contains_key(i)).collect();
+    linked.sort_by_key(|i| rank_of[i]);
     let mut it = linked.into_iter();
-    let order: Vec<usize> = (0..bs.len()).map(|i| if rank.contains_key(&i) { it.next().unwrap() } else { i }).collect();
-
+    let order: Vec<usize> = (0..bs.len()).map(|i| if rank_of.contains_key(&i) { it.next().unwrap() } else { i }).collect();
     // ElkPlacement
-    let placed = elk_place(&bs, &order, edges)?;
+    let placed = elk_place(&bs, &order, edges, rank)?;
     for (i, (x, y)) in placed {
         bs[i].x = x;
         bs[i].y = y;
@@ -67,6 +79,7 @@ pub fn place(sizes: &[(f64, f64)], edges: &[Edge], dir: &str) -> Result<Vec<(f64
     // apply_label_geometry
     row_centering(&mut bs, &order, edges);
     layer_spacing(&mut bs, edges, if sideways { Axis::W } else { Axis::H });
+    component_packing(&mut bs, &order, edges, clusters);
     if sideways {
         transpose(&mut bs);
     }
@@ -75,11 +88,84 @@ pub fn place(sizes: &[(f64, f64)], edges: &[Edge], dir: &str) -> Result<Vec<(f64
         "UP" => flip(&mut bs, false),
         _ => {}
     }
-    // margin_page
-    let left = bs.iter().map(|b| b.x).fold(f64::INFINITY, f64::min);
-    let top = bs.iter().map(|b| b.y).fold(f64::INFINITY, f64::min);
-    let (dx, dy) = (PAGE_MARGIN - left, PAGE_MARGIN - top);
-    Ok(bs.iter().map(|b| (b.x + dx, b.y + dy)).collect())
+    Ok(bs.iter().map(|b| (b.x, b.y)).collect())
+}
+
+/// `ComponentPacking`: two components, one a lone subgraph box, are packed
+/// into columns.
+fn component_packing(bs: &mut [Bx], order: &[usize], edges: &[Edge], clusters: &[bool]) {
+    let mut links: HashMap<usize, Vec<usize>> = HashMap::new();
+    for e in edges {
+        links.entry(e.src).or_default().push(e.tgt);
+        links.entry(e.tgt).or_default().push(e.src);
+    }
+    let mut seen: Vec<usize> = vec![];
+    let mut found: Vec<Vec<usize>> = vec![];
+    for &id in order {
+        if seen.contains(&id) {
+            continue;
+        }
+        let mut comp: Vec<usize> = vec![];
+        let mut pending = vec![id];
+        while !pending.is_empty() {
+            let n = pending.remove(0);
+            if comp.contains(&n) {
+                continue;
+            }
+            comp.push(n);
+            if let Some(l) = links.get(&n) {
+                pending.extend(l.iter().copied());
+            }
+        }
+        seen.extend(comp.iter().copied());
+        found.push(comp);
+    }
+    let lone_cluster = |c: &Vec<usize>| c.len() == 1 && clusters.get(c[0]).copied().unwrap_or(false);
+    if found.len() != 2 || found.iter().filter(|c| lone_cluster(c)).count() != 1 {
+        return;
+    }
+    // centre_ranks
+    let tops = sorted_tops(bs);
+    for t in tops {
+        let rank: Vec<usize> = (0..bs.len()).filter(|&i| bs[i].y == t).collect();
+        let tallest = rank.iter().map(|&i| bs[i].h).fold(f64::NEG_INFINITY, f64::max);
+        for i in rank {
+            bs[i].y += (tallest - bs[i].h) / 2.0;
+        }
+    }
+    let extent = |bs: &[Bx], ids: &[usize]| {
+        let l = ids.iter().map(|&i| bs[i].x).fold(f64::INFINITY, f64::min);
+        let r = ids.iter().map(|&i| bs[i].x + bs[i].w).fold(f64::NEG_INFINITY, f64::max);
+        (l, r)
+    };
+    let mut offset = 0.0;
+    for comp in found.iter().rev() {
+        let rows = group_rows_of(bs, comp);
+        let widest = rows.iter().map(|r| { let (l, rr) = extent(bs, r); rr - l }).fold(f64::NEG_INFINITY, f64::max);
+        for row in &rows {
+            let (l, r) = extent(bs, row);
+            let shift = ((widest - (r - l)) / 2.0) - l;
+            for &i in row {
+                bs[i].x += shift;
+            }
+        }
+        let (left, right) = extent(bs, comp);
+        for &i in comp {
+            bs[i].x += offset - left;
+        }
+        offset += right - left + NODE_SEP;
+    }
+}
+
+fn group_rows_of(bs: &[Bx], ids: &[usize]) -> Vec<Vec<usize>> {
+    let mut rows: Vec<(f64, Vec<usize>)> = vec![];
+    for &i in ids {
+        match rows.iter_mut().find(|(y, _)| *y == bs[i].y) {
+            Some(r) => r.1.push(i),
+            None => rows.push((bs[i].y, vec![i])),
+        }
+    }
+    rows.into_iter().map(|r| r.1).collect()
 }
 
 fn transpose(bs: &mut [Bx]) {
@@ -102,7 +188,7 @@ fn flip(bs: &mut [Bx], horizontal: bool) {
     }
 }
 
-fn elk_place(bs: &[Bx], order: &[usize], edges: &[Edge]) -> Result<Vec<(usize, (f64, f64))>, Error> {
+fn elk_place(bs: &[Bx], order: &[usize], edges: &[Edge], rank: f64) -> Result<Vec<(usize, (f64, f64))>, Error> {
     let child_opts = json!({
         "elk.layered.considerModelOrder.strategy": "NODES_AND_EDGES",
         "elk.direction": "DOWN",
@@ -110,7 +196,7 @@ fn elk_place(bs: &[Bx], order: &[usize], edges: &[Edge]) -> Result<Vec<(usize, (
         "elk.separateConnectedComponents": false,
         "elk.layered.crossingMinimization.strategy": "LAYER_SWEEP",
         "elk.spacing.nodeNode": 50,
-        "elk.layered.spacing.nodeNodeBetweenLayers": 50,
+        "elk.layered.spacing.nodeNodeBetweenLayers": rank as i64,
     });
     let children: Vec<Value> = order
         .iter()
@@ -133,7 +219,7 @@ fn elk_place(bs: &[Bx], order: &[usize], edges: &[Edge]) -> Result<Vec<(usize, (
         ("elk.algorithm", json!("layered")),
         ("elk.direction", json!("DOWN")),
         ("elk.spacing.nodeNode", json!(50)),
-        ("elk.layered.spacing.nodeNodeBetweenLayers", json!(50)),
+        ("elk.layered.spacing.nodeNodeBetweenLayers", json!(rank as i64)),
         ("elk.hierarchyHandling", json!("INCLUDE_CHILDREN")),
         ("elk.layered.crossingMinimization.strategy", json!("LAYER_SWEEP")),
         ("elk.alignment", json!("TOP")),

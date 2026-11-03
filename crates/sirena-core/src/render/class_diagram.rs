@@ -6,8 +6,8 @@
 //! calls `crate::elk::layout`); one or two by the cell grid.
 //!
 //! Declined to the Ruby path (`Error::Unported`): a frontmatter/directive
-//! preamble, `namespace` blocks and `note` statements, and any model the Ruby
-//! layout rejects as invalid.
+//! preamble, a `note` inside a namespaced diagram, and any model the Ruby
+//! layout rejects as invalid. `namespace` blocks are placed by `namespace`.
 use super::pie::{items, strip, text_of};
 use crate::svg::{ruby_float, Document, Elem, Theme};
 use crate::text::{self, Face};
@@ -16,6 +16,7 @@ use regex::Regex;
 use serde_json::Value;
 use std::collections::HashMap;
 
+mod namespace;
 mod place;
 
 const HEADER_PADDING: f64 = 24.0;
@@ -207,6 +208,8 @@ struct Model {
     rels: Vec<Rel>,
     direction: Option<String>,
     notes: Vec<(String, Option<String>)>,
+    /// `namespace` blocks in source order: name and the class ids named in the body.
+    blocks: Vec<(String, Vec<String>)>,
     count: usize,
     created_in: HashMap<String, usize>,
     body: String,
@@ -272,6 +275,7 @@ impl Model {
             rels: vec![],
             direction: None,
             notes: vec![],
+            blocks: vec![],
             count: 0,
             created_in: HashMap::new(),
             body,
@@ -290,7 +294,8 @@ impl Model {
         }
         for s in &stmts {
             if s.get("namespace_keyword").is_some() {
-                return Err(unported());
+                self.namespace(s)?;
+                continue;
             }
             if let Some(t) = s.get("note_text") {
                 let text = note_text(&text_of(t));
@@ -303,6 +308,38 @@ impl Model {
             }
             self.item(s)?;
         }
+        Ok(())
+    }
+
+    /// `process_namespace`: the body statements are built like top-level ones;
+    /// the ids they name are kept for `ClassNamespaces.collect`.
+    fn namespace(&mut self, s: &Value) -> Result<(), Error> {
+        if has(s, "namespace_name").is_none() {
+            return Err(unported());
+        }
+        self.count += 1;
+        let mut ids = vec![];
+        let body: Vec<Value> = match has(s, "namespace_body") {
+            Some(b) => items(b).into_iter().cloned().collect(),
+            None => vec![],
+        };
+        for st in &body {
+            if st.get("namespace_keyword").is_some() || st.get("note_text").is_some() {
+                return Err(unported());
+            }
+            self.count += 1;
+            self.statement(st)?;
+            if let Some(v) = has(st, "class_id") {
+                ids.push(text_of(v).replace('`', ""));
+            }
+            for k in ["from_id", "to_id"] {
+                if let Some(v) = has(st, k) {
+                    ids.push(text_of(v).replace('`', ""));
+                }
+            }
+        }
+        let name = text_of(has(s, "namespace_name").unwrap());
+        self.blocks.push((name, ids));
         Ok(())
     }
 
@@ -868,6 +905,23 @@ fn render_node(model: &Model, n: &Node, cx: &Ctx) -> Elem {
     g
 }
 
+fn render_namespace(b: &namespace::NsBox, cx: &Ctx) -> Elem {
+    let st = &cx.st;
+    let mut g = Elem::new("g").attr("id", format!("namespace-{}", b.id.strip_prefix("namespace:").unwrap_or(&b.id)));
+    g.push(
+        Elem::new("rect")
+            .attr("fill", "none")
+            .attr("stroke", st.node_stroke)
+            .attr("stroke-width", "1")
+            .num("x", b.x)
+            .num("y", b.y)
+            .num("width", b.w)
+            .num("height", b.h),
+    );
+    g.push(text_el(st, &b.title, b.title_x, b.y + 22.0, "Arial, sans-serif", 16.0, Some("middle"), None));
+    g
+}
+
 fn render_note(id: usize, text: &str, n: &Node, target: Option<&Node>) -> Elem {
     let mut g = Elem::new("g").attr("id", format!("note-{id}"));
     if let Some(t) = target {
@@ -999,8 +1053,8 @@ pub fn render(source: &str) -> Result<String, Error> {
         if r.reversed { (t, f) } else { (f, t) }
     };
 
-    if nodes.len() >= 3 {
-        let edges: Vec<place::Edge> = model
+    let layout_edges = || -> Vec<place::Edge> {
+        model
             .rels
             .iter()
             .map(|r| {
@@ -1013,7 +1067,35 @@ pub fn render(source: &str) -> Result<String, Error> {
                     .collect();
                 place::Edge { src, tgt, labels }
             })
-            .collect();
+            .collect()
+    };
+    let known: Vec<String> = model.ents.iter().map(|e| e.id.clone()).collect();
+    let namespaces = namespace::collect(&model.blocks, &known);
+    let mut boxes: Vec<namespace::NsBox> = vec![];
+    let mut order: Vec<usize> = (0..class_count).collect();
+    if !model.blocks.is_empty() {
+        if !model.notes.is_empty() {
+            return Err(unported());
+        }
+        let pairs: Vec<(&str, &str)> = model.rels.iter().map(|r| (r.from.as_str(), r.to.as_str())).collect();
+        let hier = namespace::hierarchical(&namespaces, &pairs);
+        let classes: Vec<(usize, String, f64, f64)> = nodes.iter().map(|n| (n.ent, model.ents[n.ent].id.clone(), n.w, n.h)).collect();
+        let measure = |t: &str| {
+            let m = text::measure(t, sizes.name_font, Face::Arial);
+            (m.width, m.height)
+        };
+        let mut tree = namespace::nest(&classes, &namespaces, hier, &measure);
+        namespace::place_all(&mut tree, &layout_edges(), dir)?;
+        let mut plain = vec![];
+        namespace::flatten(&tree, (0.0, 0.0), &mut plain, &mut boxes);
+        order.clear();
+        for (ent, x, y) in plain {
+            nodes[ent].x = x;
+            nodes[ent].y = y;
+            order.push(ent);
+        }
+    } else if nodes.len() >= 3 {
+        let edges = layout_edges();
         let sz: Vec<(f64, f64)> = nodes.iter().map(|n| (n.w, n.h)).collect();
         let pos = place::place(&sz, &edges, dir)?;
         for (n, (x, y)) in nodes.iter_mut().zip(pos) {
@@ -1041,15 +1123,16 @@ pub fn render(source: &str) -> Result<String, Error> {
     }
 
     // scene dimensions (Ruby Integer-vs-Float typing decides the viewBox text)
-    let (vw, vh, doc_w, doc_h) = if nodes.is_empty() {
+    let (vw, vh, doc_w, doc_h) = if nodes.is_empty() && boxes.is_empty() {
         ("880".to_string(), "680".to_string(), 880.0, 680.0)
     } else {
-        let w = nodes.iter().map(|n| n.x + n.w).fold(f64::NEG_INFINITY, f64::max) + 40.0 + DIAGRAM_PADDING * 2.0;
+        let mut extents: Vec<(f64, f64, bool)> = nodes.iter().map(|n| (n.x + n.w, n.y + n.h, n.y_int)).collect();
+        extents.extend(boxes.iter().map(|b| (b.x + b.w, b.y + b.h, false)));
+        let w = extents.iter().map(|e| e.0).fold(f64::NEG_INFINITY, f64::max) + 40.0 + DIAGRAM_PADDING * 2.0;
         let mut best: Option<(f64, bool)> = None;
-        for n in &nodes {
-            let v = n.y + n.h;
-            if best.is_none_or(|b| v > b.0) {
-                best = Some((v, n.y_int));
+        for e in &extents {
+            if best.is_none_or(|b| e.1 > b.0) {
+                best = Some((e.1, e.2));
             }
         }
         let (h, int) = best.unwrap();
@@ -1059,11 +1142,14 @@ pub fn render(source: &str) -> Result<String, Error> {
     let mut doc = Document::new(doc_w, doc_h);
     doc.view_box = Some(format!("0 0 {vw} {vh}"));
     doc.add(Elem::new("g").attr("id", "defs"));
+    for b in &boxes {
+        doc.add(render_namespace(b, &cx));
+    }
     for r in &model.rels {
         doc.add(render_edge(r, &nodes[index[r.from.as_str()]], &nodes[index[r.to.as_str()]], &cx));
     }
-    for n in nodes.iter().filter(|n| n.note.is_none()) {
-        doc.add(render_node(&model, n, &cx));
+    for &i in &order {
+        doc.add(render_node(&model, &nodes[i], &cx));
     }
     for n in nodes.iter().filter(|n| n.note.is_some()) {
         let i = n.note.unwrap();
