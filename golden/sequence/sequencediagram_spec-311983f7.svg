@@ -1,0 +1,55 @@
+<svg
+ width="750.0"
+ height="574.0"
+ viewBox="0 0 750.0 574"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="498.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="498.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="525.0" y1="75.0" x2="525.0" y2="498.0" stroke-dasharray="5,5"/>
+<g id="frame-0">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="514.0" y="129.0" width="78.0" height="149.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="514.0,129.0 564.0,129.0 564.0,142.0 556.0,149.0 514.0,149.0"/>
+  <text fill="#000000" x="539.0" y="143.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">loop</text>
+  <text fill="#000000" x="578.0" y="147.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Healthcheck]</text>
+</g>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="525.0" y2="119.0"/>
+  <text fill="#000000" x="325.0" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Hello John, how are you?</text>
+</g>
+<g id="message-1">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 525,208 C 585,198 585,238 525,228"/>
+  <text fill="#000000" x="525.0" y="198.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Fight against hypochondria</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="524.0" y1="390.0" x2="125.0" y2="390.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="325.0" y="380.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Great!</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="524.0" y1="434.0" x2="325.0" y2="434.0"/>
+  <text fill="#000000" x="425.0" y="424.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">How about you?</text>
+</g>
+<g id="message-4">
+  <line stroke="#000000" stroke-width="2" x1="326.0" y1="478.0" x2="525.0" y2="478.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="425.0" y="468.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Jolly good!</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-Bob">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob</text>
+</g>
+<g id="participant-John">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="450.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="525.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">John</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="550.0" y="298.0" width="150.0" height="58.0"/>
+  <text fill="#000000" x="625.0" y="323.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Rational thoughts</text>
+  <text fill="#000000" x="625.0" y="342.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">prevail...</text>
+</g>
+</svg>

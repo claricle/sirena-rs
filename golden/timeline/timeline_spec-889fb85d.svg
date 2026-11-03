@@ -1,0 +1,259 @@
+<svg
+ width="1390.0"
+ height="1109.6"
+ viewBox="0 0 1390.0 1109.6"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 173.8 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="178.8" x2="290.0" y2="178.8"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Pre-Development</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="296.6" x2="290.0" y2="296.6"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="195.0">Quality Management</tspan><tspan x="195.0" y="277.4">System</tspan></text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 195 296.6 L 195 1059.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="195.0,1059.6 191.0,1051.6 199.0,1051.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 489.2 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="494.2" x2="290.0" y2="494.2"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="195.0">Regulatory</tspan><tspan x="195.0" y="477.4">Compliance</tspan></text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 549.2 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="554.2" x2="290.0" y2="554.2"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="535.2" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Risk Management</text>
+  </g>
+</g>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M300 173.8 v-57.8 q0,-5 5,-5 h380 q5,0 5,5 v62.8 H300 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="300.0" y1="178.8" x2="690.0" y2="178.8"/>
+    </g>
+    <text fill="#000000" x="495.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Development</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M300 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H300 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="300.0" y1="296.6" x2="490.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="395.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="395.0">Management</tspan><tspan x="395.0" y="277.4">Responsibility</tspan></text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 395 296.6 L 395 1059.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="395.0,1059.6 391.0,1051.6 399.0,1051.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M300 473.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H300 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="300.0" y1="478.8" x2="490.0" y2="478.8"/>
+    </g>
+    <text fill="#000000" x="395.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Planning Activities</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M300 533.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H300 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="300.0" y1="538.8" x2="490.0" y2="538.8"/>
+    </g>
+    <text fill="#000000" x="395.0" y="519.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Human Resources</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M500 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H500 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="500.0" y1="296.6" x2="690.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="595.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="595.0">Resource</tspan><tspan x="595.0" y="277.4">Management</tspan></text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 595 296.6 L 595 1059.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="595.0,1059.6 591.0,1051.6 599.0,1051.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M500 489.2 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H500 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="500.0" y1="494.2" x2="690.0" y2="494.2"/>
+    </g>
+    <text fill="#000000" x="595.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="595.0">Management</tspan><tspan x="595.0" y="477.4">Reviews</tspan></text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M500 549.2 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H500 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="500.0" y1="554.2" x2="690.0" y2="554.2"/>
+    </g>
+    <text fill="#000000" x="595.0" y="535.2" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Infrastructure</text>
+  </g>
+</g>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M700 173.8 v-57.8 q0,-5 5,-5 h380 q5,0 5,5 v62.8 H700 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="700.0" y1="178.8" x2="1090.0" y2="178.8"/>
+    </g>
+    <text fill="#000000" x="895.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Post-Development</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M700 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H700 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="700.0" y1="296.6" x2="890.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="795.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="795.0">Product Realization</tspan><tspan x="795.0" y="277.4">Activities</tspan></text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 795 296.6 L 795 1059.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="795.0,1059.6 791.0,1051.6 799.0,1051.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M700 473.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H700 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="700.0" y1="478.8" x2="890.0" y2="478.8"/>
+    </g>
+    <text fill="#000000" x="795.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Planning Activities</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M700 549.2 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H700 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="700.0" y1="554.2" x2="890.0" y2="554.2"/>
+    </g>
+    <text fill="#000000" x="795.0" y="519.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="795.0">Customer-related</tspan><tspan x="795.0" y="537.4">Processes</tspan></text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="296.6" x2="1090.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="995.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="995.0">Post-Production</tspan><tspan x="995.0" y="277.4">Activities</tspan></text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 995 296.6 L 995 1059.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="995.0,1059.6 991.0,1051.6 999.0,1051.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 473.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="478.8" x2="1090.0" y2="478.8"/>
+    </g>
+    <text fill="#000000" x="995.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Feedback</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 533.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="538.8" x2="1090.0" y2="538.8"/>
+    </g>
+    <text fill="#000000" x="995.0" y="519.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Complaints</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 593.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="598.8" x2="1090.0" y2="598.8"/>
+    </g>
+    <text fill="#000000" x="995.0" y="579.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Adverse Events</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 669.2 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="674.2" x2="1090.0" y2="674.2"/>
+    </g>
+    <text fill="#000000" x="995.0" y="639.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="995.0">Research and</tspan><tspan x="995.0" y="657.4">Development</tspan></text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 729.2 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="734.2" x2="1090.0" y2="734.2"/>
+    </g>
+    <text fill="#000000" x="995.0" y="715.2" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Purchasing Activities</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 789.2 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="794.2" x2="1090.0" y2="794.2"/>
+    </g>
+    <text fill="#000000" x="995.0" y="775.2" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Production Activities</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 864.6 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="869.6" x2="1090.0" y2="869.6"/>
+    </g>
+    <text fill="#000000" x="995.0" y="835.2" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="995.0">Installation</tspan><tspan x="995.0" y="852.8">Activities</tspan></text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 924.6 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="929.6" x2="1090.0" y2="929.6"/>
+    </g>
+    <text fill="#000000" x="995.0" y="910.6" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Servicing Activities</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#d7ff86" d="M900 1000 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H900 Z"/>
+      <line class="node-line" stroke="#d0b9ff" stroke-width="3" x1="900.0" y1="1005.0" x2="1090.0" y2="1005.0"/>
+    </g>
+    <text fill="#000000" x="995.0" y="970.6" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="995.0">Post-Market</tspan><tspan x="995.0" y="988.2">Surveillance</tspan></text>
+  </g>
+</g>
+<text fill="#000000" x="245.0" y="81.0" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="33" font-weight="bold">Medical Device Lifecycle</text>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="4" d="M 50 346.6 L 1340 346.6"/>
+  <polygon fill="#000000" points="1340.0,346.6 1324.0,354.6 1324.0,338.6"/>
+</g>
+</svg>

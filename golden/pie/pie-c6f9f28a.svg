@@ -1,0 +1,23 @@
+<svg
+ width="551.678"
+ height="450.0"
+ viewBox="0 0 551.678 450"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle fill="none" stroke="#000000" stroke-width="2" cx="225.0" cy="225.0" r="186.0"/>
+<text fill="#000000" x="225.0" y="25.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">Pets adopted by volunteers</text>
+<path id="slice-0" fill="#4472C4" stroke="#000000" stroke-width="2" d="M 225 225 L 225.0 40.0 A 185 185 0 1 1 47.1008 174.237 Z"/>
+<text fill="#000000" x="308.5734" y="341.7067" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">79%</text>
+<path id="slice-1" fill="#ED7D31" stroke="#000000" stroke-width="2" d="M 225 225 L 47.1008 174.237 A 185 185 0 0 1 189.3482 43.4678 Z"/>
+<text fill="#000000" x="131.0967" y="128.8044" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">17%</text>
+<path id="slice-2" fill="#A5A5A5" stroke="#000000" stroke-width="2" d="M 225 225 L 189.3482 43.4678 A 185 185 0 0 1 225.0 40.0 Z"/>
+<text fill="#000000" x="211.5675" y="92.8517" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">3%</text>
+<rect fill="#4472C4" stroke="#4472C4" x="441.0" y="192.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Dogs</text>
+<rect fill="#ED7D31" stroke="#ED7D31" x="441.0" y="214.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="228.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Cats</text>
+<rect fill="#A5A5A5" stroke="#A5A5A5" x="441.0" y="236.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Rats</text>
+</svg>

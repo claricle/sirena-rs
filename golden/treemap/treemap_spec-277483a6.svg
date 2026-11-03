@@ -1,0 +1,49 @@
+<svg
+ width="1000.0"
+ height="400.0"
+ viewBox="0 0 1000 400"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g>
+  <rect fill="#8dd3c7" stroke="#000000" stroke-width="2" x="10.0" y="35.0" width="687.0" height="355.0" rx="4.0" ry="4.0"/>
+  <text fill="#000000" x="15.0" y="50.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Section 2</text>
+  <text fill="#000000" x="692.0" y="50.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">57</text>
+  <g>
+    <rect fill="#ffffb3" stroke="#000000" stroke-width="2" x="20.0" y="70.0" width="287.0" height="310.0" rx="4.0" ry="4.0"/>
+    <text fill="#000000" x="25.0" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Leaf 2.2</text>
+    <text fill="#000000" x="25.0" y="100.0" font-family="Arial, Helvetica, sans-serif" font-size="10">25</text>
+  </g>
+  <g>
+    <rect fill="red" stroke="#FFD600" stroke-width="2" x="317.0" y="70.0" width="370.0" height="190.0" rx="4.0" ry="4.0"/>
+    <text fill="#000000" x="322.0" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Leaf 2.1</text>
+    <text fill="#000000" x="322.0" y="100.0" font-family="Arial, Helvetica, sans-serif" font-size="10">20</text>
+  </g>
+  <g>
+    <rect fill="#ffffb3" stroke="#000000" stroke-width="2" x="317.0" y="270.0" width="370.0" height="110.0" rx="4.0" ry="4.0"/>
+    <text fill="#000000" x="322.0" y="285.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Leaf 2.3</text>
+    <text fill="#000000" x="322.0" y="300.0" font-family="Arial, Helvetica, sans-serif" font-size="10">12</text>
+  </g>
+</g>
+<g>
+  <rect fill="#8dd3c7" stroke="#000000" stroke-width="2" x="707.0" y="35.0" width="283.0" height="355.0" rx="4.0" ry="4.0"/>
+  <text fill="#000000" x="712.0" y="50.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Section 1</text>
+  <text fill="#000000" x="985.0" y="50.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">24</text>
+  <g>
+    <rect fill="#ffffb3" stroke="#000000" stroke-width="2" x="717.0" y="70.0" width="126.0" height="310.0" rx="4.0" ry="4.0"/>
+    <text fill="#000000" x="722.0" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Leaf 1.1</text>
+    <text fill="#000000" x="722.0" y="100.0" font-family="Arial, Helvetica, sans-serif" font-size="10">12</text>
+  </g>
+  <g>
+    <rect fill="red" stroke="#FFD600" stroke-width="2" x="853.0" y="70.0" width="127.0" height="310.0" rx="4.0" ry="4.0"/>
+    <text fill="#000000" x="858.0" y="85.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Section 1.2</text>
+    <text fill="#000000" x="975.0" y="85.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="10">12</text>
+    <g>
+      <rect fill="#bebada" stroke="#000000" stroke-width="2" x="863.0" y="105.0" width="107.0" height="265.0" rx="4.0" ry="4.0"/>
+      <text fill="#000000" x="868.0" y="120.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">Leaf 1.2.1</text>
+      <text fill="#000000" x="868.0" y="135.0" font-family="Arial, Helvetica, sans-serif" font-size="10">12</text>
+    </g>
+  </g>
+</g>
+</svg>

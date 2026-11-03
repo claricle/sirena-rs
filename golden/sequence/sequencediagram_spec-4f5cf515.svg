@@ -1,0 +1,68 @@
+<svg
+ width="951.5"
+ height="651.0"
+ viewBox="0 0 951.5 651"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="575.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="326.0" y1="75.0" x2="326.0" y2="575.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="526.0" y1="75.0" x2="526.0" y2="575.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="726.5" y1="75.0" x2="726.5" y2="575.0" stroke-dasharray="5,5"/>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="136.0" x2="318.0" y2="136.0"/>
+  <polygon fill="#000000" stroke="#000000" points="326.0,136 318.0,132 318.0,140"/>
+  <text fill="#000000" x="225.5" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16"><tspan x="225.5" y="109.0">multiline</tspan><tspan x="225.5" y="128.0">text</tspan></text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="327.0" y1="265.0" x2="518.0" y2="265.0"/>
+  <polygon fill="#000000" stroke="#000000" points="526.0,265 518.0,261 518.0,269"/>
+  <text fill="#000000" x="426.0" y="238.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16"><tspan x="426.0" y="238.0">multiline</tspan><tspan x="426.0" y="257.0">text</tspan></text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="527.0" y1="394.0" x2="718.5" y2="394.0"/>
+  <polygon fill="#000000" stroke="#000000" points="726.5,394 718.5,390 718.5,398"/>
+  <text fill="#000000" x="626.25" y="367.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16"><tspan x="626.25" y="367.0">multiline</tspan><tspan x="626.25" y="386.0">text</tspan></text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="725.5" y1="506.0" x2="133.0" y2="506.0"/>
+  <polygon fill="#000000" stroke="#000000" points="125,506 133,502 133,510"/>
+  <text fill="#000000" x="425.75" y="496.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br \t/&gt;text</text>
+</g>
+<g id="participant-1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br&gt;text</text>
+</g>
+<g id="participant-2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="251.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="326.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br/&gt;text</text>
+</g>
+<g id="participant-3">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="451.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="526.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br /&gt;text</text>
+</g>
+<g id="participant-4">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="651.0" y="10.0" width="151.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="726.5" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br \t/&gt;text</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="351.0" y="146.0" width="150.0" height="58.0"/>
+  <text fill="#000000" x="426.0" y="171.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline</text>
+  <text fill="#000000" x="426.0" y="190.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">text</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="551.0" y="275.0" width="150.0" height="58.0"/>
+  <text fill="#000000" x="626.0" y="300.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline</text>
+  <text fill="#000000" x="626.0" y="319.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">text</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="751.5" y="404.0" width="150.0" height="58.0"/>
+  <text fill="#000000" x="826.5" y="429.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline</text>
+  <text fill="#000000" x="826.5" y="448.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">text</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="150.0" y="516.0" width="151.0" height="39.0"/>
+  <text fill="#000000" x="225.5" y="541.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">multiline&lt;br \t/&gt;text</text>
+</g>
+</svg>

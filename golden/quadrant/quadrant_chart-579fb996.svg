@@ -1,0 +1,78 @@
+<svg
+ width="500.0"
+ height="500.0"
+ viewBox="0 0 500 500"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="quadrants">
+  <g class="quadrant">
+    <rect fill="#ECECFF" x="263.0" y="45.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="379.0" y="62.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">We should expand</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f1f1ff" x="31.0" y="45.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="147.0" y="62.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Need to promote</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f6f6ff" x="31.0" y="257.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="147.0" y="274.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Re-evaluate</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#fbfbff" x="263.0" y="257.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="379.0" y="274.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">May be improved</text>
+  </g>
+</g>
+<g class="border">
+  <line stroke="#c7c7f1" stroke-width="2" x1="30.0" y1="45.0" x2="496.0" y2="45.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="495.0" y1="46.0" x2="495.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="30.0" y1="469.0" x2="496.0" y2="469.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="31.0" y1="46.0" x2="31.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="263.0" y1="46.0" x2="263.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="32.0" y1="257.0" x2="494.0" y2="257.0"/>
+</g>
+<g class="data-points">
+  <g class="data-point">
+    <circle id="point_0" fill="#6c757d" stroke="#000000" stroke-width="2" cx="170.2" cy="214.60000000000002" r="5.0"/>
+    <text fill="#000000" x="170.2" y="229.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign A</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_1" fill="#28a745" stroke="#000000" stroke-width="2" cx="239.8" cy="371.48" r="5.0"/>
+    <text fill="#000000" x="239.8" y="386.08" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign B</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_2" fill="#007bff" stroke="#000000" stroke-width="2" cx="295.47999999999996" cy="176.44000000000003" r="5.0"/>
+    <text fill="#000000" x="295.47999999999996" y="191.04" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign C</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_3" fill="#28a745" stroke="#000000" stroke-width="2" cx="392.92" cy="324.84" r="5.0"/>
+    <text fill="#000000" x="392.92" y="339.44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign D</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_4" fill="#28a745" stroke="#000000" stroke-width="2" cx="216.60000000000002" cy="324.84" r="5.0"/>
+    <text fill="#000000" x="216.60000000000002" y="339.44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign E</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_5" fill="#6c757d" stroke="#000000" stroke-width="2" cx="193.39999999999998" cy="138.27999999999997" r="5.0"/>
+    <text fill="#000000" x="193.39999999999998" y="152.88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Campaign F</text>
+  </g>
+</g>
+<g class="labels">
+  <g class="label">
+    <text fill="#000000" x="147.0" y="491.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Low Reach</text>
+  </g>
+  <g class="label">
+    <text fill="#000000" x="379.0" y="491.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">High Reach</text>
+  </g>
+  <g class="label">
+    <text transform="rotate(-90 5 363)" fill="#000000" x="5.0" y="375.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Low Engagement</text>
+  </g>
+  <g class="label">
+    <text transform="rotate(-90 5 151)" fill="#000000" x="5.0" y="163.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">High Engagement</text>
+  </g>
+</g>
+<g class="title">
+  <text fill="#000000" x="250.0" y="26.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20">Reach and engagement of campaigns</text>
+</g>
+</svg>

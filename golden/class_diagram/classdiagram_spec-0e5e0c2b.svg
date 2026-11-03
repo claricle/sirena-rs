@@ -1,0 +1,73 @@
+<svg
+ width="555.52"
+ height="440.0"
+ viewBox="0 0 555.52 440.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-Class02_to_Class1">
+  <line stroke="#000000" stroke-width="2" x1="47.727999999999994" y1="276.0" x2="47.727999999999994" y2="226.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="47.727999999999994,226 42.727999999999994,234.6602540378444 52.727999999999994,234.6602540378444"/>
+</g>
+<g id="rel-Class03_to_Class04">
+  <line stroke="#000000" stroke-width="2" x1="177.09599999999998" y1="92.0" x2="177.096" y2="142.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="177.09599999999998,104.0 171.09599999999998,92.0 177.09599999999998,80.0 183.09599999999998,92.0"/>
+</g>
+<g id="rel-Class05_to_Class06">
+  <line stroke="#000000" stroke-width="2" x1="306.504" y1="92.0" x2="306.504" y2="142.0"/>
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2" points="306.504,104.0 300.504,92.0 306.504,80.0 312.504,92.0"/>
+</g>
+<g id="rel-Class07_to_Class08">
+  <line stroke="#000000" stroke-width="2" x1="435.856" y1="92.0" x2="435.856" y2="142.0"/>
+</g>
+<g id="rel-Class09_to_Class1">
+  <line stroke="#000000" stroke-width="2" x1="47.727999999999994" y1="92.0" x2="47.727999999999994" y2="142.0"/>
+</g>
+<g id="class-Class1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="12.639999999999993" y="142.0" width="70.176" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="47.727999999999994" y="152.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class1</text>
+  <line stroke="#000000" stroke-width="1" x1="12.639999999999993" y1="175.0" x2="82.816" y2="175.0"/>
+</g>
+<g id="class-Class02">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="276.0" width="79.45599999999999" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="47.727999999999994" y="286.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class02</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="309.0" x2="87.45599999999999" y2="309.0"/>
+</g>
+<g id="class-Class03">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="137.37599999999998" y="8.0" width="79.44" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="177.09599999999998" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class03</text>
+  <line stroke="#000000" stroke-width="1" x1="137.37599999999998" y1="41.0" x2="216.81599999999997" y2="41.0"/>
+</g>
+<g id="class-Class04">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="137.392" y="142.0" width="79.408" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="177.096" y="152.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class04</text>
+  <line stroke="#000000" stroke-width="1" x1="137.392" y1="175.0" x2="216.8" y2="175.0"/>
+</g>
+<g id="class-Class05">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="266.81600000000003" y="8.0" width="79.376" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="306.504" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class05</text>
+  <line stroke="#000000" stroke-width="1" x1="266.81600000000003" y1="41.0" x2="346.192" y2="41.0"/>
+</g>
+<g id="class-Class06">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="266.824" y="142.0" width="79.36" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="306.504" y="152.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class06</text>
+  <line stroke="#000000" stroke-width="1" x1="266.824" y1="175.0" x2="346.184" y2="175.0"/>
+</g>
+<g id="class-Class07">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="396.192" y="8.0" width="79.328" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="435.856" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class07</text>
+  <line stroke="#000000" stroke-width="1" x1="396.192" y1="41.0" x2="475.52" y2="41.0"/>
+</g>
+<g id="class-Class08">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="396.2" y="142.0" width="79.312" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="435.856" y="152.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class08</text>
+  <line stroke="#000000" stroke-width="1" x1="396.2" y1="175.0" x2="475.512" y2="175.0"/>
+</g>
+<g id="class-Class09">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.079999999999998" y="8.0" width="79.29599999999999" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="47.727999999999994" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class09</text>
+  <line stroke="#000000" stroke-width="1" x1="8.079999999999998" y1="41.0" x2="87.37599999999999" y2="41.0"/>
+</g>
+</svg>

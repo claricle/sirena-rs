@@ -1,0 +1,18 @@
+<svg
+ width="428.6304764436085"
+ height="64.0"
+ viewBox="0 0 428.6304764436085 64.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<path fill="none" stroke="#007bff" stroke-width="2" d="M 314.8464764436085 32.0 L 298.0912700733078 32.0 C 281.3360637030071 32.0, 247.82565096240566 32.0, 214.31523822180426 32.0 C 180.8048254812028 32.0, 147.29441274060142 32.0, 130.53920637030072 32.0 L 113.784 32.0"/>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="241.0624764436085" y="10.0" width="177.568" height="44.0"/>
+  <text fill="#000000" x="329.8464764436085" y="37.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">String containing []</text>
+</g>
+<g class="node mindmap-node">
+  <rect fill="#f0f1f2" stroke="#6c757d" stroke-width="2" x="10.0" y="10.0" width="177.568" height="44.0"/>
+  <text fill="#000000" x="98.784" y="37.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">String containing ()</text>
+</g>
+</svg>

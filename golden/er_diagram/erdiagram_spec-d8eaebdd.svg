@@ -1,0 +1,44 @@
+<svg
+ width="166.272"
+ height="514.25"
+ viewBox="0 0 166.272 514.25"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="rel-CUSTOMER_to_1">
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="92.0" x2="83.136" y2="193.0" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="76.136" y1="92.0" x2="90.136" y2="92.0"/>
+  <circle fill="none" stroke="#000000" stroke-width="2" cx="83.136" cy="186.0" r="5.0"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="178.0" x2="93.74260171779821" y2="188.6066017177982"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="178.0" x2="83.136" y2="193.0"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="178.0" x2="72.52939828220178" y2="188.6066017177982"/>
+  <text fill="#000000" x="83.136" y="137.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">places</text>
+</g>
+<g id="rel-1_to_u">
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="277.0" x2="83.136" y2="378.0" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="76.136" y1="277.0" x2="90.136" y2="277.0"/>
+  <line stroke="#000000" stroke-width="2" x1="90.136" y1="378.0" x2="76.136" y2="378.0"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="363.0" x2="93.74260171779821" y2="373.6066017177982"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="363.0" x2="83.136" y2="378.0"/>
+  <line stroke="#000000" stroke-width="2" x1="83.136" y1="363.0" x2="72.52939828220178" y2="373.6066017177982"/>
+  <text fill="#000000" x="83.136" y="322.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">contains</text>
+</g>
+<g id="entity-CUSTOMER">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="24.663999999999994" y="8.0" width="116.944" height="84.0"/>
+  <text fill="#000000" x="83.136" y="34.708333333333336" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">CUSTOMER</text>
+  <line stroke="#000000" stroke-width="1" x1="24.663999999999994" y1="50.75" x2="141.608" y2="50.75"/>
+</g>
+<g id="entity-1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="33.135999999999996" y="193.0" width="100.0" height="84.0"/>
+  <text fill="#000000" x="83.136" y="219.70833333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">1</text>
+  <line stroke="#000000" stroke-width="1" x1="33.135999999999996" y1="235.75" x2="133.136" y2="235.75"/>
+</g>
+<g id="entity-u">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="378.0" width="150.272" height="128.25"/>
+  <text fill="#000000" x="83.136" y="404.7083333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">u</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="420.75" x2="158.272" y2="420.75"/>
+  <text fill="#000000" x="18.0" y="446.125" font-family="monospace" font-size="12">string name</text>
+  <text fill="#000000" x="18.0" y="488.875" font-family="monospace" font-size="12">int quantity</text>
+</g>
+</svg>

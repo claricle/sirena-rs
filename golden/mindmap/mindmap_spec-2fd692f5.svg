@@ -1,0 +1,18 @@
+<svg
+ width="373.2384764436082"
+ height="146.0"
+ viewBox="0 0 373.2384764436082 146.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<path fill="none" stroke="#007bff" stroke-width="2" d="M 313.3664764436082 73.0 L 298.9192700733075 73.0 C 284.4720637030068 73.0, 255.57765096240544 73.0, 226.6832382218041 73.0 C 197.78882548120274 73.0, 168.89441274060138 73.0, 154.44720637030068 73.0 L 140.0 73.0"/>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="293.49447644360816" y="56.0" width="69.744" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="328.3664764436082" y="78.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">root</text>
+</g>
+<g class="node mindmap-node">
+  <rect fill="#f0f1f2" stroke="#6c757d" stroke-width="2" x="10.0" y="10.0" width="230.0" height="126.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="49.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0"><tspan x="125.0">A node with an icon and </tspan><tspan x="125.0" y="68.4">with a long text that wraps </tspan><tspan x="125.0" y="87.6">to keep the node size in </tspan><tspan x="125.0" y="106.8">check</tspan></text>
+</g>
+</svg>

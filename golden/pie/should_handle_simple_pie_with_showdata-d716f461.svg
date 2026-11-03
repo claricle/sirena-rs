@@ -1,0 +1,18 @@
+<svg
+ width="572.486"
+ height="450.0"
+ viewBox="0 0 572.486 450"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle fill="none" stroke="#000000" stroke-width="2" cx="225.0" cy="225.0" r="186.0"/>
+<path id="slice-0" fill="#4472C4" stroke="#000000" stroke-width="2" d="M 225 225 L 225.0 40.0 A 185 185 0 1 1 116.2597 374.6681 Z"/>
+<text fill="#000000" x="356.9591" y="273.8261" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">60%</text>
+<path id="slice-1" fill="#ED7D31" stroke="#000000" stroke-width="2" d="M 225 225 L 116.2597 374.6681 A 185 185 0 0 1 225.0 40.0 Z"/>
+<text fill="#000000" x="93.0409" y="188.0739" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">40%</text>
+<rect fill="#4472C4" stroke="#4472C4" x="441.0" y="203.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="217.0" font-family="Arial, Helvetica, sans-serif" font-size="17">ash [60]</text>
+<rect fill="#ED7D31" stroke="#ED7D31" x="441.0" y="225.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="239.0" font-family="Arial, Helvetica, sans-serif" font-size="17">bat [40]</text>
+</svg>

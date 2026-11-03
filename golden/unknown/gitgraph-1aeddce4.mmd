@@ -1,0 +1,21 @@
+%%{init: { "logLevel": "debug", "theme": "default" , "gitGraph" : {"showBranches":"false","rotateCommitLabel":"true"},"themeVariables": {
+              "gitBranchLabel0": "#ff0000",
+              "gitBranchLabel1": "#00ff00",
+              "gitBranchLabel2": "#0000ff",
+              "git0": "#550055"
+       } } }%%
+    gitGraph
+      commit
+       branch develop
+       commit
+       commit
+       branch release/1.0.0
+       checkout release/1.0.0
+       commit tag:"1.0.0-beta1"
+       checkout develop
+       commit
+       commit
+       commit
+       commit
+       checkout release/1.0.0
+       merge develop tag: "1.0.0-beta2"

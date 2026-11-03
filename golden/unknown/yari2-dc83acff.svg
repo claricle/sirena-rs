@@ -1,0 +1,270 @@
+<svg
+ width="3260.2639999999997"
+ height="1859.0"
+ viewBox="0 0 3260.2639999999997 1859.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="rel-film_actor_to_film">
+  <line stroke="#000000" stroke-width="2" x1="686.9466841195357" y1="525.0" x2="694.8609345517411" y2="625.0" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="679.9685040464144" y1="525.5522706465971" x2="693.924864192657" y2="524.4477293534029"/>
+  <line stroke="#000000" stroke-width="2" x1="688.1301212193865" y1="539.9532430138314" x2="676.7197652851637" y2="530.2165198764332"/>
+  <line stroke="#000000" stroke-width="2" x1="688.1301212193865" y1="539.9532430138314" x2="686.9466841195357" y2="525.0"/>
+  <line stroke="#000000" stroke-width="2" x1="688.1301212193865" y1="539.9532430138314" x2="697.8668443567848" y2="528.5428870796086"/>
+  <line stroke="#000000" stroke-width="2" x1="701.8391146248624" y1="624.4477293534029" x2="687.8827544786199" y2="625.5522706465971"/>
+  <text fill="#000000" x="690.9038093356385" y="570.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_actor_film_id_fkey</text>
+</g>
+<g id="rel-film_actor_to_actor">
+  <line stroke="#000000" stroke-width="2" x1="872.856" y1="548.4288527728363" x2="1004.6639999999998" y2="622.9461472271637" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="869.4109993599208" y1="554.5224535629975" x2="876.3010006400792" y2="542.3352519826751"/>
+  <line stroke="#000000" stroke-width="2" x1="885.9137159789169" y1="555.8109970015776" x2="871.4605522195767" y2="559.8242322732376"/>
+  <line stroke="#000000" stroke-width="2" x1="885.9137159789169" y1="555.8109970015776" x2="872.856" y2="548.4288527728363"/>
+  <line stroke="#000000" stroke-width="2" x1="885.9137159789169" y1="555.8109970015776" x2="881.9004807072569" y2="541.3578332422373"/>
+  <line stroke="#000000" stroke-width="2" x1="1008.109000640079" y1="616.8525464370025" x2="1001.2189993599205" y2="629.0397480173249"/>
+  <text fill="#000000" x="938.7599999999999" y="580.6875" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_actor_actor_id_fkey</text>
+</g>
+<g id="rel-address_to_city">
+  <line stroke="#000000" stroke-width="2" x1="2574.7246130385056" y1="1009.75" x2="2574.2809927563853" y2="1366.25" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="2567.724618458156" y1="1009.7412893700686" x2="2581.7246076188553" y2="1009.7587106299314"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.705947402938" y1="1024.7499883864639" x2="2564.1125524946347" y2="1014.1301962831909"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.705947402938" y1="1024.7499883864639" x2="2574.7246130385056" y2="1009.7500000000001"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.705947402938" y1="1024.7499883864639" x2="2585.325739506211" y2="1014.1565934781607"/>
+  <line stroke="#000000" stroke-width="2" x1="2581.280987336735" y1="1366.2587106299316" x2="2567.2809981760356" y2="1366.2412893700684"/>
+  <text fill="#000000" x="2574.5028028974457" y="1183.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">address_city_id_fkey</text>
+</g>
+<g id="rel-city_to_country">
+  <line stroke="#000000" stroke-width="2" x1="2574.1479999999997" y1="1580.0" x2="2574.1479999999997" y2="1680.0" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="2567.1479999999997" y1="1580.0" x2="2581.1479999999997" y2="1580.0"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.1479999999997" y1="1595.0" x2="2563.5413982822015" y2="1584.3933982822018"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.1479999999997" y1="1595.0" x2="2574.1479999999997" y2="1580.0"/>
+  <line stroke="#000000" stroke-width="2" x1="2574.1479999999997" y1="1595.0" x2="2584.754601717798" y2="1584.3933982822018"/>
+  <line stroke="#000000" stroke-width="2" x1="2581.1479999999997" y1="1680.0" x2="2567.1479999999997" y2="1680.0"/>
+  <text fill="#000000" x="2574.1479999999997" y="1625.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">city_country_id_fkey</text>
+</g>
+<g id="rel-customer_to_store">
+  <line stroke="#000000" stroke-width="2" x1="1347.016" y1="458.3022822698149" x2="1450.0159999999996" y2="547.4584651960706" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="1342.4347291380739" y1="463.5949146290164" x2="1351.5972708619263" y2="453.0096499106134"/>
+  <line stroke="#000000" stroke-width="2" x1="1358.3573550554318" y1="468.11929125965656" x2="1343.3961323602052" y2="469.1971666995103"/>
+  <line stroke="#000000" stroke-width="2" x1="1358.3573550554318" y1="468.11929125965656" x2="1347.016" y2="458.3022822698149"/>
+  <line stroke="#000000" stroke-width="2" x1="1358.3573550554318" y1="468.11929125965656" x2="1357.2794796155779" y2="453.1580685644301"/>
+  <line stroke="#000000" stroke-width="2" x1="1454.5972708619258" y1="542.1658328368692" x2="1445.4347291380734" y2="552.751097555272"/>
+  <text fill="#000000" x="1398.5159999999998" y="497.88037373294276" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">customer_store_id_fkey</text>
+</g>
+<g id="rel-customer_to_address">
+  <line stroke="#000000" stroke-width="2" x1="1347.016" y1="362.02890487920104" x2="2381.4719999999998" y2="745.624545878886" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="1344.5822120653145" y1="368.59218731171745" x2="1349.4497879346857" y2="355.4656224466846"/>
+  <line stroke="#000000" stroke-width="2" x1="1361.0801766411066" y1="367.24416473924157" x2="1347.44755635369" y2="373.50129380128885"/>
+  <line stroke="#000000" stroke-width="2" x1="1361.0801766411066" y1="367.24416473924157" x2="1347.016" y2="362.02890487920104"/>
+  <line stroke="#000000" stroke-width="2" x1="1361.0801766411066" y1="367.24416473924157" x2="1354.8230475790592" y2="353.61154445182495"/>
+  <line stroke="#000000" stroke-width="2" x1="2383.905787934685" y1="739.0612634463696" x2="2379.0382120653144" y2="752.1878283114024"/>
+  <text fill="#000000" x="1864.244" y="548.8267253790435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">customer_address_id_fkey</text>
+</g>
+<g id="rel-film_to_language">
+  <line stroke="#000000" stroke-width="2" x1="944.6639999999998" y1="995.5559957923647" x2="2801.8239999999996" y2="1408.7390573789228" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="943.1438009716139" y1="1002.3889303679401" x2="946.1841990283856" y2="988.7230612167892"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="946.6490939144081" y2="1006.8635751361957"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="944.6639999999998" y2="995.5559957923647"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="951.2559926646572" y2="986.1566563913666"/>
+  <line stroke="#000000" stroke-width="2" x1="2803.3441990283854" y1="1401.9061228033472" x2="2800.303800971614" y2="1415.5719919544983"/>
+  <text fill="#000000" x="1873.2439999999997" y="1197.1475265856438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_original_language_id_fkey</text>
+</g>
+<g id="rel-film_to_language">
+  <line stroke="#000000" stroke-width="2" x1="944.6639999999998" y1="995.5559957923647" x2="2801.8239999999996" y2="1408.7390573789228" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="943.1438009716139" y1="1002.3889303679401" x2="946.1841990283856" y2="988.7230612167892"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="946.6490939144081" y2="1006.8635751361957"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="944.6639999999998" y2="995.5559957923647"/>
+  <line stroke="#000000" stroke-width="2" x1="959.3060026619472" y1="998.8135651389057" x2="951.2559926646572" y2="986.1566563913666"/>
+  <line stroke="#000000" stroke-width="2" x1="2803.3441990283854" y1="1401.9061228033472" x2="2800.303800971614" y2="1415.5719919544983"/>
+  <text fill="#000000" x="1873.2439999999997" y="1197.1475265856438" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_language_id_fkey</text>
+</g>
+<g id="rel-film_category_to_film">
+  <line stroke="#000000" stroke-width="2" x1="1432.016" y1="547.3196623163536" x2="944.6639999999998" y2="820.037219610462" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="1428.5976807977418" y1="541.2110541416978" x2="1435.4343192022584" y2="553.4282704910095"/>
+  <line stroke="#000000" stroke-width="2" x1="1418.9261253400232" y1="554.6446320354785" x2="1423.0025287165954" y2="540.2091571381476"/>
+  <line stroke="#000000" stroke-width="2" x1="1418.9261253400232" y1="554.6446320354785" x2="1432.016" y2="547.3196623163536"/>
+  <line stroke="#000000" stroke-width="2" x1="1418.9261253400232" y1="554.6446320354785" x2="1433.361600237354" y2="558.7210354120508"/>
+  <line stroke="#000000" stroke-width="2" x1="948.0823192022581" y1="826.1458277851178" x2="941.2456807977414" y2="813.9286114358061"/>
+  <text fill="#000000" x="1188.34" y="678.6784409634079" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_category_film_id_fkey</text>
+</g>
+<g id="rel-film_category_to_category">
+  <line stroke="#000000" stroke-width="2" x1="1817.368" y1="543.0802056718455" x2="1936.1199999999997" y2="606.9197943281544" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="1814.0534797397008" y1="549.2457515068927" x2="1820.682520260299" y2="536.9146598367984"/>
+  <line stroke="#000000" stroke-width="2" x1="1830.5798839322438" y1="550.182749086772" x2="1816.215414599138" y2="554.5027051951449"/>
+  <line stroke="#000000" stroke-width="2" x1="1830.5798839322438" y1="550.182749086772" x2="1817.368" y2="543.0802056718455"/>
+  <line stroke="#000000" stroke-width="2" x1="1830.5798839322438" y1="550.182749086772" x2="1826.2599278238708" y2="535.8182797536664"/>
+  <line stroke="#000000" stroke-width="2" x1="1939.4345202602988" y1="600.7542484931072" x2="1932.8054797397006" y2="613.0853401632015"/>
+  <text fill="#000000" x="1876.7439999999997" y="570.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">film_category_category_id_fkey</text>
+</g>
+<g id="rel-inventory_to_store">
+  <line stroke="#000000" stroke-width="2" x1="2391.408" y1="484.4533300418366" x2="1876.1199999999997" y2="659.499898223458" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="2389.1564260110513" y1="477.8253277355387" x2="2393.6595739889485" y2="491.0813323481345"/>
+  <line stroke="#000000" stroke-width="2" x1="2377.2051379150757" y1="489.2781314467263" x2="2383.836428216307" y2="475.82354156294326"/>
+  <line stroke="#000000" stroke-width="2" x1="2377.2051379150757" y1="489.2781314467263" x2="2391.408" y2="484.4533300418366"/>
+  <line stroke="#000000" stroke-width="2" x1="2377.2051379150757" y1="489.2781314467263" x2="2390.659727798859" y2="495.90942174795754"/>
+  <line stroke="#000000" stroke-width="2" x1="1878.3715739889483" y1="666.127900529756" x2="1873.868426011051" y2="652.87189591716"/>
+  <text fill="#000000" x="2133.7639999999997" y="566.9766141326472" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">inventory_store_id_fkey</text>
+</g>
+<g id="entity-rental">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="12.0" y="97.5" width="390.504" height="342.0"/>
+  <text fill="#000000" x="207.252" y="124.20833333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">rental</text>
+  <line stroke="#000000" stroke-width="1" x1="12.0" y1="140.25" x2="402.504" y2="140.25"/>
+  <text fill="#000000" x="22.0" y="165.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; rental_date NN</text>
+  <text fill="#000000" x="22.0" y="208.375" font-family="monospace" font-size="12">&lt;integer&gt; inventory_id NN</text>
+  <text fill="#000000" x="22.0" y="251.125" font-family="monospace" font-size="12">&lt;integer&gt; customer_id NN</text>
+  <text fill="#000000" x="22.0" y="293.875" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; return_date</text>
+  <text fill="#000000" x="22.0" y="336.625" font-family="monospace" font-size="12">&lt;integer&gt; staff_id NN</text>
+  <text fill="#000000" x="22.0" y="379.375" font-family="monospace" font-size="12">&lt;integer&gt; rental_id NN</text>
+  <text fill="#000000" x="22.0" y="422.125" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-film_actor">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="487.504" y="354.0" width="385.352" height="171.0"/>
+  <text fill="#000000" x="680.1800000000001" y="380.7083333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">film_actor</text>
+  <line stroke="#000000" stroke-width="1" x1="487.504" y1="396.75" x2="872.856" y2="396.75"/>
+  <text fill="#000000" x="497.504" y="422.125" font-family="monospace" font-size="12">&lt;integer&gt; actor_id NN</text>
+  <text fill="#000000" x="497.504" y="464.875" font-family="monospace" font-size="12">&lt;integer&gt; film_id NN</text>
+  <text fill="#000000" x="497.504" y="507.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-film">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="495.80799999999977" y="625.0" width="448.856" height="641.25"/>
+  <text fill="#000000" x="720.2359999999998" y="651.7083333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">film</text>
+  <line stroke="#000000" stroke-width="1" x1="495.80799999999977" y1="667.75" x2="944.6639999999998" y2="667.75"/>
+  <text fill="#000000" x="505.80799999999977" y="693.125" font-family="monospace" font-size="12">&lt;text&gt; title NN</text>
+  <text fill="#000000" x="505.80799999999977" y="735.875" font-family="monospace" font-size="12">&lt;text&gt; description</text>
+  <text fill="#000000" x="505.80799999999977" y="778.625" font-family="monospace" font-size="12">&lt;public.year&gt; release_year</text>
+  <text fill="#000000" x="505.80799999999977" y="821.375" font-family="monospace" font-size="12">&lt;integer&gt; language_id NN</text>
+  <text fill="#000000" x="505.80799999999977" y="864.125" font-family="monospace" font-size="12">&lt;integer&gt; original_language_id</text>
+  <text fill="#000000" x="505.80799999999977" y="906.875" font-family="monospace" font-size="12">&lt;smallint&gt; length</text>
+  <text fill="#000000" x="505.80799999999977" y="949.625" font-family="monospace" font-size="12">&lt;text[]&gt; special_features</text>
+  <text fill="#000000" x="505.80799999999977" y="992.375" font-family="monospace" font-size="12">&lt;tsvector&gt; fulltext NN</text>
+  <text fill="#000000" x="505.80799999999977" y="1035.125" font-family="monospace" font-size="12">&lt;integer&gt; film_id NN</text>
+  <text fill="#000000" x="505.80799999999977" y="1077.875" font-family="monospace" font-size="12">&lt;smallint&gt; rental_duration NN</text>
+  <text fill="#000000" x="505.80799999999977" y="1120.625" font-family="monospace" font-size="12">&lt;numeric(4,2)&gt; rental_rate NN</text>
+  <text fill="#000000" x="505.80799999999977" y="1163.375" font-family="monospace" font-size="12">&lt;numeric(5,2)&gt; replacement_cost NN</text>
+  <text fill="#000000" x="505.80799999999977" y="1206.125" font-family="monospace" font-size="12">&lt;public.mpaa_rating&gt; rating</text>
+  <text fill="#000000" x="505.80799999999977" y="1248.875" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-customer">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="957.856" y="54.75" width="389.15999999999997" height="470.25"/>
+  <text fill="#000000" x="1152.436" y="81.45833333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">customer</text>
+  <line stroke="#000000" stroke-width="1" x1="957.856" y1="97.5" x2="1347.016" y2="97.5"/>
+  <text fill="#000000" x="967.856" y="122.875" font-family="monospace" font-size="12">&lt;integer&gt; store_id NN</text>
+  <text fill="#000000" x="967.856" y="165.625" font-family="monospace" font-size="12">&lt;text&gt; first_name NN</text>
+  <text fill="#000000" x="967.856" y="208.375" font-family="monospace" font-size="12">&lt;text&gt; last_name NN</text>
+  <text fill="#000000" x="967.856" y="251.125" font-family="monospace" font-size="12">&lt;text&gt; email</text>
+  <text fill="#000000" x="967.856" y="293.875" font-family="monospace" font-size="12">&lt;integer&gt; address_id NN</text>
+  <text fill="#000000" x="967.856" y="336.625" font-family="monospace" font-size="12">&lt;integer&gt; active</text>
+  <text fill="#000000" x="967.856" y="379.375" font-family="monospace" font-size="12">&lt;integer&gt; customer_id NN</text>
+  <text fill="#000000" x="967.856" y="422.125" font-family="monospace" font-size="12">&lt;boolean&gt; activebool NN</text>
+  <text fill="#000000" x="967.856" y="464.875" font-family="monospace" font-size="12">&lt;date&gt; create_date NN</text>
+  <text fill="#000000" x="967.856" y="507.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update</text>
+</g>
+<g id="entity-film_category">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1432.016" y="354.0" width="385.352" height="171.0"/>
+  <text fill="#000000" x="1624.692" y="380.7083333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">film_category</text>
+  <line stroke="#000000" stroke-width="1" x1="1432.016" y1="396.75" x2="1817.368" y2="396.75"/>
+  <text fill="#000000" x="1442.016" y="422.125" font-family="monospace" font-size="12">&lt;integer&gt; film_id NN</text>
+  <text fill="#000000" x="1442.016" y="464.875" font-family="monospace" font-size="12">&lt;integer&gt; category_id NN</text>
+  <text fill="#000000" x="1442.016" y="507.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-actor">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1004.6639999999998" y="625.0" width="385.352" height="213.75"/>
+  <text fill="#000000" x="1197.3399999999997" y="651.7083333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">actor</text>
+  <line stroke="#000000" stroke-width="1" x1="1004.6639999999998" y1="667.75" x2="1390.0159999999996" y2="667.75"/>
+  <text fill="#000000" x="1014.6639999999998" y="693.125" font-family="monospace" font-size="12">&lt;text&gt; first_name NN</text>
+  <text fill="#000000" x="1014.6639999999998" y="735.875" font-family="monospace" font-size="12">&lt;text&gt; last_name NN</text>
+  <text fill="#000000" x="1014.6639999999998" y="778.625" font-family="monospace" font-size="12">&lt;integer&gt; actor_id NN</text>
+  <text fill="#000000" x="1014.6639999999998" y="821.375" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-store">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1450.0159999999996" y="625.0" width="426.104" height="213.75"/>
+  <text fill="#000000" x="1663.0679999999995" y="651.7083333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">store</text>
+  <line stroke="#000000" stroke-width="1" x1="1450.0159999999996" y1="667.75" x2="1876.1199999999997" y2="667.75"/>
+  <text fill="#000000" x="1460.0159999999996" y="693.125" font-family="monospace" font-size="12">&lt;integer&gt; manager_staff_id NN</text>
+  <text fill="#000000" x="1460.0159999999996" y="735.875" font-family="monospace" font-size="12">&lt;integer&gt; address_id NN</text>
+  <text fill="#000000" x="1460.0159999999996" y="778.625" font-family="monospace" font-size="12">&lt;integer&gt; store_id NN</text>
+  <text fill="#000000" x="1460.0159999999996" y="821.375" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-city">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2381.4719999999998" y="1366.25" width="385.352" height="213.75"/>
+  <text fill="#000000" x="2574.1479999999997" y="1392.9583333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">city</text>
+  <line stroke="#000000" stroke-width="1" x1="2381.4719999999998" y1="1409.0" x2="2766.8239999999996" y2="1409.0"/>
+  <text fill="#000000" x="2391.4719999999998" y="1434.375" font-family="monospace" font-size="12">&lt;text&gt; city NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="1477.125" font-family="monospace" font-size="12">&lt;integer&gt; country_id NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="1519.875" font-family="monospace" font-size="12">&lt;integer&gt; city_id NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="1562.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-language">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2801.8239999999996" y="1366.25" width="386.648" height="171.0"/>
+  <text fill="#000000" x="2995.1479999999997" y="1392.9583333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">language</text>
+  <line stroke="#000000" stroke-width="1" x1="2801.8239999999996" y1="1409.0" x2="3188.4719999999998" y2="1409.0"/>
+  <text fill="#000000" x="2811.8239999999996" y="1434.375" font-family="monospace" font-size="12">&lt;character(20)&gt; name NN</text>
+  <text fill="#000000" x="2811.8239999999996" y="1477.125" font-family="monospace" font-size="12">&lt;integer&gt; language_id NN</text>
+  <text fill="#000000" x="2811.8239999999996" y="1519.875" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-payment">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1902.368" y="118.875" width="404.03999999999996" height="299.25"/>
+  <text fill="#000000" x="2104.388" y="145.58333333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">payment</text>
+  <line stroke="#000000" stroke-width="1" x1="1902.368" y1="161.625" x2="2306.408" y2="161.625"/>
+  <text fill="#000000" x="1912.368" y="187.0" font-family="monospace" font-size="12">&lt;integer&gt; customer_id NN</text>
+  <text fill="#000000" x="1912.368" y="229.75" font-family="monospace" font-size="12">&lt;integer&gt; staff_id NN</text>
+  <text fill="#000000" x="1912.368" y="272.5" font-family="monospace" font-size="12">&lt;integer&gt; rental_id NN</text>
+  <text fill="#000000" x="1912.368" y="315.25" font-family="monospace" font-size="12">&lt;numeric(5,2)&gt; amount NN</text>
+  <text fill="#000000" x="1912.368" y="358.0" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; payment_date NN</text>
+  <text fill="#000000" x="1912.368" y="400.75" font-family="monospace" font-size="12">&lt;integer&gt; payment_id NN</text>
+</g>
+<g id="entity-category">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1936.1199999999997" y="625.0" width="385.352" height="171.0"/>
+  <text fill="#000000" x="2128.796" y="651.7083333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">category</text>
+  <line stroke="#000000" stroke-width="1" x1="1936.1199999999997" y1="667.75" x2="2321.4719999999998" y2="667.75"/>
+  <text fill="#000000" x="1946.1199999999997" y="693.125" font-family="monospace" font-size="12">&lt;text&gt; name NN</text>
+  <text fill="#000000" x="1946.1199999999997" y="735.875" font-family="monospace" font-size="12">&lt;integer&gt; category_id NN</text>
+  <text fill="#000000" x="1946.1199999999997" y="778.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-inventory">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2391.408" y="311.25" width="390.504" height="213.75"/>
+  <text fill="#000000" x="2586.66" y="337.9583333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">inventory</text>
+  <line stroke="#000000" stroke-width="1" x1="2391.408" y1="354.0" x2="2781.912" y2="354.0"/>
+  <text fill="#000000" x="2401.408" y="379.375" font-family="monospace" font-size="12">&lt;integer&gt; film_id NN</text>
+  <text fill="#000000" x="2401.408" y="422.125" font-family="monospace" font-size="12">&lt;integer&gt; store_id NN</text>
+  <text fill="#000000" x="2401.408" y="464.875" font-family="monospace" font-size="12">&lt;integer&gt; inventory_id NN</text>
+  <text fill="#000000" x="2401.408" y="507.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-address">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2381.4719999999998" y="625.0" width="386.984" height="384.75"/>
+  <text fill="#000000" x="2574.964" y="651.7083333333334" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">address</text>
+  <line stroke="#000000" stroke-width="1" x1="2381.4719999999998" y1="667.75" x2="2768.4559999999997" y2="667.75"/>
+  <text fill="#000000" x="2391.4719999999998" y="693.125" font-family="monospace" font-size="12">&lt;text&gt; address NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="735.875" font-family="monospace" font-size="12">&lt;text&gt; address2</text>
+  <text fill="#000000" x="2391.4719999999998" y="778.625" font-family="monospace" font-size="12">&lt;text&gt; district NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="821.375" font-family="monospace" font-size="12">&lt;integer&gt; city_id NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="864.125" font-family="monospace" font-size="12">&lt;text&gt; postal_code</text>
+  <text fill="#000000" x="2391.4719999999998" y="906.875" font-family="monospace" font-size="12">&lt;text&gt; phone NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="949.625" font-family="monospace" font-size="12">&lt;integer&gt; address_id NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="992.375" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-staff">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2866.912" y="12.0" width="385.352" height="513.0"/>
+  <text fill="#000000" x="3059.5879999999997" y="38.708333333333336" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">staff</text>
+  <line stroke="#000000" stroke-width="1" x1="2866.912" y1="54.75" x2="3252.2639999999997" y2="54.75"/>
+  <text fill="#000000" x="2876.912" y="80.125" font-family="monospace" font-size="12">&lt;text&gt; first_name NN</text>
+  <text fill="#000000" x="2876.912" y="122.875" font-family="monospace" font-size="12">&lt;text&gt; last_name NN</text>
+  <text fill="#000000" x="2876.912" y="165.625" font-family="monospace" font-size="12">&lt;integer&gt; address_id NN</text>
+  <text fill="#000000" x="2876.912" y="208.375" font-family="monospace" font-size="12">&lt;text&gt; email</text>
+  <text fill="#000000" x="2876.912" y="251.125" font-family="monospace" font-size="12">&lt;integer&gt; store_id NN</text>
+  <text fill="#000000" x="2876.912" y="293.875" font-family="monospace" font-size="12">&lt;text&gt; username NN</text>
+  <text fill="#000000" x="2876.912" y="336.625" font-family="monospace" font-size="12">&lt;text&gt; password</text>
+  <text fill="#000000" x="2876.912" y="379.375" font-family="monospace" font-size="12">&lt;bytea&gt; picture</text>
+  <text fill="#000000" x="2876.912" y="422.125" font-family="monospace" font-size="12">&lt;integer&gt; staff_id NN</text>
+  <text fill="#000000" x="2876.912" y="464.875" font-family="monospace" font-size="12">&lt;boolean&gt; active NN</text>
+  <text fill="#000000" x="2876.912" y="507.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+<g id="entity-country">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2381.4719999999998" y="1680.0" width="385.352" height="171.0"/>
+  <text fill="#000000" x="2574.1479999999997" y="1706.7083333333333" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">country</text>
+  <line stroke="#000000" stroke-width="1" x1="2381.4719999999998" y1="1722.75" x2="2766.8239999999996" y2="1722.75"/>
+  <text fill="#000000" x="2391.4719999999998" y="1748.125" font-family="monospace" font-size="12">&lt;text&gt; country NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="1790.875" font-family="monospace" font-size="12">&lt;integer&gt; country_id NN</text>
+  <text fill="#000000" x="2391.4719999999998" y="1833.625" font-family="monospace" font-size="12">&lt;timestamp with time zone&gt; last_update NN</text>
+</g>
+</svg>

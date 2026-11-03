@@ -1,0 +1,13 @@
+<svg
+ width="260.0"
+ height="78.0"
+ viewBox="0 0 260.0 78.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="10.0" y="10.0" width="240.0" height="58.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="130.0" y="34.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0"><tspan x="130.0">\n root\n Photograph\n </tspan><tspan x="130.0" y="53.6">Waterfall</tspan></text>
+</g>
+</svg>

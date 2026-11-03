@@ -1,0 +1,34 @@
+<svg
+ width="484.532"
+ height="190.0"
+ viewBox="0 0 484.532 190.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="104.532" y1="40.0" x2="154.53199999999998" y2="130.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="104.532" y1="40.0" x2="204.53199999999998" y2="40.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="154.53199999999998" y1="130.0" x2="254.53199999999998" y2="130.0"/>
+<path fill="none" stroke="#2563eb" stroke-width="2" d="M 204.53199999999998 40 L 304.532 40" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 254.53199999999998 130 C 279.532 130, 279.532 40, 304.532 40" stroke-dasharray="5,3"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="304.532" y1="40.0" x2="354.532" y2="40.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="254.53199999999998" y1="130.0" x2="404.532" y2="130.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="104.532" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="154.53199999999998" cy="130.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="204.53199999999998" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="254.53199999999998" cy="130.0" r="10.0"/>
+<circle fill="#fbbf24" stroke="#2563eb" stroke-width="2" cx="304.532" cy="40.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="354.532" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="404.532" cy="130.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 94.532 40.0)" fill="#000000" x="65.36201594538701" y="63.40502731693863" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">ZERO</text>
+<text class="commit-label" transform="rotate(-45.0 144.53199999999998 130.0)" fill="#000000" x="133.68212929959208" y="153.9185169477278" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">A</text>
+<text class="commit-label" transform="rotate(-45.0 194.53199999999998 40.0)" fill="#000000" x="170.66452151593143" y="63.553649848635544" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">ONE</text>
+<text class="commit-label" transform="rotate(-45.0 244.53199999999998 130.0)" fill="#000000" x="233.68212929959208" y="153.9185169477278" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">B</text>
+<text class="commit-label" transform="rotate(-45.0 294.532 40.0)" fill="#000000" x="243.16265547165102" y="62.78280729061996" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Release 1.0</text>
+<text class="tag-label" fill="#28a745" x="283.5007" y="25.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">SAML v2.0</text>
+<text class="tag-label" fill="#28a745" x="280.3918" y="25.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">OpenID v1.1</text>
+<text class="commit-label" transform="rotate(-45.0 344.532 40.0)" fill="#000000" x="319.22390625453966" y="63.51327122300266" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">TWO</text>
+<text class="commit-label" transform="rotate(-45.0 394.532 130.0)" fill="#000000" x="383.2048170141912" y="153.90513848742773" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">C</text>
+<text transform="translate(-47.0 0)" fill="#2563eb" x="68.36" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text transform="translate(-47.0 0)" fill="#7c3aed" x="47.0" y="119.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">develop</text>
+</svg>

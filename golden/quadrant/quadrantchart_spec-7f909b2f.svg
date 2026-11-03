@@ -1,0 +1,34 @@
+<svg
+ width="500.0"
+ height="500.0"
+ viewBox="0 0 500 500"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="quadrants">
+  <g class="quadrant">
+    <rect fill="#ECECFF" x="250.0" y="5.0" width="245.0" height="245.0"/>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f1f1ff" x="5.0" y="5.0" width="245.0" height="245.0"/>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f6f6ff" x="5.0" y="250.0" width="245.0" height="245.0"/>
+  </g>
+  <g class="quadrant">
+    <rect fill="#fbfbff" x="250.0" y="250.0" width="245.0" height="245.0"/>
+  </g>
+</g>
+<g class="border">
+  <line stroke="#c7c7f1" stroke-width="2" x1="4.0" y1="5.0" x2="496.0" y2="5.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="495.0" y1="6.0" x2="495.0" y2="494.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="4.0" y1="495.0" x2="496.0" y2="495.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="5.0" y1="6.0" x2="5.0" y2="494.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="250.0" y1="6.0" x2="250.0" y2="494.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="6.0" y1="250.0" x2="494.0" y2="250.0"/>
+</g>
+<g class="data-points"/>
+<g class="labels"/>
+<g class="title"/>
+</svg>

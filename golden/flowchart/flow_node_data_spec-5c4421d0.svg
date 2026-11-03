@@ -1,0 +1,46 @@
+<svg
+ width="323.616"
+ height="174.0"
+ viewBox="0 0 323.616 174.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_B">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 42.7 62.0 L 42.7 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="42.7,112.0 46.7,104.0 38.7,104.0"/>
+</g>
+<g id="edge-C_to_D">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 162.2 62.0 L 162.2 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="162.2,112.0 166.2,104.0 158.2,104.0"/>
+</g>
+<g id="edge-E_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 281.3 62.0 L 281.3 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="281.3,112.0 285.3,104.0 277.3,104.0"/>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="69.44" height="54.0"/>
+  <text fill="#000000" x="42.72" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="node-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.192" y="112.0" width="69.056" height="54.0"/>
+  <text fill="#000000" x="42.72" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">B</text>
+</g>
+<g id="node-C">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="127.44" y="8.0" width="69.568" height="54.0"/>
+  <text fill="#000000" x="162.224" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">C</text>
+</g>
+<g id="node-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="127.32" y="112.0" width="69.80799999999999" height="54.0"/>
+  <text fill="#000000" x="162.224" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">D</text>
+</g>
+<g id="node-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="247.04" y="8.0" width="68.576" height="54.0"/>
+  <text fill="#000000" x="281.328" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">E</text>
+</g>
+<g id="node-F">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="247.12800000000001" y="112.0" width="68.4" height="54.0"/>
+  <text fill="#000000" x="281.32800000000003" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">F</text>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg
+ width="120.368"
+ height="120.368"
+ viewBox="0 0 120.368 120.368"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="node-a">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="60.184,8.0 112.368,60.184 60.184,112.368 8.0,60.184"/>
+  <text fill="#000000" x="60.184" y="53.784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0"><tspan x="60.184">A </tspan><tspan x="60.184" y="77.78399999999999">end</tspan></text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg
+ width="276.464"
+ height="380.464"
+ viewBox="0 0 276.464 380.464"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_C">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 138.2 62.0 L 138.2 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="138.2,112.0 142.2,104.0 134.2,104.0"/>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="103.512" y="8.0" width="69.44" height="54.0"/>
+  <text fill="#000000" x="138.232" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="node-C">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="138.232,112.0 268.464,242.232 138.232,372.464 8.0,242.232"/>
+  <text fill="#000000" x="138.232" y="247.832" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Chimpansen hoppar åäö-ÅÄÖ</text>
+</g>
+</svg>

@@ -1,0 +1,140 @@
+<svg
+ width="1486.0"
+ height="2483.0"
+ viewBox="0 -70 1486 2483"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="boundary-b0">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="150.0" y="122.0" width="1186.0" height="2191.0" rx="8.0" ry="8.0" stroke-dasharray="10,5"/>
+  <text fill="#000000" x="743.0" y="135.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">BankBoundary0</text>
+</g>
+<g id="boundary-b1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="200.0" y="1127.0" width="1086.0" height="1136.0" rx="8.0" ry="8.0" stroke-dasharray="10,5"/>
+  <text fill="#000000" x="743.0" y="1140.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">BankBoundary</text>
+</g>
+<g id="boundary-b2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="1791.0" width="498.0" height="396.0" rx="8.0" ry="8.0" stroke-dasharray="10,5"/>
+  <text fill="#000000" x="499.0" y="1804.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">BankBoundary2</text>
+</g>
+<g id="boundary-b3">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="798.0" y="1791.0" width="438.0" height="422.0" rx="8.0" ry="8.0" stroke-dasharray="10,5"/>
+  <text fill="#000000" x="1017.0" y="1804.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">BankBoundary3</text>
+</g>
+<g id="rel_0">
+  <line stroke="#000000" stroke-width="2" x1="400.41600529100526" y1="356.0" x2="487.21517027863774" y2="935.0"/>
+  <polygon fill="#000000" stroke="#000000" points="487.21517027863774,935.0 482.0733296489787,927.6814294470036 489.9849223432395,926.4953851644749"/>
+  <polygon fill="#000000" stroke="#000000" points="400.41600529100526,356.0 405.5578459206643,363.3185705529965 397.64625322640353,364.50461483552516"/>
+  <text fill="#000000" x="443.8155877848215" y="649.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-style="normal">Uses</text>
+</g>
+<g id="rel_1">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M517.7940298507463,1021.0 Q530.455964155128,1124.0 568.4417670682731,1227.0"/>
+  <polygon fill="#000000" stroke="#000000" points="568.4417670682731,1227.0 561.920740283873,1220.8782184229476 569.4265762592748,1218.1101096262487"/>
+  <polygon fill="#000000" stroke="#000000" points="517.7940298507463,1021.0 522.7402472631807,1028.4521764142385 514.8000191668161,1029.4282797784906"/>
+  <text fill="#000000" x="543.1178984595097" y="1128.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-style="normal">Uses</text>
+</g>
+<g id="rel_2">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M492.6257197696737,1021.0 Q476.91699097668055,1217.0 429.79080459770114,1413.0"/>
+  <polygon fill="#000000" stroke="#000000" points="429.79080459770114,1413.0 427.77186132274494,1404.2865696736296 435.5501828938236,1406.1567871842128"/>
+  <text fill="#000000" x="461.20826218368745" y="1221.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-style="normal">Sends e-mails</text>
+  <text fill="#000000" x="461.20826218368745" y="1238.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-style="italic">[SMTP]</text>
+</g>
+<g id="rel_3">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M412.3202846975089,1413.0 Q406.056765386989,884.5 387.2662074554295,356.0"/>
+  <polygon fill="#000000" stroke="#000000" points="387.2662074554295,356.0 391.5479380637492,363.85282006656064 383.55298976717273,364.1370765265922"/>
+  <text fill="#000000" x="399.7932460764692" y="888.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-style="normal">Sends e-mails to</text>
+</g>
+<g id="element-SystemA">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="300.0" y="1891.0" width="216.0" height="60.0" rx="5.0" ry="5.0"/>
+  <text fill="#ffffff" x="408.0" y="1911.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;system&gt;&gt;</text>
+  <text fill="#ffffff" x="408.0" y="1934.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking System A</text>
+</g>
+<g id="element-SystemB">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="300.0" y="2051.0" width="398.0" height="86.0" rx="5.0" ry="5.0"/>
+  <text fill="#ffffff" x="499.0" y="2071.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;system&gt;&gt;</text>
+  <text fill="#ffffff" x="499.0" y="2094.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking System B</text>
+  <text fill="#ffffff" x="499.0" y="2130.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A system of the bank, with personal bank accounts. next line.</text>
+</g>
+<g id="element-SystemF">
+  <g>
+    <path fill="#007bff" stroke="#000000" stroke-width="2" d="M848.0,1891.0l216.0,0c5,0 5,43.0 5,43.0c0,0 0,43.0 -5,43.0l-216.0,0c-5,0 -5,-43.0 -5,-43.0c0,0 0,-43.0 5,-43.0"/>
+    <path fill="none" stroke="#000000" stroke-width="2" d="M1064.0,1891.0c-5,0 -5,43.0 -5,43.0c0,43.0 5,43.0 5,43.0"/>
+  </g>
+  <text fill="#ffffff" x="956.0" y="1911.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;system_queue&gt;&gt;</text>
+  <text fill="#ffffff" x="956.0" y="1934.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking System F Queue</text>
+  <text fill="#ffffff" x="956.0" y="1970.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A system of the bank.</text>
+</g>
+<g id="element-SystemG">
+  <g>
+    <path fill="#6c757d" stroke="#000000" stroke-width="2" d="M848.0,2077.0l338.0,0c5,0 5,43.0 5,43.0c0,0 0,43.0 -5,43.0l-338.0,0c-5,0 -5,-43.0 -5,-43.0c0,0 0,-43.0 5,-43.0"/>
+    <path fill="none" stroke="#000000" stroke-width="2" d="M1186.0,2077.0c-5,0 -5,43.0 -5,43.0c0,43.0 5,43.0 5,43.0"/>
+  </g>
+  <text fill="#ffffff" x="1017.0" y="2097.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;external_system_queue&gt;&gt;</text>
+  <text fill="#ffffff" x="1017.0" y="2120.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking System G Queue</text>
+  <text fill="#ffffff" x="1017.0" y="2156.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A system of the bank, with personal bank accounts.</text>
+</g>
+<g id="element-SystemE">
+  <g>
+    <path fill="#6c757d" stroke="#000000" stroke-width="2" d="M250.0,1227.0c0,-10 279.5,-10 279.5,-10c0,0 279.5,0 279.5,10l0,86.0c0,10 -279.5,10 -279.5,10c0,0 -279.5,0 -279.5,-10l0,-86.0"/>
+    <path fill="none" stroke="#000000" stroke-width="2" d="M250.0,1227.0c0,10 279.5,10 279.5,10c0,0 279.5,0 279.5,-10"/>
+  </g>
+  <text fill="#ffffff" x="529.5" y="1247.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;external_system_db&gt;&gt;</text>
+  <text fill="#ffffff" x="529.5" y="1270.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Mainframe Banking System</text>
+  <text fill="#ffffff" x="529.5" y="1306.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">Stores all of the core banking information about customers, accounts, transactions, etc.</text>
+</g>
+<g id="element-SystemC">
+  <rect fill="#6c757d" stroke="#000000" stroke-width="2" x="250.0" y="1413.0" width="315.0" height="86.0" rx="5.0" ry="5.0"/>
+  <text fill="#ffffff" x="407.5" y="1433.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;external_system&gt;&gt;</text>
+  <text fill="#ffffff" x="407.5" y="1456.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">E-mail system</text>
+  <text fill="#ffffff" x="407.5" y="1492.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">The internal Microsoft Exchange e-mail system.</text>
+</g>
+<g id="element-SystemD">
+  <g>
+    <path fill="#007bff" stroke="#000000" stroke-width="2" d="M250.0,1599.0c0,-10 169.0,-10 169.0,-10c0,0 169.0,0 169.0,10l0,86.0c0,10 -169.0,10 -169.0,10c0,0 -169.0,0 -169.0,-10l0,-86.0"/>
+    <path fill="none" stroke="#000000" stroke-width="2" d="M250.0,1599.0c0,10 169.0,10 169.0,10c0,0 169.0,0 169.0,-10"/>
+  </g>
+  <text fill="#ffffff" x="419.0" y="1619.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;system_db&gt;&gt;</text>
+  <text fill="#ffffff" x="419.0" y="1642.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking System D Database</text>
+  <text fill="#ffffff" x="419.0" y="1678.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A system of the bank, with personal bank accounts.</text>
+</g>
+<g id="element-customerA">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="200.0" y="222.0" width="352.0" height="134.0" rx="10.0" ry="10.0"/>
+  <circle fill="#ffffff" cx="376.0" cy="266.0" r="10.0"/>
+  <ellipse fill="#ffffff" cx="376.0" cy="288.0" rx="18.0" ry="12.0"/>
+  <text fill="#ffffff" x="376.0" y="242.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;person&gt;&gt;</text>
+  <text fill="#ffffff" x="376.0" y="313.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking Customer A</text>
+  <text fill="#ffffff" x="376.0" y="349.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A customer of the bank, with personal bank accounts.</text>
+</g>
+<g id="element-customerB">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="200.0" y="456.0" width="216.0" height="103.0" rx="10.0" ry="10.0"/>
+  <circle fill="#ffffff" cx="308.0" cy="500.0" r="10.0"/>
+  <ellipse fill="#ffffff" cx="308.0" cy="522.0" rx="18.0" ry="12.0"/>
+  <text fill="#ffffff" x="308.0" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;person&gt;&gt;</text>
+  <text fill="#ffffff" x="308.0" y="547.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking Customer B</text>
+</g>
+<g id="element-customerC">
+  <rect fill="#6c757d" stroke="#000000" stroke-width="2" x="516.0" y="456.0" width="216.0" height="134.0" rx="10.0" ry="10.0"/>
+  <circle fill="#ffffff" cx="624.0" cy="500.0" r="10.0"/>
+  <ellipse fill="#ffffff" cx="624.0" cy="522.0" rx="18.0" ry="12.0"/>
+  <text fill="#ffffff" x="624.0" y="476.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;external_person&gt;&gt;</text>
+  <text fill="#ffffff" x="624.0" y="547.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking Customer C</text>
+  <text fill="#ffffff" x="624.0" y="583.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">desc</text>
+</g>
+<g id="element-customerD">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="200.0" y="690.0" width="216.0" height="145.0" rx="10.0" ry="10.0"/>
+  <circle fill="#ffffff" cx="308.0" cy="734.0" r="10.0"/>
+  <ellipse fill="#ffffff" cx="308.0" cy="756.0" rx="18.0" ry="12.0"/>
+  <text fill="#ffffff" x="308.0" y="710.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;person&gt;&gt;</text>
+  <text fill="#ffffff" x="308.0" y="781.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Banking Customer D</text>
+  <text fill="#ffffff" x="308.0" y="810.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">A customer of the bank,</text>
+  <text fill="#ffffff" x="308.0" y="824.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">with personal bank accounts.</text>
+</g>
+<g id="element-SystemAA">
+  <rect fill="#007bff" stroke="#000000" stroke-width="2" x="200.0" y="935.0" width="551.0" height="86.0" rx="5.0" ry="5.0"/>
+  <text fill="#ffffff" x="475.5" y="955.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.0" font-weight="normal" font-style="italic">&lt;&lt;system&gt;&gt;</text>
+  <text fill="#ffffff" x="475.5" y="978.6" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold" font-style="normal">Internet Banking System</text>
+  <text fill="#ffffff" x="475.5" y="1014.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14.0" font-weight="normal" font-style="normal">Allows customers to view information about their bank accounts, and make payments.</text>
+</g>
+<text fill="#000000" x="493.0" y="20.0" font-family="Arial, sans-serif" font-size="16.0" font-weight="bold">System Context diagram for Internet Banking System</text>
+</svg>

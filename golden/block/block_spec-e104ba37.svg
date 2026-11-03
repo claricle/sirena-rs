@@ -1,0 +1,20 @@
+<svg
+ width="69.792"
+ height="55.0"
+ viewBox="0 0 69.792 55.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="connection-a-b">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 24.896 21.5 L 32.896 21.5"/>
+</g>
+<g id="block-a">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="16.896" height="27.0"/>
+  <text fill="#000000" x="16.448" y="26.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">a</text>
+</g>
+<g id="block-b">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="32.896" y="8.0" width="16.896" height="27.0"/>
+  <text fill="#000000" x="41.344" y="26.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">b</text>
+</g>
+</svg>

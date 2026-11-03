@@ -1,0 +1,22 @@
+<svg
+ width="544.8799999999999"
+ height="70.0"
+ viewBox="0 0 544.8799999999999 70.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="node-n2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="142.95999999999998" height="54.0"/>
+  <text fill="#000000" x="79.47999999999999" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">label for n2</text>
+</g>
+<g id="node-n4">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="200.95999999999998" y="8.0" width="142.95999999999998" height="54.0"/>
+  <text fill="#000000" x="272.43999999999994" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">label for n4</text>
+</g>
+<g id="node-n5">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="393.91999999999996" y="8.0" width="142.95999999999998" height="54.0"/>
+  <text fill="#000000" x="465.4" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">label for n5</text>
+</g>
+</svg>

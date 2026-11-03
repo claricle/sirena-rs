@@ -1,0 +1,30 @@
+<svg
+ width="102.208"
+ height="278.0"
+ viewBox="0 0 102.208 278.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-a_a_to_b_b">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 51.1 62.0 L 51.1 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="51.1,112.0 55.1,104.0 47.1,104.0"/>
+</g>
+<g id="edge-b_b_to_c_c">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 51.1 166.0 L 51.1 216.0"/>
+  <polygon fill="#000000" stroke="#000000" points="51.1,216.0 55.1,208.0 47.1,208.0"/>
+</g>
+<g id="node-a_a">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.512" y="8.0" width="85.184" height="54.0"/>
+  <text fill="#000000" x="51.104" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">a_a</text>
+</g>
+<g id="node-b_b">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="112.0" width="86.208" height="54.0"/>
+  <text fill="#000000" x="51.104" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">b_b</text>
+</g>
+<g id="node-c_c">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.991999999999997" y="216.0" width="84.224" height="54.0"/>
+  <text fill="#000000" x="51.104" y="248.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">c_c</text>
+</g>
+</svg>

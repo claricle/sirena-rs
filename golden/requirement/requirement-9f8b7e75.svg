@@ -1,0 +1,33 @@
+<svg
+ width="173.734375"
+ height="386.0"
+ viewBox="0 0 173.734375 386"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="relationship-test_entity-test_req">
+  <path fill="none" stroke="#666" stroke-width="2" d="M 86.8671875 120.0 C 86.8671875 144.66666666666666, 86.8671875 169.33333333333334, 86.8671875 194.0"/>
+  <polygon fill="#666" points="86.8672,194.0 82.8672,186.0 90.8672,186.0"/>
+  <rect fill="#fff" stroke="#666" stroke-width="1" x="41.8671875" y="147.0" width="91.0" height="18.0" rx="3.0"/>
+  <text fill="#000" x="86.8671875" y="160.5" text-anchor="middle" font-size="10.0">&lt;&lt;satisfies&gt;&gt;</text>
+</g>
+<g id="requirement-test_req">
+  <rect fill="#ffffff" stroke="#ff6b6b" stroke-width="2" x="8.0" y="194.0" width="157.734375" height="184.0" rx="5.0" ry="5.0"/>
+  <g>
+    <rect fill="#ff6b6b" fill-opacity="0.3" stroke-opacity="0.3" x="8.0" y="194.0" width="157.734375" height="66.0"/>
+    <text fill="#000" x="86.8671875" y="218.2" text-anchor="middle" font-size="12.0">&lt;&lt;Requirement&gt;&gt;</text>
+    <text fill="#000" x="86.8671875" y="241.85" text-anchor="middle" font-size="11.0" font-weight="bold">test_req</text>
+  </g>
+  <text fill="#000" x="18.0" y="287.0" font-size="12.0">ID: 1</text>
+  <text fill="#000" x="18.0" y="311.0" font-size="12.0">Text: the test text.</text>
+  <text fill="#ff6b6b" x="18.0" y="335.0" font-size="12.0">Risk: High</text>
+  <text fill="#000" x="18.0" y="359.0" font-size="12.0">Verification: Test</text>
+</g>
+<g id="element-test_entity">
+  <polygon fill="#ffffff" stroke="#00796b" stroke-width="2" points="17.8203125,8 155.9140625,8 155.9140625,120 17.8203125,120"/>
+  <text fill="#000" x="86.8671875" y="31.85" text-anchor="middle" font-size="11.0">&lt;&lt;Element&gt;&gt;</text>
+  <text fill="#000" x="86.8671875" y="56.9" text-anchor="middle" font-size="14.0" font-weight="bold">test_entity</text>
+  <text fill="#666" x="27.8203125" y="99.85" font-size="11.0">Type: simulation</text>
+</g>
+</svg>

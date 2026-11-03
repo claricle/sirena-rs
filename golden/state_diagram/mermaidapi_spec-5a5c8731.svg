@@ -1,0 +1,56 @@
+<svg
+ width="165.125"
+ height="464.0"
+ viewBox="0 0 165.125 464.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="transition-start_1_to_Still">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 15 L 32.5625 92"/>
+  <polygon fill="#000000" points="32.5625,92.0 28.5625,84.0 36.5625,84.0"/>
+</g>
+<g id="transition-Still_to_end_2">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 92 L 32.5625 349"/>
+  <polygon fill="#000000" points="32.5625,349.0 28.5625,341.0 36.5625,341.0"/>
+</g>
+<g id="transition-Still_to_Moving">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 92 L 32.5625 182"/>
+  <polygon fill="#000000" points="32.5625,182.0 28.5625,174.0 36.5625,174.0"/>
+</g>
+<g id="transition-Moving_to_Still">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 182 L 32.5625 92"/>
+  <polygon fill="#000000" points="32.5625,92.0 36.5625,100.0 28.5625,100.0"/>
+</g>
+<g id="transition-Moving_to_Crash">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 182 L 32.5625 272"/>
+  <polygon fill="#000000" points="32.5625,272.0 28.5625,264.0 36.5625,264.0"/>
+</g>
+<g id="transition-Crash_to_end_2">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 32.5625 272 L 32.5625 349"/>
+  <polygon fill="#000000" points="32.5625,349.0 28.5625,341.0 36.5625,341.0"/>
+</g>
+<g id="state-start_1">
+  <circle fill="#000000" stroke="none" cx="32.5625" cy="15.0" r="7.0"/>
+  <text fill="#000000" x="32.5625" y="19.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">[*]</text>
+</g>
+<g id="state-Still">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="10.5390625" y="72.0" width="44.046875" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="32.5625" y="96.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Still</text>
+</g>
+<g id="state-end_2">
+  <g>
+    <circle fill="none" stroke="#000000" stroke-width="2" cx="32.5625" cy="349.0" r="7.0"/>
+    <circle fill="#000000" stroke="none" cx="32.5625" cy="349.0" r="2.0"/>
+  </g>
+  <text fill="#000000" x="32.5625" y="353.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">[*]</text>
+</g>
+<g id="state-Moving">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="0.0" y="162.0" width="65.125" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="32.5625" y="186.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Moving</text>
+</g>
+<g id="state-Crash">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="4.8515625" y="252.0" width="55.421875" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="32.5625" y="276.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Crash</text>
+</g>
+</svg>

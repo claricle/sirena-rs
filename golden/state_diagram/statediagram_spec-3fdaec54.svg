@@ -1,0 +1,21 @@
+<svg
+ width="215.2109375"
+ height="415.0"
+ viewBox="0 0 215.2109375 415.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="state-State1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="61.890625" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="80.9453125" y="74.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">State1</text>
+</g>
+<g id="state-State1----note">
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="46.6796875" y="165.0" width="68.53125" height="150.0"/>
+  <text fill="#000000" x="80.9453125" y="204.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Line1</text>
+  <text fill="#000000" x="80.9453125" y="224.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Line2</text>
+  <text fill="#000000" x="80.9453125" y="244.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Line3</text>
+  <text fill="#000000" x="80.9453125" y="264.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Line4</text>
+  <text fill="#000000" x="80.9453125" y="284.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Line5</text>
+</g>
+</svg>

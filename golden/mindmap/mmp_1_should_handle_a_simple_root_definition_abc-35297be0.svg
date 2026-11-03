@@ -1,0 +1,13 @@
+<svg
+ width="89.744"
+ height="54.0"
+ viewBox="0 0 89.744 54.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="10.0" y="10.0" width="69.744" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="44.872" y="32.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">root</text>
+</g>
+</svg>

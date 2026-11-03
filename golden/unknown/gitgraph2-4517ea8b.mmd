@@ -1,0 +1,43 @@
+%%{init: {  "gitGraph": { "showBranches": true, "mainBranchName": "APA" }}}%%
+      gitGraph
+      commit
+      branch hotfix
+      checkout hotfix
+      commit
+      branch develop
+      checkout develop
+      commit id:"An id" tag:"A tag"
+      branch featureB
+      checkout featureB
+      commit type:HIGHLIGHT
+      checkout APA
+      checkout hotfix
+      commit type:NORMAL
+      checkout develop
+      commit type:REVERSE
+      checkout featureB
+      commit
+      checkout APA
+      merge hotfix
+      checkout featureB
+      commit
+      checkout develop
+      branch featureA
+      commit
+      checkout develop
+      merge hotfix
+      checkout featureA
+      commit
+      checkout featureB
+      commit
+      checkout develop
+      merge featureA
+      branch release
+      checkout release
+      commit
+      checkout APA
+      commit
+      checkout release
+      merge APA
+      checkout develop
+      merge release

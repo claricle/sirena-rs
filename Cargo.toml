@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["crates/sirena-core", "crates/sirena-ffi"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+license = "BSD-2-Clause"
+publish = false

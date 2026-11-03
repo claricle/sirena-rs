@@ -1,0 +1,27 @@
+<svg
+ width="299.01599999999996"
+ height="432.0"
+ viewBox="0 0 299.01599999999996 432.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-Duck_to_Dog">
+  <line stroke="#000000" stroke-width="2" x1="134.50799999999998" y1="218.0" x2="134.50799999999998" y2="268.0"/>
+</g>
+<g id="class-Duck">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="169.016" height="168.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="134.50799999999998" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Duck</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="219.016" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">+String beakColor</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="116.0" x2="219.016" y2="116.0"/>
+  <text fill="#000000" x="60.0" y="126.0" font-family="monospace" font-size="12">+swim()</text>
+  <text fill="#000000" x="60.0" y="144.0" font-family="monospace" font-size="12">+quack()</text>
+</g>
+<g id="class-Dog">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="108.844" y="268.0" width="51.328" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="134.50799999999998" y="278.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Dog</text>
+  <line stroke="#000000" stroke-width="1" x1="108.844" y1="301.0" x2="160.172" y2="301.0"/>
+</g>
+</svg>

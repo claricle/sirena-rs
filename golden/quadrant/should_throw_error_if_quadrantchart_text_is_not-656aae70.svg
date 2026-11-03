@@ -1,0 +1,70 @@
+<svg
+ width="500.0"
+ height="500.0"
+ viewBox="0 0 500 500"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="quadrants">
+  <g class="quadrant">
+    <rect fill="#ECECFF" x="263.0" y="45.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="379.0" y="62.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Leaders</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f1f1ff" x="31.0" y="45.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="147.0" y="62.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Challengers</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#f6f6ff" x="31.0" y="257.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="147.0" y="274.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Niche</text>
+  </g>
+  <g class="quadrant">
+    <rect fill="#fbfbff" x="263.0" y="257.0" width="232.0" height="212.0"/>
+    <text fill="#000000" x="379.0" y="274.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Visionaries</text>
+  </g>
+</g>
+<g class="border">
+  <line stroke="#c7c7f1" stroke-width="2" x1="30.0" y1="45.0" x2="496.0" y2="45.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="495.0" y1="46.0" x2="495.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="30.0" y1="469.0" x2="496.0" y2="469.0"/>
+  <line stroke="#c7c7f1" stroke-width="2" x1="31.0" y1="46.0" x2="31.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="263.0" y1="46.0" x2="263.0" y2="468.0"/>
+  <line stroke="#c7c7f1" stroke-width="1" x1="32.0" y1="257.0" x2="494.0" y2="257.0"/>
+</g>
+<g class="data-points">
+  <g class="data-point">
+    <circle id="point_0" fill="#007bff" stroke="#000000" stroke-width="2" cx="379.0" cy="151.0" r="5.0"/>
+    <text fill="#000000" x="379.0" y="165.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Microsoft</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_1" fill="#007bff" stroke="#000000" stroke-width="2" cx="286.20000000000005" cy="214.60000000000002" r="5.0"/>
+    <text fill="#000000" x="286.20000000000005" y="229.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Salesforce</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_2" fill="#28a745" stroke="#000000" stroke-width="2" cx="267.64" cy="299.4" r="5.0"/>
+    <text fill="#000000" x="267.64" y="314.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">IBM</text>
+  </g>
+  <g class="data-point">
+    <circle id="point_3" fill="#28a745" stroke="#000000" stroke-width="2" cx="123.80000000000001" cy="341.79999999999995" r="5.0"/>
+    <text fill="#000000" x="123.80000000000001" y="356.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Incorta</text>
+  </g>
+</g>
+<g class="labels">
+  <g class="label">
+    <text fill="#000000" x="147.0" y="491.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Completeness of Vision ❤</text>
+  </g>
+  <g class="label">
+    <text fill="#000000" x="379.0" y="491.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">x-axis-2</text>
+  </g>
+  <g class="label">
+    <text transform="rotate(-90 5 363)" fill="#000000" x="5.0" y="375.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">Ability to Execute</text>
+  </g>
+  <g class="label">
+    <text transform="rotate(-90 5 151)" fill="#000000" x="5.0" y="163.8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">y-axis-2</text>
+  </g>
+</g>
+<g class="title">
+  <text fill="#000000" x="250.0" y="26.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20">Analytics and Business Intelligence Platforms</text>
+</g>
+</svg>

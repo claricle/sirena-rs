@@ -1,0 +1,23 @@
+<svg
+ width="295.22895288721656"
+ height="54.0"
+ viewBox="0 0 295.22895288721656 54.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<path fill="none" stroke="#007bff" stroke-width="2" d="M 162.422476443608 27.0 L 169.34634948057538 27.0 C 176.27022251754275 27.0, 190.1179685914775 27.0, 203.96571466541226 27.0 C 217.81346073934705 27.0, 231.66120681328178 27.0, 238.58507985024914 27.0 L 245.50895288721654 27.0"/>
+<path fill="none" stroke="#007bff" stroke-width="2" d="M 132.422476443608 27.0 L 125.51460340664067 27.0 C 118.60673036967331 27.0, 104.79098429573867 27.0, 90.97523822180399 27.0 C 77.15949214786933 27.0, 63.34374607393466 27.0, 56.43587303696733 27.0 L 49.528 27.0"/>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="112.55047644360799" y="10.0" width="69.744" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="147.422476443608" y="32.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">root</text>
+</g>
+<g class="node mindmap-node">
+  <rect fill="#f0f1f2" stroke="#6c757d" stroke-width="2" x="235.78895288721654" y="10.0" width="49.44" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="260.50895288721654" y="32.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g class="node mindmap-node">
+  <rect fill="#f0f1f2" stroke="#6c757d" stroke-width="2" x="10.0" y="10.0" width="49.056" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="34.528" y="32.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">B</text>
+</g>
+</svg>

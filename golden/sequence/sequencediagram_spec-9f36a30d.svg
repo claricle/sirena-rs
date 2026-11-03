@@ -1,0 +1,38 @@
+<svg
+ width="650.0"
+ height="368.0"
+ viewBox="0 0 650.0 368"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="225.0" y1="75.0" x2="225.0" y2="292.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="425.0" y1="75.0" x2="425.0" y2="292.0" stroke-dasharray="5,5"/>
+<g id="frame-0">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="39.0" y="85.0" width="572.0" height="187.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="39.0,85.0 89.0,85.0 89.0,98.0 81.0,105.0 39.0,105.0"/>
+  <text fill="#000000" x="64.0" y="99.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">par</text>
+  <text fill="#000000" x="350.0" y="103.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[_over Parallel overlap]</text>
+</g>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="226.0" y1="164.0" x2="417.0" y2="164.0"/>
+  <polygon fill="#000000" stroke="#000000" points="425.0,164 417.0,160 417.0,168"/>
+  <text fill="#000000" x="325.0" y="154.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Message</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="150.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="225.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-Bob">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="350.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="425.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="50.0" y="174.0" width="150.0" height="39.0"/>
+  <text fill="#000000" x="125.0" y="199.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice note</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="450.0" y="223.0" width="150.0" height="39.0"/>
+  <text fill="#000000" x="525.0" y="248.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob note</text>
+</g>
+</svg>

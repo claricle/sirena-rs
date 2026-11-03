@@ -1,0 +1,17 @@
+<svg
+ width="168.656"
+ height="187.0"
+ viewBox="0 0 168.656 187.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="entity-ENTITY">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="152.656" height="171.0"/>
+  <text fill="#000000" x="84.328" y="34.708333333333336" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ENTITY</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="50.75" x2="160.656" y2="50.75"/>
+  <text fill="#000000" x="18.0" y="76.125" font-family="monospace" font-size="12">string name1</text>
+  <text fill="#000000" x="18.0" y="118.875" font-family="monospace" font-size="12">int value2</text>
+  <text fill="#000000" x="18.0" y="161.625" font-family="monospace" font-size="12">float point3_5</text>
+</g>
+</svg>

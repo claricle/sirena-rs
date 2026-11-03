@@ -1,0 +1,24 @@
+<svg
+ width="618.576"
+ height="172.0"
+ viewBox="0 0 618.576 172.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-MyClass">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="81.104" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="48.552" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">MyClass</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="41.0" x2="89.104" y2="41.0"/>
+</g>
+<g id="note-0">
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="139.10399999999998" y="8.0" width="164.96" height="36.0"/>
+  <text fill="#000000" x="221.584" y="31.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">This is a general note</text>
+</g>
+<g id="note-1">
+  <line stroke="#aaaa33" stroke-width="1" x1="354.06399999999996" y1="31.566420627099212" x2="89.104" y2="47.55322700669737" stroke-dasharray="2,2"/>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="354.06399999999996" y="8.0" width="184.512" height="36.0"/>
+  <text fill="#000000" x="446.31999999999994" y="31.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">This is a note for a class</text>
+</g>
+</svg>

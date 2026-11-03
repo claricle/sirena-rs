@@ -1,0 +1,52 @@
+<svg
+ width="859.0"
+ height="416.0"
+ viewBox="0 0 859.0 416"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="340.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="340.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="534.0" y1="75.0" x2="534.0" y2="340.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="734.0" y1="75.0" x2="734.0" y2="340.0" stroke-dasharray="5,5"/>
+<g id="frame-0">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="114.0" y="173.0" width="222.0" height="103.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="114.0,173.0 172.0,173.0 172.0,186.0 164.0,193.0 114.0,193.0"/>
+  <text fill="#000000" x="143.0" y="187.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">break</text>
+  <text fill="#000000" x="254.0" y="191.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[when the booking</text>
+  <text fill="#000000" x="254.0" y="210.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">process fails]</text>
+</g>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="325.0" y2="119.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="225.0" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Book something</text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="326.0" y1="163.0" x2="534.0" y2="163.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="429.5" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Start booking process</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="324.0" y1="266.0" x2="125.0" y2="266.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="225.0" y="256.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">show failure</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="326.0" y1="320.0" x2="734.0" y2="320.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="529.5" y="310.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Start billing process</text>
+</g>
+<g id="participant-Consumer">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Consumer</text>
+</g>
+<g id="participant-API">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">API</text>
+</g>
+<g id="participant-BookingService">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="459.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="534.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">BookingService</text>
+</g>
+<g id="participant-BillingService">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="659.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="734.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">BillingService</text>
+</g>
+</svg>

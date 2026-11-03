@@ -1,0 +1,54 @@
+<svg
+ width="361.616"
+ height="368.872"
+ viewBox="0 0 361.616 368.872"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-a_to_b">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 75.5 66.0 L 75.5 101.0"/>
+  <polygon fill="#000000" stroke="#000000" points="75.5,101.0 79.5,93.0 71.5,93.0"/>
+</g>
+<g id="edge-b_to_c">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 75.5 155.0 L 75.5 190.0"/>
+  <polygon fill="#000000" stroke="#000000" points="75.5,190.0 79.5,182.0 71.5,182.0"/>
+</g>
+<g id="edge-c_to_one">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 68.7 265.1 L 60.4 306.9"/>
+  <polygon fill="#000000" stroke="#000000" points="60.4,306.9 65.9,299.8 58.0,298.2"/>
+</g>
+<g id="edge-c_to_two">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 75.5 271.9 L 75.5 291.9 L 176.5 291.9 L 176.5 306.9"/>
+  <polygon fill="#000000" stroke="#000000" points="176.5,306.9 180.5,298.9 172.5,298.9"/>
+</g>
+<g id="edge-c_to_three">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 87.2 260.1 L 96.0 281.9 L 304.2 281.9 L 304.2 306.9"/>
+  <polygon fill="#000000" stroke="#000000" points="304.2,306.9 308.2,298.9 300.2,298.9"/>
+</g>
+<g id="node-a">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="27.748" y="12.0" width="95.488" height="54.0"/>
+  <text fill="#000000" x="75.492" y="44.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">hello</text>
+</g>
+<g id="node-b">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="25.316" y="101.0" width="100.352" height="54.0"/>
+  <text fill="#000000" x="75.492" y="133.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">world</text>
+</g>
+<g id="node-c">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="75.49199999999999,190.0 116.428,230.936 75.49199999999999,271.872 34.556,230.936"/>
+  <text fill="#000000" x="75.49199999999999" y="236.536" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">test</text>
+</g>
+<g id="node-one">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="12.0" y="306.872" width="86.048" height="54.0"/>
+  <text fill="#000000" x="55.024" y="339.472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">one</text>
+</g>
+<g id="node-two">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="133.048" y="306.872" width="86.832" height="54.0"/>
+  <text fill="#000000" x="176.464" y="339.472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">two</text>
+</g>
+<g id="node-three">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="254.88" y="306.872" width="98.73599999999999" height="54.0"/>
+  <text fill="#000000" x="304.248" y="339.472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">three</text>
+</g>
+</svg>

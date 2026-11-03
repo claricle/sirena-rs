@@ -1,0 +1,10 @@
+<svg
+ width="1050.0"
+ height="170.0"
+ viewBox="0 0 1050 170"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<text fill="#000000" x="600.0" y="40.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">Adding gantt diagram functionality to mermaid</text>
+</svg>

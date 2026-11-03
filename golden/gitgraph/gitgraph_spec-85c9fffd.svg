@@ -1,0 +1,18 @@
+<svg
+ width="163.344"
+ height="230.0"
+ viewBox="0 0 163.344 230.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="103.344" y1="150.0" x2="103.344" y2="100.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="103.344" y1="100.0" x2="103.344" y2="50.0"/>
+<circle fill="#fbbf24" stroke="#2563eb" stroke-width="2" cx="103.344" cy="50.0" r="10.0"/>
+<circle fill="#ffffff" stroke="#2563eb" stroke-width="2" cx="103.344" cy="100.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="103.344" cy="150.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 103.344 150.0) translate(-109.328 0)" fill="#000000" x="117.344" y="149.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Normal Commit</text>
+<text class="commit-label" transform="rotate(-45.0 103.344 100.0) translate(-115.34 0)" fill="#000000" x="117.344" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Reverse Commit</text>
+<text class="commit-label" transform="rotate(-45.0 103.344 50.0) translate(-117.344 0)" fill="#000000" x="117.344" y="49.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Highlight Commit</text>
+<text fill="#2563eb" x="86.008" y="190.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+</svg>

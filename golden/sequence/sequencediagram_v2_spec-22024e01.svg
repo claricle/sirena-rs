@@ -1,0 +1,60 @@
+<svg
+ width="650.0"
+ height="502.0"
+ viewBox="0 0 650 502"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="426.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="426.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="525.0" y1="75.0" x2="525.0" y2="426.0" stroke-dasharray="5,5"/>
+<g id="frame-0">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="114.0" y="85.0" width="422.0" height="133.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="114.0,85.0 164.0,85.0 164.0,98.0 156.0,105.0 114.0,105.0"/>
+  <text fill="#000000" x="139.0" y="99.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">loop</text>
+  <text fill="#000000" x="350.0" y="103.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Every minute]</text>
+</g>
+<g id="frame-1">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="114.0" y="228.0" width="422.0" height="178.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="114.0,228.0 164.0,228.0 164.0,241.0 156.0,248.0 114.0,248.0"/>
+  <text fill="#000000" x="139.0" y="242.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">alt</text>
+  <text fill="#000000" x="350.0" y="246.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Success]</text>
+  <line stroke="#333333" stroke-width="2" x1="114.0" y1="322.0" x2="536.0" y2="322.0" stroke-dasharray="3,3"/>
+  <text fill="#000000" x="325.0" y="340.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Failure]</text>
+</g>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="164.0" x2="317.0" y2="164.0"/>
+  <polygon fill="#000000" stroke="#000000" points="325,164 317,160 317,168"/>
+  <text fill="#000000" x="225.0" y="154.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Central heartbeat</text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="326.0" y1="208.0" x2="517.0" y2="208.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="525,208 517,204 517,212"/>
+  <text fill="#000000" x="425.0" y="198.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Forward heartbeat</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="517.0" y1="307.0" x2="133.0" y2="307.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="525,307 517,303 517,311"/>
+  <polygon fill="#000000" stroke="#000000" points="125,307 133,303 133,311"/>
+  <text fill="#000000" x="325.0" y="297.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Success response</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="524.0" y1="396.0" x2="125.0" y2="396.0"/>
+  <line stroke="#000000" stroke-width="2" x1="121.0" y1="392.0" x2="129.0" y2="400.0"/>
+  <line stroke="#000000" stroke-width="2" x1="121.0" y1="400.0" x2="129.0" y2="392.0"/>
+  <text fill="#000000" x="325.0" y="386.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Failure response</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-Bob">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob</text>
+</g>
+<g id="participant-Charlie">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="450.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="525.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Charlie</text>
+</g>
+</svg>

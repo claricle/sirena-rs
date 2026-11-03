@@ -1,0 +1,20 @@
+<svg
+ width="429.424"
+ height="214.0"
+ viewBox="0 0 429.424 214"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-ShapeLink2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="109.024" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="104.512" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ShapeLink2</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="159.024" y2="83.0"/>
+</g>
+<g id="class-ShapeCallback2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="209.024" y="50.0" width="140.4" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="279.224" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ShapeCallback2</text>
+  <line stroke="#000000" stroke-width="1" x1="209.024" y1="83.0" x2="349.424" y2="83.0"/>
+</g>
+</svg>

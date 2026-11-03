@@ -1,0 +1,14 @@
+<svg
+ width="160.0"
+ height="160.0"
+ viewBox="0 0 160 160"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="service-unknown">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="40.0" y="40.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="80.0" y="88.4" text-anchor="middle" font-size="24">?</text>
+  <text fill="#000000" x="80.0" y="140.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Unknown Icon</text>
+</g>
+</svg>

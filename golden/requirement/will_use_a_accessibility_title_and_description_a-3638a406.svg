@@ -1,0 +1,16 @@
+<svg
+ width="158.28125"
+ height="152.0"
+ viewBox="0 0 158.28125 152"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="element-test_name">
+  <polygon fill="#ffffff" stroke="#00796b" stroke-width="2" points="8.0,8 150.28125,8 150.28125,144 8.0,144"/>
+  <text fill="#000" x="79.140625" y="31.85" text-anchor="middle" font-size="11.0">&lt;&lt;Element&gt;&gt;</text>
+  <text fill="#000" x="79.140625" y="56.9" text-anchor="middle" font-size="14.0" font-weight="bold">test_name</text>
+  <text fill="#666" x="18.0" y="99.85" font-size="11.0">Type: test_type</text>
+  <text fill="#666" x="18.0" y="123.85" font-size="11.0">Doc Ref: test_ref</text>
+</g>
+</svg>

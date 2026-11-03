@@ -1,0 +1,13 @@
+<svg
+ width="187.875"
+ height="190.0"
+ viewBox="0 0 187.875 190.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="state-id1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="37.875" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="68.9375" y="74.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">id1</text>
+</g>
+</svg>

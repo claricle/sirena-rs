@@ -1,0 +1,26 @@
+<svg
+ width="304.0"
+ height="145.0"
+ viewBox="0 0 304.0 145.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="cluster-A">
+  <rect fill="#e0e0e0" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="288.0" height="129.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="152.0" y="33.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="edge-a_to_b">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 189.8 72.5 L 114.8 72.5"/>
+  <polygon fill="#000000" stroke="#000000" points="114.8,72.5 122.8,76.5 122.8,68.5"/>
+</g>
+<g id="node-a">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="189.756" y="45.5" width="68.4" height="54.0"/>
+  <text fill="#000000" x="223.95600000000002" y="78.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">a</text>
+</g>
+<g id="node-b">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="45.843999999999994" y="45.5" width="68.912" height="54.0"/>
+  <text fill="#000000" x="80.3" y="78.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">b</text>
+</g>
+</svg>

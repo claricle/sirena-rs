@@ -1,0 +1,22 @@
+<svg
+ width="126.56"
+ height="174.0"
+ viewBox="0 0 126.56 174.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_C">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 63.3 62.0 L 63.3 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="63.3,112.0 67.3,104.0 59.3,104.0"/>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="28.560000000000002" y="8.0" width="69.44" height="54.0"/>
+  <text fill="#000000" x="63.28" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="node-C">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="112.0" width="110.56" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="63.28" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">c:\windows</text>
+</g>
+</svg>

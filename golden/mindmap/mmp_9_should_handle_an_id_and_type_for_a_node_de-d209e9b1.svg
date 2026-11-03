@@ -1,0 +1,18 @@
+<svg
+ width="216.47047644360816"
+ height="74.0"
+ viewBox="0 0 216.47047644360816 74.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<path fill="none" stroke="#007bff" stroke-width="2" d="M 156.59847644360815 37.0 L 148.68327007330748 37.0 C 140.7680637030068 37.0, 124.93765096240543 37.0, 109.10723822180408 37.0 C 93.2768254812027 37.0, 77.44641274060136 37.0, 69.53120637030067 37.0 L 61.616 37.0"/>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="136.72647644360814" y="20.0" width="69.744" height="34.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="171.59847644360815" y="42.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">root</text>
+</g>
+<g class="node mindmap-node">
+  <rect fill="#f0f1f2" stroke="#6c757d" stroke-width="2" x="10.0" y="10.0" width="73.232" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="46.616" y="42.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">child1</text>
+</g>
+</svg>

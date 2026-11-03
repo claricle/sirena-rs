@@ -1,0 +1,14 @@
+<svg
+ width="700.0"
+ height="700.0"
+ viewBox="0 0 700 700"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" cx="350.0" cy="350.0" r="60.0"/>
+<circle class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" cx="350.0" cy="350.0" r="120.0"/>
+<circle class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" cx="350.0" cy="350.0" r="180.0"/>
+<circle class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" cx="350.0" cy="350.0" r="240.0"/>
+<circle class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" cx="350.0" cy="350.0" r="300.0"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg
+ width="2421.2007999999996"
+ height="172.0"
+ viewBox="0 0 2421.2007999999996 172.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-C1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="92.8" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="54.4" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">OneWord</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="41.0" x2="100.8" y2="41.0"/>
+</g>
+<g id="class-C2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="150.8" y="8.0" width="124.7744" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="213.18720000000002" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With, Comma</text>
+  <line stroke="#000000" stroke-width="1" x1="150.8" y1="41.0" x2="275.5744" y2="41.0"/>
+</g>
+<g id="class-C3">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="325.5744" y="8.0" width="140.204" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="395.67640000000006" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With (Brackets)</text>
+  <line stroke="#000000" stroke-width="1" x1="325.5744" y1="41.0" x2="465.77840000000003" y2="41.0"/>
+</g>
+<g id="class-C4">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="515.7784" y="8.0" width="140.204" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="585.8804" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With [Brackets]</text>
+  <line stroke="#000000" stroke-width="1" x1="515.7784" y1="41.0" x2="655.9824000000001" y2="41.0"/>
+</g>
+<g id="class-C5">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="705.9824000000001" y="8.0" width="140.204" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="776.0844000000001" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With {Brackets}</text>
+  <line stroke="#000000" stroke-width="1" x1="705.9824000000001" y1="41.0" x2="846.1864" y2="41.0"/>
+</g>
+<g id="class-C7">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="896.1864" y="8.0" width="135.50560000000002" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="963.9392" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With 1 number</text>
+  <line stroke="#000000" stroke-width="1" x1="896.1864" y1="41.0" x2="1031.692" y2="41.0"/>
+</g>
+<g id="class-C8">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1081.692" y="8.0" width="141.736" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="1152.56" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With . period...</text>
+  <line stroke="#000000" stroke-width="1" x1="1081.692" y1="41.0" x2="1223.4279999999999" y2="41.0"/>
+</g>
+<g id="class-C9">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1273.4279999999999" y="8.0" width="108.62559999999999" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="1327.7407999999998" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With - dash</text>
+  <line stroke="#000000" stroke-width="1" x1="1273.4279999999999" y1="41.0" x2="1382.0536" y2="41.0"/>
+</g>
+<g id="class-C10">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1432.0536" y="8.0" width="161.8256" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="1512.9664" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With _ underscore</text>
+  <line stroke="#000000" stroke-width="1" x1="1432.0536" y1="41.0" x2="1593.8791999999999" y2="41.0"/>
+</g>
+<g id="class-C11">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1643.8791999999999" y="8.0" width="162.5304" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="1725.1444" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With ' single quote</text>
+  <line stroke="#000000" stroke-width="1" x1="1643.8791999999999" y1="41.0" x2="1806.4096" y2="41.0"/>
+</g>
+<g id="class-C12">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="1856.4096" y="8.0" width="206.3048" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="1959.562" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With ~!@#$%^&amp;*()_+=-/?</text>
+  <line stroke="#000000" stroke-width="1" x1="1856.4096" y1="41.0" x2="2062.7144" y2="41.0"/>
+</g>
+<g id="class-C13">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="2112.7144" y="8.0" width="228.4864" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="2226.9575999999997" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">With Città foreign language</text>
+  <line stroke="#000000" stroke-width="1" x1="2112.7144" y1="41.0" x2="2341.2007999999996" y2="41.0"/>
+</g>
+</svg>

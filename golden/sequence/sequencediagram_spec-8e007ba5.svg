@@ -1,0 +1,28 @@
+<svg
+ width="550.0"
+ height="264.0"
+ viewBox="0 0 550.0 264"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="188.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="188.0" stroke-dasharray="5,5"/>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="317.0" y2="119.0"/>
+  <polygon fill="#000000" stroke="#000000" points="325,119 317,115 317,123"/>
+  <text fill="#000000" x="225.0" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">single-line text</text>
+</g>
+<g id="participant-1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">1</text>
+</g>
+<g id="participant-2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">2</text>
+</g>
+<g>
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="350.0" y="129.0" width="150.0" height="39.0"/>
+  <text fill="#000000" x="425.0" y="154.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">single-line text</text>
+</g>
+</svg>

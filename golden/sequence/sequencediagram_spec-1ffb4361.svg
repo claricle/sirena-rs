@@ -1,0 +1,42 @@
+<svg
+ width="450.0"
+ height="552.0"
+ viewBox="0 0 450 552"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="476.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="476.0" stroke-dasharray="5,5"/>
+<g id="frame-0">
+  <rect class="frame-outline" fill="none" stroke="#333333" stroke-width="2" x="114.0" y="85.0" width="222.0" height="371.0"/>
+  <polygon fill="#eaeaea" stroke="#333333" points="114.0,85.0 196.0,85.0 196.0,98.0 188.0,105.0 114.0,105.0"/>
+  <text fill="#000000" x="155.0" y="99.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">critical</text>
+  <text fill="#000000" x="266.0" y="103.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Establish a connection</text>
+  <text fill="#000000" x="266.0" y="122.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">to the DB]</text>
+  <line stroke="#333333" stroke-width="2" x1="114.0" y1="193.0" x2="336.0" y2="193.0" stroke-dasharray="3,3"/>
+  <text fill="#000000" x="225.0" y="211.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Network timeout]</text>
+  <line stroke="#333333" stroke-width="2" x1="114.0" y1="312.0" x2="336.0" y2="312.0" stroke-dasharray="3,3"/>
+  <text fill="#000000" x="225.0" y="330.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">[Credentials rejected]</text>
+</g>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="178.0" x2="325.0" y2="178.0" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="225.0" y="168.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">connect</text>
+</g>
+<g id="message-1">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 125,267 C 185,257 185,297 125,287" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="125.0" y="257.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Log error</text>
+</g>
+<g id="message-2">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 125,386 C 185,376 185,416 125,406" stroke-dasharray="5,5"/>
+  <text fill="#000000" x="125.0" y="376.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Log different error</text>
+</g>
+<g id="participant-Service">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Service</text>
+</g>
+<g id="participant-DB">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">DB</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg
+ width="200.928"
+ height="174.0"
+ viewBox="0 0 200.928 174.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-FunctionArgTest2_to_URL">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 100.5 62.0 L 100.5 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="100.5,112.0 104.5,104.0 96.5,104.0"/>
+</g>
+<g id="node-FunctionArgTest2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="184.928" height="54.0"/>
+  <text fill="#000000" x="100.464" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">FunctionArgTest2</text>
+</g>
+<g id="node-URL">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="56.576" y="112.0" width="87.776" height="54.0"/>
+  <text fill="#000000" x="100.464" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">URL</text>
+</g>
+</svg>

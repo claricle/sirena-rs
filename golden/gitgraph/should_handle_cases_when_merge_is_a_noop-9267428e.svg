@@ -1,0 +1,23 @@
+<svg
+ width="359.756"
+ height="190.0"
+ viewBox="0 0 359.756 190.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="129.756" y1="40.0" x2="179.756" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="179.756" y1="130.0" x2="229.756" y2="130.0"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 229.756 130 L 279.756 130" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#2563eb" stroke-width="2" d="M 129.756 40 C 204.75599999999997 40, 204.75599999999997 130, 279.756 130" stroke-dasharray="5,3"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="129.756" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="179.756" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="229.756" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="279.756" cy="130.0" r="10.0"/>
+<text fill="#000000" x="129.756" y="60.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-1</text>
+<text fill="#000000" x="179.756" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-2</text>
+<text fill="#000000" x="229.756" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-3</text>
+<text fill="#000000" x="279.756" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-4</text>
+<text fill="#2563eb" x="43.584" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text fill="#7c3aed" x="0.0" y="119.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">newbranch</text>
+</svg>

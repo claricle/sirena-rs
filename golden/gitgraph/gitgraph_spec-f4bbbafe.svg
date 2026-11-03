@@ -1,0 +1,35 @@
+<svg
+ width="205.9856"
+ height="480.0"
+ viewBox="0 0 205.9856 480.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="40.0" y1="400.0" x2="40.0" y2="350.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="40.0" y1="350.0" x2="145.9856" y2="300.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="145.9856" y1="300.0" x2="145.9856" y2="250.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="40.0" y1="350.0" x2="40.0" y2="200.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="145.9856" y1="250.0" x2="145.9856" y2="150.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="145.9856" y1="150.0" x2="145.9856" y2="100.0"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 145.9856 100 C 145.9856 100, 145.9856 50, 145.9856 50" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#2563eb" stroke-width="2" d="M 40.0 200 C 92.9928 200, 92.9928 50, 145.9856 50" stroke-dasharray="5,3"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="145.9856" cy="50.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="145.9856" cy="100.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="145.9856" cy="150.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="40.0" cy="200.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="145.9856" cy="250.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="145.9856" cy="300.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="40.0" cy="350.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="40.0" cy="400.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 40.0 400.0) translate(-38.672 0)" fill="#000000" x="54.0" y="399.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s1</text>
+<text class="commit-label" transform="rotate(-45.0 40.0 350.0) translate(-38.672 0)" fill="#000000" x="54.0" y="349.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s2</text>
+<text class="commit-label" transform="rotate(-45.0 145.9856 300.0) translate(-38.672 0)" fill="#000000" x="159.9856" y="299.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s3</text>
+<text class="commit-label" transform="rotate(-45.0 145.9856 250.0) translate(-38.672 0)" fill="#000000" x="159.9856" y="249.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s4</text>
+<text class="commit-label" transform="rotate(-45.0 40.0 200.0) translate(-38.672 0)" fill="#000000" x="54.0" y="199.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s5</text>
+<text class="commit-label" transform="rotate(-45.0 145.9856 150.0) translate(-38.672 0)" fill="#000000" x="159.9856" y="149.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s6</text>
+<text class="commit-label" transform="rotate(-45.0 145.9856 100.0) translate(-38.672 0)" fill="#000000" x="159.9856" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">s7</text>
+<text class="commit-label" transform="rotate(-45.0 145.9856 50.0) translate(-75.332 0)" fill="#000000" x="159.9856" y="49.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-8</text>
+<text fill="#2563eb" x="22.664" y="440.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text fill="#7c3aed" x="117.08160000000001" y="440.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">branch1</text>
+</svg>

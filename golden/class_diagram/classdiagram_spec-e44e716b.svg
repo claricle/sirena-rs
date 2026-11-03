@@ -1,0 +1,25 @@
+<svg
+ width="337.616"
+ height="384.0"
+ viewBox="0 0 337.616 384.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-C1_to_C2">
+  <line stroke="#000000" stroke-width="2" x1="153.808" y1="170.0" x2="153.808" y2="220.0"/>
+</g>
+<g id="class-C1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="58.894400000000005" y="50.0" width="189.8272" height="120.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="153.808" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class 1 with text label</text>
+  <line stroke="#000000" stroke-width="1" x1="58.894400000000005" y1="83.0" x2="248.72160000000002" y2="83.0"/>
+  <text fill="#000000" x="68.8944" y="93.0" font-family="monospace" font-size="12">+member1</text>
+  <line stroke="#000000" stroke-width="1" x1="58.894400000000005" y1="116.0" x2="248.72160000000002" y2="116.0"/>
+</g>
+<g id="class-C2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="220.0" width="207.616" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="153.808" y="230.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class 2 !@#$%^&amp;*() label</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="253.0" x2="257.616" y2="253.0"/>
+</g>
+</svg>

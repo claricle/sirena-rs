@@ -1,0 +1,23 @@
+<svg
+ width="597.017"
+ height="450.0"
+ viewBox="0 0 597.017 450"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle fill="none" stroke="#000000" stroke-width="2" cx="225.0" cy="225.0" r="186.0"/>
+<text fill="#000000" x="225.0" y="25.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">Sports in Sweden</text>
+<path id="slice-0" fill="#A5A5A5" stroke="#000000" stroke-width="2" d="M 225 225 L 52.7884 157.4119 A 185 185 0 0 1 225.0 40.0 Z"/>
+<text fill="#000000" x="146.8393" y="116.3094" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">19%</text>
+<path id="slice-1" fill="#ED7D31" stroke="#000000" stroke-width="2" d="M 225 225 L 305.2685 391.6792 A 185 185 0 0 1 52.7884 157.4119 Z"/>
+<text fill="#000000" x="130.626" y="332.6609" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">38%</text>
+<path id="slice-2" fill="#4472C4" stroke="#000000" stroke-width="2" d="M 225 225 L 225.0 40.0 A 185 185 0 0 1 305.2685 391.6792 Z"/>
+<text fill="#000000" x="360.2712" y="200.0752" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">43%</text>
+<rect fill="#A5A5A5" stroke="#A5A5A5" x="441.0" y="192.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="206.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Bandy</text>
+<rect fill="#ED7D31" stroke="#ED7D31" x="441.0" y="214.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="228.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Ice-Hockey</text>
+<rect fill="#4472C4" stroke="#4472C4" x="441.0" y="236.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="250.0" font-family="Arial, Helvetica, sans-serif" font-size="17">Football</text>
+</svg>

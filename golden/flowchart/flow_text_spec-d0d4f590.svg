@@ -1,0 +1,24 @@
+<svg
+ width="85.44"
+ height="222.0"
+ viewBox="0 0 85.44 222.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_B">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 42.7 62.0 L 42.7 160.0"/>
+  <polygon fill="#000000" stroke="#000000" points="42.7,160.0 46.7,152.0 38.7,152.0"/>
+  <rect fill="#ffffff" stroke="none" x="-59.3" y="82.4" width="204.0" height="36.0"/>
+  <text fill="#000000" x="42.7" y="106.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">text including URL space and send</text>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="69.44" height="54.0"/>
+  <text fill="#000000" x="42.72" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="node-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.192" y="160.0" width="69.056" height="54.0"/>
+  <text fill="#000000" x="42.72" y="192.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">B</text>
+</g>
+</svg>

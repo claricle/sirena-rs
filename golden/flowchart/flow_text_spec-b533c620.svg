@@ -1,0 +1,22 @@
+<svg
+ width="262.272"
+ height="159.0"
+ viewBox="0 0 262.272 159.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_node_to_B">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 131.1 62.0 L 131.1 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="131.1,112.0 135.1,104.0 127.1,104.0"/>
+</g>
+<g id="node-A_node">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="74.744" y="8.0" width="112.78399999999999" height="54.0"/>
+  <text fill="#000000" x="131.136" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A_node</text>
+</g>
+<g id="node-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="112.0" width="246.272" height="39.0"/>
+  <text fill="#000000" x="131.136" y="137.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">\This node has a \ as text\</text>
+</g>
+</svg>

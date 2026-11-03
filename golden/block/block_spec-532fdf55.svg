@@ -1,0 +1,24 @@
+<svg
+ width="574.5526399999999"
+ height="71.0"
+ viewBox="0 0 574.5526399999999 71.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="block-compound-2">
+  <rect fill="none" stroke="#666" stroke-width="2" x="8.0" y="8.0" width="269.27631999999994" height="43.0" stroke-dasharray="5,5"/>
+  <g id="block-id2">
+    <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="16.0" y="16.0" width="122.63815999999997" height="27.0"/>
+    <text fill="#000000" x="77.31907999999999" y="34.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">I am a wide one</text>
+  </g>
+  <g id="block-id1">
+    <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="146.63815999999997" y="16.0" width="122.63815999999997" height="27.0"/>
+    <text fill="#000000" x="207.95723999999996" y="34.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">id1</text>
+  </g>
+</g>
+<g id="block-id">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="285.27631999999994" y="8.0" width="269.27631999999994" height="43.0"/>
+  <text fill="#000000" x="419.9144799999999" y="34.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">Next row</text>
+</g>
+</svg>

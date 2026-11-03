@@ -1,0 +1,14 @@
+<svg
+ width="426.544"
+ height="166.0"
+ viewBox="0 0 426.544 166"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="note-0">
+  <rect fill="#fff5ad" stroke="#aaaa33" stroke-width="1" x="50.0" y="50.0" width="296.544" height="36.0"/>
+  <text fill="#000000" x="198.272" y="73.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">This is a keyword: ${keyword}. It truly is.</text>
+</g>
+</svg>

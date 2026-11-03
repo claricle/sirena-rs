@@ -1,0 +1,29 @@
+<svg
+ width="410.0"
+ height="456.0"
+ viewBox="0 0 410 456"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="service-s3">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="183.0" y="336.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="223.0" y="384.4" text-anchor="middle" font-size="24">?</text>
+  <text fill="#000000" x="223.0" y="436.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Cloud Store</text>
+</g>
+<g id="service-ec2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="40.0" y="195.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="80.0" y="243.4" text-anchor="middle" font-size="24">?</text>
+  <text fill="#000000" x="80.0" y="295.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Server</text>
+</g>
+<g id="service-api">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="135.0" y="40.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="175.0" y="88.4" text-anchor="middle" font-size="24">?</text>
+  <text fill="#000000" x="175.0" y="140.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Api Gateway</text>
+</g>
+<g id="service-fa">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="290.0" y="171.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="330.0" y="219.4" text-anchor="middle" font-size="24">?</text>
+  <text fill="#000000" x="330.0" y="271.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Font Awesome Icon</text>
+</g>
+</svg>

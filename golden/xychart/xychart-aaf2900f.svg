@@ -1,0 +1,76 @@
+<svg
+ width="700.0"
+ height="500.0"
+ viewBox="0 0 700 500"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<text fill="#000000" x="350.0" y="30.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">Sales Revenue</text>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="51.0" x2="700.0" y2="51.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="132.0" x2="700.0" y2="132.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="214.0" x2="700.0" y2="214.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="295.0" x2="700.0" y2="295.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="377.0" x2="700.0" y2="377.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="99.71875190734863" y1="51.0" x2="99.71875190734863" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="152.74431991577148" y1="51.0" x2="152.74431991577148" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="205.76988792419434" y1="51.0" x2="205.76988792419434" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="258.7954559326172" y1="51.0" x2="258.7954559326172" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="311.82102394104004" y1="51.0" x2="311.82102394104004" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="364.8465919494629" y1="51.0" x2="364.8465919494629" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="417.87215995788574" y1="51.0" x2="417.87215995788574" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="470.8977279663086" y1="51.0" x2="470.8977279663086" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="523.9232959747314" y1="51.0" x2="523.9232959747314" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="576.9488639831543" y1="51.0" x2="576.9488639831543" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="629.9744319915771" y1="51.0" x2="629.9744319915771" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="683.0" y1="51.0" x2="683.0" y2="459.0" stroke-dasharray="3,3"/>
+<line stroke="#000000" stroke-width="2" x1="82.71875190734863" y1="459.0" x2="700.0" y2="459.0"/>
+<line stroke="#000000" stroke-width="2" x1="82.71875190734863" y1="51.0" x2="82.71875190734863" y2="459.0"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="83.56875190734863" y="400.7142857142857" width="32.3" height="66.28571428571428"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="136.59431991577148" y="342.42857142857144" width="32.3" height="124.57142857142856"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="189.61988792419433" y="255.0" width="32.3" height="212.0"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="242.64545593261718" y="214.20000000000002" width="32.3" height="252.79999999999998"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="295.67102394104006" y="138.42857142857144" width="32.3" height="328.57142857142856"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="348.6965919494629" y="80.14285714285711" width="32.3" height="386.8571428571429"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="401.72215995788576" y="51.0" width="32.3" height="416.0"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="454.7477279663086" y="97.62857142857143" width="32.3" height="369.37142857142857"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="507.77329597473147" y="155.9142857142857" width="32.3" height="311.0857142857143"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="560.7988639831543" y="196.71428571428572" width="32.3" height="270.2857142857143"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="613.8244319915772" y="284.1428571428571" width="32.3" height="182.85714285714286"/>
+<rect fill="#2563eb" fill-opacity="0.8" stroke="#2563eb" stroke-width="1" x="666.85" y="342.42857142857144" width="32.3" height="124.57142857142856"/>
+<polyline fill="none" stroke="#7c3aed" stroke-width="2" points="99.71875190734863,400.7142857142857 152.74431991577148,342.42857142857144 205.76988792419434,255.0 258.7954559326172,214.20000000000002 311.82102394104004,138.42857142857144 364.8465919494629,80.14285714285711 417.87215995788574,51.0 470.8977279663086,97.62857142857143 523.9232959747314,155.9142857142857 576.9488639831543,196.71428571428572 629.9744319915771,284.1428571428571 683.0,342.42857142857144"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="99.71875190734863" cy="400.7142857142857" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="152.74431991577148" cy="342.42857142857144" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="205.76988792419434" cy="255.0" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="258.7954559326172" cy="214.20000000000002" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="311.82102394104004" cy="138.42857142857144" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="364.8465919494629" cy="80.14285714285711" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="417.87215995788574" cy="51.0" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="470.8977279663086" cy="97.62857142857143" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="523.9232959747314" cy="155.9142857142857" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="576.9488639831543" cy="196.71428571428572" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="629.9744319915771" cy="284.1428571428571" r="4.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="2" cx="683.0" cy="342.42857142857144" r="4.0"/>
+<text fill="#000000" x="99.71875190734863" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">jan</text>
+<text fill="#000000" x="152.74431991577148" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">feb</text>
+<text fill="#000000" x="205.76988792419434" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">mar</text>
+<text fill="#000000" x="258.7954559326172" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">apr</text>
+<text fill="#000000" x="311.82102394104004" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">may</text>
+<text fill="#000000" x="364.8465919494629" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">jun</text>
+<text fill="#000000" x="417.87215995788574" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">jul</text>
+<text fill="#000000" x="470.8977279663086" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">aug</text>
+<text fill="#000000" x="523.9232959747314" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">sep</text>
+<text fill="#000000" x="576.9488639831543" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">oct</text>
+<text fill="#000000" x="629.9744319915771" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">nov</text>
+<text fill="#000000" x="683.0" y="479.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">dec</text>
+<text transform="rotate(-90, 20, 255)" fill="#000000" x="20.0" y="255.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="bold">Revenue (in $)</text>
+<text fill="#000000" x="72.71875190734863" y="55.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">11000.0</text>
+<text fill="#000000" x="72.71875190734863" y="136.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">9600.0</text>
+<text fill="#000000" x="72.71875190734863" y="218.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">8200.0</text>
+<text fill="#000000" x="72.71875190734863" y="299.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">6800.0</text>
+<text fill="#000000" x="72.71875190734863" y="381.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">5400.0</text>
+<rect fill="#2563eb" stroke="none" x="550.0" y="52.0" width="15.0" height="15.0"/>
+<text fill="#000000" x="570.0" y="64.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Bar</text>
+<rect fill="#7c3aed" stroke="none" x="550.0" y="77.0" width="15.0" height="15.0"/>
+<text fill="#000000" x="570.0" y="89.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Line</text>
+</svg>

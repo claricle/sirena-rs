@@ -1,0 +1,83 @@
+<svg
+ width="1190.0"
+ height="485.6"
+ viewBox="0 0 1190.0 485.6"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 112.8 v-57.8 q0,-5 5,-5 h380 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="117.8" x2="490.0" y2="117.8"/>
+    </g>
+    <text fill="#ffffff" x="295.0" y="81.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">abc-123</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 230.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="235.6" x2="290.0" y2="235.6"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="198.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">task1</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 195 235.6 L 195 435.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="195.0,435.6 191.0,427.6 199.0,427.6"/>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M300 230.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H300 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="300.0" y1="235.6" x2="490.0" y2="235.6"/>
+    </g>
+    <text fill="#ffffff" x="395.0" y="198.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">task2</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 395 235.6 L 395 435.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="395.0,435.6 391.0,427.6 399.0,427.6"/>
+</g>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M500 112.8 v-57.8 q0,-5 5,-5 h380 q5,0 5,5 v62.8 H500 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="500.0" y1="117.8" x2="890.0" y2="117.8"/>
+    </g>
+    <text fill="#000000" x="695.0" y="81.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">abc-456</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M500 230.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H500 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="500.0" y1="235.6" x2="690.0" y2="235.6"/>
+    </g>
+    <text fill="#000000" x="595.0" y="198.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">task3</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 595 235.6 L 595 435.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="595.0,435.6 591.0,427.6 599.0,427.6"/>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M700 230.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H700 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="700.0" y1="235.6" x2="890.0" y2="235.6"/>
+    </g>
+    <text fill="#000000" x="795.0" y="198.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">task4</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 795 235.6 L 795 435.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="795.0,435.6 791.0,427.6 799.0,427.6"/>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="4" d="M 50 285.6 L 1140 285.6"/>
+  <polygon fill="#000000" points="1140.0,285.6 1124.0,293.6 1124.0,277.6"/>
+</g>
+</svg>
