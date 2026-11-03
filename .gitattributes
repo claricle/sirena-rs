@@ -1,0 +1,2 @@
+# Goldens are byte-exact fixtures; never convert line endings.
+golden/** -text

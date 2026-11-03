@@ -3,6 +3,7 @@
 pub mod elk;
 pub mod error;
 pub mod parse;
+pub mod precise;
 pub mod render;
 pub mod svg;
 pub mod text;

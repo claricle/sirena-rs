@@ -10,7 +10,10 @@ use std::path::PathBuf;
 const REQUIRED: &[&str] = &["info", "pie", "packet", "timeline", "treemap", "quadrant", "radar", "xychart", "user_journey", "kanban", "mindmap", "gantt", "gitgraph", "er_diagram", "requirement", "c4", "block", "architecture", "sequence", "state_diagram"];
 
 fn golden_dir() -> PathBuf {
-    PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../golden")
+    match std::env::var_os("SIRENA_GOLDEN_DIR") {
+        Some(d) => PathBuf::from(d),
+        None => PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../golden"),
+    }
 }
 
 fn first_diff(a: &[u8], b: &[u8]) -> String {
