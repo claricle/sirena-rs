@@ -47,3 +47,44 @@ jobs:
         env:
           SIRENA_GOLDEN_DIR: ${{ runner.temp }}/golden
         run: cargo test --workspace -- --nocapture
+  python:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Keep LF checkouts
+        run: git config --global core.autocrlf false
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/checkout@v4
+        with:
+          repository: claricle/sirena
+          ref: ${{ env.SIRENA_REF }}
+          path: sirena
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+          working-directory: sirena
+      - name: Generate goldens with Ruby
+        shell: bash
+        working-directory: sirena
+        env:
+          GOLDEN_OUT: ${{ runner.temp }}/golden
+        run: bundle exec ruby ../scripts/golden_generate.rb
+      - name: Build and test the Python binding
+        shell: bash
+        working-directory: bindings/python
+        env:
+          SIRENA_GOLDEN_DIR: ${{ runner.temp }}/golden
+        run: |
+          python -m venv .venv
+          if [ -d .venv/Scripts ]; then . .venv/Scripts/activate; else . .venv/bin/activate; fi
+          pip install maturin pytest
+          maturin develop --release
+          pytest -q -s

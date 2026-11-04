@@ -1,1 +1,5 @@
 /target
+/bindings/python/target
+/bindings/python/.venv
+__pycache__/
+*.so

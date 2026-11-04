@@ -1,0 +1,18 @@
+# Standalone workspace: the extension module must not be linked by the root
+# `cargo test --workspace` (it needs a Python at link time). Built by maturin.
+[workspace]
+
+[package]
+name = "sirena-py"
+version = "0.0.0"
+edition = "2021"
+license = "BSD-2-Clause"
+publish = false
+
+[lib]
+name = "_native"
+crate-type = ["cdylib"]
+
+[dependencies]
+sirena-core = { path = "../../crates/sirena-core" }
+pyo3 = { version = "0.30", features = ["abi3-py39", "extension-module"] }
