@@ -1,0 +1,9 @@
+def render(source: str) -> str: ...
+def detect(source: str) -> str: ...
+
+class SirenaError(Exception):
+    error_class: str
+    line: int
+    col: int
+
+class Unported(Exception): ...
