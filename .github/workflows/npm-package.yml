@@ -1,0 +1,93 @@
+name: npm-package
+
+# Builds the sirena-ts npm package and smokes the packed tarball. The wasm build
+# is platform-independent, so there is ONE package (no per-platform matrix); it is
+# smoked on Linux, macOS and Windows runners. Build-only: no `npm publish` here.
+# Needs bindings/ts + crates/sirena-wasm (PR #7); the PR trigger therefore fires
+# only once those paths exist on a branch.
+on:
+  pull_request:
+    paths:
+      - "bindings/ts/**"
+      - "crates/**"
+      - "Cargo.*"
+      - "scripts/smoke_installed_npm.mjs"
+  workflow_dispatch:
+  push:
+    tags: ["sirena-ts-v*"]
+
+concurrency:
+  group: npm-package-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  GOLDEN_MMD: golden/pie/pie_spec-0b1f3197.mmd
+  GOLDEN_SVG: golden/pie/pie_spec-0b1f3197.svg
+
+jobs:
+  pack:
+    name: pack (ubuntu)
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build
+        working-directory: bindings/ts
+        run: |
+          npm ci
+          npm run build
+      - name: Pack
+        working-directory: bindings/ts
+        run: |
+          mkdir -p pkg
+          npm pack --pack-destination pkg
+          tar -tzf pkg/sirena-ts-*.tgz | tee /dev/stderr | grep -q 'package/dist/sirena.wasm'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: npm-tarball
+          path: bindings/ts/pkg/*.tgz
+          if-no-files-found: error
+
+  smoke:
+    name: smoke (${{ matrix.os }}, node ${{ matrix.node }})
+    needs: pack
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-22.04, node: "20" }
+          - { os: macos-15, node: "22" }
+          - { os: windows-latest, node: "22" }
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Keep LF checkouts
+        run: git config --global core.autocrlf false
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: npm-tarball
+          path: tarball
+      - name: Install into a clean project and render the golden
+        run: |
+          set -euo pipefail
+          work="$(mktemp -d)"
+          cp tarball/sirena-ts-*.tgz "$work/"
+          cp "$GOLDEN_MMD" "$GOLDEN_SVG" scripts/smoke_installed_npm.mjs "$work/"
+          cd "$work"
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund ./sirena-ts-*.tgz
+          node smoke_installed_npm.mjs "$(basename "$GOLDEN_MMD")" "$(basename "$GOLDEN_SVG")"
