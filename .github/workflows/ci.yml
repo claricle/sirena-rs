@@ -6,9 +6,9 @@ on:
     inputs:
       sirena_ref:
         description: claricle/sirena ref that generates the goldens
-        default: feat/mermaid-parg
+        default: main
 env:
-  SIRENA_REF: ${{ inputs.sirena_ref || vars.SIRENA_REF || 'feat/mermaid-parg' }}
+  SIRENA_REF: ${{ inputs.sirena_ref || vars.SIRENA_REF || 'main' }}
 jobs:
   test:
     strategy:
@@ -17,6 +17,11 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
+      # Windows git defaults to core.autocrlf=true, which would turn the sirena
+      # corpus (.mmd) into CRLF; Rust declines CRLF sources (Unported) while Ruby
+      # renders them, so the byte-match fails. Keep LF.
+      - name: Keep LF checkouts
+        run: git config --global core.autocrlf false
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
       - uses: actions/checkout@v4
