@@ -83,7 +83,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build, package and smoke in Alpine
         run: |
-          docker run --rm -v "$PWD:/w" -w /w ruby:3.4-alpine sh -euxc '
+          docker run --rm -e GOLDEN_MMD -e GOLDEN_SVG -v "$PWD:/w" -w /w ruby:3.4-alpine sh -euxc '
             apk add --no-cache build-base cargo
             cargo build --release -p sirena-ffi
             cd bindings/ruby
