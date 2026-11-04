@@ -2,7 +2,8 @@ name: python-wheels
 
 # Builds the sirena-py abi3 wheels (one per platform, cp39+) with maturin and
 # installs each into a clean venv to render a golden byte-identically.
-# Build-only: nothing here uploads to PyPI. Publishing is a separate, manual step.
+# Build-only: nothing here uploads to PyPI. release.yml calls this workflow and publishes the `wheel-*` and
+# `sdist` artifacts.
 on:
   pull_request:
     paths:
@@ -11,8 +12,7 @@ on:
       - "Cargo.*"
       - ".github/workflows/python-wheels.yml"
   workflow_dispatch:
-  push:
-    tags: ["sirena-py-v*"]
+  workflow_call:
 
 concurrency:
   group: python-wheels-${{ github.ref }}
@@ -106,3 +106,18 @@ jobs:
           "$bin/python" -m pip install --no-index --find-links dist sirena-py
           cd "$RUNNER_TEMP"
           "$bin/python" -I "$GITHUB_WORKSPACE/bindings/python/scripts/smoke_installed_wheel.py" "$GITHUB_WORKSPACE/$GOLDEN_MMD" "$GITHUB_WORKSPACE/$GOLDEN_SVG"
+
+  sdist:
+    name: sdist
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: PyO3/maturin-action@v1
+        with:
+          command: sdist
+          args: --out dist -m bindings/python/Cargo.toml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sdist
+          path: dist/*.tar.gz
+          if-no-files-found: error

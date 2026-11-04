@@ -3,7 +3,8 @@ name: platform-gems
 # Builds the precompiled sirena-native platform gems and installs each one into
 # a clean GEM_HOME to render a golden. The gem is an FFI gem over the sirena-ffi
 # cdylib, so there is no Ruby extension: no rb-sys / cross-gem toolchain, and
-# nothing compiles at install. Build-only: nothing here publishes a gem.
+# nothing compiles at install. Build-only: nothing here publishes a gem;
+# release.yml calls this workflow and publishes the `gem-*` artifacts.
 on:
   pull_request:
     paths:
@@ -12,8 +13,7 @@ on:
       - "Cargo.*"
       - ".github/workflows/platform-gems.yml"
   workflow_dispatch:
-  push:
-    tags: ["sirena-native-v*"]
+  workflow_call:
 
 concurrency:
   group: platform-gems-${{ github.ref }}
@@ -117,7 +117,12 @@ jobs:
           set -euo pipefail
           (cd bindings/ruby && gem build sirena-native.gemspec && mkdir -p pkg && mv sirena-native-*.gem pkg/)
           work="$(mktemp -d)"
-          gem install --no-document --install-dir "$work/gems" bindings/ruby/pkg/sirena-native-0.0.0.gem
+          gem install --no-document --install-dir "$work/gems" bindings/ruby/pkg/sirena-native-[0-9]*[0-9].gem
           cp "$GOLDEN_MMD" "$GOLDEN_SVG" "$work/"
           cd "$work"
           GEM_HOME="$work/gems" GEM_PATH="$work/gems" ruby -rsirena/native "$GITHUB_WORKSPACE/bindings/ruby/scripts/smoke_installed_gem.rb" fallback "$work/$(basename "$GOLDEN_MMD")" "$work/$(basename "$GOLDEN_SVG")"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gem-ruby
+          path: bindings/ruby/pkg/*.gem
+          if-no-files-found: error
