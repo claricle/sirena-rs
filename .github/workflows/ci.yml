@@ -8,7 +8,7 @@ on:
         description: claricle/sirena ref that generates the goldens
         default: main
 env:
-  SIRENA_REF: ${{ inputs.sirena_ref || vars.SIRENA_REF || 'main' }}
+  SIRENA_REF: ${{ inputs.sirena_ref || vars.SIRENA_REF || 'feat/js-math' }}
 jobs:
   test:
     strategy:

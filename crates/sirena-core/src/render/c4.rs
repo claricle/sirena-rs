@@ -118,7 +118,7 @@ fn leave(n: &Placed, target: (f64, f64)) -> (f64, f64) {
 fn arrowhead(from: &Pt, tip: &Pt) -> Option<String> {
     let run = tip.x - from.x;
     let rise = tip.y - from.y;
-    let length = run.hypot(rise);
+    let length = crate::js_math::hypot2(run, rise);
     if length == 0.0 {
         return None;
     }

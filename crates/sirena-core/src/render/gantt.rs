@@ -339,8 +339,8 @@ fn parse_interval(text: Option<&str>) -> Result<Option<(Unit, i64)>, Error> {
 }
 
 fn nice_step(raw: f64) -> i64 {
-    let power = raw.log10().floor();
-    let error = raw / 10f64.powf(power);
+    let power = crate::js_math::log10(raw).floor();
+    let error = raw / crate::js_math::pow(10.0, power);
     let factor = [(50f64.sqrt(), 10i64), (10f64.sqrt(), 5), (2f64.sqrt(), 2)]
         .iter()
         .find(|(limit, _)| error >= *limit)

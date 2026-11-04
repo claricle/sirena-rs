@@ -98,7 +98,7 @@ pub(super) fn node_boundary(n: &Node, fx: f64, fy: f64) -> (f64, f64) {
     let (hw, hh) = (n.w / 2.0, n.h / 2.0);
     let scale = match n.shape {
         Shape::Rhombus => 1.0 / (axis_ratio(dx, hw) + axis_ratio(dy, hh)),
-        Shape::Circle | Shape::DoubleCircle => (if hw < hh { hw } else { hh }) / dx.hypot(dy),
+        Shape::Circle | Shape::DoubleCircle => (if hw < hh { hw } else { hh }) / crate::js_math::hypot2(dx, dy),
         Shape::Hexagon => {
             let slope = 1.0 / (axis_ratio(dx, hw) + axis_ratio(dy, 2.0 * hh));
             let side = if dy == 0.0 { f64::INFINITY } else { hh / dy.abs() };
@@ -112,7 +112,7 @@ pub(super) fn node_boundary(n: &Node, fx: f64, fy: f64) -> (f64, f64) {
 }
 
 pub(super) fn unit_towards(tx: f64, ty: f64, fx: f64, fy: f64) -> (f64, f64) {
-    let span = (fx - tx).hypot(fy - ty);
+    let span = crate::js_math::hypot2(fx - tx, fy - ty);
     if span == 0.0 { (0.0, 0.0) } else { ((fx - tx) / span, (fy - ty) / span) }
 }
 

@@ -2291,13 +2291,13 @@
       "case": "er_diagram/er-6cd4bc3b.mmd",
       "type": "er_diagram",
       "source_sha256": "ad8594f3cbb29545af721d915dec6bd01e23d0d0a271b956cc32414d747eb1dd",
-      "svg_sha256": "0b4594d7e29e9a63392d0be57b2c4a13e048587b37b461c84db71d4512f71152"
+      "svg_sha256": "7603a743e45467821fa388317d487fa523d6ca3e9d3da3ec35f8abbea6de8cf4"
     },
     {
       "case": "er_diagram/er-f17280c6.mmd",
       "type": "er_diagram",
       "source_sha256": "ad8594f3cbb29545af721d915dec6bd01e23d0d0a271b956cc32414d747eb1dd",
-      "svg_sha256": "0b4594d7e29e9a63392d0be57b2c4a13e048587b37b461c84db71d4512f71152"
+      "svg_sha256": "7603a743e45467821fa388317d487fa523d6ca3e9d3da3ec35f8abbea6de8cf4"
     },
     {
       "case": "er_diagram/erdiagram_spec-1537270c.mmd",
@@ -4937,7 +4937,7 @@
       "case": "mindmap/knsv3-b01f9fc4.mmd",
       "type": "mindmap",
       "source_sha256": "d1194dba9bcf25691df829a94e73969caf601111f66f7a8f045db2a1b629adfe",
-      "svg_sha256": "6b9b0c71cfd34d29434d75046856a48817f1cf08ff1c2d4165866494bbd781f6"
+      "svg_sha256": "94c63ac79a3a21d02833a454693540fa3781571dd11931b190c086222182193a"
     },
     {
       "case": "mindmap/mindmap-dfd5d1be.mmd",
@@ -6947,7 +6947,7 @@
       "case": "unknown/knsv3-b01f9fc4.mmd",
       "type": "unknown",
       "source_sha256": "d1194dba9bcf25691df829a94e73969caf601111f66f7a8f045db2a1b629adfe",
-      "svg_sha256": "6b9b0c71cfd34d29434d75046856a48817f1cf08ff1c2d4165866494bbd781f6"
+      "svg_sha256": "94c63ac79a3a21d02833a454693540fa3781571dd11931b190c086222182193a"
     },
     {
       "case": "unknown/marker_unique_id-45523a5a.mmd",
