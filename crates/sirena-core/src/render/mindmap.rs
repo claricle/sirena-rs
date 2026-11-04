@@ -548,7 +548,7 @@ impl Cose {
                     break;
                 }
                 cycle += 1;
-                let decay = (f64::from(cycle).powf((100.0 * (1.0 - final_cooling)).ln() / cooling_cycles.ln())) / 100.0;
+                let decay = crate::precise::powf(f64::from(cycle), (100.0 * (1.0 - final_cooling)).ln() / cooling_cycles.ln()) / 100.0;
                 cooling = (1.0 - decay).max(final_cooling);
             }
             // step

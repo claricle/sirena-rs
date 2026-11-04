@@ -47,3 +47,45 @@ jobs:
         env:
           SIRENA_GOLDEN_DIR: ${{ runner.temp }}/golden
         run: cargo test --workspace -- --nocapture
+  ts:
+    # sirena-ts: sirena-core compiled to wasm, every golden case byte-compared.
+    # Goldens come from Ruby on this OS (platform libm), as in the test job.
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Keep LF checkouts
+        run: git config --global core.autocrlf false
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/checkout@v4
+        with:
+          repository: claricle/sirena
+          ref: ${{ env.SIRENA_REF }}
+          path: sirena
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+          working-directory: sirena
+      - name: Generate goldens with Ruby
+        shell: bash
+        working-directory: sirena
+        env:
+          GOLDEN_OUT: ${{ runner.temp }}/golden
+        run: bundle exec ruby ../scripts/golden_generate.rb
+      - name: npm ci
+        working-directory: bindings/ts
+        run: npm ci
+      - name: Build wasm + run golden byte-compare
+        working-directory: bindings/ts
+        env:
+          SIRENA_GOLDEN_DIR: ${{ runner.temp }}/golden
+        run: npm test
