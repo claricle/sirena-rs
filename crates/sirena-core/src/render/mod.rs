@@ -24,7 +24,12 @@ pub mod class_diagram;
 pub mod flowchart;
 use crate::Error;
 /// Render `source` to SVG, or Err(Unported) when the type has no Rust renderer.
+///
+/// Ruby's `Source.normalize` turns every `\r\n` and lone `\r` into `\n` before any
+/// type sees the source, so the renderers below only ever read LF input.
 pub fn render(source: &str) -> Result<String, Error> {
+    let normalized = source.replace("\r\n", "\n").replace('\r', "\n");
+    let source = normalized.as_str();
     let ty = crate::detect(source).ok_or_else(|| Error::Unported("unknown".into()))?;
     match ty.as_str() {
         "info" => info::render(source),
