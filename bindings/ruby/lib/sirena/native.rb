@@ -9,13 +9,16 @@ module Sirena
   #
   # The shared library is looked up in this order:
   #   1. ENV["SIRENA_NATIVE_LIB"] — exact file path; when set, nothing else is searched.
-  #   2. <repo>/target/release, then <repo>/target/debug.
+  #   2. lib/sirena/native/ inside an installed platform gem (precompiled, no compile at install).
+  #   3. <repo>/target/release, then <repo>/target/debug.
   # When no library is found, or the Rust core answers `Unported`, render
   # falls back to a pure-Ruby callable (default: the `sirena` gem's Sirena.render).
   module Native
     LIBRARY_ENV = "SIRENA_NATIVE_LIB"
     REPO_ROOT = File.expand_path("../../../..", __dir__)
-    SEARCH_DIRS = [File.join(REPO_ROOT, "target", "release"),
+    PACKAGED_DIR = File.join(__dir__, "native").freeze
+    SEARCH_DIRS = [PACKAGED_DIR,
+                   File.join(REPO_ROOT, "target", "release"),
                    File.join(REPO_ROOT, "target", "debug")].freeze
 
     # The Rust core declined this diagram type; the caller should fall back.
@@ -130,7 +133,8 @@ module Sirena
 
       # Diagram type name for `source`. Native only; raises Unavailable without a library.
       def detect(source)
-        lib = library or raise Unavailable, "#{LIBRARY_ENV} not set and no #{library_filename} under target/"
+        lib = library or raise Unavailable,
+                               "#{LIBRARY_ENV} not set and no #{library_filename} in the gem or under target/"
 
         lib.detect(source)
       end
