@@ -46,6 +46,7 @@ jobs:
         shell: bash
         env:
           SIRENA_GOLDEN_DIR: ${{ runner.temp }}/golden
+          SIRENA_RUBY_DIR: ${{ github.workspace }}/sirena
         run: cargo test --workspace -- --nocapture
   python:
     strategy:
