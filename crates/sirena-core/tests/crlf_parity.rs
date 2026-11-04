@@ -34,8 +34,10 @@ fn crlf_sources_match_ruby() {
         std::fs::write(dest, src).unwrap();
     }
     let script = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../scripts/golden_generate.rb");
-    let status = Command::new("bundle")
-        .args(["exec", "ruby"])
+    // `ruby -S bundle` finds bundler on every OS; on Windows `bundle` is a
+    // .bat script that Command::new cannot resolve.
+    let status = Command::new("ruby")
+        .args(["-S", "bundle", "exec", "ruby"])
         .arg(script)
         .current_dir(&ruby_dir)
         .env("SIRENA_CORPUS", &corpus)
