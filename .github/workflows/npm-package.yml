@@ -2,7 +2,8 @@ name: npm-package
 
 # Builds the sirena-ts npm package and smokes the packed tarball. The wasm build
 # is platform-independent, so there is ONE package (no per-platform matrix); it is
-# smoked on Linux, macOS and Windows runners. Build-only: no `npm publish` here.
+# smoked on Linux, macOS and Windows runners. Build-only: no `npm publish` here;
+# release.yml calls this workflow and publishes the `npm-tarball` artifact.
 # Needs bindings/ts + crates/sirena-wasm (PR #7); the PR trigger therefore fires
 # only once those paths exist on a branch.
 on:
@@ -13,8 +14,7 @@ on:
       - "Cargo.*"
       - "scripts/smoke_installed_npm.mjs"
   workflow_dispatch:
-  push:
-    tags: ["sirena-ts-v*"]
+  workflow_call:
 
 concurrency:
   group: npm-package-${{ github.ref }}

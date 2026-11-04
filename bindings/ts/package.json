@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "TypeScript binding for the Sirena Rust runtime (sirena-core compiled to WebAssembly)",
   "license": "BSD-2-Clause",
+  "repository": { "type": "git", "url": "git+https://github.com/claricle/sirena-rs.git", "directory": "bindings/ts" },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
