@@ -79,7 +79,7 @@ pub fn round4(x: f64) -> f64 {
         return x;
     }
     // Ruby leaves numbers with too many integer digits unchanged.
-    let binexp = x.abs().log2().floor() as i32 + 1;
+    let binexp = crate::js_math::binexp(x);
     let limit = if binexp > 0 { binexp / 4 } else { binexp / 3 - 1 };
     if 4 >= 15 - limit {
         return x;

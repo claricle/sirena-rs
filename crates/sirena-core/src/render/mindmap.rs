@@ -273,7 +273,7 @@ fn node_size(label: &str, shape: &str, font_size: f64, line_height: f64) -> Size
     Size { width: wide, height: high, lines: wrapped }
 }
 
-use crate::precise::{cos, sin};
+
 
 // ---- COSE placement ----
 
@@ -497,8 +497,8 @@ impl Cose {
 
     fn branch(&mut self, body: usize, parent: Option<usize>, wedge: (f64, f64), distance: f64, ring: f64) {
         let radians = (wedge_bearing(wedge) * (2.0 * std::f64::consts::PI)) / 360.0;
-        let cx = distance * cos(radians);
-        let cy = distance * sin(radians);
+        let cx = distance * crate::js_math::cos(radians);
+        let cy = distance * crate::js_math::sin(radians);
         let b = &mut self.bodies[body];
         b.x = cx - (b.w / 2.0);
         b.y = cy - (b.h / 2.0);
@@ -548,7 +548,7 @@ impl Cose {
                     break;
                 }
                 cycle += 1;
-                let decay = (f64::from(cycle).powf((100.0 * (1.0 - final_cooling)).ln() / cooling_cycles.ln())) / 100.0;
+                let decay = (crate::js_math::pow(f64::from(cycle), crate::js_math::ln(100.0 * (1.0 - final_cooling)) / crate::js_math::ln(cooling_cycles))) / 100.0;
                 cooling = (1.0 - decay).max(final_cooling);
             }
             // step
@@ -766,7 +766,7 @@ fn blend(points: &[(f64, f64); 3], weights: [f64; 3], divisor: f64) -> String {
 
 fn inset_point(from: (f64, f64), toward: (f64, f64)) -> (f64, f64) {
     let (dx, dy) = (toward.0 - from.0, toward.1 - from.1);
-    let distance = dx.hypot(dy);
+    let distance = crate::js_math::hypot2(dx, dy);
     if distance == 0.0 {
         return from;
     }

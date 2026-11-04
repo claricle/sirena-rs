@@ -9,6 +9,9 @@ publish.workspace = true
 parsanol = "0.20"
 serde_json = { version = "1", features = ["float_roundtrip"] }
 regex = "1"
+num-bigint = "0.4"
+num-integer = "0.1"
+num-traits = "0.2"
 
 [dev-dependencies]
 sha2 = "0.10"

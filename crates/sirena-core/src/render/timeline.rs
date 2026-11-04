@@ -546,7 +546,7 @@ fn arrowhead(line: &Line, stroke: &str) -> Option<Elem> {
     let (x1, y1) = (read_num(&number(line.x1))?, read_num(&number(line.y1))?);
     let (x2, y2) = (read_num(&number(line.x2))?, read_num(&number(line.y2))?);
     let (dx, dy) = (x2 - x1, y2 - y1);
-    let len = dx.hypot(dy);
+    let len = crate::js_math::hypot2(dx, dy);
     if !(len.is_finite() && len > 0.0) {
         return None;
     }

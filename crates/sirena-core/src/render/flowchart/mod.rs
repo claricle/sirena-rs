@@ -35,7 +35,7 @@ pub(super) fn rr(x: f64, nd: i32) -> f64 {
     if !x.is_finite() || x == 0.0 {
         return x;
     }
-    let binexp = x.abs().log2().floor() as i32 + 1;
+    let binexp = crate::js_math::binexp(x);
     let limit = if binexp > 0 { binexp / 4 } else { binexp / 3 - 1 };
     if nd >= 15 - limit {
         return x;

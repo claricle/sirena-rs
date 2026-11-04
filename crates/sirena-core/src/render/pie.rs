@@ -181,7 +181,7 @@ struct Seg {
 
 fn circle_point(angle: f64, radius: f64) -> (f64, f64) {
     let r = angle * std::f64::consts::PI / 180.0;
-    (round4(CENTER + radius * r.cos()), round4(CENTER + radius * r.sin()))
+    (round4(CENTER + radius * crate::js_math::cos(r)), round4(CENTER + radius * crate::js_math::sin(r)))
 }
 
 fn f(v: f64) -> String {

@@ -242,8 +242,8 @@ pub fn render(source: &str) -> Result<String, Error> {
             Axis {
                 angle,
                 radians,
-                end: (radians.cos() * DEFAULT_RADIUS, radians.sin() * DEFAULT_RADIUS),
-                label: (radians.cos() * DEFAULT_RADIUS * LABEL_SCALE, radians.sin() * DEFAULT_RADIUS * LABEL_SCALE),
+                end: (crate::js_math::cos(radians) * DEFAULT_RADIUS, crate::js_math::sin(radians) * DEFAULT_RADIUS),
+                label: (crate::js_math::cos(radians) * DEFAULT_RADIUS * LABEL_SCALE, crate::js_math::sin(radians) * DEFAULT_RADIUS * LABEL_SCALE),
             }
         })
         .collect();
@@ -269,7 +269,7 @@ pub fn render(source: &str) -> Result<String, Error> {
                 .iter()
                 .map(|a| {
                     let r = a.angle * PI / 180.0;
-                    format!("{},{}", ruby_float(center + r.cos() * radius), ruby_float(center + r.sin() * radius))
+                    format!("{},{}", ruby_float(center + crate::js_math::cos(r) * radius), ruby_float(center + crate::js_math::sin(r) * radius))
                 })
                 .collect();
             Elem::new("polygon").attr("points", pts.join(" "))
@@ -311,7 +311,7 @@ pub fn render(source: &str) -> Result<String, Error> {
                 let value = value_for(curve, ai);
                 let normalized = ((value - min_value) / (max_value - min_value)).max(0.0).min(1.0);
                 let radius = normalized * DEFAULT_RADIUS;
-                (center + a.radians.cos() * radius, center + a.radians.sin() * radius)
+                (center + crate::js_math::cos(a.radians) * radius, center + crate::js_math::sin(a.radians) * radius)
             })
             .collect();
         if points.is_empty() {
