@@ -1,0 +1,21 @@
+{
+  "name": "sirena-ts",
+  "version": "0.0.0",
+  "description": "TypeScript binding for the Sirena Rust runtime (sirena-core compiled to WebAssembly)",
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
+  "files": ["dist"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build:wasm": "node scripts/build-wasm.mjs",
+    "build": "npm run build:wasm && tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/golden.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
