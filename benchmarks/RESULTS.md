@@ -7,13 +7,13 @@ change to the golden corpus or either renderer.
 
 | Item | Value |
 |---|---|
-| Generated | 2026-11-03 21:45 PKT |
+| Generated | 2026-11-04 15:30 PKT |
 | Host | Darwin 25.5.0 arm64 |
 | CPU | Apple M2 |
 | Ruby | ruby 3.4.8 (2025-12-17 revision 995b59f666) +PRISM [arm64-darwin25] |
 | rustc | rustc 1.99.1 (58cf8f9c3 2026-10-13) |
 | cargo | cargo 1.99.1 (5f94df478 2026-08-27) |
-| Ruby sirena checkout | /private/tmp/hk-sirena-parg (7561287dd) |
+| Ruby sirena checkout | /private/tmp/hk-sirena-benchref (4a491e5a) |
 | Rust library | target/release/libsirena_ffi (release build, FFI call included) |
 | Corpus | golden/*/*.mmd: 1206 cases in the Rust run, 1206 in the Ruby run |
 | Iterations | 5 timed per case after one untimed warm-up |
@@ -25,31 +25,31 @@ Speedup = Ruby ms / Rust ms.
 
 | Type | Cases timed | Cases skipped | Rust ms | Ruby ms | Speedup |
 |---|---:|---:|---:|---:|---:|
-| architecture | 19 | 0 | 6.3 | 66.0 | 10.5x |
-| block | 6 | 0 | 2.1 | 30.0 | 14.1x |
-| c4 | 28 | 0 | 20.6 | 109.7 | 5.3x |
-| class_diagram | 327 | 0 | 1164.3 | 3852.6 | 3.3x |
-| er_diagram | 15 | 0 | 8.0 | 125.5 | 15.7x |
+| architecture | 19 | 0 | 11.8 | 59.5 | 5.0x |
+| block | 6 | 0 | 2.0 | 25.3 | 12.8x |
+| c4 | 28 | 0 | 29.0 | 98.1 | 3.4x |
+| class_diagram | 327 | 0 | 2414.7 | 5195.5 | 2.2x |
+| er_diagram | 15 | 0 | 8.3 | 97.5 | 11.8x |
 | error | 0 | 3 | 0.0 | 0.0 | n/a |
-| flowchart | 137 | 82 | 10.2 | 1454.5 | 142.1x |
-| gantt | 22 | 0 | 24.7 | 224.0 | 9.1x |
-| gitgraph | 130 | 0 | 61.8 | 1203.5 | 19.5x |
-| info | 11 | 0 | 0.3 | 7.6 | 29.2x |
-| kanban | 39 | 0 | 9.4 | 91.5 | 9.7x |
-| mindmap | 45 | 0 | 16.2 | 268.8 | 16.6x |
-| packet | 4 | 0 | 0.2 | 2.5 | 15.9x |
-| pie | 41 | 0 | 7.5 | 93.0 | 12.4x |
-| quadrant | 9 | 0 | 3.6 | 85.5 | 24.0x |
-| radar | 14 | 0 | 3.2 | 68.4 | 21.5x |
-| requirement | 24 | 0 | 2.7 | 14.9 | 5.6x |
-| sequence | 107 | 0 | 85.1 | 823.5 | 9.7x |
-| state_diagram | 52 | 0 | 22.3 | 219.7 | 9.9x |
-| timeline | 16 | 0 | 12.5 | 135.5 | 10.9x |
-| treemap | 9 | 0 | 4.6 | 48.5 | 10.5x |
-| unknown | 17 | 20 | 35.8 | 222.8 | 6.2x |
-| user_journey | 27 | 0 | 10.2 | 139.1 | 13.6x |
-| xychart | 2 | 0 | 0.7 | 21.8 | 29.9x |
-| **Total** | 1101 | 105 | 1512.2 | 9308.7 | 6.2x |
+| flowchart | 219 | 0 | 20.7 | 3218.2 | 155.2x |
+| gantt | 22 | 0 | 42.0 | 419.7 | 10.0x |
+| gitgraph | 130 | 0 | 68.6 | 1518.1 | 22.1x |
+| info | 11 | 0 | 0.3 | 6.2 | 23.3x |
+| kanban | 39 | 0 | 9.1 | 73.7 | 8.1x |
+| mindmap | 45 | 0 | 10.6 | 182.8 | 17.2x |
+| packet | 4 | 0 | 0.2 | 1.9 | 11.9x |
+| pie | 41 | 0 | 6.4 | 64.9 | 10.1x |
+| quadrant | 9 | 0 | 3.7 | 50.9 | 13.6x |
+| radar | 14 | 0 | 3.4 | 45.3 | 13.4x |
+| requirement | 24 | 0 | 2.4 | 11.4 | 4.7x |
+| sequence | 107 | 0 | 95.3 | 679.7 | 7.1x |
+| state_diagram | 52 | 0 | 24.0 | 193.8 | 8.1x |
+| timeline | 16 | 0 | 13.5 | 297.4 | 22.0x |
+| treemap | 9 | 0 | 3.3 | 90.1 | 27.1x |
+| unknown | 17 | 20 | 45.3 | 512.0 | 11.3x |
+| user_journey | 27 | 0 | 9.2 | 314.3 | 34.0x |
+| xychart | 2 | 0 | 1.1 | 97.8 | 92.3x |
+| **Total** | 1183 | 23 | 2825.0 | 13254.1 | 4.7x |
 
 ## Skipped cases
 
@@ -58,7 +58,7 @@ left to the Ruby fallback and are not timed on either side.
 
 | Reason | Cases |
 |---|---:|
-| rust unported | 105 |
+| rust unported | 23 |
 
 ## Notes
 
