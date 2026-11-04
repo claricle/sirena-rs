@@ -1,0 +1,108 @@
+name: python-wheels
+
+# Builds the sirena-py abi3 wheels (one per platform, cp39+) with maturin and
+# installs each into a clean venv to render a golden byte-identically.
+# Build-only: nothing here uploads to PyPI. Publishing is a separate, manual step.
+on:
+  pull_request:
+    paths:
+      - "bindings/python/**"
+      - "crates/**"
+      - "Cargo.*"
+      - ".github/workflows/python-wheels.yml"
+  workflow_dispatch:
+  push:
+    tags: ["sirena-py-v*"]
+
+concurrency:
+  group: python-wheels-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  GOLDEN_MMD: golden/pie/pie_spec-0b1f3197.mmd
+  GOLDEN_SVG: golden/pie/pie_spec-0b1f3197.svg
+
+jobs:
+  # manylinux / musllinux run maturin inside the PyPA containers; the wheel is
+  # then installed on the host (gnu) or in an Alpine container (musl).
+  linux:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: manylinux-x86_64, os: ubuntu-22.04, target: x86_64-unknown-linux-gnu, manylinux: auto }
+          - { name: manylinux-aarch64, os: ubuntu-22.04-arm, target: aarch64-unknown-linux-gnu, manylinux: auto }
+          - { name: musllinux-x86_64, os: ubuntu-22.04, target: x86_64-unknown-linux-musl, manylinux: musllinux_1_2 }
+          - { name: musllinux-aarch64, os: ubuntu-22.04-arm, target: aarch64-unknown-linux-musl, manylinux: musllinux_1_2 }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: PyO3/maturin-action@v1
+        with:
+          command: build
+          target: ${{ matrix.target }}
+          manylinux: ${{ matrix.manylinux }}
+          args: --release --out dist -m bindings/python/Cargo.toml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheel-${{ matrix.name }}
+          path: dist/*.whl
+          if-no-files-found: error
+      - name: Smoke the wheel (glibc host)
+        if: ${{ !contains(matrix.name, 'musllinux') }}
+        run: |
+          set -euo pipefail
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --no-index --find-links dist sirena-py
+          cd "$RUNNER_TEMP"
+          "$RUNNER_TEMP/venv/bin/python" -I "$GITHUB_WORKSPACE/bindings/python/scripts/smoke_installed_wheel.py" "$GITHUB_WORKSPACE/$GOLDEN_MMD" "$GITHUB_WORKSPACE/$GOLDEN_SVG"
+      - name: Smoke the wheel (Alpine, musl)
+        if: ${{ contains(matrix.name, 'musllinux') }}
+        run: |
+          docker run --rm -v "$PWD:/w" -e GOLDEN_MMD -e GOLDEN_SVG python:3.12-alpine sh -euxc '
+            python -m venv /tmp/venv
+            /tmp/venv/bin/pip install --no-index --find-links /w/dist sirena-py
+            cd /tmp
+            /tmp/venv/bin/python -I /w/bindings/python/scripts/smoke_installed_wheel.py "/w/$GOLDEN_MMD" "/w/$GOLDEN_SVG"
+          '
+
+  native:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: macos-arm64, os: macos-15, target: aarch64-apple-darwin }
+          - { name: macos-x86_64, os: macos-15-intel, target: x86_64-apple-darwin }
+          - { name: windows-x64, os: windows-latest, target: x86_64-pc-windows-msvc }
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: PyO3/maturin-action@v1
+        with:
+          command: build
+          target: ${{ matrix.target }}
+          args: --release --out dist -m bindings/python/Cargo.toml
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wheel-${{ matrix.name }}
+          path: dist/*.whl
+          if-no-files-found: error
+      - name: Smoke the wheel
+        run: |
+          set -euo pipefail
+          python -m venv "$RUNNER_TEMP/venv"
+          if [ -d "$RUNNER_TEMP/venv/Scripts" ]; then bin="$RUNNER_TEMP/venv/Scripts"; else bin="$RUNNER_TEMP/venv/bin"; fi
+          "$bin/python" -m pip install --no-index --find-links dist sirena-py
+          cd "$RUNNER_TEMP"
+          "$bin/python" -I "$GITHUB_WORKSPACE/bindings/python/scripts/smoke_installed_wheel.py" "$GITHUB_WORKSPACE/$GOLDEN_MMD" "$GITHUB_WORKSPACE/$GOLDEN_SVG"
