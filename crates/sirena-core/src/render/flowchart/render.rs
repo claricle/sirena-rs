@@ -207,7 +207,7 @@ pub fn render(source: &str) -> Result<String, Error> {
     let placed = cluster::place_all(&mut model)?;
     for e in &model.edges {
         let (a, b) = (centre(&model.nodes[e.src]), centre(&model.nodes[e.tgt]));
-        if (a.0 - b.0).hypot(a.1 - b.1) < COINCIDENT {
+        if crate::js_math::hypot2(a.0 - b.0, a.1 - b.1) < COINCIDENT {
             return Err(unported("coincident centres"));
         }
     }

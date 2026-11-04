@@ -20,7 +20,7 @@ fn bottom_of(b: &Node) -> f64 {
 }
 
 fn near(a: P, b: P) -> bool {
-    (a.0 - b.0).hypot(a.1 - b.1) < COINCIDENT
+    crate::js_math::hypot2(a.0 - b.0, a.1 - b.1) < COINCIDENT
 }
 
 fn r2(p: P) -> P {

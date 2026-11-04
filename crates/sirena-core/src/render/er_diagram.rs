@@ -783,18 +783,18 @@ struct Marker {
 }
 
 fn direction(p: Pt, o: Pt) -> f64 {
-    (o.y - p.y).atan2(o.x - p.x)
+    crate::js_math::atan2(o.y - p.y, o.x - p.x)
 }
 
 fn offset_point(p: Pt, o: Pt, distance: f64) -> Pt {
     let angle = direction(p, o);
-    Pt { x: p.x + distance * angle.cos(), y: p.y + distance * angle.sin() }
+    Pt { x: p.x + distance * crate::js_math::cos(angle), y: p.y + distance * crate::js_math::sin(angle) }
 }
 
 fn one_lines(p: Pt, o: Pt) -> Vec<Ln> {
     let perpendicular = direction(p, o) + PI / 2.0;
     let half = (CARDINALITY_SIZE / 2) as f64;
-    let (h, v) = (half * perpendicular.cos(), half * perpendicular.sin());
+    let (h, v) = (half * crate::js_math::cos(perpendicular), half * crate::js_math::sin(perpendicular));
     vec![Ln { x1: p.x + h, y1: p.y + v, x2: p.x - h, y2: p.y - v }]
 }
 
@@ -811,7 +811,7 @@ fn crows_foot(p: Pt, o: Pt) -> Vec<Ln> {
         .iter()
         .map(|offset| {
             let a = angle + PI + offset;
-            Ln { x1: base.x, y1: base.y, x2: base.x + size * a.cos(), y2: base.y + size * a.sin() }
+            Ln { x1: base.x, y1: base.y, x2: base.x + size * crate::js_math::cos(a), y2: base.y + size * crate::js_math::sin(a) }
         })
         .collect()
 }

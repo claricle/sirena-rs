@@ -180,7 +180,7 @@ fn direction(from: P, to: P) -> P {
 
 fn heading(at: P, from: P, to: P) -> Option<Anchor> {
     let [dx, dy] = direction(from, to);
-    let length = dx.hypot(dy);
+    let length = crate::js_math::hypot2(dx, dy);
     if !(at[0].is_finite() && at[1].is_finite() && length.is_finite() && length > 0.0) {
         return None;
     }

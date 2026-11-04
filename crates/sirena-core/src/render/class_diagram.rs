@@ -768,11 +768,11 @@ struct Marker {
 }
 
 fn marker_point(x: f64, y: f64, dist: f64, angle: f64) -> (f64, f64) {
-    (x + (dist * angle.cos()), y + (dist * angle.sin()))
+    (x + (dist * crate::js_math::cos(angle)), y + (dist * crate::js_math::sin(angle)))
 }
 
 fn angle(from: Pt, to: Pt) -> f64 {
-    (to.y.v - from.y.v).atan2(to.x.v - from.x.v)
+    crate::js_math::atan2(to.y.v - from.y.v, to.x.v - from.x.v)
 }
 
 fn fmt_pts(points: &[String]) -> String {
