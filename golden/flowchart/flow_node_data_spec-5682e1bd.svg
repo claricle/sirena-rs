@@ -1,0 +1,22 @@
+<svg
+ width="287.76"
+ height="70.0"
+ viewBox="0 0 287.76 70.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="95.488" height="54.0"/>
+  <text fill="#000000" x="55.744" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">hello</text>
+</g>
+<g id="node-B">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="165.516" cy="20.028" r="12.027999999999999"/>
+  <text fill="#000000" x="165.516" y="25.628" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">B</text>
+</g>
+<g id="node-C">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="253.652" cy="34.108000000000004" r="26.108"/>
+  <text fill="#000000" x="253.652" y="39.708" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Hello</text>
+</g>
+</svg>

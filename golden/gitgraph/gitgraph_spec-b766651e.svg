@@ -1,0 +1,43 @@
+<svg
+ width="452.4352"
+ height="580.0"
+ viewBox="0 0 452.4352 580.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="128.40800000000002" y1="50.0" x2="128.40800000000002" y2="100.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="128.40800000000002" y1="100.0" x2="234.39360000000002" y2="150.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="128.40800000000002" y1="100.0" x2="128.40800000000002" y2="200.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="234.39360000000002" y1="150.0" x2="363.4176" y2="250.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="128.40800000000002" y1="200.0" x2="128.40800000000002" y2="300.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="234.39360000000002" y1="150.0" x2="234.39360000000002" y2="350.0"/>
+<path fill="none" stroke="#2563eb" stroke-width="2" d="M 128.40800000000002 300 C 128.40800000000002 300, 128.40800000000002 400, 128.40800000000002 400" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 234.39360000000002 350 C 181.4008 350, 181.4008 400, 128.40800000000002 400" stroke-dasharray="5,3"/>
+<line fill="none" stroke="#db2777" stroke-width="2" x1="363.4176" y1="250.0" x2="363.4176" y2="450.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="128.40800000000002" y1="400.0" x2="128.40800000000002" y2="500.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="50.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="100.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="234.39360000000002" cy="150.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="200.0" r="10.0"/>
+<circle fill="#db2777" stroke="#db2777" stroke-width="2" cx="363.4176" cy="250.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="300.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="234.39360000000002" cy="350.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="400.0" r="10.0"/>
+<circle fill="#db2777" stroke="#db2777" stroke-width="2" cx="363.4176" cy="450.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="128.40800000000002" cy="500.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 50.0) translate(-32.672 0)" fill="#000000" x="142.40800000000002" y="49.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">1</text>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 100.0) translate(-32.672 0)" fill="#000000" x="142.40800000000002" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2</text>
+<text class="commit-label" transform="rotate(-45.0 234.39360000000002 150.0) translate(-32.672 0)" fill="#000000" x="248.39360000000002" y="149.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">3</text>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 200.0) translate(-32.672 0)" fill="#000000" x="142.40800000000002" y="199.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">4</text>
+<text class="commit-label" transform="rotate(-45.0 363.4176 250.0) translate(-32.672 0)" fill="#000000" x="377.4176" y="249.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">5</text>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 300.0) translate(-32.672 0)" fill="#000000" x="142.40800000000002" y="299.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">6</text>
+<text class="commit-label" transform="rotate(-45.0 234.39360000000002 350.0) translate(-32.672 0)" fill="#000000" x="248.39360000000002" y="349.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">7</text>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 400.0) translate(-59.36 0)" fill="#000000" x="142.40800000000002" y="399.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">12345</text>
+<text class="tag-label" fill="#28a745" x="114.40800000000002" y="404.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">my merge commit</text>
+<text class="commit-label" transform="rotate(-45.0 363.4176 450.0) translate(-32.672 0)" fill="#000000" x="377.4176" y="449.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">8</text>
+<text class="commit-label" transform="rotate(-45.0 128.40800000000002 500.0) translate(-32.672 0)" fill="#000000" x="142.40800000000002" y="499.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">9</text>
+<text fill="#2563eb" x="111.07200000000002" y="10.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text fill="#7c3aed" x="190.36960000000002" y="10.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">nice_feature</text>
+<text fill="#db2777" x="299.83360000000005" y="10.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">very_nice_feature</text>
+</svg>

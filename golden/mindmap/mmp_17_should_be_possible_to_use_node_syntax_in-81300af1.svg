@@ -1,0 +1,13 @@
+<svg
+ width="197.568"
+ height="64.0"
+ viewBox="0 0 197.568 64.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="node mindmap-node">
+  <rect fill="#e6f2ff" stroke="#007bff" stroke-width="2" x="10.0" y="10.0" width="177.568" height="44.0"/>
+  <text fill="#000000" x="98.784" y="37.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">String containing []</text>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+<svg
+ width="332.5"
+ height="148.0"
+ viewBox="0 0 332.5 148.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="state-assemble">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="81.734375" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="48.8671875" y="32.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">assemble</text>
+</g>
+<g id="state-assemblies">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="139.734375" y="8.0" width="92.765625" height="40.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="186.1171875" y="32.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">assemblies</text>
+</g>
+</svg>

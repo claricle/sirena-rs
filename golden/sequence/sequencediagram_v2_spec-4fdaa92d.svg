@@ -1,0 +1,51 @@
+<svg
+ width="687.0"
+ height="391.0"
+ viewBox="0 0 687.0 391"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="315.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="348.0" y1="75.0" x2="348.0" y2="315.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="562.0" y1="75.0" x2="562.0" y2="315.0" stroke-dasharray="5,5"/>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="340.0" y2="119.0"/>
+  <polygon fill="#000000" stroke="#000000" points="348.0,119 340.0,115 340.0,123"/>
+  <text fill="#000000" x="236.5" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Normal message</text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="349.0" y1="163.0" x2="554.0" y2="163.0"/>
+  <polygon fill="#000000" stroke="#000000" points="562.0,163 554.0,159 554.0,167"/>
+  <text fill="#000000" x="455.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Central connection</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="561.0" y1="207.0" x2="133.0" y2="207.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="125,207 133,203 133,211"/>
+  <text fill="#000000" x="343.5" y="197.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Normal dotted message</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="133.0" y1="251.0" x2="340.0" y2="251.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="125,251 133,247 133,255"/>
+  <polygon fill="#000000" stroke="#000000" points="348.0,251 340.0,247 340.0,255"/>
+  <text fill="#000000" x="236.5" y="241.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Dual central connection</text>
+</g>
+<g id="message-4">
+  <line stroke="#000000" stroke-width="2" x1="349.0" y1="295.0" x2="562.0" y2="295.0"/>
+  <line stroke="#000000" stroke-width="2" x1="558.0" y1="291.0" x2="566.0" y2="299.0"/>
+  <line stroke="#000000" stroke-width="2" x1="558.0" y1="299.0" x2="566.0" y2="291.0"/>
+  <text fill="#000000" x="455.0" y="285.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Normal cross message</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-Bob">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="273.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="348.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob</text>
+</g>
+<g id="participant-Charlie">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="487.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="562.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Charlie</text>
+</g>
+</svg>

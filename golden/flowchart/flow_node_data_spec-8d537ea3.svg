@@ -1,0 +1,42 @@
+<svg
+ width="398.20799999999997"
+ height="174.0"
+ viewBox="0 0 398.20799999999997 174.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_B">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 164.6 60.1 L 92.7 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="92.7,112.0 101.5,110.6 96.9,104.1"/>
+</g>
+<g id="edge-A_to_C">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 199.3 62.0 L 199.3 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="199.3,112.0 203.3,104.0 195.3,104.0"/>
+</g>
+<g id="edge-A_to_E">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 234.1 60.1 L 305.8 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="305.8,112.0 301.7,104.1 297.0,110.6"/>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="164.624" y="8.0" width="69.44" height="54.0"/>
+  <text fill="#000000" x="199.344" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+<g id="node-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="112.0" width="94.608" height="54.0"/>
+  <text fill="#000000" x="55.304" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">for B</text>
+</g>
+<g id="node-C">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="152.608" y="112.0" width="93.47200000000001" height="54.0"/>
+  <text fill="#000000" x="199.344" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">for c</text>
+</g>
+<g id="node-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="296.08" y="112.0" width="94.128" height="54.0"/>
+  <text fill="#000000" x="343.144" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">for E</text>
+</g>
+<g id="node-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="284.064" y="8.0" width="95.36" height="54.0"/>
+  <text fill="#000000" x="331.744" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">for D</text>
+</g>
+</svg>

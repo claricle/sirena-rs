@@ -1,0 +1,37 @@
+<svg
+ width="127.568"
+ height="265.0"
+ viewBox="0 0 127.568 265.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="block-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="18.892" height="27.0"/>
+  <text fill="#000000" x="17.445999999999998" y="26.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">A</text>
+</g>
+<g id="block-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="43.0" width="45.784" height="27.0"/>
+  <text fill="#000000" x="30.892" y="61.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">B</text>
+</g>
+<g id="block-C">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="78.0" width="72.676" height="27.0"/>
+  <text fill="#000000" x="44.338" y="96.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">C</text>
+</g>
+<g id="block-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="113.0" width="99.568" height="27.0"/>
+  <text fill="#000000" x="57.784" y="131.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">D</text>
+</g>
+<g id="block-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="148.0" width="72.676" height="27.0"/>
+  <text fill="#000000" x="44.338" y="166.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">E</text>
+</g>
+<g id="block-F">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="183.0" width="45.784" height="27.0"/>
+  <text fill="#000000" x="30.892" y="201.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">F</text>
+</g>
+<g id="block-G">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="218.0" width="18.892" height="27.0"/>
+  <text fill="#000000" x="17.445999999999998" y="236.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">G</text>
+</g>
+</svg>

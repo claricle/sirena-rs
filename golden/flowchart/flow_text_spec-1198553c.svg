@@ -1,0 +1,24 @@
+<svg
+ width="89.616"
+ height="198.0"
+ viewBox="0 0 89.616 198.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_C">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 44.8 62.0 L 44.8 136.0"/>
+  <polygon fill="#000000" stroke="#000000" points="44.8,136.0 48.8,128.0 40.8,128.0"/>
+  <rect fill="#ffffff" stroke="none" x="20.991999999999997" y="78.4" width="47.616" height="20.0"/>
+  <text fill="#000000" x="44.8" y="94.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">,.?!+-*</text>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="73.616" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="44.808" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">,.?!+-*</text>
+</g>
+<g id="node-C">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="10.024000000000001" y="136.0" width="69.568" height="54.0"/>
+  <text fill="#000000" x="44.808" y="168.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">C</text>
+</g>
+</svg>

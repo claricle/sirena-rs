@@ -1,0 +1,13 @@
+<svg
+ width="98.352"
+ height="98.352"
+ viewBox="0 0 98.352 98.352"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="node mindmap-node">
+  <circle fill="#e6f2ff" stroke="#007bff" stroke-width="2" cx="49.176" cy="49.176" r="39.176"/>
+  <text fill="#000000" x="49.176" y="54.176" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">the root</text>
+</g>
+</svg>

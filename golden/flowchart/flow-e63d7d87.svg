@@ -1,0 +1,54 @@
+<svg
+ width="271.86400000000003"
+ height="425.408"
+ viewBox="0 0 271.86400000000003 425.408"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-a_a_to_b_b">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 187.4 62.0 L 79.5 216.0"/>
+  <polygon fill="#000000" stroke="#000000" points="79.5,216.0 87.4,211.7 80.8,207.2"/>
+</g>
+<g id="edge-b_b_to_c_c">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 91.9 270.0 L 180.2 346.1"/>
+  <polygon fill="#000000" stroke="#000000" points="180.2,346.2 176.8,337.9 171.5,344.0"/>
+</g>
+<g id="edge-c_c_to_a_a">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 206.4 320.0 L 206.4 62.0"/>
+  <polygon fill="#000000" stroke="#000000" points="206.4,62.0 202.4,70.0 210.4,70.0"/>
+</g>
+<g id="edge-a_a_to_c">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 206.4 62.0 L 206.4 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="206.4,112.0 210.4,104.0 202.4,104.0"/>
+</g>
+<g id="edge-c_to_d_d">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 206.4 166.0 L 206.4 216.0"/>
+  <polygon fill="#000000" stroke="#000000" points="206.4,216.0 210.4,208.0 202.4,208.0"/>
+</g>
+<g id="edge-d_d_to_c_c">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 206.4 270.0 L 206.4 320.0"/>
+  <polygon fill="#000000" stroke="#000000" points="206.4,320.0 210.4,312.0 202.4,312.0"/>
+</g>
+<g id="node-a_a">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="148.84" y="8.0" width="115.024" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="206.352" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Aftonbladet</text>
+</g>
+<g id="node-b_b">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="216.0" width="105.24799999999999" height="54.0"/>
+  <text fill="#000000" x="60.623999999999995" y="248.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">gorilla</text>
+</g>
+<g id="node-c_c">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="206.352,320.0 255.05599999999998,368.704 206.352,417.408 157.648,368.704"/>
+  <text fill="#000000" x="206.352" y="374.304" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">chimp</text>
+</g>
+<g id="node-c">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="172.392" y="112.0" width="67.92" height="54.0"/>
+  <text fill="#000000" x="206.352" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">c</text>
+</g>
+<g id="node-d_d">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="163.248" y="216.0" width="86.208" height="54.0"/>
+  <text fill="#000000" x="206.35199999999998" y="248.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">d_d</text>
+</g>
+</svg>

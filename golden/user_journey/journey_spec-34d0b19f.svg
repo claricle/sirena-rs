@@ -1,0 +1,132 @@
+<svg
+ width="2604.384"
+ height="565.0"
+ viewBox="0 -25 2604.384 540"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="20.0" cy="60.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="67.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Darkoob user</text>
+<circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="20.0" cy="80.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="87.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Darkoob userf deliberately increasing the size of</text>
+<text fill="#000000" x="50.0" y="107.0" font-family="Arial, Helvetica, sans-serif" font-size="16">this label to check if distance between legend and</text>
+<text fill="#000000" x="50.0" y="127.0" font-family="Arial, Helvetica, sans-serif" font-size="16">diagram is maintained</text>
+<circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="20.0" cy="140.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="147.0" font-family="Arial, Helvetica, sans-serif" font-size="16">DarkoobAPI</text>
+<circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="20.0" cy="160.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="167.0" font-family="Arial, Helvetica, sans-serif" font-size="16">External Service</text>
+<circle class="actor-4" fill="#B0E0E6" stroke="#000000" cx="20.0" cy="180.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="187.0" font-family="Arial, Helvetica, sans-serif" font-size="16">admin Exjjjnjjjj qwerty</text>
+<g>
+  <rect class="journey-section section-type-0" fill="#191970" stroke="#666" x="502.192" y="50.0" width="550.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-0" fill="#fff" x="777.192" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Darkoob</text>
+</g>
+<g>
+  <rect class="journey-section section-type-1" fill="#8B008B" stroke="#666" x="1102.192" y="50.0" width="550.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-1" fill="#fff" x="1377.192" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">External Service</text>
+</g>
+<g>
+  <rect class="journey-section section-type-2" fill="#4B0082" stroke="#666" x="1702.192" y="50.0" width="350.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-2" fill="#fff" x="1877.192" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Darkoob</text>
+</g>
+<g id="task-task_0">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="577.192" y1="110.0" x2="577.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="577.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="572.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="582.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M584.692,302A7.5,7.5,0,1,1,569.692,302L570.374,302A6.818,6.818,0,1,0,584.01,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="502.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="516.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="577.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Make preBuilt</text>
+</g>
+<g id="task-task_1">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="777.192" y1="110.0" x2="777.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="777.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="772.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="782.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M784.692,302A7.5,7.5,0,1,1,769.692,302L770.374,302A6.818,6.818,0,1,0,784.01,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="702.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="716.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="777.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">register slug</text>
+</g>
+<g id="task-task_2">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="977.192" y1="110.0" x2="977.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="977.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="972.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="982.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M984.692,302A7.5,7.5,0,1,1,969.692,302L970.374,302A6.818,6.818,0,1,0,984.01,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="902.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="916.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="977.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Map slug to a Prebuilt Job</text>
+</g>
+<g id="task-task_3">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1177.192" y1="110.0" x2="1177.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1177.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1172.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1182.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1184.692,302A7.5,7.5,0,1,1,1169.692,302L1170.374,302A6.818,6.818,0,1,0,1184.01,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1102.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-4" fill="#B0E0E6" stroke="#000000" cx="1116.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1177.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">set Darkoob slug as hook for an Event</text>
+</g>
+<g id="task-task_4">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1377.192" y1="110.0" x2="1377.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1377.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1372.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1382.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1384.692,302A7.5,7.5,0,1,1,1369.692,302L1370.374,302A6.818,6.818,0,1,0,1384.01,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1302.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="1316.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1377.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">listen to the events</text>
+</g>
+<g id="task-task_5">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1577.192" y1="110.0" x2="1577.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1577.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1572.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1582.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1584.692,302A7.5,7.5,0,1,1,1569.692,302L1570.374,302A6.818,6.818,0,1,0,1584.01,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1502.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="1516.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1577.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">call darkoob endpoint</text>
+</g>
+<g id="task-task_6">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1777.192" y1="110.0" x2="1777.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1777.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1772.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1782.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1784.692,302A7.5,7.5,0,1,1,1769.692,302L1770.374,302A6.818,6.818,0,1,0,1784.01,302Z"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1702.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1716.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1777.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">check for inputs</text>
+</g>
+<g id="task-task_7">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1977.192" y1="110.0" x2="1977.192" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1977.192" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1972.192" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1982.192" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1984.692,302A7.5,7.5,0,1,1,1969.692,302L1970.374,302A6.818,6.818,0,1,0,1984.01,302Z"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1902.192" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1916.192" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1977.192" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">run the prebuilt job</text>
+</g>
+<text fill="#000000" x="502.192" y="25.0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold">Web hook life cycle</text>
+<line stroke="#000000" stroke-width="4" x1="502.192" y1="200.0" x2="2098.192" y2="200.0"/>
+<path fill="#000000" d="M 2078.192,192 V 208 L 2102.192,200 Z"/>
+</svg>

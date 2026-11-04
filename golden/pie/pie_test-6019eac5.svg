@@ -1,0 +1,19 @@
+<svg
+ width="564.904"
+ height="450.0"
+ viewBox="0 0 564.904 450"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle fill="none" stroke="#000000" stroke-width="2" cx="225.0" cy="225.0" r="186.0"/>
+<text fill="#000000" x="225.0" y="25.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold">sample wow</text>
+<path id="slice-0" fill="#4472C4" stroke="#000000" stroke-width="2" d="M 225 225 L 225.0 40.0 A 185 185 0 1 1 64.7853 317.5 Z"/>
+<text fill="#000000" x="345.161" y="300.325" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">67%</text>
+<path id="slice-1" fill="#ED7D31" stroke="#000000" stroke-width="2" d="M 225 225 L 64.7853 317.5 A 185 185 0 0 1 225.0 40.0 Z"/>
+<text fill="#000000" x="104.839" y="161.575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17">33%</text>
+<rect fill="#4472C4" stroke="#4472C4" x="441.0" y="203.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="217.0" font-family="Arial, Helvetica, sans-serif" font-size="17">GitHub</text>
+<rect fill="#ED7D31" stroke="#ED7D31" x="441.0" y="225.0" width="18.0" height="18.0"/>
+<text fill="#000000" x="463.0" y="239.0" font-family="Arial, Helvetica, sans-serif" font-size="17">GitLab</text>
+</svg>

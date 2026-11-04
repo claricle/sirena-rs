@@ -1,0 +1,43 @@
+<svg
+ width="499.0"
+ height="737.0"
+ viewBox="0 0 499.0 737.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="namespace-Company">
+  <rect fill="none" stroke="#000000" stroke-width="1" x="8.0" y="8.0" width="411.0" height="649.0"/>
+  <text fill="#000000" x="213.0" y="30.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Company</text>
+</g>
+<g id="namespace-Company.Project">
+  <rect fill="none" stroke="#000000" stroke-width="1" x="45.5" y="33.0" width="336.0" height="599.0"/>
+  <text fill="#000000" x="213.5" y="55.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Project</text>
+</g>
+<g id="namespace-Company.Project.Module">
+  <rect fill="none" stroke="#000000" stroke-width="1" x="53.5" y="58.0" width="320.0" height="549.0"/>
+  <text fill="#000000" x="213.5" y="80.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Module</text>
+</g>
+<g id="namespace-Company.Project.Module.SubModule">
+  <rect fill="none" stroke="#000000" stroke-width="1" x="61.5" y="382.0" width="304.0" height="200.0"/>
+  <text fill="#000000" x="213.5" y="404.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">SubModule</text>
+</g>
+<g id="rel-Admin_to_Report">
+  <line stroke="#000000" stroke-width="2" x1="213.5" y1="209.0" x2="213.5" y2="407.0"/>
+  <text fill="#000000" x="213.5" y="303.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">generates</text>
+</g>
+<g id="class-Admin">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="123.632" y="83.0" width="179.736" height="126.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="213.5" y="93.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Admin</text>
+  <line stroke="#000000" stroke-width="1" x1="123.632" y1="116.0" x2="303.368" y2="116.0"/>
+  <text fill="#000000" x="133.632" y="126.0" font-family="monospace" font-size="12">+generateReport()</text>
+</g>
+<g id="class-Report">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="99.256" y="407.0" width="228.488" height="150.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="213.5" y="417.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Report</text>
+  <line stroke="#000000" stroke-width="1" x1="99.256" y1="440.0" x2="327.744" y2="440.0"/>
+  <text fill="#000000" x="109.256" y="450.0" font-family="monospace" font-size="12">+generatePDF(data: List)</text>
+  <text fill="#000000" x="109.256" y="468.0" font-family="monospace" font-size="12">+generateCSV(data: List)</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg
+ width="319.8272"
+ height="408.0"
+ viewBox="0 0 319.8272 408.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-C1_to_C2">
+  <line stroke="#000000" stroke-width="2" x1="144.9136" y1="194.0" x2="144.9136" y2="244.0"/>
+</g>
+<g id="class-C1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="189.8272" height="144.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="144.9136" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">«interface»</text>
+  <text fill="#000000" x="144.9136" y="78.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class 1 with text label</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="101.0" x2="239.8272" y2="101.0"/>
+  <text fill="#000000" x="60.0" y="111.0" font-family="monospace" font-size="12">+member1</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="134.0" x2="239.8272" y2="134.0"/>
+</g>
+<g id="class-C2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="123.2656" y="244.0" width="43.296" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="144.9136" y="254.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">C2</text>
+  <line stroke="#000000" stroke-width="1" x1="123.2656" y1="277.0" x2="166.5616" y2="277.0"/>
+</g>
+</svg>

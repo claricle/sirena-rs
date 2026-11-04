@@ -1,0 +1,45 @@
+<svg
+ width="450.0"
+ height="391.0"
+ viewBox="0 0 450 391"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="315.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="325.0" y1="75.0" x2="325.0" y2="315.0" stroke-dasharray="5,5"/>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="317.0" y2="119.0"/>
+  <polygon fill="#000000" stroke="#000000" points="325,119 317,115 317,123"/>
+  <text fill="#000000" x="225.0" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Solid open arrow</text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="163.0" x2="317.0" y2="163.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="325,163 317,159 317,167"/>
+  <text fill="#000000" x="225.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Dotted open arrow</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="207.0" x2="325.0" y2="207.0"/>
+  <line stroke="#000000" stroke-width="2" x1="321.0" y1="203.0" x2="329.0" y2="211.0"/>
+  <line stroke="#000000" stroke-width="2" x1="321.0" y1="211.0" x2="329.0" y2="203.0"/>
+  <text fill="#000000" x="225.0" y="197.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Solid cross</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="251.0" x2="325.0" y2="251.0" stroke-dasharray="5,5"/>
+  <line stroke="#000000" stroke-width="2" x1="321.0" y1="247.0" x2="329.0" y2="255.0"/>
+  <line stroke="#000000" stroke-width="2" x1="321.0" y1="255.0" x2="329.0" y2="247.0"/>
+  <text fill="#000000" x="225.0" y="241.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Dotted cross</text>
+</g>
+<g id="message-4">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="295.0" x2="325.0" y2="295.0"/>
+  <text fill="#000000" x="225.0" y="285.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Solid arrow</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-Bob">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="250.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="325.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Bob</text>
+</g>
+</svg>

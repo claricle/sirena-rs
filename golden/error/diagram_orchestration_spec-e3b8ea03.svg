@@ -1,0 +1,15 @@
+<svg
+ width="2412.0"
+ height="512.0"
+ viewBox="0 0 2412 512"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<rect fill="#f5f5f5" stroke="#dc3545" stroke-width="2" x="0.0" y="0.0" width="2412.0" height="512.0" rx="8.0" ry="8.0"/>
+<circle fill="#dc3545" stroke="#000000" stroke-width="2" cx="256.0" cy="256.0" r="256.0"/>
+<rect fill="#ffffff" x="240.0" y="128.0" width="32.0" height="192.0" rx="16.0"/>
+<circle fill="#ffffff" cx="256.0" cy="384.0" r="16.0"/>
+<text fill="#dc3545" x="1440.0" y="250.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold">Error</text>
+<text fill="#dc3545" x="1250.0" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="normal">mermaid version 11.12.0</text>
+</svg>

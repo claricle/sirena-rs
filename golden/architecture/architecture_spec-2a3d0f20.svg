@@ -1,0 +1,43 @@
+<svg
+ width="383.5"
+ height="400.5"
+ viewBox="0 0 383.5 400.5"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="group-api">
+  <rect fill="#f0f0f0" fill-opacity="0.3" stroke="#999" stroke-width="2" x="-22.5" y="-22.5" width="366.0" height="383.0" rx="8.0" ry="8.0" stroke-dasharray="5,5"/>
+  <text fill="#333" x="-12.5" y="-2.5" font-size="14" font-weight="bold">API</text>
+  <text fill="#666" x="313.5" y="2.5" font-size="20">☁</text>
+</g>
+<g id="edge-db-server">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 221.0 60.0 L 100.0 60.0"/>
+</g>
+<g id="edge-disk1-server">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 60.0 221.0 L 60.0 100.0"/>
+</g>
+<g id="edge-disk2-db">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 261.0 221.0 L 261.0 100.0"/>
+</g>
+<g id="service-db">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="221.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="261.0" y="68.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="261.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Database</text>
+</g>
+<g id="service-server">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="20.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="60.0" y="68.4" text-anchor="middle" font-size="24">▦</text>
+  <text fill="#000000" x="60.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Server</text>
+</g>
+<g id="service-disk2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="221.0" y="221.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="261.0" y="269.4" text-anchor="middle" font-size="24">◎</text>
+  <text fill="#000000" x="261.0" y="321.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Storage</text>
+</g>
+<g id="service-disk1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="20.0" y="221.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="60.0" y="269.4" text-anchor="middle" font-size="24">◎</text>
+  <text fill="#000000" x="60.0" y="321.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Storage</text>
+</g>
+</svg>

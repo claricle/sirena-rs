@@ -1,0 +1,127 @@
+<svg
+ width="1900.0"
+ height="565.0"
+ viewBox="0 -25 1900 540"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="20.0" cy="60.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="67.0" font-family="Arial, Helvetica, sans-serif" font-size="16"></text>
+<circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="20.0" cy="80.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="87.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Alice</text>
+<circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="20.0" cy="100.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="107.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Bob</text>
+<circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="20.0" cy="120.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="127.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Charlie</text>
+<g>
+  <rect class="journey-section section-type-0" fill="#191970" stroke="#666" x="150.0" y="50.0" width="950.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-0" fill="#fff" x="625.0" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Documentation</text>
+</g>
+<g>
+  <rect class="journey-section section-type-1" fill="#8B008B" stroke="#666" x="1150.0" y="50.0" width="550.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-1" fill="#fff" x="1425.0" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Another section</text>
+</g>
+<g id="task-task_0">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="225.0" y1="110.0" x2="225.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="225.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="220.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="230.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M232.5,302A7.5,7.5,0,1,1,217.5,302L218.182,302A6.818,6.818,0,1,0,231.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="150.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="164.0" cy="110.0" r="7.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="174.0" cy="110.0" r="7.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="184.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="225.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">A task</text>
+</g>
+<g id="task-task_1">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="425.0" y1="110.0" x2="425.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="425.0" cy="360.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="420.0" cy="355.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="430.0" cy="355.0" r="1.5"/>
+    <line class="mouth" stroke="#666" stroke-width="1px" x1="420.0" y1="367.0" x2="430.0" y2="367.0"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="350.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="364.0" cy="110.0" r="7.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="374.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="425.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">B task</text>
+</g>
+<g id="task-task_2">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="625.0" y1="110.0" x2="625.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="625.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="620.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="630.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M632.5,302A7.5,7.5,0,1,1,617.5,302L618.182,302A6.818,6.818,0,1,0,631.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="550.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="task" fill="#fff" x="625.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">C task</text>
+</g>
+<g id="task-task_3">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="825.0" y1="110.0" x2="825.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="825.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="820.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="830.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M832.5,302A7.5,7.5,0,1,1,817.5,302L818.182,302A6.818,6.818,0,1,0,831.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="750.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="764.0" cy="110.0" r="7.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="774.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="825.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">D task</text>
+</g>
+<g id="task-task_4">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1025.0" y1="110.0" x2="1025.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1025.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1020.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1030.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1032.5,302A7.5,7.5,0,1,1,1017.5,302L1018.182,302A6.818,6.818,0,1,0,1031.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="950.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="964.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1025.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">E task</text>
+</g>
+<g id="task-task_5">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1225.0" y1="110.0" x2="1225.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1225.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1220.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1230.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1232.5,302A7.5,7.5,0,1,1,1217.5,302L1218.182,302A6.818,6.818,0,1,0,1231.818,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1150.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="1164.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1225.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">P task</text>
+</g>
+<g id="task-task_6">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1425.0" y1="110.0" x2="1425.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1425.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1420.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1430.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1432.5,302A7.5,7.5,0,1,1,1417.5,302L1418.182,302A6.818,6.818,0,1,0,1431.818,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1350.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="1364.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1425.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Q task</text>
+</g>
+<g id="task-task_7">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1625.0" y1="110.0" x2="1625.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1625.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1620.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1630.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1632.5,302A7.5,7.5,0,1,1,1617.5,302L1618.182,302A6.818,6.818,0,1,0,1631.818,302Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1550.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="1564.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1625.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">R task</text>
+</g>
+<text fill="#000000" x="150.0" y="25.0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold">Adding journey diagram functionality to mermaid</text>
+<line stroke="#000000" stroke-width="4" x1="150.0" y1="200.0" x2="1746.0" y2="200.0"/>
+<path fill="#000000" d="M 1726,192 V 208 L 1750,200 Z"/>
+</svg>

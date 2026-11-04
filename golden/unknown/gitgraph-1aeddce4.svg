@@ -1,0 +1,41 @@
+<svg
+ width="573.996"
+ height="280.0"
+ viewBox="0 0 573.996 280.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="93.996" y1="40.0" x2="143.99599999999998" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="143.99599999999998" y1="130.0" x2="193.99599999999998" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="193.99599999999998" y1="130.0" x2="243.99599999999998" y2="220.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="193.99599999999998" y1="130.0" x2="293.996" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="293.996" y1="130.0" x2="343.996" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="343.996" y1="130.0" x2="393.996" y2="130.0"/>
+<line fill="none" stroke="#7c3aed" stroke-width="2" x1="393.996" y1="130.0" x2="443.996" y2="130.0"/>
+<path fill="none" stroke="#db2777" stroke-width="2" d="M 243.99599999999998 220 L 493.996 220" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 443.996 130 C 468.996 130, 468.996 220, 493.996 220" stroke-dasharray="5,3"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="93.996" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="143.99599999999998" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="193.99599999999998" cy="130.0" r="10.0"/>
+<circle fill="#db2777" stroke="#db2777" stroke-width="2" cx="243.99599999999998" cy="220.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="293.996" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="343.996" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="393.996" cy="130.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="443.996" cy="130.0" r="10.0"/>
+<circle fill="#db2777" stroke="#db2777" stroke-width="2" cx="493.996" cy="220.0" r="10.0"/>
+<text fill="#000000" x="93.996" y="60.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-1</text>
+<text fill="#000000" x="143.99599999999998" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-2</text>
+<text fill="#000000" x="193.99599999999998" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-3</text>
+<text fill="#000000" x="243.99599999999998" y="240.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-4</text>
+<text class="tag-label" fill="#28a745" x="222.2423" y="205.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">1.0.0-beta1</text>
+<text fill="#000000" x="293.996" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-5</text>
+<text fill="#000000" x="343.996" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-6</text>
+<text fill="#000000" x="393.996" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-7</text>
+<text fill="#000000" x="443.996" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-8</text>
+<text fill="#000000" x="493.996" y="240.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-9</text>
+<text class="tag-label" fill="#28a745" x="472.2423" y="205.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">1.0.0-beta2</text>
+<text fill="#2563eb" x="57.824" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text fill="#7c3aed" x="36.464" y="119.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">develop</text>
+<text fill="#db2777" x="0.0" y="209.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">release/1.0.0</text>
+</svg>

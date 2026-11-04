@@ -1,0 +1,21 @@
+<svg
+ width="357.112"
+ height="346.0"
+ viewBox="0 0 357.112 346"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-ClassName">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="227.11200000000002" height="216.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="163.556" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ClassName</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="277.112" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">-attribute:type</text>
+  <text fill="#000000" x="60.0" y="111.0" font-family="monospace" font-size="12">- attribute : type</text>
+  <text fill="#000000" x="60.0" y="129.0" font-family="monospace" font-size="12">test</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="152.0" x2="277.112" y2="152.0"/>
+  <text fill="#000000" x="60.0" y="162.0" font-family="monospace" font-size="12">+ GetAttribute() : type</text>
+  <text fill="#000000" x="60.0" y="180.0" font-family="monospace" font-size="12">+ GetAttribute() : type</text>
+</g>
+</svg>

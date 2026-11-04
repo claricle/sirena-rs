@@ -1,0 +1,25 @@
+<svg
+ width="209.456"
+ height="348.0"
+ viewBox="0 0 209.456 348.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-Class1_to_Class02">
+  <line stroke="#000000" stroke-width="2" x1="89.728" y1="134.0" x2="89.728" y2="184.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="89.728,146.0 83.728,134.0 89.728,122.0 95.728,134.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="89.728,172.0 95.728,184.0 89.728,196.0 83.728,184.0"/>
+</g>
+<g id="class-Class1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="54.63999999999999" y="50.0" width="70.176" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="89.728" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class1</text>
+  <line stroke="#000000" stroke-width="1" x1="54.63999999999999" y1="83.0" x2="124.816" y2="83.0"/>
+</g>
+<g id="class-Class02">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="184.0" width="79.45599999999999" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="89.728" y="194.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Class02</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="217.0" x2="129.456" y2="217.0"/>
+</g>
+</svg>

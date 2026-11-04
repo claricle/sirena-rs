@@ -1,0 +1,17 @@
+erDiagram
+            CAR {
+                string registrationNumber
+                string make
+                string model
+            }
+            PERSON {
+                string firstName
+                string lastName
+                int age
+            }
+
+            CAR:::someclass
+            PERSON:::anotherclass,someclass
+
+            classDef someclass fill:#f96
+            classDef anotherclass color:blue

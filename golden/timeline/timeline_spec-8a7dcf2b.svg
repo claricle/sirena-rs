@@ -1,0 +1,142 @@
+<svg
+ width="1390.0"
+ height="629.6"
+ viewBox="0 0 1390.0 629.6"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 173.8 v-57.8 q0,-5 5,-5 h580 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="178.8" x2="690.0" y2="178.8"/>
+    </g>
+    <text fill="#ffffff" x="395.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">17th-20th century</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="296.6" x2="290.0" y2="296.6"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Industry 1.0</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 195 296.6 L 195 579.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="195.0,579.6 191.0,571.6 199.0,571.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M100 506.8 v-73 q0,-5 5,-5 h180 q5,0 5,5 v78 H100 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="100.0" y1="511.8" x2="290.0" y2="511.8"/>
+    </g>
+    <text fill="#ffffff" x="195.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="195.0">Machinery, Water</tspan><tspan x="195.0" y="477.4">power, Steam</tspan><tspan x="195.0" y="495.0">power</tspan></text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M300 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H300 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="300.0" y1="296.6" x2="490.0" y2="296.6"/>
+    </g>
+    <text fill="#ffffff" x="395.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Industry 2.0</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 395 296.6 L 395 579.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="395.0,579.6 391.0,571.6 399.0,571.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M300 506.8 v-73 q0,-5 5,-5 h180 q5,0 5,5 v78 H300 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="300.0" y1="511.8" x2="490.0" y2="511.8"/>
+    </g>
+    <text fill="#ffffff" x="395.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="395.0">Electricity, Internal</tspan><tspan x="395.0" y="477.4">combustion engine,</tspan><tspan x="395.0" y="495.0">Mass production</tspan></text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M500 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H500 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="500.0" y1="296.6" x2="690.0" y2="296.6"/>
+    </g>
+    <text fill="#ffffff" x="595.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Industry 3.0</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 595 296.6 L 595 579.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="595.0,579.6 591.0,571.6 599.0,571.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M500 506.8 v-73 q0,-5 5,-5 h180 q5,0 5,5 v78 H500 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="500.0" y1="511.8" x2="690.0" y2="511.8"/>
+    </g>
+    <text fill="#ffffff" x="595.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="595.0">Electronics,</tspan><tspan x="595.0" y="477.4">Computers,</tspan><tspan x="595.0" y="495.0">Automation</tspan></text>
+  </g>
+</g>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M700 173.8 v-57.8 q0,-5 5,-5 h380 q5,0 5,5 v62.8 H700 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="700.0" y1="178.8" x2="1090.0" y2="178.8"/>
+    </g>
+    <text fill="#000000" x="895.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">21st century</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M700 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H700 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="700.0" y1="296.6" x2="890.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="795.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Industry 4.0</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 795 296.6 L 795 579.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="795.0,579.6 791.0,571.6 799.0,571.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M700 489.2 v-55.4 q0,-5 5,-5 h180 q5,0 5,5 v60.4 H700 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="700.0" y1="494.2" x2="890.0" y2="494.2"/>
+    </g>
+    <text fill="#000000" x="795.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="795.0">Internet, Robotics,</tspan><tspan x="795.0" y="477.4">Internet of Things</tspan></text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M900 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H900 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="900.0" y1="296.6" x2="1090.0" y2="296.6"/>
+    </g>
+    <text fill="#000000" x="995.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">Industry 5.0</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 995 296.6 L 995 579.6" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="995.0,579.6 991.0,571.6 999.0,571.6"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#ffff78" d="M900 506.8 v-73 q0,-5 5,-5 h180 q5,0 5,5 v78 H900 Z"/>
+      <line class="node-line" stroke="#ababff" stroke-width="3" x1="900.0" y1="511.8" x2="1090.0" y2="511.8"/>
+    </g>
+    <text fill="#000000" x="995.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16"><tspan x="995.0">Artificial</tspan><tspan x="995.0" y="477.4">intelligence, Big</tspan><tspan x="995.0" y="495.0">data,3D printing</tspan></text>
+  </g>
+</g>
+<text fill="#000000" x="245.0" y="81.0" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="33" font-weight="bold">Timeline of Industrial Revolution</text>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="4" d="M 50 346.6 L 1340 346.6"/>
+  <polygon fill="#000000" points="1340.0,346.6 1324.0,354.6 1324.0,338.6"/>
+</g>
+</svg>

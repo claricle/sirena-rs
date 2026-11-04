@@ -1,0 +1,21 @@
+<svg
+ width="700.0"
+ height="500.0"
+ viewBox="0 0 700 500"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="51.0" x2="700.0" y2="51.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="132.0" x2="700.0" y2="132.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="214.0" x2="700.0" y2="214.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="295.0" x2="700.0" y2="295.0" stroke-dasharray="3,3"/>
+<line stroke="#e5e7eb" stroke-width="1" x1="82.71875190734863" y1="377.0" x2="700.0" y2="377.0" stroke-dasharray="3,3"/>
+<line stroke="#000000" stroke-width="2" x1="82.71875190734863" y1="459.0" x2="700.0" y2="459.0"/>
+<line stroke="#000000" stroke-width="2" x1="82.71875190734863" y1="51.0" x2="82.71875190734863" y2="459.0"/>
+<text fill="#000000" x="72.71875190734863" y="55.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">100.0</text>
+<text fill="#000000" x="72.71875190734863" y="136.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">80.0</text>
+<text fill="#000000" x="72.71875190734863" y="218.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">60.0</text>
+<text fill="#000000" x="72.71875190734863" y="299.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">40.0</text>
+<text fill="#000000" x="72.71875190734863" y="381.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12.0">20.0</text>
+</svg>

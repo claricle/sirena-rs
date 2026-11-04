@@ -1,0 +1,63 @@
+<svg
+ width="795.0"
+ height="710.0"
+ viewBox="0 0 795.0 710.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g>
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M305 173.8 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H305 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="305.0" y1="178.8" x2="495.0" y2="178.8"/>
+    </g>
+    <text fill="#ffffff" x="400.0" y="142.0" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">;a;bc-123;</text>
+  </g>
+</g>
+<g class="taskWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M305 291.6 v-57.8 q0,-5 5,-5 h180 q5,0 5,5 v62.8 H305 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="305.0" y1="296.6" x2="495.0" y2="296.6"/>
+    </g>
+    <text fill="#ffffff" x="400.0" y="259.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">;ta;sk1;</text>
+  </g>
+</g>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 400 296.6 L 400 660" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" points="400.0,660.0 396.0,652.0 404.0,652.0"/>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M305 473.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H305 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="305.0" y1="478.8" x2="495.0" y2="478.8"/>
+    </g>
+    <text fill="#ffffff" x="400.0" y="459.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">;ev;ent1;</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M305 533.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H305 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="305.0" y1="538.8" x2="495.0" y2="538.8"/>
+    </g>
+    <text fill="#ffffff" x="400.0" y="519.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">;ev;ent2;</text>
+  </g>
+</g>
+<g class="eventWrapper">
+  <g class="timeline-node">
+    <g>
+      <path class="node-bkg" fill="#8686ff" d="M305 593.8 v-40 q0,-5 5,-5 h180 q5,0 5,5 v45 H305 Z"/>
+      <line class="node-line" stroke="#ffffb9" stroke-width="3" x1="305.0" y1="598.8" x2="495.0" y2="598.8"/>
+    </g>
+    <text fill="#ffffff" x="400.0" y="579.8" text-anchor="middle" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="16">;ev;ent3;</text>
+  </g>
+</g>
+<text fill="#000000" x="50.0" y="81.0" font-family="Trebuchet MS, Verdana, Arial, sans-serif" font-size="33" font-weight="bold">;my;title;</text>
+<g class="lineWrapper">
+  <path fill="none" stroke="#000000" stroke-width="4" d="M 255 346.6 L 745 346.6"/>
+  <polygon fill="#000000" points="745.0,346.6 729.0,354.6 729.0,338.6"/>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+<svg
+ width="146.352"
+ height="64.0"
+ viewBox="0 0 146.352 64.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g class="node mindmap-node">
+  <polygon fill="#e6f2ff" stroke="#007bff" stroke-width="2" points="35.2704,10.0 111.08160000000001,10.0 136.352,32.0 111.08160000000001,54.0 35.2704,54.0 10.0,32.0"/>
+  <text fill="#000000" x="73.176" y="37.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">the root</text>
+</g>
+</svg>

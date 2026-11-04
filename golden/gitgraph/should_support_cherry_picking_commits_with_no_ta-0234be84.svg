@@ -1,0 +1,20 @@
+<svg
+ width="265.532"
+ height="190.0"
+ viewBox="0 0 265.532 190.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="85.532" y1="40.0" x2="135.53199999999998" y2="130.0"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M 85.532 40 L 185.53199999999998 40" stroke-dasharray="2,4"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="85.532" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="135.53199999999998" cy="130.0" r="10.0"/>
+<circle class="commit-cherry-pick" fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="185.53199999999998" cy="40.0" r="10.0"/>
+<circle class="commit-cherry-pick" fill="#fff" cx="182.53199999999998" cy="42.0" r="2.75"/>
+<circle class="commit-cherry-pick" fill="#fff" cx="188.53199999999998" cy="42.0" r="2.75"/>
+<text class="commit-label" transform="rotate(-45.0 75.532 40.0)" fill="#000000" x="46.36201594538701" y="63.40502731693863" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">ZERO</text>
+<text class="commit-label" transform="rotate(-45.0 125.532 130.0)" fill="#000000" x="114.68212929959209" y="153.9185169477278" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">A</text>
+<text transform="translate(-28.0 0)" fill="#2563eb" x="49.36" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text transform="translate(-28.0 0)" fill="#7c3aed" x="28.0" y="119.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">develop</text>
+</svg>

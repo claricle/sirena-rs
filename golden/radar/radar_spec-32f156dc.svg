@@ -1,0 +1,47 @@
+<svg
+ width="700.0"
+ height="700.0"
+ viewBox="0 0 700 700"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<polygon class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" points="350.0,250.0 445.10565162951536,319.09830056250524 408.7785252292473,430.90169943749476 291.2214747707527,430.90169943749476 254.89434837048464,319.09830056250524"/>
+<polygon class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" points="350.0,150.0 540.2113032590307,288.19660112501055 467.55705045849464,511.8033988749895 232.4429495415054,511.8033988749895 159.7886967409693,288.19660112501043"/>
+<polygon class="radarGraticule" fill="none" stroke="#e5e7eb" stroke-width="1" points="350.0,50.0 635.316954888546,257.2949016875158 526.335575687742,592.7050983124842 173.6644243122581,592.7050983124842 64.68304511145396,257.2949016875157"/>
+<line class="radarAxisLine" stroke="#9ca3af" stroke-width="1" x1="350.0" y1="350.0" x2="350.0" y2="50.0"/>
+<text class="radarAxisLabel" fill="#000000" x="350.0" y="35.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14">Agility</text>
+<line class="radarAxisLine" stroke="#9ca3af" stroke-width="1" x1="350.0" y1="350.0" x2="635.316954888546" y2="257.2949016875158"/>
+<text class="radarAxisLabel" fill="#000000" x="649.5828026329734" y="252.6596" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14">Speed</text>
+<line class="radarAxisLine" stroke="#9ca3af" stroke-width="1" x1="350.0" y1="350.0" x2="526.335575687742" y2="592.7050983124842"/>
+<text class="radarAxisLabel" fill="#000000" x="535.152354472129" y="604.8404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14">Strength</text>
+<line class="radarAxisLine" stroke="#9ca3af" stroke-width="1" x1="350.0" y1="350.0" x2="173.6644243122581" y2="592.7050983124842"/>
+<text class="radarAxisLabel" fill="#000000" x="164.84764552787098" y="604.8404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14">Stamina</text>
+<line class="radarAxisLine" stroke="#9ca3af" stroke-width="1" x1="350.0" y1="350.0" x2="64.68304511145396" y2="257.2949016875157"/>
+<text class="radarAxisLabel" fill="#000000" x="50.41719736702663" y="252.6596" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14">Intelligence</text>
+<polygon class="radarCurve-0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="2" points="350.0,275.0 421.3292387221365,326.8237254218789 416.1258408829032,441.0144118671816 239.7902651951613,501.6906864453026 350.0,350.0"/>
+<circle fill="#2563eb" stroke="#ffffff" stroke-width="1" cx="350.0" cy="275.0" r="3.0"/>
+<circle fill="#2563eb" stroke="#ffffff" stroke-width="1" cx="421.3292387221365" cy="326.8237254218789" r="3.0"/>
+<circle fill="#2563eb" stroke="#ffffff" stroke-width="1" cx="416.1258408829032" cy="441.0144118671816" r="3.0"/>
+<circle fill="#2563eb" stroke="#ffffff" stroke-width="1" cx="239.7902651951613" cy="501.6906864453026" r="3.0"/>
+<circle fill="#2563eb" stroke="#ffffff" stroke-width="1" cx="350.0" cy="350.0" r="3.0"/>
+<polygon class="radarCurve-1" fill="#7c3aed" fill-opacity="0.3" stroke="#7c3aed" stroke-width="2" points="350.0,275.0 456.99385808320477,315.2355881328184 438.167787843871,471.3525491562421 327.9580530390323,380.3381372890605 171.6769031946587,292.05931355469727"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="1" cx="350.0" cy="275.0" r="3.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="1" cx="456.99385808320477" cy="315.2355881328184" r="3.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="1" cx="438.167787843871" cy="471.3525491562421" r="3.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="1" cx="327.9580530390323" cy="380.3381372890605" r="3.0"/>
+<circle fill="#7c3aed" stroke="#ffffff" stroke-width="1" cx="171.6769031946587" cy="292.05931355469727" r="3.0"/>
+<polygon class="radarCurve-2" fill="#db2777" fill-opacity="0.3" stroke="#db2777" stroke-width="2" points="350.0,237.5 421.3292387221365,326.8237254218789 372.0419469609677,380.3381372890605 239.7902651951613,501.6906864453026 207.34152255572698,303.64745084375784"/>
+<circle fill="#db2777" stroke="#ffffff" stroke-width="1" cx="350.0" cy="237.5" r="3.0"/>
+<circle fill="#db2777" stroke="#ffffff" stroke-width="1" cx="421.3292387221365" cy="326.8237254218789" r="3.0"/>
+<circle fill="#db2777" stroke="#ffffff" stroke-width="1" cx="372.0419469609677" cy="380.3381372890605" r="3.0"/>
+<circle fill="#db2777" stroke="#ffffff" stroke-width="1" cx="239.7902651951613" cy="501.6906864453026" r="3.0"/>
+<circle fill="#db2777" stroke="#ffffff" stroke-width="1" cx="207.34152255572698" cy="303.64745084375784" r="3.0"/>
+<circle fill="#2563eb" stroke="none" cx="618.5" cy="93.5" r="6.0"/>
+<text class="radarLegendText" fill="#000000" x="628.5" y="87.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">Naruto Uzumaki</text>
+<circle fill="#7c3aed" stroke="none" cx="618.5" cy="113.5" r="6.0"/>
+<text class="radarLegendText" fill="#000000" x="628.5" y="107.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">Sasuke</text>
+<circle fill="#db2777" stroke="none" cx="618.5" cy="133.5" r="6.0"/>
+<text class="radarLegendText" fill="#000000" x="628.5" y="127.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12">Ninja3</text>
+<text class="radarTitle" fill="#000000" x="350.0" y="0.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16">My favorite ninjas</text>
+</svg>

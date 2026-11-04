@@ -1,0 +1,42 @@
+<svg
+ width="1050.0"
+ height="194.0"
+ viewBox="0 0 1050 194"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<text fill="#000000" x="600.0" y="40.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">Adding gantt diagram functionality to mermaid</text>
+<rect fill="#ffffff" stroke="#000000" stroke-width="1" x="200.0" y="80.0" width="800.0" height="40.0"/>
+<text fill="#000000" x="200.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-01</text>
+<text fill="#000000" x="253.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-01</text>
+<text fill="#000000" x="306.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-01</text>
+<text fill="#000000" x="359.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-01</text>
+<text fill="#000000" x="411.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-02</text>
+<text fill="#000000" x="464.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-02</text>
+<text fill="#000000" x="517.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-02</text>
+<text fill="#000000" x="570.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-02</text>
+<text fill="#000000" x="623.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-03</text>
+<text fill="#000000" x="676.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-03</text>
+<text fill="#000000" x="728.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-03</text>
+<text fill="#000000" x="781.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-03</text>
+<text fill="#000000" x="834.5" y="149.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2014-01-04</text>
+<line stroke="#000000" stroke-width="1" x1="200.5" y1="120.0" x2="200.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="253.5" y1="120.0" x2="253.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="306.5" y1="120.0" x2="306.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="359.5" y1="120.0" x2="359.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="411.5" y1="120.0" x2="411.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="464.5" y1="120.0" x2="464.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="517.5" y1="120.0" x2="517.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="570.5" y1="120.0" x2="570.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="623.5" y1="120.0" x2="623.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="676.5" y1="120.0" x2="676.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="728.5" y1="120.0" x2="728.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="781.5" y1="120.0" x2="781.5" y2="144.0" stroke-dasharray="2,2"/>
+<line stroke="#000000" stroke-width="1" x1="834.5" y1="120.0" x2="834.5" y2="144.0" stroke-dasharray="2,2"/>
+<rect fill="#f0f0f0" stroke="none" x="0.0" y="120.0" width="1050.0" height="24.0"/>
+<text fill="#000000" x="10.0" y="136.9" font-family="Arial, Helvetica, sans-serif" font-size="14.0" font-weight="bold">Documentation</text>
+<text fill="#000000" x="10.0" y="136.2" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Design jison grammar</text>
+<rect fill="#007bff" stroke="#000000" stroke-width="1" x="200.0" y="122.0" width="634.0" height="20.0" rx="3.0" ry="3.0"/>
+<text fill="#ffffff" x="517.0" y="136.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.0">des1</text>
+</svg>

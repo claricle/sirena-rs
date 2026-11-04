@@ -1,0 +1,42 @@
+<svg
+ width="395.53600000000006"
+ height="284.76800000000003"
+ viewBox="0 0 395.53600000000006 284.76800000000003"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-D_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 98.7 62.0 L 95.2 116.9"/>
+  <polygon fill="#000000" stroke="#000000" points="95.3,116.9 99.7,109.1 91.8,108.6"/>
+</g>
+<g id="edge-D_to_G">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 120.3 50.5 L 258.8 158.3"/>
+  <polygon fill="#000000" stroke="#000000" points="258.8,158.3 255.0,150.3 250.1,156.6"/>
+</g>
+<g id="edge-E_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 275.9 50.0 L 136.7 158.3"/>
+  <polygon fill="#000000" stroke="#000000" points="136.7,158.3 145.5,156.6 140.6,150.3"/>
+</g>
+<g id="edge-E_to_G">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 296.8 62.0 L 300.3 116.9"/>
+  <polygon fill="#000000" stroke="#000000" points="300.3,116.9 303.8,108.7 295.8,109.2"/>
+</g>
+<g id="node-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="80.48" y="8.0" width="39.808" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="100.384" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">D</text>
+</g>
+<g id="node-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="275.864" y="8.0" width="38.576" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="295.152" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">E</text>
+</g>
+<g id="node-F">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="90.384,112.0 172.768,194.38400000000001 90.384,276.76800000000003 8.0,194.38400000000001"/>
+  <text fill="#000000" x="90.384" y="199.984" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">shape: rounded</text>
+</g>
+<g id="node-G">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="305.15200000000004,112.0 387.53600000000006,194.38400000000001 305.15200000000004,276.76800000000003 222.76800000000003,194.38400000000001"/>
+  <text fill="#000000" x="305.15200000000004" y="199.984" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">shape: rounded</text>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg
+ width="361.42400000000004"
+ height="125.0"
+ viewBox="0 0 361.42400000000004 125.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="block-fit">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="219.616" height="27.0"/>
+  <text fill="#000000" x="117.808" y="26.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">fit</text>
+</g>
+<g id="block-overflow">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="43.0" width="333.42400000000004" height="27.0"/>
+  <text fill="#000000" x="174.71200000000002" y="61.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">overflow</text>
+</g>
+<g id="block-short">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="78.0" width="105.808" height="27.0"/>
+  <text fill="#000000" x="60.904" y="96.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">short</text>
+</g>
+<g id="block-also_overflow">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="121.808" y="78.0" width="219.616" height="27.0"/>
+  <text fill="#000000" x="231.616" y="96.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">also_overflow</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg
+ width="572.3199999999999"
+ height="274.0"
+ viewBox="0 0 572.3199999999999 274"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-Dummy_Class">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="196.59199999999998" height="144.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="148.296" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Dummy_Class&lt;T&gt;</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="246.59199999999998" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">String data</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="116.0" x2="246.59199999999998" y2="116.0"/>
+  <text fill="#000000" x="60.0" y="126.0" font-family="monospace" font-size="12">void methods()</text>
+</g>
+<g id="class-Flight">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="296.592" y="50.0" width="195.728" height="144.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="394.456" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Flight</text>
+  <line stroke="#000000" stroke-width="1" x1="296.592" y1="83.0" x2="492.32" y2="83.0"/>
+  <text fill="#000000" x="306.592" y="93.0" font-family="monospace" font-size="12">Integer flightNumber</text>
+  <text fill="#000000" x="306.592" y="111.0" font-family="monospace" font-size="12">Date departureTime</text>
+  <line stroke="#000000" stroke-width="1" x1="296.592" y1="134.0" x2="492.32" y2="134.0"/>
+</g>
+</svg>

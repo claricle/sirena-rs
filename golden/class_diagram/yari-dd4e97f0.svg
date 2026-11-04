@@ -1,0 +1,31 @@
+<svg
+ width="231.376"
+ height="468.0"
+ viewBox="0 0 231.376 468.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-Animal_to_Zebra">
+  <line stroke="#000000" stroke-width="2" x1="100.688" y1="194.0" x2="100.688" y2="244.0"/>
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2" points="100.688,206.0 94.688,194.0 100.688,182.0 106.688,194.0"/>
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2" points="100.688,244 105.688,235.3397459621556 95.688,235.3397459621556"/>
+</g>
+<g id="class-Animal">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="101.376" height="144.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="100.688" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Animal</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="151.376" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">int size</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="116.0" x2="151.376" y2="116.0"/>
+  <text fill="#000000" x="60.0" y="126.0" font-family="monospace" font-size="12">walk()</text>
+</g>
+<g id="class-Zebra">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="52.2" y="244.0" width="96.976" height="144.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="100.688" y="254.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Zebra</text>
+  <line stroke="#000000" stroke-width="1" x1="52.2" y1="277.0" x2="149.176" y2="277.0"/>
+  <text fill="#000000" x="62.2" y="287.0" font-family="monospace" font-size="12">int size</text>
+  <line stroke="#000000" stroke-width="1" x1="52.2" y1="310.0" x2="149.176" y2="310.0"/>
+  <text fill="#000000" x="62.2" y="320.0" font-family="monospace" font-size="12">walk()</text>
+</g>
+</svg>

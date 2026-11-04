@@ -1,0 +1,173 @@
+<svg
+ width="2500.0"
+ height="565.0"
+ viewBox="0 -25 2500 540"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="20.0" cy="60.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="67.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Child 1</text>
+<circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="20.0" cy="80.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="87.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Child 2</text>
+<circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="20.0" cy="100.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="107.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Dad</text>
+<circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="20.0" cy="120.0" r="7.0"/>
+<text fill="#000000" x="50.0" y="127.0" font-family="Arial, Helvetica, sans-serif" font-size="16">Mum</text>
+<g>
+  <rect class="journey-section section-type-0" fill="#191970" stroke="#666" x="150.0" y="50.0" width="550.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-0" fill="#fff" x="425.0" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get to the shops</text>
+</g>
+<g>
+  <rect class="journey-section section-type-1" fill="#8B008B" stroke="#666" x="750.0" y="50.0" width="550.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-1" fill="#fff" x="1025.0" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Do shopping</text>
+</g>
+<g>
+  <rect class="journey-section section-type-2" fill="#4B0082" stroke="#666" x="1350.0" y="50.0" width="950.0" height="50.0" rx="3.0" ry="3.0"/>
+  <text class="journey-section section-type-2" fill="#fff" x="1825.0" y="79.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Go home</text>
+</g>
+<g id="task-task_0">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="225.0" y1="110.0" x2="225.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="225.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="220.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="230.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M232.5,302A7.5,7.5,0,1,1,217.5,302L218.182,302A6.818,6.818,0,1,0,231.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="150.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="164.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="225.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get car keys</text>
+</g>
+<g id="task-task_1">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="425.0" y1="110.0" x2="425.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="425.0" cy="300.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="420.0" cy="295.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="430.0" cy="295.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M432.5,302A7.5,7.5,0,1,1,417.5,302L418.182,302A6.818,6.818,0,1,0,431.818,302Z"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="350.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="364.0" cy="110.0" r="7.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="374.0" cy="110.0" r="7.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="384.0" cy="110.0" r="7.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="394.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="425.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get into car</text>
+</g>
+<g id="task-task_2">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="625.0" y1="110.0" x2="625.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="625.0" cy="360.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="620.0" cy="355.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="630.0" cy="355.0" r="1.5"/>
+    <line class="mouth" stroke="#666" stroke-width="1px" x1="620.0" y1="367.0" x2="630.0" y2="367.0"/>
+  </g>
+  <rect class="task task-type-0" fill="#191970" stroke="#666" x="550.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="564.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="625.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Really drive to supermarket</text>
+</g>
+<g id="task-task_3">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="825.0" y1="110.0" x2="825.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="825.0" cy="360.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="820.0" cy="355.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="830.0" cy="355.0" r="1.5"/>
+    <line class="mouth" stroke="#666" stroke-width="1px" x1="820.0" y1="367.0" x2="830.0" y2="367.0"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="750.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="764.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="825.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Do actual shop</text>
+</g>
+<g id="task-task_4">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1025.0" y1="110.0" x2="1025.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1025.0" cy="390.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1020.0" cy="385.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1030.0" cy="385.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1017.5,397A7.5,7.5,0,1,1,1032.5,397L1031.818,397A6.818,6.818,0,1,0,1018.182,397Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="950.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="964.0" cy="110.0" r="7.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="974.0" cy="110.0" r="7.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="984.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1025.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get in the way</text>
+</g>
+<g id="task-task_5">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1225.0" y1="110.0" x2="1225.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1225.0" cy="390.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1220.0" cy="385.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1230.0" cy="385.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1217.5,397A7.5,7.5,0,1,1,1232.5,397L1231.818,397A6.818,6.818,0,1,0,1218.182,397Z"/>
+  </g>
+  <rect class="task task-type-1" fill="#8B008B" stroke="#666" x="1150.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1164.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1225.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Pay</text>
+</g>
+<g id="task-task_6">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1425.0" y1="110.0" x2="1425.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1425.0" cy="360.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1420.0" cy="355.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1430.0" cy="355.0" r="1.5"/>
+    <line class="mouth" stroke="#666" stroke-width="1px" x1="1420.0" y1="367.0" x2="1430.0" y2="367.0"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1350.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1364.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1425.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Lose keys</text>
+</g>
+<g id="task-task_7">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1625.0" y1="110.0" x2="1625.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1625.0" cy="420.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1620.0" cy="415.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1630.0" cy="415.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1617.5,427A7.5,7.5,0,1,1,1632.5,427L1631.818,427A6.818,6.818,0,1,0,1618.182,427Z"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1550.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1564.0" cy="110.0" r="7.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="1574.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1625.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get cross</text>
+</g>
+<g id="task-task_8">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="1825.0" y1="110.0" x2="1825.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="1825.0" cy="330.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1820.0" cy="325.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="1830.0" cy="325.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M1832.5,332A7.5,7.5,0,1,1,1817.5,332L1818.182,332A6.818,6.818,0,1,0,1831.818,332Z"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1750.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="1764.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="1825.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Find keys</text>
+</g>
+<g id="task-task_9">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="2025.0" y1="110.0" x2="2025.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="2025.0" cy="330.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="2020.0" cy="325.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="2030.0" cy="325.0" r="1.5"/>
+    <path class="mouth" fill="#000000" stroke="#666" d="M2032.5,332A7.5,7.5,0,1,1,2017.5,332L2018.182,332A6.818,6.818,0,1,0,2031.818,332Z"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="1950.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="1964.0" cy="110.0" r="7.0"/>
+  <circle class="actor-3" fill="#20B2AA" stroke="#000000" cx="1974.0" cy="110.0" r="7.0"/>
+  <circle class="actor-0" fill="#8FBC8F" stroke="#000000" cx="1984.0" cy="110.0" r="7.0"/>
+  <circle class="actor-1" fill="#7CFC00" stroke="#000000" cx="1994.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="2025.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Get into car</text>
+</g>
+<g id="task-task_10">
+  <line class="task-line" stroke="#666" stroke-width="1px" x1="2225.0" y1="110.0" x2="2225.0" y2="450.0" stroke-dasharray="4 2"/>
+  <circle class="face" fill="#FFF8DC" stroke="#000000" stroke-width="2" cx="2225.0" cy="360.0" r="15.0"/>
+  <g>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="2220.0" cy="355.0" r="1.5"/>
+    <circle fill="#000000" stroke="#666" stroke-width="2" cx="2230.0" cy="355.0" r="1.5"/>
+    <line class="mouth" stroke="#666" stroke-width="1px" x1="2220.0" y1="367.0" x2="2230.0" y2="367.0"/>
+  </g>
+  <rect class="task task-type-2" fill="#4B0082" stroke="#666" x="2150.0" y="110.0" width="150.0" height="50.0" rx="3.0" ry="3.0"/>
+  <circle class="actor-2" fill="#00FFFF" stroke="#000000" cx="2164.0" cy="110.0" r="7.0"/>
+  <text class="task" fill="#fff" x="2225.0" y="139.9" text-anchor="middle" font-family="&quot;Open Sans&quot;, sans-serif" font-size="14">Drive home</text>
+</g>
+<text fill="#000000" x="150.0" y="25.0" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold">Go shopping</text>
+<line stroke="#000000" stroke-width="4" x1="150.0" y1="200.0" x2="2346.0" y2="200.0"/>
+<path fill="#000000" d="M 2326,192 V 208 L 2350,200 Z"/>
+</svg>

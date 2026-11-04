@@ -1,0 +1,14 @@
+<svg
+ width="226.368"
+ height="70.0"
+ viewBox="0 0 226.368 70.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="210.368" height="54.0"/>
+  <text fill="#000000" x="113.184" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">This is a string with }</text>
+</g>
+</svg>

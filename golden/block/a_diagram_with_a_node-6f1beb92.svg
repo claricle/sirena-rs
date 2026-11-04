@@ -1,0 +1,13 @@
+<svg
+ width="48.448"
+ height="55.0"
+ viewBox="0 0 48.448 55.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="block-id">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="20.448" height="27.0"/>
+  <text fill="#000000" x="18.224" y="26.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14.0">id</text>
+</g>
+</svg>

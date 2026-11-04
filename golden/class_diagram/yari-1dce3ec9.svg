@@ -1,0 +1,55 @@
+<svg
+ width="395.03200000000004"
+ height="324.0"
+ viewBox="0 0 395.03200000000004 324.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-classB_to_classA">
+  <line stroke="#000000" stroke-width="2" x1="42.524210526315784" y1="160.0" x2="42.595789473684206" y2="92.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="42.595789473684206,92 37.586676191933506,100.65498608494484 47.58667065177191,100.66551239490256"/>
+  <text fill="#000000" x="42.559999999999995" y="121.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">implements</text>
+</g>
+<g id="rel-classC_to_classD">
+  <line stroke="#000000" stroke-width="2" x1="161.85178947368422" y1="92.0" x2="161.78021052631578" y2="160.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="161.83915790173495,103.99999335180608 155.85179279778117,91.99368421402536 161.8644210456335,80.00000664819392 167.85178614958727,92.00631578597464"/>
+  <text fill="#000000" x="161.816" y="121.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">composition</text>
+</g>
+<g id="rel-classE_to_classF">
+  <line stroke="#000000" stroke-width="2" x1="280.8597894736842" y1="92.0" x2="280.78821052631577" y2="160.0"/>
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2" points="280.84715790173493,103.99999335180608 274.85979279778115,91.99368421402536 280.8724210456335,80.00000664819392 286.85978614958725,92.00631578597464"/>
+  <text fill="#000000" x="280.82399999999996" y="121.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">aggregation</text>
+</g>
+<g id="class-classA">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="69.28" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="42.64" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classA</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="41.0" x2="77.28" y2="41.0"/>
+</g>
+<g id="class-classB">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="8.087999999999994" y="160.0" width="68.78399999999999" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="42.47999999999999" y="170.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classB</text>
+  <line stroke="#000000" stroke-width="1" x1="8.087999999999994" y1="193.0" x2="76.87199999999999" y2="193.0"/>
+</g>
+<g id="class-classC">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="127.28" y="8.0" width="69.232" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="161.89600000000002" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classC</text>
+  <line stroke="#000000" stroke-width="1" x1="127.28" y1="41.0" x2="196.512" y2="41.0"/>
+</g>
+<g id="class-classD">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="126.928" y="160.0" width="69.616" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="161.736" y="170.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classD</text>
+  <line stroke="#000000" stroke-width="1" x1="126.928" y1="193.0" x2="196.54399999999998" y2="193.0"/>
+</g>
+<g id="class-classE">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="246.776" y="8.0" width="68.256" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="280.904" y="18.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classE</text>
+  <line stroke="#000000" stroke-width="1" x1="246.776" y1="41.0" x2="315.03200000000004" y2="41.0"/>
+</g>
+<g id="class-classF">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="246.54399999999998" y="160.0" width="68.4" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="280.74399999999997" y="170.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">classF</text>
+  <line stroke="#000000" stroke-width="1" x1="246.54399999999998" y1="193.0" x2="314.94399999999996" y2="193.0"/>
+</g>
+</svg>

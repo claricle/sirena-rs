@@ -1,0 +1,16 @@
+<svg
+ width="363.072"
+ height="256.0"
+ viewBox="0 0 363.072 256"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-Car">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="233.072" height="126.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="166.536" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Car</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="283.072" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">+getWheels() : List&lt;Wheel&gt;</text>
+</g>
+</svg>

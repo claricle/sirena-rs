@@ -1,0 +1,14 @@
+<svg
+ width="250.0"
+ height="171.0"
+ viewBox="0 0 250 171"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="95.0" stroke-dasharray="5,5"/>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+</svg>

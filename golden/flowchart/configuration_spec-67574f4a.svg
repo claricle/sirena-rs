@@ -1,0 +1,62 @@
+<svg
+ width="438.512"
+ height="521.216"
+ viewBox="0 0 438.512 521.216"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-A_to_B">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 221.4 62.0 L 221.4 136.0"/>
+  <polygon fill="#000000" stroke="#000000" points="221.4,136.0 225.4,128.0 217.4,128.0"/>
+  <rect fill="#ffffff" stroke="none" x="180.448" y="78.4" width="81.904" height="20.0"/>
+  <text fill="#000000" x="221.4" y="94.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Get money</text>
+</g>
+<g id="edge-B_to_C">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 221.4 190.0 L 221.4 240.0"/>
+  <polygon fill="#000000" stroke="#000000" points="221.4,240.0 225.4,232.0 217.4,232.0"/>
+</g>
+<g id="edge-C_to_D">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 186.7 350.5 L 87.3 459.2"/>
+  <polygon fill="#000000" stroke="#000000" points="87.3,459.2 95.7,456.0 89.8,450.6"/>
+  <rect fill="#ffffff" stroke="none" x="120.88" y="384.25" width="32.239999999999995" height="20.0"/>
+  <text fill="#000000" x="137.0" y="399.85" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">One</text>
+</g>
+<g id="edge-C_to_E">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 221.4 385.2 L 221.4 459.2"/>
+  <polygon fill="#000000" stroke="#000000" points="221.4,459.2 225.4,451.2 217.4,451.2"/>
+  <rect fill="#ffffff" stroke="none" x="204.50400000000002" y="401.59999999999997" width="33.792" height="20.0"/>
+  <text fill="#000000" x="221.4" y="417.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Two</text>
+</g>
+<g id="edge-C_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 255.8 350.8 L 353.7 459.2"/>
+  <polygon fill="#000000" stroke="#000000" points="353.6,459.2 351.3,450.6 345.3,456.0"/>
+  <rect fill="#ffffff" stroke="none" x="281.902" y="384.4" width="45.696" height="20.0"/>
+  <text fill="#000000" x="304.75" y="400.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Three</text>
+</g>
+<g id="node-A">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="156.35199999999998" y="8.0" width="130.064" height="54.0"/>
+  <text fill="#000000" x="221.38399999999996" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Christmas</text>
+</g>
+<g id="node-B">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="162.79199999999997" y="136.0" width="117.184" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="221.38399999999996" y="168.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Go shopping</text>
+</g>
+<g id="node-C">
+  <polygon fill="#ffffff" stroke="#000000" stroke-width="2.0" points="221.384,240.0 293.99199999999996,312.608 221.384,385.216 148.77599999999998,312.608"/>
+  <text fill="#000000" x="221.384" y="318.208" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Let me think</text>
+</g>
+<g id="node-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="459.216" width="109.24799999999999" height="54.0"/>
+  <text fill="#000000" x="62.623999999999995" y="491.816" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Laptop</text>
+</g>
+<g id="node-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="167.248" y="459.216" width="108.27199999999999" height="54.0"/>
+  <text fill="#000000" x="221.384" y="491.816" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">iPhone</text>
+</g>
+<g id="node-F">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="325.52" y="459.216" width="104.992" height="54.0"/>
+  <text fill="#000000" x="378.01599999999996" y="491.816" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">Car</text>
+</g>
+</svg>

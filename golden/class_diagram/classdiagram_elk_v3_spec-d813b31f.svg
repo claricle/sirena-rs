@@ -1,0 +1,24 @@
+<svg
+ width="305.4744"
+ height="348.0"
+ viewBox="0 0 305.4744 348.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="rel-Duck_to_Animal">
+  <line stroke="#000000" stroke-width="2" x1="137.7372" y1="184.0" x2="137.7372" y2="134.0"/>
+  <polygon fill="#000000" stroke="#000000" stroke-width="2" points="137.7372,134 132.7372,142.6602540378444 142.7372,142.6602540378444"/>
+</g>
+<g id="class-Animal">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="100.1692" y="50.0" width="75.136" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="137.7372" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Animal</text>
+  <line stroke="#000000" stroke-width="1" x1="100.1692" y1="83.0" x2="175.3052" y2="83.0"/>
+</g>
+<g id="class-Duck">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="184.0" width="175.4744" height="84.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="137.7372" y="194.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Duck with text label</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="217.0" x2="225.4744" y2="217.0"/>
+</g>
+</svg>

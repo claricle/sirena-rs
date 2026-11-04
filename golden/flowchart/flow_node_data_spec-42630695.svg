@@ -1,0 +1,30 @@
+<svg
+ width="174.384"
+ height="174.0"
+ viewBox="0 0 174.384 174.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="edge-D_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 41.4 62.0 L 66.5 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="66.5,112.0 66.5,103.1 59.3,106.6"/>
+</g>
+<g id="edge-E_to_F">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 118.6 62.0 L 93.5 112.0"/>
+  <polygon fill="#000000" stroke="#000000" points="93.5,112.0 100.7,106.6 93.5,103.1"/>
+</g>
+<g id="node-D">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="8.0" y="8.0" width="39.808" height="54.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="27.904" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">D</text>
+</g>
+<g id="node-E">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="97.80799999999999" y="8.0" width="68.576" height="54.0"/>
+  <text fill="#000000" x="132.096" y="40.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">E</text>
+</g>
+<g id="node-F">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="45.8" y="112.0" width="68.4" height="54.0"/>
+  <text fill="#000000" x="80.0" y="144.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">F</text>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+<svg
+ width="388.734375"
+ height="493.0"
+ viewBox="0 0 388.734375 493.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="transition-start_1_to_Idle">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 169.3671875 94.5 L 169.3671875 196.5"/>
+  <polygon fill="#000000" points="169.3672,196.5 165.3672,188.5 173.3672,188.5"/>
+</g>
+<g id="transition-Idle_to_Configuring">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 169.3671875 196.5 L 169.3671875 335.5"/>
+  <polygon fill="#000000" points="169.3672,335.5 165.3672,327.5 173.3672,327.5"/>
+  <text fill="#000000" x="169.3671875" y="258.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">EvConfig</text>
+</g>
+<g id="transition-Configuring_to_Idle">
+  <path fill="none" stroke="#000000" stroke-width="2" d="M 169.3671875 335.5 L 169.3671875 196.5"/>
+  <polygon fill="#000000" points="169.3672,196.5 173.3672,204.5 165.3672,204.5"/>
+  <text fill="#000000" x="169.3671875" y="258.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">EvConfig</text>
+</g>
+<g id="state-NotShooting">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="238.734375" height="343.0" rx="10.0" ry="10.0"/>
+  <text fill="#000000" x="169.3671875" y="226.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Not Shooting State</text>
+  <g id="state-Idle">
+    <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="125.796875" y="176.5" width="87.140625" height="40.0" rx="10.0" ry="10.0"/>
+    <text fill="#000000" x="169.3671875" y="201.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Idle mode</text>
+  </g>
+  <g id="state-Configuring">
+    <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="98.3515625" y="315.5" width="142.03125" height="40.0" rx="10.0" ry="10.0"/>
+    <text fill="#000000" x="169.3671875" y="340.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">Configuring mode</text>
+  </g>
+  <g id="state-start_1">
+    <circle fill="#000000" stroke="none" cx="169.3671875" cy="94.5" r="7.0"/>
+    <text fill="#000000" x="169.3671875" y="99.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">[*]</text>
+  </g>
+</g>
+</svg>

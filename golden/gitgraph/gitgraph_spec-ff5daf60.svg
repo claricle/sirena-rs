@@ -1,0 +1,23 @@
+<svg
+ width="231.3496"
+ height="280.0"
+ viewBox="0 0 231.3496 280.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="65.364" y1="200.0" x2="65.364" y2="150.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="65.364" y1="200.0" x2="171.3496" y2="100.0"/>
+<path fill="none" stroke="#2563eb" stroke-width="2" d="M 65.364 150 C 65.364 150, 65.364 50, 65.364 50" stroke-dasharray="5,3"/>
+<path fill="none" stroke="#7c3aed" stroke-width="2" d="M 171.3496 100 C 118.3568 100, 118.3568 50, 65.364 50" stroke-dasharray="5,3"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="65.364" cy="50.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="171.3496" cy="100.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="65.364" cy="150.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="65.364" cy="200.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 65.364 200.0) translate(-79.364 0)" fill="#000000" x="79.364" y="199.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">1-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 65.364 150.0) translate(-79.364 0)" fill="#000000" x="79.364" y="149.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 171.3496 100.0) translate(-79.364 0)" fill="#000000" x="185.3496" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">3-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 65.364 50.0) translate(-75.332 0)" fill="#000000" x="79.364" y="49.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-4</text>
+<text fill="#2563eb" x="48.028000000000006" y="240.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text fill="#7c3aed" x="167.3496" y="240.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">x</text>
+</svg>

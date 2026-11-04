@@ -1,0 +1,25 @@
+<svg
+ width="546.144"
+ height="187.0"
+ viewBox="0 0 546.144 187.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="entity-CAR">
+  <rect fill="#f96" stroke="#000000" stroke-width="2" x="8.0" y="8.0" width="229.648" height="171.0"/>
+  <text fill="#000000" x="122.824" y="34.708333333333336" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">CAR</text>
+  <line stroke="#000000" stroke-width="1" x1="8.0" y1="50.75" x2="237.648" y2="50.75"/>
+  <text fill="#000000" x="18.0" y="76.125" font-family="monospace" font-size="12">string registrationNumber</text>
+  <text fill="#000000" x="18.0" y="118.875" font-family="monospace" font-size="12">string make</text>
+  <text fill="#000000" x="18.0" y="161.625" font-family="monospace" font-size="12">string model</text>
+</g>
+<g id="entity-PERSON">
+  <rect fill="#f96" stroke="#000000" stroke-width="2" x="377.648" y="8.0" width="160.49599999999998" height="171.0"/>
+  <text fill="blue" x="457.896" y="34.708333333333336" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PERSON</text>
+  <line stroke="#000000" stroke-width="1" x1="377.648" y1="50.75" x2="538.144" y2="50.75"/>
+  <text fill="blue" x="387.648" y="76.125" font-family="monospace" font-size="12">string firstName</text>
+  <text fill="blue" x="387.648" y="118.875" font-family="monospace" font-size="12">string lastName</text>
+  <text fill="blue" x="387.648" y="161.625" font-family="monospace" font-size="12">int age</text>
+</g>
+</svg>

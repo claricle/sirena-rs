@@ -1,0 +1,27 @@
+<svg
+ width="413.172"
+ height="370.0"
+ viewBox="0 0 413.172 370.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#ea580c" stroke-width="2" x1="83.172" y1="310.0" x2="133.172" y2="310.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="183.172" y1="40.0" x2="333.172" y2="40.0"/>
+<circle fill="#ea580c" stroke="#ea580c" stroke-width="2" cx="83.172" cy="310.0" r="10.0"/>
+<circle fill="#ea580c" stroke="#ea580c" stroke-width="2" cx="133.172" cy="310.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="183.172" cy="40.0" r="10.0"/>
+<circle fill="#7c3aed" stroke="#7c3aed" stroke-width="2" cx="233.172" cy="130.0" r="10.0"/>
+<circle fill="#db2777" stroke="#db2777" stroke-width="2" cx="283.172" cy="220.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="333.172" cy="40.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 73.172 310.0)" fill="#000000" x="29.517757684767247" y="332.9990518580153" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">1-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 123.172 310.0)" fill="#000000" x="79.51775768476725" y="332.9990518580153" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">2-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 173.172 40.0)" fill="#000000" x="129.51775768476725" y="62.99905185801531" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">3-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 223.172 130.0)" fill="#000000" x="179.51775768476725" y="152.99905185801532" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">4-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 273.172 220.0)" fill="#000000" x="229.51775768476725" y="242.99905185801532" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">5-abcdefg</text>
+<text class="commit-label" transform="rotate(-45.0 323.172 40.0)" fill="#000000" x="279.5177576847673" y="62.99905185801531" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">6-abcdefg</text>
+<text transform="translate(-47.0 0)" fill="#2563eb" x="47.0" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+<text transform="translate(-47.0 0)" fill="#7c3aed" x="55.879999999999995" y="119.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">dev</text>
+<text transform="translate(-47.0 0)" fill="#db2777" x="64.776" y="209.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">v2</text>
+<text transform="translate(-47.0 0)" fill="#ea580c" x="54.983999999999995" y="299.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">feat</text>
+</svg>

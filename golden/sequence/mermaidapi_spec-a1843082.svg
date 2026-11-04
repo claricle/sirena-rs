@@ -1,0 +1,39 @@
+<svg
+ width="484.0"
+ height="347.0"
+ viewBox="0 0 484.0 347"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line stroke="#000000" stroke-width="1" x1="125.0" y1="75.0" x2="125.0" y2="271.0" stroke-dasharray="5,5"/>
+<line stroke="#000000" stroke-width="1" x1="359.0" y1="75.0" x2="359.0" y2="271.0" stroke-dasharray="5,5"/>
+<g id="message-0">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="119.0" x2="351.0" y2="119.0"/>
+  <polygon fill="#000000" stroke="#000000" points="359.0,119 351.0,115 351.0,123"/>
+  <text fill="#000000" x="242.0" y="109.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Hello John, how are you?</text>
+</g>
+<g id="message-1">
+  <line stroke="#000000" stroke-width="2" x1="126.0" y1="163.0" x2="351.0" y2="163.0"/>
+  <polygon fill="#000000" stroke="#000000" points="359.0,163 351.0,159 351.0,167"/>
+  <text fill="#000000" x="242.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">John, can you hear me?</text>
+</g>
+<g id="message-2">
+  <line stroke="#000000" stroke-width="2" x1="358.0" y1="207.0" x2="133.0" y2="207.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="125,207 133,203 133,211"/>
+  <text fill="#000000" x="242.0" y="197.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Hi Alice, I can hear you!</text>
+</g>
+<g id="message-3">
+  <line stroke="#000000" stroke-width="2" x1="358.0" y1="251.0" x2="133.0" y2="251.0" stroke-dasharray="5,5"/>
+  <polygon fill="#000000" stroke="#000000" points="125,251 133,247 133,255"/>
+  <text fill="#000000" x="242.0" y="241.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">I feel great!</text>
+</g>
+<g id="participant-Alice">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="125.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Alice</text>
+</g>
+<g id="participant-John">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="284.0" y="10.0" width="150.0" height="65.0" rx="5.0" ry="5.0"/>
+  <text fill="#000000" x="359.0" y="47.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">John</text>
+</g>
+</svg>

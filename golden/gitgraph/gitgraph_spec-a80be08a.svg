@@ -1,0 +1,21 @@
+<svg
+ width="183.69"
+ height="230.0"
+ viewBox="0 0 183.69 230.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="123.69" y1="150.0" x2="123.69" y2="100.0"/>
+<line fill="none" stroke="#2563eb" stroke-width="2" x1="123.69" y1="100.0" x2="123.69" y2="50.0"/>
+<circle fill="#fbbf24" stroke="#2563eb" stroke-width="2" cx="123.69" cy="50.0" r="10.0"/>
+<circle fill="#ffffff" stroke="#2563eb" stroke-width="2" cx="123.69" cy="100.0" r="10.0"/>
+<circle fill="#2563eb" stroke="#2563eb" stroke-width="2" cx="123.69" cy="150.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 123.69 150.0) translate(-132.68 0)" fill="#000000" x="137.69" y="149.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Normal Commit with tag</text>
+<text class="tag-label" transform="rotate(45.0 137.69 154.0)" fill="#28a745" x="142.69" y="157.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">v1.0.0</text>
+<text class="commit-label" transform="rotate(-45.0 123.69 100.0) translate(-137.69 0)" fill="#000000" x="137.69" y="99.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Reverse Commit with tag</text>
+<text class="tag-label" transform="rotate(45.0 137.69 104.0)" fill="#28a745" x="142.69" y="107.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">RC_1</text>
+<text class="commit-label" transform="rotate(-45.0 123.69 50.0) translate(-102.12 0)" fill="#000000" x="137.69" y="49.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">Highlight Commit</text>
+<text class="tag-label" transform="rotate(45.0 137.69 54.0)" fill="#28a745" x="142.69" y="57.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0" font-weight="bold">8.8.4</text>
+<text fill="#2563eb" x="106.354" y="190.0" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+</svg>

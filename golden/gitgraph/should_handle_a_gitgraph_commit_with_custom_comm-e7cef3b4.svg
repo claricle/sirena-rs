@@ -1,0 +1,12 @@
+<svg
+ width="166.172"
+ height="100.0"
+ viewBox="0 0 166.172 100.0"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<circle fill="#fbbf24" stroke="#2563eb" stroke-width="2" cx="86.172" cy="40.0" r="10.0"/>
+<text class="commit-label" transform="rotate(-45.0 76.172 40.0)" fill="#000000" x="35.433701828307235" y="63.080782088211976" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="12.0">commit-1</text>
+<text fill="#2563eb" x="0.0" y="29.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="16.0" font-weight="bold">main</text>
+</svg>

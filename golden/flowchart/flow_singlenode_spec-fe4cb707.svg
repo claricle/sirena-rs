@@ -1,0 +1,14 @@
+<svg
+ width="40.44"
+ height="40.44"
+ viewBox="0 0 40.44 40.44"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+ overflow="hidden"
+>
+<g id="node-a">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="20.22" cy="20.22" r="12.219999999999999"/>
+  <text fill="#000000" x="20.22" y="25.82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.0">A</text>
+</g>
+</svg>

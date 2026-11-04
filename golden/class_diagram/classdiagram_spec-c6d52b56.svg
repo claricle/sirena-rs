@@ -1,0 +1,43 @@
+<svg
+ width="605.328"
+ height="514.0"
+ viewBox="0 0 605.328 514"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="defs"/>
+<g id="class-Foo1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="50.0" y="50.0" width="251.552" height="384.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="175.776" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Foo1</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="83.0" x2="301.552" y2="83.0"/>
+  <text fill="#000000" x="60.0" y="93.0" font-family="monospace" font-size="12">You can use</text>
+  <text fill="#000000" x="60.0" y="111.0" font-family="monospace" font-size="12">several lines</text>
+  <text fill="#000000" x="60.0" y="129.0" font-family="monospace" font-size="12">..</text>
+  <text fill="#000000" x="60.0" y="147.0" font-family="monospace" font-size="12">as you want</text>
+  <text fill="#000000" x="60.0" y="165.0" font-family="monospace" font-size="12">and group</text>
+  <text fill="#000000" x="60.0" y="183.0" font-family="monospace" font-size="12">==</text>
+  <text fill="#000000" x="60.0" y="201.0" font-family="monospace" font-size="12">things together.</text>
+  <text fill="#000000" x="60.0" y="219.0" font-family="monospace" font-size="12">__</text>
+  <text fill="#000000" x="60.0" y="237.0" font-family="monospace" font-size="12">You can have as many groups</text>
+  <text fill="#000000" x="60.0" y="255.0" font-family="monospace" font-size="12">as you want</text>
+  <text fill="#000000" x="60.0" y="273.0" font-family="monospace" font-size="12">--</text>
+  <text fill="#000000" x="60.0" y="291.0" font-family="monospace" font-size="12">End of class</text>
+  <line stroke="#000000" stroke-width="1" x1="50.0" y1="314.0" x2="301.552" y2="314.0"/>
+</g>
+<g id="class-User">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2" x="351.552" y="50.0" width="173.776" height="312.0" rx="3.0" ry="3.0"/>
+  <text fill="#000000" x="438.44000000000005" y="60.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">User</text>
+  <line stroke="#000000" stroke-width="1" x1="351.552" y1="83.0" x2="525.328" y2="83.0"/>
+  <text fill="#000000" x="361.552" y="93.0" font-family="monospace" font-size="12">.. Simple Getter ..</text>
+  <text fill="#000000" x="361.552" y="111.0" font-family="monospace" font-size="12">.. Some setter ..</text>
+  <text fill="#000000" x="361.552" y="129.0" font-family="monospace" font-size="12">__ private data __</text>
+  <text fill="#000000" x="361.552" y="147.0" font-family="monospace" font-size="12">int age</text>
+  <text fill="#000000" x="361.552" y="165.0" font-family="monospace" font-size="12">-- encrypted --</text>
+  <text fill="#000000" x="361.552" y="183.0" font-family="monospace" font-size="12">String password</text>
+  <line stroke="#000000" stroke-width="1" x1="351.552" y1="206.0" x2="525.328" y2="206.0"/>
+  <text fill="#000000" x="361.552" y="216.0" font-family="monospace" font-size="12">+ getName()</text>
+  <text fill="#000000" x="361.552" y="234.0" font-family="monospace" font-size="12">+ getAddress()</text>
+  <text fill="#000000" x="361.552" y="252.0" font-family="monospace" font-size="12">+ setName()</text>
+</g>
+</svg>

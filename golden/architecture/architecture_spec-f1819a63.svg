@@ -1,0 +1,138 @@
+<svg
+ width="1789.5"
+ height="601.5"
+ viewBox="0 0 1789.5 601.5"
+ version="1.2"
+ baseProfile="tiny"
+ xmlns="http://www.w3.org/2000/svg"
+>
+<g id="group-federated">
+  <rect fill="#f0f0f0" fill-opacity="0.3" stroke="#999" stroke-width="2" x="-22.5" y="-22.5" width="366.0" height="182.0" rx="8.0" ry="8.0" stroke-dasharray="5,5"/>
+  <text fill="#333" x="-12.5" y="-2.5" font-size="14" font-weight="bold">Federated Environment</text>
+  <text fill="#666" x="313.5" y="2.5" font-size="20">☁</text>
+</g>
+<g id="group-on_prem">
+  <rect fill="#f0f0f0" fill-opacity="0.3" stroke="#999" stroke-width="2" x="378.5" y="-22.5" width="1371.0" height="584.0" rx="8.0" ry="8.0" stroke-dasharray="5,5"/>
+  <text fill="#333" x="388.5" y="-2.5" font-size="14" font-weight="bold">Hub</text>
+  <text fill="#666" x="1719.5" y="2.5" font-size="20">☁</text>
+</g>
+<g id="edge-server1-edge">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 100.0 60.0 L 221.0 60.0"/>
+</g>
+<g id="edge-firewall-server">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 903.0 60.0 L 1024.0 60.0"/>
+</g>
+<g id="edge-server-mid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1064.0 100.0 L 1064.0 255.0"/>
+</g>
+<g id="edge-1Leftofmid-mid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 869.0 261.0 L 1058.0 261.0"/>
+</g>
+<g id="edge-1Leftofmid-db1">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 863.0 267.0 L 863.0 422.0"/>
+</g>
+<g id="edge-2Leftofmid-1Leftofmid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 668.0 261.0 L 857.0 261.0"/>
+</g>
+<g id="edge-2Leftofmid-db2">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 662.0 267.0 L 662.0 422.0"/>
+</g>
+<g id="edge-3Leftofmid-2Leftofmid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 467.0 261.0 L 656.0 261.0"/>
+</g>
+<g id="edge-3Leftofmid-db3">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 461.0 267.0 L 461.0 422.0"/>
+</g>
+<g id="edge-mid-1RightOfMid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1070.0 261.0 L 1259.0 261.0"/>
+</g>
+<g id="edge-1RightOfMid-db4">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1265.0 267.0 L 1265.0 422.0"/>
+</g>
+<g id="edge-1RightOfMid-2RightOfMid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1271.0 261.0 L 1460.0 261.0"/>
+</g>
+<g id="edge-2RightOfMid-db5">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1466.0 267.0 L 1466.0 422.0"/>
+</g>
+<g id="edge-2RightOfMid-3RightOfMid">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1472.0 261.0 L 1661.0 261.0"/>
+</g>
+<g id="edge-3RightOfMid-db6">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 1667.0 267.0 L 1667.0 422.0"/>
+</g>
+<g id="edge-edge-firewall">
+  <path fill="none" stroke="#000000" stroke-width="2.0" d="M 301.0 60.0 L 823.0 60.0"/>
+</g>
+<g id="service-server1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="20.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="60.0" y="68.4" text-anchor="middle" font-size="24">▦</text>
+  <text fill="#000000" x="60.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">System</text>
+</g>
+<g id="service-edge">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="221.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="261.0" y="68.4" text-anchor="middle" font-size="24">▦</text>
+  <text fill="#000000" x="261.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Edge Device</text>
+</g>
+<g id="service-firewall">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="823.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="863.0" y="68.4" text-anchor="middle" font-size="24">▦</text>
+  <text fill="#000000" x="863.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Firewall Device</text>
+</g>
+<g id="service-server">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="1024.0" y="20.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="1064.0" y="68.4" text-anchor="middle" font-size="24">▦</text>
+  <text fill="#000000" x="1064.0" y="120.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">Server</text>
+</g>
+<g id="service-db1">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="823.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="863.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="863.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db1</text>
+</g>
+<g id="service-db4">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="1225.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="1265.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="1265.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db4</text>
+</g>
+<g id="service-db2">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="622.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="662.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="662.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db2</text>
+</g>
+<g id="service-db5">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="1426.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="1466.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="1466.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db5</text>
+</g>
+<g id="service-db3">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="421.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="461.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="461.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db3</text>
+</g>
+<g id="service-db6">
+  <rect fill="#ffffff" stroke="#000000" stroke-width="2.0" x="1627.0" y="422.0" width="80.0" height="80.0" rx="5.0" ry="5.0"/>
+  <text fill="#666" x="1667.0" y="470.4" text-anchor="middle" font-size="24">⬢</text>
+  <text fill="#000000" x="1667.0" y="522.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12">db6</text>
+</g>
+<g id="junction-mid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="1064.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-1Leftofmid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="863.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-1RightOfMid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="1265.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-2Leftofmid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="662.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-2RightOfMid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="1466.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-3Leftofmid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="461.0" cy="261.0" r="6.0"/>
+</g>
+<g id="junction-3RightOfMid">
+  <circle fill="#ffffff" stroke="#000000" stroke-width="2.0" cx="1667.0" cy="261.0" r="6.0"/>
+</g>
+</svg>
