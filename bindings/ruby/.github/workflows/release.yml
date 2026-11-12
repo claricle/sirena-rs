@@ -1,0 +1,189 @@
+# Release pipeline for the sirena-native Ruby binding, on the
+# parsanol-ruby model: a version bump landing on main IS the release
+# decision (leptris-ruby#452); dispatch bumps land as bump PRs whose
+# merge triggers this push path. Platform gems are cross-compiled for
+# all five triples on ubuntu runners (oxidize-rb cross-gem) - no
+# per-platform machines, no local gem push.
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump_type:
+        description: "Version bump type ('skip' releases the existing version)"
+        type: choice
+        options: [patch, minor, major, custom, skip]
+        default: "patch"
+      custom_version:
+        description: "Custom version (bump_type 'custom', e.g. 0.1.0)"
+        required: false
+        type: string
+
+concurrency:
+  group: sirena-native-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
+jobs:
+  prepare-version:
+    name: Prepare version
+    runs-on: ubuntu-22.04
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
+      sha: ${{ steps.version.outputs.sha }}
+      release: ${{ steps.version.outputs.release }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.4" }
+      - run: gem install gem-release
+      - name: Determine and bump version
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -z "${{ inputs.bump_type }}" ] || [ "${{ inputs.bump_type }}" = "skip" ]; then
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            VERSION=$(ruby -Ilib -r sirena/native/version -e 'puts Sirena::Native::VERSION')
+            TAG="v$VERSION"
+            git tag -a "$TAG" -m "Release $VERSION" || true
+            echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+            echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          else
+            echo "release=false" >> "$GITHUB_OUTPUT"
+            VERSION_ARG="${{ inputs.bump_type == 'custom' && inputs.custom_version || inputs.bump_type }}"
+            BRANCH="release/bump-$VERSION_ARG-$(date +%s)"
+            git checkout -b "$BRANCH"
+            gem bump --version "$VERSION_ARG"
+            VERSION=$(ruby -Ilib -r sirena/native/version -e 'puts Sirena::Native::VERSION')
+            git push origin "$BRANCH"
+            {
+              echo "Version bump to ${VERSION} for release."
+              echo ""
+              echo "Merging publishes: the merge triggers the release workflow's push path."
+            } > /tmp/bump-pr-body.md
+            PR_URL=$(gh pr create --title "Release: bump sirena-native to ${VERSION}" \
+              --body-file /tmp/bump-pr-body.md --head "$BRANCH")
+            gh pr merge --auto --rebase "$PR_URL"
+            PR_NUMBER=$(basename "$PR_URL")
+            for i in $(seq 1 120); do
+              STATE=$(gh pr view "$PR_NUMBER" --json state --jq .state)
+              [ "$STATE" = "MERGED" ] && break
+              [ "$STATE" = "CLOSED" ] && { echo "Bump PR closed without merging"; exit 1; }
+              sleep 30
+            done
+            [ "$STATE" = "MERGED" ] || { echo "Timed out waiting for the bump PR (60m)"; exit 1; }
+            git fetch origin main
+            git checkout -q main
+            git pull -q origin main
+            SHA=$(git rev-parse HEAD)
+            TAG="v${VERSION}"
+            git tag -a "$TAG" -m "Release $VERSION" "$SHA"
+            git push origin "$TAG"
+            echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+            echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+            echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    name: Cross-build ${{ matrix.platform }}
+    needs: [prepare-version]
+    if: needs.prepare-version.outputs.release == 'true'
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [x86_64-linux, aarch64-linux, arm64-darwin, x86_64-darwin, x64-mingw-ucrt]
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ needs.prepare-version.outputs.sha }}" }
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.4" }
+      - uses: oxidize-rb/actions/cross-gem@v1
+        id: cross-gem
+        env:
+          SIRENA_VENDOR_CDYLIB: "1"
+        with:
+          platform: ${{ matrix.platform }}
+          ruby-versions: "3.1,3.2,3.3,3.4,4.0"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cross-gem-${{ matrix.platform }}
+          path: pkg/*-${{ matrix.platform }}.gem
+          if-no-files-found: error
+
+  smoke:
+    name: Smoke ${{ matrix.platform }}
+    needs: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { platform: x86_64-linux, os: ubuntu-22.04 }
+          - { platform: aarch64-linux, os: ubuntu-22.04-arm }
+          - { platform: arm64-darwin, os: macos-15 }
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { name: "cross-gem-${{ matrix.platform }}", path: pkg }
+      - run: |
+          set -euo pipefail
+          work="$(mktemp -d)"
+          gem install --no-document --install-dir "$work/gems" pkg/sirena-native-*.gem
+          ruby -I"$work/gems" -e '
+            require "sirena/native"
+            abort "native library missing" unless Sirena::Native.native?
+            svg = %(<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"></svg>)
+            out = Sirena::Native.render(svg)
+            abort "empty render" if out.to_s.empty?
+            puts "smoke OK: #{out.bytesize} bytes"'
+
+  release:
+    name: Release
+    needs: [prepare-version, build, smoke]
+    if: needs.prepare-version.outputs.release == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ needs.prepare-version.outputs.sha }}", fetch-depth: 0 }
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.4" }
+      - uses: actions/download-artifact@v4
+        with: { pattern: "cross-gem-*", merge-multiple: true, path: pkg }
+      - name: Package source gem
+        run: |
+          cd bindings/ruby
+          gem build sirena-native.gemspec
+          mv sirena-native-*.gem ../pkg/
+      - uses: rubygems/configure-rubygems-credentials@main
+      - name: Push Gem
+        working-directory: pkg
+        run: |
+          set +e
+          final_exit=0
+          for i in *.gem; do
+            echo "Pushing $i..."
+            gem push "$i" 2>&1 | tee push.out
+            gemerr=${PIPESTATUS[0]}
+            if [ "$gemerr" -ne 0 ] && ! grep -q "Repushing of gem" push.out; then
+              echo "::error::Failed to push $i"
+              final_exit=$gemerr
+            fi
+          done
+          exit $final_exit
+      - name: Create GitHub release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: "${{ needs.prepare-version.outputs.tag }}"
+          allowUpdates: true
+          generateReleaseNotes: true

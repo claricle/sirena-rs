@@ -72,42 +72,9 @@ jobs:
           echo "publish=$publish" >> "$GITHUB_OUTPUT"
 
   # ---- sirena-native (RubyGems) -------------------------------------------
-  build-gems:
-    needs: plan
-    if: needs.plan.outputs.package == 'sirena-native'
-    uses: ./.github/workflows/platform-gems.yml
-
-  publish-gems:
-    name: publish gems (RubyGems)
-    needs: [plan, build-gems]
-    if: needs.plan.outputs.publish == 'true'
-    runs-on: ubuntu-latest
-    environment: rubygems
-    permissions:
-      contents: read
-      id-token: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          pattern: gem-*
-          path: gems
-          merge-multiple: true
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.4"
-      # No api-token: the action exchanges the OIDC token for a short-lived key.
-      - uses: rubygems/configure-rubygems-credentials@dc5a8d8553e6ee01fc26761a49e99e733d17954a # v2.1.0
-      - name: Push every platform gem and the source gem
-        run: |
-          set -euo pipefail
-          gems=(gems/*.gem)
-          printf '%s\n' "${gems[@]}"
-          # 6 platform gems (5 matrix + musl) + 1 pure ruby gem
-          test "${#gems[@]}" -eq 7
-          for g in "${gems[@]}"; do gem push "$g"; done
-      - name: Remove publishing credentials
-        if: always()
-        run: rm -f "$HOME/.gem/credentials"
+  # The gem releases itself on the parsanol model (bindings/ruby
+  # release.yml: cross-gem + bump-PR + TP); a sirena-native tag here is
+  # no longer part of this pipeline.
 
   # ---- sirena-py (PyPI) ---------------------------------------------------
   build-wheels:
