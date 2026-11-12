@@ -4,7 +4,7 @@ name: release
 # publisher is configured against a single workflow file (release.yml).
 #
 # Trigger: push a tag `sirena-native-vX.Y.Z`, `sirena-py-vX.Y.Z` or
-# `sirena-ts-vX.Y.Z`. The tag publishes only its own package, and its version
+# `etassia-ts-vX.Y.Z`. The tag publishes only its own package, and its version
 # must equal the version in that package's manifest (no version bump happens
 # here). workflow_dispatch with `publish: false` (default) builds and smokes the
 # package without uploading it; a real publish needs a tag ref. Never runs on PRs.
@@ -13,13 +13,13 @@ on:
     tags:
       - "sirena-native-v*"
       - "sirena-py-v*"
-      - "sirena-ts-v*"
+      - "etassia-ts-v*"
   workflow_dispatch:
     inputs:
       package:
         description: Package to build (published only when `publish` is true and the ref is its tag)
         type: choice
-        options: [sirena-native, sirena-py, sirena-ts]
+        options: [sirena-native, sirena-py, etassia-ts]
         required: true
       publish:
         description: Publish to the registry (the ref must be a matching tag)
@@ -63,7 +63,7 @@ jobs:
             case "$package" in
               sirena-native) have=$(sed -n 's/^ *spec.version = "\(.*\)"/\1/p' bindings/ruby/sirena-native.gemspec) ;;
               sirena-py)     have=$(sed -n 's/^version = "\(.*\)"/\1/p' bindings/python/pyproject.toml) ;;
-              sirena-ts)     have=$(node -p 'require("./bindings/ts/package.json").version') ;;
+              etassia-ts)     have=$(node -p 'require("./bindings/ts/package.json").version') ;;
               *) echo "::error::unknown package $package"; exit 1 ;;
             esac
             [ "$have" = "$version" ] || { echo "::error::tag version $version != manifest version $have"; exit 1; }
@@ -102,14 +102,14 @@ jobs:
         with:
           packages-dir: dist
 
-  # ---- sirena-ts (npm) ----------------------------------------------------
+  # ---- etassia-ts (npm) ----------------------------------------------------
   build-npm:
     needs: plan
-    if: needs.plan.outputs.package == 'sirena-ts'
+    if: needs.plan.outputs.package == 'etassia-ts'
     uses: ./.github/workflows/npm-package.yml
 
   publish-npm:
-    name: publish sirena-ts (npm)
+    name: publish etassia-ts (npm)
     needs: [plan, build-npm]
     if: needs.plan.outputs.publish == 'true'
     runs-on: ubuntu-latest
@@ -129,4 +129,4 @@ jobs:
       # Trusted publishing needs npm >= 11.5.1; Node 22 bundles an older npm.
       - run: npm install -g npm@^11.5.1
       - name: Publish with provenance
-        run: npm publish ./tarball/sirena-ts-*.tgz --provenance --access public
+        run: npm publish ./tarball/etassia-ts-*.tgz --provenance --access public
