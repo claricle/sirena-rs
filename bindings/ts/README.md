@@ -1,11 +1,11 @@
-# sirena-ts
+# etassia-ts
 
-TypeScript binding for the Sirena Rust runtime: `crates/sirena-wasm` (sirena-core on
+TypeScript binding for the Etassia Rust runtime: `crates/etassia-wasm` (etassia-rs on
 `wasm32-unknown-unknown`, no wasm-bindgen glue) plus a thin loader. All rendering,
 including number formatting, happens in Rust; JS only moves bytes.
 
 ```ts
-import { render, detect, UnportedError, SirenaError } from "sirena-ts";
+import { render, detect, UnportedError, EtassiaError } from "etassia-ts";
 try { const svg = render("pie\n  \"a\": 1\n"); }
 catch (e) { if (e instanceof UnportedError) { /* use the Ruby fallback */ } }
 ```

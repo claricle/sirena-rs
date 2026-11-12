@@ -6,7 +6,7 @@ export class UnportedError extends Error {
 }
 
 /** Thrown when the source is invalid (parse error, undetectable type, bad encoding). */
-export class SirenaError extends Error {
+export class EtassiaError extends Error {
   constructor(
     message: string,
     readonly errorClass: string,
@@ -14,7 +14,7 @@ export class SirenaError extends Error {
     readonly col: number,
   ) {
     super(message);
-    this.name = "SirenaError";
+    this.name = "EtassiaError";
   }
 }
 
@@ -54,7 +54,7 @@ let instance: Exports | undefined;
 function wasm(): Exports {
   if (!instance) {
     instance = new WebAssembly.Instance(
-      new WebAssembly.Module(readFileSync(new URL("./sirena.wasm", import.meta.url))),
+      new WebAssembly.Module(readFileSync(new URL("./etassia.wasm", import.meta.url))),
       imports,
     ).exports as unknown as Exports;
     memory = instance.memory;
@@ -79,19 +79,19 @@ function call(fn: "sirena_render" | "sirena_detect", source: string): string {
   if (status === 0) return out;
   const e = JSON.parse(out) as { class: string; message: string; line: number; col: number };
   if (e.class === "Unported") throw new UnportedError(e.message);
-  throw new SirenaError(e.message, e.class, e.line, e.col);
+  throw new EtassiaError(e.message, e.class, e.line, e.col);
 }
 
 /**
  * Render a Mermaid diagram to SVG. The SVG is produced entirely by the Rust
  * runtime (no JS-side reformatting). Throws UnportedError when the Ruby
- * fallback must be used, SirenaError for invalid input.
+ * fallback must be used, EtassiaError for invalid input.
  */
 export function render(source: string): string {
   return call("sirena_render", source);
 }
 
-/** Detect the diagram type name of `source`. Throws SirenaError when undetectable. */
+/** Detect the diagram type name of `source`. Throws EtassiaError when undetectable. */
 export function detect(source: string): string {
   return call("sirena_detect", source);
 }

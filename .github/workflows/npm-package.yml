@@ -1,6 +1,6 @@
 name: npm-package
 
-# Builds the sirena-ts npm package and smokes the packed tarball. The wasm build
+# Builds the etassia-ts npm package and smokes the packed tarball. The wasm build
 # is platform-independent, so there is ONE package (no per-platform matrix); it is
 # smoked on Linux, macOS and Windows runners. Build-only: no `npm publish` here;
 # release.yml calls this workflow and publishes the `npm-tarball` artifact.
@@ -49,7 +49,7 @@ jobs:
         run: |
           mkdir -p pkg
           npm pack --pack-destination pkg
-          tar -tzf pkg/sirena-ts-*.tgz | tee /dev/stderr | grep -q 'package/dist/sirena.wasm'
+          tar -tzf pkg/etassia-ts-*.tgz | tee /dev/stderr | grep -q 'package/dist/etassia.wasm'
       - uses: actions/upload-artifact@v4
         with:
           name: npm-tarball
@@ -85,9 +85,9 @@ jobs:
         run: |
           set -euo pipefail
           work="$(mktemp -d)"
-          cp tarball/sirena-ts-*.tgz "$work/"
+          cp tarball/etassia-ts-*.tgz "$work/"
           cp "$GOLDEN_MMD" "$GOLDEN_SVG" scripts/smoke_installed_npm.mjs "$work/"
           cd "$work"
           npm init -y >/dev/null
-          npm install --no-audit --no-fund ./sirena-ts-*.tgz
+          npm install --no-audit --no-fund ./etassia-ts-*.tgz
           node smoke_installed_npm.mjs "$(basename "$GOLDEN_MMD")" "$(basename "$GOLDEN_SVG")"
