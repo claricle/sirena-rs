@@ -11,7 +11,7 @@ version (nothing bumps it for you):
 |---|---|---|---|
 | `sirena-native-vX.Y.Z` | `sirena-native` (6 platform gems + source gem) | RubyGems | `bindings/ruby/sirena-native.gemspec` |
 | `sirena-py-vX.Y.Z` | `sirena-py` (wheels + sdist) | PyPI | `bindings/python/pyproject.toml` |
-| `sirena-ts-vX.Y.Z` | `sirena-ts` | npm | `bindings/ts/package.json` |
+| `etassia-ts-vX.Y.Z` | `etassia-ts` | npm | `bindings/ts/package.json` |
 
 Dry run: Actions > release > Run workflow, pick a package, leave `publish` off.
 
@@ -24,7 +24,7 @@ create the GitHub environments `rubygems`, `pypi` and `npm`):
 - **PyPI** (account that will own `sirena-py`): pypi.org > Publishing > add a
   pending publisher: project `sirena-py`, owner `claricle`, repository
   `sirena-rs`, workflow `release.yml`, environment `pypi`.
-- **npm** (owner of `sirena-ts`): npm cannot trust a package that does not exist
+- **npm** (owner of `etassia-ts`): npm cannot trust a package that does not exist
   yet. Publish the first release once by hand (`npm publish --access public`
   from `bindings/ts` after `npm run build`), then npmjs.com > package >
   Settings > Trusted Publisher > GitHub Actions: org `claricle`, repository

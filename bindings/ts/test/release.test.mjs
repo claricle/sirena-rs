@@ -12,6 +12,15 @@ const manifest = JSON.parse(readFileSync(join(root, "bindings/ts/package.json"),
 const plan = workflow.match(/        run: \|\n((?:          .*\n|\n)+)/)?.[1]
   .replace(/^          /gm, "");
 
+test("release documentation uses the npm package name and matching tag", () => {
+  const readme = readFileSync(join(root, "README.md"), "utf8");
+  const npmRow = readme.split("\n").find((line) => line.includes("| npm |"));
+  assert.equal(npmRow,
+    `| \`${manifest.name}-vX.Y.Z\` | \`${manifest.name}\` | npm | \`bindings/ts/package.json\` |`);
+  assert.ok(readme.includes(`- **npm** (owner of \`${manifest.name}\`):`),
+    "trusted publisher setup must name the npm package");
+});
+
 test("npm releases accept the package tag and route it to the npm build", () => {
   assert.ok(workflow.includes(`- "${manifest.name}-v*"`));
   assert.match(workflow, new RegExp(`options: \\[[^\\n]*\\b${manifest.name}\\b`));
