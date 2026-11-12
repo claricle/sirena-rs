@@ -1,5 +1,5 @@
-# sirena-rs
-Rust runtime for sirena with Ruby/TS/Python bindings (claricle/sirena#343)
+# etassia-rs
+Rust runtime for Etassia with Ruby/TS/Python bindings (claricle/sirena#343)
 
 ## RELEASING
 

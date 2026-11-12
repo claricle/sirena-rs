@@ -9,11 +9,32 @@ import { spawnSync } from "node:child_process";
 const root = fileURLToPath(new URL("../../../", import.meta.url));
 const workflow = readFileSync(join(root, ".github/workflows/release.yml"), "utf8");
 const manifest = JSON.parse(readFileSync(join(root, "bindings/ts/package.json"), "utf8"));
-const plan = workflow.match(/        run: \|\n((?:          .*\n|\n)+)/)?.[1]
+const extractPlan = (source) => source.match(/      - id: p\n(?:        .*\n)*?        run: \|\n((?:          .*\n|\n)+)/)?.[1]
   .replace(/^          /gm, "");
+const plan = extractPlan(workflow);
+
+test("release plan extraction stays within the named step", () => {
+  const source = [
+    "      - id: unrelated",
+    "        run: |",
+    "          echo unrelated",
+    "      - id: p",
+    "        env:",
+    "          EVENT: push",
+    "        run: |",
+    "          echo plan",
+    "      - id: later",
+    "        run: |",
+    "          echo later",
+    "",
+  ].join("\n");
+  assert.equal(extractPlan(source), "echo plan\n");
+});
 
 test("release documentation uses the npm package name and matching tag", () => {
   const readme = readFileSync(join(root, "README.md"), "utf8");
+  assert.ok(readme.startsWith("# etassia-rs\n"));
+  assert.ok(readme.includes("Rust runtime for Etassia with Ruby/TS/Python bindings"));
   const npmRow = readme.split("\n").find((line) => line.includes("| npm |"));
   assert.equal(npmRow,
     `| \`${manifest.name}-vX.Y.Z\` | \`${manifest.name}\` | npm | \`bindings/ts/package.json\` |`);
