@@ -23,6 +23,12 @@ sirena_root = File.expand_path("../..", __dir__)
 makefile = <<~MAKEFILE
   CROSS_TARGET := $(CARGO_BUILD_TARGET)$(RUST_TARGET)
 
+  # Windows links the CRT statically so the DLL needs no VC redistributable
+  # (the platform-gems matrix set this via RUSTFLAGS).
+  ifneq (,$(findstring windows,$(CROSS_TARGET)))
+    export RUSTFLAGS := -C target-feature=+crt-static
+  endif
+
   all:
   \tcargo build --release -p sirena-ffi$(if $(CROSS_TARGET), --target $(CROSS_TARGET),)
   \tmkdir -p ../../lib/sirena/native
