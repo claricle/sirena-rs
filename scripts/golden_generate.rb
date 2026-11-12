@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Generates golden/<type>/<case>.svg and golden/manifest.json from the Ruby
-# Sirena path. Run from a sirena checkout (feat/mermaid-parg or later):
+# Etassia path. Older Sirena checkouts are also supported:
 #
 #   cd $SIRENA && bundle exec ruby /path/to/sirena-rs/scripts/golden_generate.rb
 #
@@ -16,7 +16,14 @@ require "json"
 require "timeout"
 
 $LOAD_PATH.unshift(File.join(Dir.pwd, "lib"))
-require "sirena"
+# Select by entry point so missing dependencies inside the runtime still fail.
+engine_class = if File.file?(File.join(Dir.pwd, "lib", "etassia.rb"))
+                 require "etassia"
+                 Etassia::Engine
+               else
+                 require "sirena"
+                 Sirena::Engine
+               end
 
 OUT = ENV.fetch("GOLDEN_OUT", File.expand_path("../golden", __dir__))
 CORPUS = ENV.fetch("SIRENA_CORPUS", File.join(Dir.pwd, "spec", "mermaid"))
@@ -30,7 +37,7 @@ Dir.glob(File.join(CORPUS, "*", "*.mmd")).sort.each do |path|
   rel = path.delete_prefix("#{CORPUS}/")
   source = File.binread(path)
   begin
-    svg = Timeout.timeout(10) { Sirena::Engine.new.render(source, today: TODAY) }
+    svg = Timeout.timeout(10) { engine_class.new.render(source, today: TODAY) }
   rescue StandardError, SystemStackError => e
     errors << { "case" => rel, "error" => e.class.name }
     next
