@@ -8,7 +8,7 @@ fn main() {
         if c["type"].as_str().unwrap() != ty { continue; }
         let case = c["case"].as_str().unwrap();
         let src = std::fs::read_to_string(dir.join(case)).unwrap();
-        if let Err(e) = sirena_core::render(&src) { h.entry(e.to_string()).or_default().push(case.to_string()); }
+        if let Err(e) = etassia_rs::render(&src) { h.entry(e.to_string()).or_default().push(case.to_string()); }
     }
     let mut v: Vec<_> = h.into_iter().collect();
     v.sort_by_key(|(_, c)| std::cmp::Reverse(c.len()));

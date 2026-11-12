@@ -1,4 +1,4 @@
-//! sirena-core: Rust runtime for Sirena. Unported types return
+//! etassia-rs: Rust runtime for Sirena. Unported types return
 //! `Error::Unported` so callers can route to the Ruby fallback.
 pub mod elk;
 pub mod error;

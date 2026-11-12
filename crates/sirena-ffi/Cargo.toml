@@ -9,5 +9,5 @@ publish.workspace = true
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-sirena-core = { path = "../sirena-core" }
+etassia-rs = { path = "../etassia-rs" }
 serde_json = "1"

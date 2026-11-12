@@ -1,8 +1,8 @@
-//! PyO3 bindings over `sirena-core`: `render`, `detect`, and two exceptions.
+//! PyO3 bindings over `etassia-rs`: `render`, `detect`, and two exceptions.
 use pyo3::create_exception;
 use pyo3::exceptions::PyException;
 use pyo3::prelude::*;
-use sirena_core::Error;
+use etassia_rs::Error;
 
 create_exception!(_native, SirenaError, PyException, "Source is invalid for its diagram type.");
 create_exception!(
@@ -30,13 +30,13 @@ fn to_py(py: Python<'_>, e: Error) -> PyErr {
 /// Render Mermaid `source` to an SVG string.
 #[pyfunction]
 fn render(py: Python<'_>, source: &str) -> PyResult<String> {
-    py.detach(|| sirena_core::render(source)).map_err(|e| to_py(py, e))
+    py.detach(|| etassia_rs::render(source)).map_err(|e| to_py(py, e))
 }
 
 /// Detect the diagram type name of `source`, or raise `SirenaError`.
 #[pyfunction]
 fn detect(source: &str) -> PyResult<String> {
-    sirena_core::detect(source).map(|s| s.to_string()).ok_or_else(|| {
+    etassia_rs::detect(source).map(|s| s.to_string()).ok_or_else(|| {
         SirenaError::new_err("DiagramTypeError at 0:0: cannot detect diagram type")
     })
 }
