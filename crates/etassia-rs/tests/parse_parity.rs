@@ -7,7 +7,7 @@
 //!   SIRENA_CORPUS_TREES=<dir> its dump
 //! and every tree, plus detect(), is compared with Ruby's.
 use serde_json::Value;
-use sirena_core::parse::{detect, parse};
+use etassia_rs::parse::{detect, parse};
 use std::collections::BTreeMap;
 use std::fs;
 use std::path::{Path, PathBuf};

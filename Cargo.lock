@@ -137,6 +137,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00d174d5400e5e8fd687ad1049e2f578285fa914201b1af7e8b112a4546bd826"
 
 [[package]]
+name = "etassia-rs"
+version = "0.0.0"
+dependencies = [
+ "num-bigint",
+ "num-integer",
+ "num-traits",
+ "parsanol",
+ "regex",
+ "serde_json",
+ "sha2 0.10.9",
+]
+
+[[package]]
+name = "etassia-wasm"
+version = "0.0.0"
+dependencies = [
+ "etassia-rs",
+]
+
+[[package]]
 name = "foldhash"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -421,31 +441,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "sirena-core"
-version = "0.0.0"
-dependencies = [
- "num-bigint",
- "num-integer",
- "num-traits",
- "parsanol",
- "regex",
- "serde_json",
- "sha2 0.10.9",
-]
-
-[[package]]
 name = "sirena-ffi"
 version = "0.0.0"
 dependencies = [
+ "etassia-rs",
  "serde_json",
- "sirena-core",
-]
-
-[[package]]
-name = "sirena-wasm"
-version = "0.0.0"
-dependencies = [
- "sirena-core",
 ]
 
 [[package]]

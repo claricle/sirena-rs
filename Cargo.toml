@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/sirena-core", "crates/sirena-ffi", "crates/sirena-wasm"]
+members = ["crates/etassia-rs", "crates/sirena-ffi", "crates/etassia-wasm"]
 
 [workspace.package]
 version = "0.0.0"

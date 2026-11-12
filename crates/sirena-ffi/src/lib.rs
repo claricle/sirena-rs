@@ -4,7 +4,7 @@
 //! `status` (out) is 0 on success (buffer = SVG / type name), 1 on error
 //! (buffer = JSON `{class,message,line,col}`; class "Unported" means use the
 //! Ruby fallback). `out_len` receives the byte length (buffer is also NUL-terminated).
-use sirena_core::Error;
+use etassia_rs::Error;
 use std::os::raw::{c_char, c_int};
 
 #[repr(C)]
@@ -43,7 +43,7 @@ unsafe fn src<'a>(ptr: *const c_char, len: usize) -> Result<&'a str, Error> {
 /// `src_ptr` must point to `len` readable bytes; `opts_json` NULL or NUL-terminated.
 #[no_mangle]
 pub unsafe extern "C" fn sirena_render(src_ptr: *const c_char, len: usize, _opts_json: *const c_char) -> SirenaBuf {
-    into_buf(src(src_ptr, len).and_then(sirena_core::render))
+    into_buf(src(src_ptr, len).and_then(etassia_rs::render))
 }
 
 /// Detect the diagram type name of `src`.
@@ -53,7 +53,7 @@ pub unsafe extern "C" fn sirena_render(src_ptr: *const c_char, len: usize, _opts
 #[no_mangle]
 pub unsafe extern "C" fn sirena_detect(src_ptr: *const c_char, len: usize) -> SirenaBuf {
     into_buf(src(src_ptr, len).and_then(|s| {
-        sirena_core::detect(s).ok_or_else(|| Error::Parse {
+        etassia_rs::detect(s).ok_or_else(|| Error::Parse {
             class: "DiagramTypeError".into(),
             message: "cannot detect diagram type".into(),
             line: 0,

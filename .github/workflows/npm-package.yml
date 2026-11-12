@@ -4,7 +4,7 @@ name: npm-package
 # is platform-independent, so there is ONE package (no per-platform matrix); it is
 # smoked on Linux, macOS and Windows runners. Build-only: no `npm publish` here;
 # release.yml calls this workflow and publishes the `npm-tarball` artifact.
-# Needs bindings/ts + crates/sirena-wasm (PR #7); the PR trigger therefore fires
+# Needs bindings/ts + crates/etassia-wasm (PR #7); the PR trigger therefore fires
 # only once those paths exist on a branch.
 on:
   pull_request:
