@@ -16,7 +16,7 @@ platform, lib_path = ARGV
 abort "usage: build_platform_gem.rb <platform> <cdylib>" unless platform && lib_path
 abort "no such cdylib: #{lib_path}" unless File.file?(lib_path)
 
-expected = { /darwin/ => "libsirena_ffi.dylib", /mingw|mswin/ => "sirena_ffi.dll", /linux/ => "libsirena_ffi.so" }
+expected = { /darwin/ => "libetassia_ffi.dylib", /mingw|mswin/ => "etassia_ffi.dll", /linux/ => "libetassia_ffi.so" }
 want = expected.find { |re, _| platform.match?(re) }&.last or abort "unsupported platform: #{platform}"
 abort "#{File.basename(lib_path)} is not #{want} (required for #{platform})" unless File.basename(lib_path) == want
 

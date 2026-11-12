@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # sirena-native is a fiddle gem: there is no Ruby C extension to
-# compile. This Makefile contract builds the sirena-ffi cdylib for the
+# compile. This Makefile contract builds the etassia-ffi cdylib for the
 # active (cross) target and vendors it into lib/sirena/native/, where
 # the platform gem's loader (Sirena::Native::PACKAGED_DIR) finds it.
 # On engines with no C-toolchain contract (JRuby, TruffleRuby), emit a
@@ -30,17 +30,17 @@ makefile = <<~MAKEFILE
   endif
 
   all:
-  \tcargo build --release -p sirena-ffi$(if $(CROSS_TARGET), --target $(CROSS_TARGET),)
+  \tcargo build --release -p etassia-ffi$(if $(CROSS_TARGET), --target $(CROSS_TARGET),)
   \tmkdir -p ../../lib/sirena/native
   \tif [ -n "$(CROSS_TARGET)" ]; then \\
-  \t\tcp target/$(CROSS_TARGET)/release/libsirena_ffi.* ../../lib/sirena/native/ 2>/dev/null; \\
-  \t\tcp target/$(CROSS_TARGET)/release/sirena_ffi.* ../../lib/sirena/native/ 2>/dev/null || true; \\
+  \t\tcp target/$(CROSS_TARGET)/release/libetassia_ffi.* ../../lib/sirena/native/ 2>/dev/null; \\
+  \t\tcp target/$(CROSS_TARGET)/release/etassia_ffi.* ../../lib/sirena/native/ 2>/dev/null || true; \\
   \telse \\
-  \t\tcp target/release/libsirena_ffi.* ../../lib/sirena/native/ 2>/dev/null; \\
+  \t\tcp target/release/libetassia_ffi.* ../../lib/sirena/native/ 2>/dev/null; \\
   \tfi
   install:
   clean:
 MAKEFILE
 
 File.write("Makefile", makefile)
-warn "sirena-native: Makefile contract emits the sirena-ffi cdylib into lib/sirena/native (root: #{sirena_root})"
+warn "sirena-native: Makefile contract emits the etassia-ffi cdylib into lib/sirena/native (root: #{sirena_root})"

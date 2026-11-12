@@ -10,7 +10,7 @@ module NativeSpecSupport
   PIE_SOURCE = File.join(REPO_ROOT, "golden", "pie", "pie_spec-0b1f3197.mmd")
   PIE_SVG = File.join(REPO_ROOT, "golden", "pie", "pie_spec-0b1f3197.svg")
   UNPORTED_SOURCE = "sankey-beta\na,b,1\n"
-  MISSING_LIB = "/nonexistent/sirena-native-spec/libsirena_ffi.dylib"
+  MISSING_LIB = "/nonexistent/sirena-native-spec/libetassia_ffi.dylib"
 
   def self.cargo
     return ENV["CARGO"] if ENV["CARGO"] && !ENV["CARGO"].empty?
@@ -23,14 +23,14 @@ module NativeSpecSupport
   def self.build_reason
     return @build_reason if defined?(@build_reason)
 
-    log = File.join(Dir.tmpdir, "sirena-ffi-native-spec-build.log")
-    ok = system(cargo, "build", "-p", "sirena-ffi", chdir: REPO_ROOT, out: log, err: log)
-    @build_reason = ok ? nil : "cargo build -p sirena-ffi failed (see #{log})"
+    log = File.join(Dir.tmpdir, "etassia-ffi-native-spec-build.log")
+    ok = system(cargo, "build", "-p", "etassia-ffi", chdir: REPO_ROOT, out: log, err: log)
+    @build_reason = ok ? nil : "cargo build -p etassia-ffi failed (see #{log})"
   end
 
   def self.debug_lib
     ext = RbConfig::CONFIG["host_os"].match?(/darwin/) ? "dylib" : "so"
-    File.join(REPO_ROOT, "target", "debug", "libsirena_ffi.#{ext}")
+    File.join(REPO_ROOT, "target", "debug", "libetassia_ffi.#{ext}")
   end
 end
 

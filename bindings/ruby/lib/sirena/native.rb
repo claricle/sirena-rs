@@ -5,7 +5,7 @@ require "rbconfig"
 require "ffi"
 
 module Sirena
-  # Renders through the sirena-ffi C ABI (see crates/sirena-ffi/README.md).
+  # Renders through the etassia-ffi C ABI (see crates/etassia-ffi/README.md).
   #
   # The shared library is looked up in this order:
   #   1. ENV["SIRENA_NATIVE_LIB"] — exact file path; when set, nothing else is searched.
@@ -41,7 +41,7 @@ module Sirena
 
     # Loads one cdylib and calls its three entry points.
     class Library
-      # Matches `struct SirenaBuf` in crates/sirena-ffi/src/lib.rs (24 bytes on 64-bit).
+      # Matches `struct EtassiaBuf` in crates/etassia-ffi/src/lib.rs (24 bytes on 64-bit).
       class Buf < FFI::Struct
         layout :ptr, :pointer,
                :len, :size_t,
@@ -57,20 +57,20 @@ module Sirena
           extend FFI::Library
 
           ffi_lib path
-          attach_function :sirena_render, %i[pointer size_t pointer], buf.by_value
-          attach_function :sirena_detect, %i[pointer size_t], buf.by_value
-          attach_function :sirena_free, [buf.by_value], :void
+          attach_function :etassia_render, %i[pointer size_t pointer], buf.by_value
+          attach_function :etassia_detect, %i[pointer size_t], buf.by_value
+          attach_function :etassia_free, [buf.by_value], :void
         end
       end
 
       def render(source)
         ptr, len = input(source)
-        take(@lib.sirena_render(ptr, len, nil))
+        take(@lib.etassia_render(ptr, len, nil))
       end
 
       def detect(source)
         ptr, len = input(source)
-        take(@lib.sirena_detect(ptr, len))
+        take(@lib.etassia_detect(ptr, len))
       end
 
       private
@@ -86,7 +86,7 @@ module Sirena
       def take(buf)
         body = buf[:ptr].read_bytes(buf[:len]).force_encoding(Encoding::UTF_8)
         status = buf[:status]
-        @lib.sirena_free(buf)
+        @lib.etassia_free(buf)
         return body if status.zero?
 
         raise_error(body)
@@ -151,9 +151,9 @@ module Sirena
 
       def library_filename
         case RbConfig::CONFIG["host_os"]
-        when /darwin/ then "libsirena_ffi.dylib"
-        when /mswin|mingw/ then "sirena_ffi.dll"
-        else "libsirena_ffi.so"
+        when /darwin/ then "libetassia_ffi.dylib"
+        when /mswin|mingw/ then "etassia_ffi.dll"
+        else "libetassia_ffi.so"
         end
       end
 
