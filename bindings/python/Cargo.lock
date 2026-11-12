@@ -99,6 +99,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00d174d5400e5e8fd687ad1049e2f578285fa914201b1af7e8b112a4546bd826"
 
 [[package]]
+name = "etassia-py"
+version = "0.0.0"
+dependencies = [
+ "etassia-rs",
+ "pyo3",
+]
+
+[[package]]
 name = "etassia-rs"
 version = "0.0.0"
 dependencies = [
@@ -440,14 +448,6 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest",
-]
-
-[[package]]
-name = "sirena-py"
-version = "0.0.0"
-dependencies = [
- "etassia-rs",
- "pyo3",
 ]
 
 [[package]]

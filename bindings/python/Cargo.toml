@@ -3,7 +3,7 @@
 [workspace]
 
 [package]
-name = "sirena-py"
+name = "etassia-py"
 version = "0.0.0"
 edition = "2021"
 license = "BSD-2-Clause"
