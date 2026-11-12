@@ -3,7 +3,7 @@
 //! `Renderer::Architecture`.
 //!
 //! Ruby mixes Integer and Float arithmetic in the placement (the viewBox prints
-//! `370` where a Float prints `176.0`), so geometry is carried as [`N`].
+//! `370` where a Float prints `176.0`), so geometry is carried as `N`.
 //! Declined to the Ruby path (`Error::Unported`): a frontmatter/directive
 //! preamble, duplicate ids, references to undeclared groups, parent cycles,
 //! empty labels, and an edge-router grid that holds the same coordinate as both

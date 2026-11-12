@@ -16,7 +16,7 @@ require "json"
 require "timeout"
 
 $LOAD_PATH.unshift(File.join(Dir.pwd, "lib"))
-require "sirena"
+require "etassia"
 
 OUT = ENV.fetch("GOLDEN_OUT", File.expand_path("../golden", __dir__))
 CORPUS = ENV.fetch("SIRENA_CORPUS", File.join(Dir.pwd, "spec", "mermaid"))
@@ -30,7 +30,7 @@ Dir.glob(File.join(CORPUS, "*", "*.mmd")).sort.each do |path|
   rel = path.delete_prefix("#{CORPUS}/")
   source = File.binread(path)
   begin
-    svg = Timeout.timeout(10) { Sirena::Engine.new.render(source, today: TODAY) }
+    svg = Timeout.timeout(10) { Etassia::Engine.new.render(source, today: TODAY) }
   rescue StandardError, SystemStackError => e
     errors << { "case" => rel, "error" => e.class.name }
     next

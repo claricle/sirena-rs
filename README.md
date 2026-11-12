@@ -1,7 +1,12 @@
-# sirena-rs
-Rust runtime for sirena with Ruby/TS/Python bindings (claricle/sirena#343)
+# etassia-rs
+Rust runtime for etassia with Ruby/TS/Python bindings (etassia/etassia#343)
+
+_Etassia_ comes from the Greek ἐκτάσσω, "drawn up in formation".
 
 ## RELEASING
+
+The tags, package names and manifests below still carry the `sirena` name that
+`.github/workflows/release.yml` triggers on; they change together with the gem rename.
 
 Releases are cut by pushing a tag; `.github/workflows/release.yml` builds the
 package, smokes it, and publishes it. The tag version must equal the manifest
@@ -15,17 +20,17 @@ version (nothing bumps it for you):
 
 Dry run: Actions > release > Run workflow, pick a package, leave `publish` off.
 
-One-time setup per registry (claricle/sirena-rs, workflow `release.yml`; also
+One-time setup per registry (etassia/etassia-rs, workflow `release.yml`; also
 create the GitHub environments `rubygems`, `pypi` and `npm`):
 
 - **RubyGems** (owner of the `sirena-native` name): rubygems.org > Profile >
   Trusted publishers > add a pending publisher: gem `sirena-native`, owner
-  `claricle`, repository `sirena-rs`, workflow `release.yml`, environment `rubygems`.
+  `etassia`, repository `etassia-rs`, workflow `release.yml`, environment `rubygems`.
 - **PyPI** (account that will own `sirena-py`): pypi.org > Publishing > add a
-  pending publisher: project `sirena-py`, owner `claricle`, repository
-  `sirena-rs`, workflow `release.yml`, environment `pypi`.
+  pending publisher: project `sirena-py`, owner `etassia`, repository
+  `etassia-rs`, workflow `release.yml`, environment `pypi`.
 - **npm** (owner of `sirena-ts`): npm cannot trust a package that does not exist
   yet. Publish the first release once by hand (`npm publish --access public`
   from `bindings/ts` after `npm run build`), then npmjs.com > package >
-  Settings > Trusted Publisher > GitHub Actions: org `claricle`, repository
-  `sirena-rs`, workflow `release.yml`, environment `npm`. Later releases use the tag.
+  Settings > Trusted Publisher > GitHub Actions: org `etassia`, repository
+  `etassia-rs`, workflow `release.yml`, environment `npm`. Later releases use the tag.
