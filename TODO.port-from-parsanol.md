@@ -57,3 +57,6 @@ ext hook, so cross-gem would emit only a binary-free ruby gem today.
   auto-merge → the merge IS the release: tag, cross-gem all platforms,
   smoke, TP-push, GitHub release.
 - No local builds, no manual `gem push`, no per-OS machines.
+
+## STATUS: implemented on branch release/parsanol-model (this file sits on the same branch)
+Steps 1-3, 5-6 are done; step 4 (release-plz for the crates) still needs the owner decision on the crates.io name for sirena-core.
