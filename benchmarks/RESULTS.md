@@ -14,7 +14,7 @@ change to the golden corpus or either renderer.
 | rustc | rustc 1.99.1 (58cf8f9c3 2026-10-13) |
 | cargo | cargo 1.99.1 (5f94df478 2026-08-27) |
 | Ruby sirena checkout | /private/tmp/hk-sirena-benchref (4a491e5a) |
-| Rust library | target/release/libsirena_ffi (release build, FFI call included) |
+| Rust library | target/release/libetassia_ffi (release build, FFI call included) |
 | Corpus | golden/*/*.mmd: 1206 cases in the Rust run, 1206 in the Ruby run |
 | Iterations | 5 timed per case after one untimed warm-up |
 
@@ -67,7 +67,7 @@ left to the Ruby fallback and are not timed on either side.
   as rough orders of magnitude.
 - Only timing is measured; the outputs of the two renderers are not compared.
   The Ruby side is pinned to 2026-01-01 as in scripts/golden_generate.rb;
-  `sirena_render` takes no date argument.
+  `etassia_render` takes no date argument.
 
 ## Rerun
 
@@ -78,5 +78,5 @@ ruby benchmarks/bench.rb
 # optional: SIRENA_RUBY_ROOT=/path/to/sirena-checkout BENCH_ITERATIONS=5 ruby benchmarks/bench.rb
 ```
 
-The script builds `sirena-ffi` in release mode, times each side in its own
+The script builds `etassia-ffi` in release mode, times each side in its own
 process, and rewrites this file.
