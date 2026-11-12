@@ -4,7 +4,11 @@
 # merge triggers this push path. Platform gems are cross-compiled for
 # all five triples on ubuntu runners (oxidize-rb cross-gem) - no
 # per-platform machines, no local gem push.
-name: Release
+#
+# NOTE: this workflow lives at the REPOSITORY ROOT's .github/workflows
+# (GitHub does not read nested .github directories); every Ruby step
+# runs with working-directory bindings/ruby.
+name: Release binding
 
 on:
   workflow_dispatch:
@@ -41,8 +45,8 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
       - uses: ruby/setup-ruby@v1
-        with: { ruby-version: "3.4" }
-      - run: gem install gem-release
+        with:
+          ruby-version: "3.4"
       - name: Determine and bump version
         id: version
         env:
@@ -50,9 +54,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          read_version() {
+            ruby -Ibindings/ruby/lib -r sirena/native/version \
+              -e 'puts Sirena::Native::VERSION'
+          }
           if [ -z "${{ inputs.bump_type }}" ] || [ "${{ inputs.bump_type }}" = "skip" ]; then
             echo "release=true" >> "$GITHUB_OUTPUT"
-            VERSION=$(ruby -Ilib -r sirena/native/version -e 'puts Sirena::Native::VERSION')
+            VERSION=$(read_version)
             TAG="v$VERSION"
             git tag -a "$TAG" -m "Release $VERSION" || true
             echo "version=$VERSION" >> "$GITHUB_OUTPUT"
@@ -63,8 +71,8 @@ jobs:
             VERSION_ARG="${{ inputs.bump_type == 'custom' && inputs.custom_version || inputs.bump_type }}"
             BRANCH="release/bump-$VERSION_ARG-$(date +%s)"
             git checkout -b "$BRANCH"
-            gem bump --version "$VERSION_ARG"
-            VERSION=$(ruby -Ilib -r sirena/native/version -e 'puts Sirena::Native::VERSION')
+            (cd bindings/ruby && gem bump --version "$VERSION_ARG")
+            VERSION=$(read_version)
             git push origin "$BRANCH"
             {
               echo "Version bump to ${VERSION} for release."
@@ -100,6 +108,9 @@ jobs:
     needs: [prepare-version]
     if: needs.prepare-version.outputs.release == 'true'
     runs-on: ubuntu-22.04
+    defaults:
+      run:
+        working-directory: bindings/ruby
     strategy:
       fail-fast: false
       matrix:
@@ -108,7 +119,10 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: "${{ needs.prepare-version.outputs.sha }}" }
       - uses: ruby/setup-ruby@v1
-        with: { ruby-version: "3.4" }
+        with:
+          ruby-version: "3.4"
+          bundler-cache: false
+      - run: bundle install --jobs 4
       - uses: oxidize-rb/actions/cross-gem@v1
         id: cross-gem
         env:
@@ -119,7 +133,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: cross-gem-${{ matrix.platform }}
-          path: pkg/*-${{ matrix.platform }}.gem
+          path: bindings/ruby/pkg/*-${{ matrix.platform }}.gem
           if-no-files-found: error
 
   smoke:
@@ -161,8 +175,8 @@ jobs:
       - uses: actions/download-artifact@v4
         with: { pattern: "cross-gem-*", merge-multiple: true, path: pkg }
       - name: Package source gem
+        working-directory: bindings/ruby
         run: |
-          cd bindings/ruby
           gem build sirena-native.gemspec
           mv sirena-native-*.gem ../pkg/
       - uses: rubygems/configure-rubygems-credentials@main
