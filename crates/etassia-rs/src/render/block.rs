@@ -4,7 +4,7 @@
 //!
 //! Ruby mixes Integer and Float arithmetic in the placement (an Integer
 //! `20 / 2` floors, and the viewBox prints `20` where a Float prints `20.0`),
-//! so geometry is carried as [`N`]. Declined to the Ruby path
+//! so geometry is carried as `N`. Declined to the Ruby path
 //! (`Error::Unported`): sources with a frontmatter/directive preamble.
 use super::pie::{items, strip, text_of};
 use crate::svg::{ruby_float, ArrowPath, Arrowhead, Document, Elem, Theme};
