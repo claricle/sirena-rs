@@ -47,6 +47,8 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.4"
+      - name: Install gem-release (provides `gem bump`)
+        run: gem install gem-release
       - name: Determine and bump version
         id: version
         env:
