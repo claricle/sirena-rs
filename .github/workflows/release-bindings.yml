@@ -52,7 +52,9 @@ jobs:
       - name: Determine and bump version
         id: version
         env:
-          GH_TOKEN: ${{ github.token }}
+          # github.token cannot create PRs (repo setting forbids Actions-created
+          # PRs); the PAT both bypasses that and triggers CI on the bump PR.
+          GH_TOKEN: ${{ secrets.ETASSIA_CI_PAT_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -83,7 +85,7 @@ jobs:
             } > /tmp/bump-pr-body.md
             PR_URL=$(gh pr create --title "Release: bump etassia-native to ${VERSION}" \
               --body-file /tmp/bump-pr-body.md --head "$BRANCH")
-            gh pr merge --auto --rebase "$PR_URL"
+            gh pr merge --rebase "$PR_URL"
             PR_NUMBER=$(basename "$PR_URL")
             for i in $(seq 1 120); do
               STATE=$(gh pr view "$PR_NUMBER" --json state --jq .state)
