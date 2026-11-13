@@ -1,2 +1,4 @@
-lib/etassia/native/
+# Vendored cdylibs land here at package time; Ruby sources stay tracked.
+lib/etassia/native/*
+!lib/etassia/native/*.rb
 pkg/
