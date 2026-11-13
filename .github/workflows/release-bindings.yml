@@ -188,8 +188,10 @@ jobs:
       - name: Package source gem
         working-directory: bindings/ruby
         run: |
+          set -x
           gem build etassia-native.gemspec
-          mv etassia-native-*.gem ../pkg/
+          ls -la "${GITHUB_WORKSPACE}/pkg"
+          mv -v etassia-native-*.gem "${GITHUB_WORKSPACE}/pkg/"
       - uses: rubygems/configure-rubygems-credentials@main
       - name: Push Gem
         working-directory: pkg
