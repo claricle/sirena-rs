@@ -1,4 +1,4 @@
-//! Port of `Sirena::Svg::PathGeometry`: where a path starts and ends and its
+//! Port of `Etassia::Svg::PathGeometry`: where a path starts and ends and its
 //! heading there. Arcs yield no heading (their chord is not a tangent).
 
 /// A point on the path and the unit direction of travel through it.

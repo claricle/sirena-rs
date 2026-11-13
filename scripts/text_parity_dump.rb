@@ -1,25 +1,25 @@
 # frozen_string_literal: true
 
 # Dumps Ruby text-measurement results for the Rust parity test
-# (crates/sirena-core/tests/text_parity.rs). Floats are written as their
+# (crates/etassia-core/tests/text_parity.rs). Floats are written as their
 # IEEE-754 bit patterns (u64) so the comparison is exact.
 #
-#   cd $SIRENA && ruby /path/to/sirena-rs/scripts/text_parity_dump.rb
+#   cd $ETASSIA && ruby /path/to/etassia-rs/scripts/text_parity_dump.rb
 #
 # Env: TEXT_PARITY_OUT (fixture path), GOLDEN_DIR (corpus *.mmd source).
 $LOAD_PATH.unshift(File.join(Dir.pwd, "lib"))
 require "json"
-require "sirena/text_measurement"
-require "sirena/text_measurement/times_advances"
-require "sirena/text_measurement/trebuchet_kerning"
-require "sirena/layout/timeline_text"
+require "etassia/text_measurement"
+require "etassia/text_measurement/times_advances"
+require "etassia/text_measurement/trebuchet_kerning"
+require "etassia/layout/timeline_text"
 
 ROOT = File.expand_path("..", __dir__)
 OUT = ENV.fetch("TEXT_PARITY_OUT",
-                File.join(ROOT, "crates/sirena-core/tests/fixtures/text/parity.json"))
+                File.join(ROOT, "crates/etassia-core/tests/fixtures/text/parity.json"))
 GOLDEN = ENV.fetch("GOLDEN_DIR", File.join(ROOT, "golden"))
-TM = Sirena::TextMeasurement
-TL = Sirena::Layout::TimelineText
+TM = Etassia::TextMeasurement
+TL = Etassia::Layout::TimelineText
 SIZES = [10.0, 14.5, 16.0, 24.0].freeze
 WRAP_WIDTH = 120.0
 

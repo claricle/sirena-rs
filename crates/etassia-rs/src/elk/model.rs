@@ -1,5 +1,5 @@
 //! Internal graph model the layered phases work on (elkrb `Graph::Graph`,
-//! `Graph::Node`, `Graph::Edge`, restricted to what sirena sends: a flat
+//! `Graph::Node`, `Graph::Edge`, restricted to what etassia sends: a flat
 //! level of sized nodes joined by single-source single-target edges).
 //! elk-place and elk-route extend this: positions are written onto
 //! `Graph::children`, routes onto `Edge::sections`.
@@ -49,7 +49,7 @@ pub struct Graph {
 }
 
 /// Resolves ids to the child that owns them, for one level (elkrb
-/// `NodeIndex`; sirena's levels have no ports or nested nodes, so a node
+/// `NodeIndex`; etassia's levels have no ports or nested nodes, so a node
 /// owns only its own id).
 #[derive(Debug, Clone)]
 pub struct NodeIndex {
@@ -185,7 +185,7 @@ impl Graph {
         })
     }
 
-    /// The projection sirena reads back (recorded by golden/elk_dump.rb).
+    /// The projection etassia reads back (recorded by golden/elk_dump.rb).
     pub fn to_json(&self) -> Value {
         let num = |x: Option<f64>| x.map_or(Value::Null, |f| json!(f));
         let pt = |p: &super::geometry::Point| json!({"x": p.x, "y": p.y});

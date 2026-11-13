@@ -7241,3167 +7241,3167 @@
   "errors": [
     {
       "case": "architecture/architecture_spec-05842252.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "architecture/architecture_spec-5d965f8d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-8afbb5a2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-a87e50a5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-ae158359.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-af907b7d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-b52f4c78.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-be83292d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-c1d79935.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/architecture_spec-ece1f42b.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "architecture/architecture_test-280f9309.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "architecture/mermaidapi_spec-9ff8c22d.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "architecture/svgdraw_spec-14da6703.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/a_diagram_with_auto_column_statements-b4d29183.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/a_diagram_with_column_statements-f159d8bc.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/a_diagram_without_column_statements-d1b86af5.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/arrow_blocks-b1e05b5e.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/blocks_mixed_with_compound_blocks-4df30c9b.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/blocks_next_to_each_other-d6e34980.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "block/blocks_on_top_of_each_other-742a6cd3.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/c4_spec-40e418b1.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/c4_spec-5cb5349f.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/c4_spec-a35c3c27.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/c4_spec-b1338343.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/c4_spec-ec059fa6.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "c4/diagram_orchestration_spec-de6f44eb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/mermaidapi_spec-eb6da39c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_link-37f0b697.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_link-47ff4c4c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_link-c5af83ba.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_link-f27631de.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_sprite-48520888.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_sprite-5edd570a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_sprite-ac91af94.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_a_sprite-f6920fba.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_tags-5de50e83.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_tags-616e2fc3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_tags-810b5561.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "c4/should_parse_tags-96bbad18.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/class_spec-cc39a334.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/class_spec-e20de430.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/class_spec-e35a838d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-01fd0edb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-0a93d562.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-0b63114e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-0d81a776.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-1011b382.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-11949457.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-13ef4e54.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-15b3a3f4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-1770eb2f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-1c074d15.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-20125696.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-22a4c599.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-23bfb709.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-248ca556.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-24ce281d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-2db03dc0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-3162c1fb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-3ba9d355.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-3df1a532.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-4209fde5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-43797016.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-46111c63.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-46de0459.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-49230672.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-4cc37c65.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-4e84fabe.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-5814b765.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-5928c7db.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-59c4e642.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-5a88cf38.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-5d7a075e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-5ed6b4d9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-64f0497b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-68f539ee.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-6e31fd51.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-707ca1b6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-78aa7ceb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-7d6a0ae0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-7f7323f5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-83d6d7d0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-882bceb7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-8910adc4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-89847e28.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-89ce3621.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-8c8ef44a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-8f72dc14.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-8faa09e5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-8fb6838d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-91d2dca6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-93fd5dd4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-9903067a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-993711e5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-99935c8c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-9b7740f8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-9b9272c6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-a220c8c8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-a5a3ca4d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-a7e92165.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-aaa315f8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-aabea7c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-aafd9409.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ac76b282.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-acf6f03d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-b2df4b5b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-b5b05534.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-b832406f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-b8608261.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-bbb83d9d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-bc16b2f5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-bcf14374.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-be23b67b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-c071c93e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ce80c05a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d52f200c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d55aa7df.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d6cceedd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d7130dfa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d7d7c49d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-d985c318.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-db5b1ab5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-dbc2cc41.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-dd7337b2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ddf34467.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-de3e6170.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-e0fe1916.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-e2a923b1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-e67f67a1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-e94dfee9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-eb1e4596.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ecb265e7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ed1c046c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ed4d936c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ed7199c6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-efbfea2b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-f1e5ff4e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-f25b0880.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-f417697f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-f5041ce0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-f8d72790.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-fb53320f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_spec-ff2fe224.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_styles_spec-945bb347.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_styles_spec-a7127f80.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_styles_spec-bf7e8658.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_styles_spec-cb235322.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/classdiagram_styles_spec-e2427a19.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_associate_callback_appropriately-caa3412c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_associate_link_and_css_appropriately-aa7968b8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_associate_link_appropriately-d52d2ef0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_associate_link_with_tooltip-f90aa790.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_be_possible_to_apply_a_css_class_to_a_cla-95c9521c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_be_possible_to_apply_a_cssclass_to_a_clas-97fdecbd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_be_possible_to_apply_a_cssclass_to_a_comm-3ba4969f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_be_possible_to_define_and_assign_a_class-74f55631.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_handle_backtick_quoted_namespace_names-8274b0b7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_a_text_label-2f9e7ad8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_a_text_label_and_membe-4851bc73.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_a_text_label_and_membe-4eaf8011.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_a_text_label_member_an-b91887c4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_a_text_label_members_a-0e2292d1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_text_label_and_css_cla-0f9dc731.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_a_class_with_text_label_and_css_cla-3f8cc6fc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_classes_with_different_text_labels-3b6eef91.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_classes_with_different_text_labels-ef4861fc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_two_classes_with_text_labels-cc0be03b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_two_classes_with_text_labels_and_cs-041a1e8d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_parse_two_classes_with_text_labels_and_cs-751f3ca7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/should_properly_assign_multiple_classes_and_styl-b6145455.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-0c2e93b1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-0cf92995.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-46730858.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-4f367a07.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-705947a2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-9370c2b9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "class_diagram/yari-afc4579e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/can_have_an_alias-541ee85a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/can_have_an_alias_even_if_the_relationship_is_de-2836bbee.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/can_have_an_alias_even_if_the_relationship_is_de-a32cda75.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/can_start_with_an_underscore-bfafb496.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/cannot_contain_because_it_could_start_and_escape-eb5c05ca.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/cannot_contain_because_it_interferes_with_parsin-98f2b505.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/cannot_newline_backspace_or_vertical_characters-c6cf992f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-00573624.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-0285f630.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-038a5baf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-03ecc8fb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-05527a01.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-0a02195e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-0a9ec4e7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-0e6594ee.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-0eebf99d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-111c698f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-14ad0a37.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-1622430a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-16508afb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-16fbb123.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-1a8b7719.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-1b815eed.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-2b37cd71.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-2efe54dc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-2f15ca44.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-346c8a84.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-36265fda.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-37f7ef3e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-39b996ea.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-3a39117b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-3ba80a22.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-3c43409a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-3c8a4cbd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-3d10f4ef.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-4053e4b9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-46454a3a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-4aabf3e3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-4ab60472.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-4eb49b63.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-50d759c6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-572ba53b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-575d46af.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-594ff7e6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-5b8ee872.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-5f25750b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-63c477ed.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-6d67c1f6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-72b4989f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-75d45fa9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-7997ef63.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-7b6a17de.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-870ded69.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8819d6bc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8a7b96fa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8c8dd033.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8cb87484.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8cc5e254.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-8cc99c4c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-90ee7a35.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-9899efcb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-9ad814d1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-9b4fc14a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-9e149a5e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-9e6311f2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a1241e76.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a5ca0b8c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a6a71959.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a8233d84.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a837a6ac.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a909abd3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-a955ce67.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-acb29fce.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-b2bb4486.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-b31cf34f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-c2e21145.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-c5282c1f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-cfe6339e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d00cb184.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d3d7fc8e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d61c1a73.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d921f55c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d944f1d1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-d9e80d35.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-da862bac.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-da955898.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-db53fe0a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-dd9083d6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-deabda36.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-e541a7e1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-e802f712.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-eba72fa7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-f06cacb7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/erdiagram_spec-f6a21083.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-2a260e89.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-33008e29.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-5b9e6912.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-b8d8e64a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-bfa0e3fa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/journey_spec-d55f22a2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/parses_a_multi_line_description_accdescr-e2a71e42.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_alphanumeric_characters_dashes_unde-9ca4122f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_attribute_block_to_be_separated-c8aee6b7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_attribute_block_to_start_immedia-72cd4400.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_empty_attribute_block-c3800c19.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_empty_quoted_label-2e09a1b3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_a_single_attribute_t-4ac20c2c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_a_single_attribute_t-7e19bc34.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_a_single_attribute_t-a3a33536.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_a_single_attribute_t-eb12494a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_attribute_starting_w-2c466233.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_attribute_that_has_a-52e306e2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_attribute_that_is_a-8a3e5732.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_attribute_that_is_an-08442ad0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_attributes_that_have-88078892.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_an_entity_with_multiple_attributes-64b7db08.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_asterisk_at_the_start_of_attribute-30954a02.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_asterisks_at_the_start_of_attribute-0e131448.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_attribute_definitions_to_be_split_i-a2753201.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_decimal_numbers_as_entity_names_wit-31b7bfa7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_decimal_numbers_as_standalone_entit-1bcf6f49.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_decimal_numbers_in_relationships-fb5bd4ad.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_more_than_one_relationship_between-faee6d96.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_no_whitespace_before_and_after_attr-4177c5c2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_numbers_in_relationships-f5668c4e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_recursive_relationships-cda7f220.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_stand_alone_entities_with_no_relati-feb7c214.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_allow_whitespace_before_and_after_attribu-859ddb36.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_associate_two_entities_correctly-f8126a99.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_apply_multiple_separately-f36a9d6c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_apply_multiple_styles_to_a-94ac2e5d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_a_class_to_an_entit-128aa6a7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_a_class_using_the_s-69f7bc9b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_a_class_using_the_s-923d4a00.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_a_class_using_the_s-f609955c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_classes_using_the_s-a4fa913a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_classes_using_the_s-b355ebfa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_multiple_classes_to-f39e92da.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_multiple_classes_us-d5d0abc2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_assign_multiple_separately-85f80ce7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_configure_the_default_clas-3cc61531.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_define_a_class_with_styles-8e5af522.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_be_possible_to_define_multiple_class_with-1a2be1c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_create_the_role_specified-b918decf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_limit_the_number_of_relationships_between-4f41bb6a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "er_diagram/should_not_allow_leading_numbers_dashes_or_brack-c1766b9e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "error/errordiagram_spec-34805ce6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/current-74651a3c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/current-e94c77cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_arrows_spec-3b54e50e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_arrows_spec-58e1c972.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-618a71ea.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-631bd216.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-68ea59e2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-699c136c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-9fa70e30.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-ae4455cb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-b1966b65.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_comments_spec-e69bdfb5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-169ad093.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-17d5ab91.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-18bff702.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-21315efc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-2896ba9e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-28cd06fb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-2ef8a6c9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-32896ba1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-32cecbac.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-46b08efa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-501fbbb0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-583c7e70.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-611fcd10.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-63cdf91f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-654bb12e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-6e63c5a5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-7d0a328b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-8297a4cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-8f385abc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-9467a8e6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-af4b7d73.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-b6872d29.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-cc52f417.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-e329ef4e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-e38339b9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_edges_spec-fa253a8a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-25cf71c8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-2a085816.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-5506f485.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-583e2273.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-94e5b622.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-d08cedbe.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-da0876d2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-e5d88fce.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_lines_spec-e808e1f8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_md_string_spec-04a25622.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_md_string_spec-17e3609f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_md_string_spec-26e1e470.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_md_string_spec-be3fa521.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-1ce5356a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-3743a064.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-385d64c0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-3e3293c9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-4154483e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-52436231.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-53d4ad6e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-5a516a4a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-64c9dc2b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-75482361.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-820f5798.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-875ce0c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-88ef0461.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-a1a3e8f8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-b7ee0379.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_node_data_spec-e81505dd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_singlenode_spec-aacb222a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_singlenode_spec-af1ad8a6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_singlenode_spec-b1dd915a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_spec-50186d7c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_spec-5c5025fc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_spec-604c37df.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_spec-666b641c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_spec-f1aa1d42.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-0ce324c2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-465e5027.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-78a9b3c4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-8cd2d0bf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-9bd50570.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-ad32b111.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-b1f4d487.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-b8dfc420.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-dcf1f3be.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_style_spec-f2cbe745.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-0b25e2d1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-1e40cec6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-264a7bf1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-69181c00.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-6bf06ed4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-6c2697c9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-a33448ba.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-b7613af6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-bb0f15f6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-cbaf90b9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-cea7dbde.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-d0d0f751.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-dbcba2c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/flow_text_spec-e500bc56.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-02811144.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-079ae241.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-0fd49976.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-38097244.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-4d850c95.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-57f55756.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-6e76333f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-7cf044cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-8cb5efe3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-a33751ee.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-eb979727.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/subgraph_spec-f500a75b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "flowchart/xss22-4465e9ea.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gantt/gantt_spec-5d8671fe.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gantt/should_allow_for_a_accessibility_title_and_multi-20a4238e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gantt/should_parse_callback_specifier_with_arbitrary_n-6f9e4b3f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gantt/should_parse_callback_specifier_with_no_args-d3b867a2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/git_graph-0b0b355f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/git_graph-a67bce12.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-0b25d816.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-0de8a536.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-2991199d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-33d2e733.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-3c2299be.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-46039f98.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-51c5ba48.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-5fd422d2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-604dad9c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-618ca788.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-6dbacd8b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-7331cd25.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-885f13f6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-91c1c4ae.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-b38ba7bb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-b498c8db.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-b88a55d1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-bc09a6fb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-c80f6b5f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-c890a62b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-d7ff8f0d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-e632fe0f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-f027449f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-f33d4324.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-f71b441d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/gitgraph_test-f9858e92.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_fail_cherry_picking_of_merge_commits_if_t-c9fa8ebb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_fail_cherry_picking_of_merge_commits_when-9f5b53c4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_handle_a_gitgraph_definition-4acb9709.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_try_to_checkout_unknown-3e3b849e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_trying_to_merge_branch_t-950f4997.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_trying_to_merge_branch_w-93bba635.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_trying_to_merge_branches-fde8e313.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_trying_to_merge_unknown-36f2e03b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_trying_to_merge_when_cur-4bb16d06.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "gitgraph/should_throw_error_when_using_existing_id_as_mer-5ee3b619.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "info/info_spec-9a1bf395.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "info/should_throw_because_of_unsupported_info_grammar-04542f46.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "info/should_throw_because_of_unsupported_info_grammar-951f438a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "kanban/kanban_spec-ae0565ea.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "kanban/knbn_6_real_root_in_wrong_place-7a57fb5a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/5_multiple_roots_are_illegal-4fbe4e9a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/config_spec-13ea20a0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/config_spec-a8c9cb63.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/diagram_orchestration_spec-2a42239f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/diagram_orchestration_spec-8382c44f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/diagram_orchestration_spec-956735de.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/mindmap_spec-074c143a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/mindmap_spec-57ff3c5e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/mindmap_tidy_tree_spec-5b5c6442.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "mindmap/mmp_6_real_root_in_wrong_place-226e3b49.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/darshan-af04f5f1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/pie_spec-8a2744c7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/pie_test-993abc75.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/pie_test-9ab8dc76.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/pie_test-c695eeb1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/should_handle_simple_pie_with_negative_decimal-4d099601.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/should_handle_simple_pie_with_negative_slice_val-63fbc639.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "pie/theme_spec-a9670f7e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "quadrant/should_be_able_to_handle_constructor_as_a_classn-0901aef7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/mermaidapi_spec-c79047d3.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "radar/radar_spec-b3810df7.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "radar/radar_test-04791f8c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-224223d4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-2e8ae8c0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-380afad2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-38735805.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-3adb3de2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-3cb2ea1a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-60ce1e6e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-6283cadc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-6db703c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-761f0bd3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-83ba5537.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-87e9088f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-8ca406cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-91a6f7a0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-92388b87.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-991fbb2e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-9943b82b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-a0060614.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-b2b1735c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-be00dd54.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-c5f0b424.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-d6cf2daf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-d83563ef.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/radar_test-dd39c47f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "radar/should_handle_radar_diagram_with_config_override-b1b9f111.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "requirement/will_use_a_accessibility_title_and_multiline_des-507c090d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sankey/parses_csv_with_sankey_beta_syntax-ac5bf38a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/diagram_spec-0ee43be7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/mermaid_spec-b8d5b6a5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/mermaid_spec-dddb40c5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-178a8c78.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-329e1a14.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-32f90a6d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-97601112.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-b9874dbc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-cd10ed7b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_spec-f856f3c3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-0210f13f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-66119c12.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-71163691.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-8092a233.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-80dea164.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-8e0b6671.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-c98f02f7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-dffb9d43.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "sequence/sequencediagram_v2_spec-f3efa956.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/description_after_second_state-2d50be4d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/description_after_second_state-c3197e5d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/hide_empty_description-37cf5cc6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/hide_empty_description-a4b92738.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/scale-0b695e96.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/shall_handle_descriptions_including_minus_signs-2f544dbb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/shall_handle_descriptions_including_minus_signs-fb78c1ac.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_arrow_directions_definitions-709776e9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_arrow_directions_definitions-a45fec2b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_concurrent_state-4c57bf32.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_concurrent_state-545e37dd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_concurrent_state-caa6f9c3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_concurrent_state-ed5380cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_floating_notes-08758173.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_fork_statements-c74cc180.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_fork_statements-d0371472.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_multiple_recursive_state_definitio-47c620c6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_multiple_recursive_state_definitio-f9748e4d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_note_statements-4e5720a4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_note_statements-5c689b43.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_notes_for_composite_states-314eb3bf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_recursive_state_definitions-23d7165f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_recursive_state_definitions-a63be1cd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_relation_definitions-c1ead2b4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_relation_definitions-c1f16759.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_state_definitions_with_separation-14dcd785.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_state_definitions_with_separation-66a2d433.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_state_statements-02bc3364.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_handle_state_statements-e7035600.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_state_definition_with_quotes-985ee25e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/should_state_definition_with_quotes-e965972a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_states_with_labels-503668e1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_with_accdescription-9a4b81f0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_with_accdescription_accdescr-ddcfd6c8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_with_multiline_accdescription_accdescr-0768b11b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_with_title-e9583ab3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/simple_with_title_accdescr-c49268e9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/state_style_spec-1793e7e9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/state_style_spec-5f7364eb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/state_style_spec-aa26de07.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-012c4472.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-045c4d98.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-0ba06b23.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-0c8aca4c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-1190322a.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-12544018.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-13ef7f56.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-14b793e6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-159429ef.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-15ec6ff2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-1653f622.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-1a4f8bd0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-1e00895c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-29608c39.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-2ff68e17.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-31fa3ee4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-3365865c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-35e88baf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-36d7b1dc.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-39278024.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-3b90489b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-3ef2dcfb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-40c9ac01.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-41efc655.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-47771e5f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-49419133.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-4965a9af.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-4a7caf18.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-5091d085.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-540c3972.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-5823c948.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-5db6f683.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-5e8d05fd.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-5f322c1b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-61c1054b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-6217abb2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-62e1c7b7.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-6da990d3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-74261a4f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-74b96cc5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-7e13c74d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-836e165c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-84fa7b42.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-85a8f832.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-89322a90.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-8a719c09.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-8f5295b8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-93d0ca3f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-94d5618c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-9517b78d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-98fc6bd3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-9e899a40.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-a32dbda1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-a8b1c3b6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-aa563385.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-acbd6157.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-b6bfaac5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-b74059e8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-b7fd6ad9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-c00a2d32.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-cf0e21bf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d1364199.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d1fb1fa0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d2b5972f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d70d0aa6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d87f6672.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-d8edbae8.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-dbd153b9.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-e1fe2228.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-e3f6dcf6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-e57ada98.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-e9671157.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-eb1689cb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-ef8fcf01.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f0225465.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f062c24e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f08b5c70.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f4256d44.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f4d3f144.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f99cfef6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-f9c80b24.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-fcdb21ad.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-fdf6c5aa.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-fe48a130.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_spec-ffd2d953.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-0ff11835.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-12f07330.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-13333783.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-14a3be7b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-1703a0f2.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-1d66f488.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-1e88919f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-26254e43.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-2f81c3b1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-3055d1ed.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-33a14d16.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-3505bc62.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-3ba7af0f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-3e96b8eb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-417e559c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-45362b6d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-589fc294.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-5f2476b5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-61539d5d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-622dc71f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-62551c6b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-63fb1797.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-649d05f6.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-6a2ad467.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-6afb5e8d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-6e0d9ef0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-6ec5fc36.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-701d145f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-768cc984.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-77fa5130.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-7c0af12d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-7d2ffdd4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-832a9306.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-8caf701e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-8e52b8cb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-99875eb0.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-a3eb7f21.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-a4f41ba5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-a9fa4e8f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-aea9ccdf.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-c7fc7503.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-ca7bd330.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-d49fc4c4.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-d55cf668.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-d5b0460d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-d6232e7e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-df15b06f.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-e333ffe5.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-e67480a3.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-eb42ee32.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-f6b3bf00.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-f799c529.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-fa817cac.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-fb640eeb.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/statediagram_v2_spec-fb978528.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/super_simple-118f2a7e.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "state_diagram/super_simple-d28d6357.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "timeline/timeline_spec-4b48f463.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "treemap/treemap_spec-da322cba.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "unknown/darshan-af04f5f1.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "unknown/knsv-b8e9177d.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "unknown/marker_unique_id-a16cc002.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/marker_unique_id-f59e13aa.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-094f2360.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-0d5ccad8.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-14528ad4.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-36533323.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-488b67ff.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-4ae57ca8.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-56c33ec5.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-5b694c70.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-6b1a8fbb.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-7cc60523.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-803bb693.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-824e2c26.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-9fc3b8ca.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-b10b2327.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-b8f375fb.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-bd9bacd7.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-e58cf91b.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-ea9f6325.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-f4e50c72.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/mindmap_layouts-fb990044.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/sequencediagram_spec-24900033.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "unknown/xss3-6f4762ef.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-0088adca.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-034a3c82.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-06ef6c08.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-08ff8a50.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-1cd67728.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-1d27f3fc.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-33b54123.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-40a65496.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-468fde94.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-6a962f3b.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-7a4c7d02.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-7ee88f4c.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-8d4e8751.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-96c6cf4f.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-a5eab648.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari-b150bfee.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-2207c6f1.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-3127dbd6.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-37876dbb.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-89e03361.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-d14c6645.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "unknown/yari2-e8df74a5.mmd",
-      "error": "Sirena::Engine::DiagramTypeError"
+      "error": "Etassia::Engine::DiagramTypeError"
     },
     {
       "case": "user_journey/journeydb_spec-07d9961b.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-20cd7841.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-7aec6594.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-7dc51e58.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-9798fd5c.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-b64c5201.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-f4695b34.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     },
     {
       "case": "user_journey/journeydb_spec-f7bc5c73.mmd",
-      "error": "Sirena::Parser::ParseError"
+      "error": "Etassia::Parser::ParseError"
     }
   ]
 }

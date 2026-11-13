@@ -1,7 +1,7 @@
 //! Stage 3: detect the diagram type and parse its body with the PARG artifact
-//! (`artifact/mermaid.json`, built by claricle/sirena-mermaid-parg) through the
+//! (`artifact/mermaid.json`, built by claricle/etassia-mermaid-parg) through the
 //! parsanol engine. The tree equals the Ruby native tree
-//! (`Sirena::Parser::Native.parse`) for every type.
+//! (`Etassia::Parser::Native.parse`) for every type.
 
 mod detect;
 mod source;

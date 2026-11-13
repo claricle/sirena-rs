@@ -1,7 +1,7 @@
 //! Stage 2: SVG tree, serializer, theme and number formatters.
 //!
 //! Stable API for the stage-4 renderers:
-//! - [`fmt_num`] — JS `Number#toString` (`Sirena::JsNumber.stringify`).
+//! - [`fmt_num`] — JS `Number#toString` (`Etassia::JsNumber.stringify`).
 //! - [`ruby_float`] / [`write_num`] / [`round4`] / [`read_num`] — Ruby `Float#to_s`,
 //!   `Numbers.write`, `Float#round(4)`, `Numbers.read`.
 //! - [`Elem`] builder + [`Document`] + [`serialize`] — byte-identical to Ruby `Svg::*#to_xml`.

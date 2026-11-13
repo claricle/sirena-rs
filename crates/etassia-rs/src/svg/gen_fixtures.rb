@@ -1,7 +1,7 @@
 # Emits the Ruby-computed expectations embedded in tests/svg_parity.rs.
-# Usage: cd <sirena ruby checkout> && bundle exec ruby <this file> > fixtures.json
+# Usage: cd <etassia ruby checkout> && bundle exec ruby <this file> > fixtures.json
 require "json"
-require "sirena"
+require "etassia"
 
 nums = [0.0, -0.0, 1.0, -1.0, 10.0, 0.5, 0.1, 0.2 + 0.1, 12.0 * 1.1, 1.0 / 3, 2.0 / 3, 100.0,
         123.456, 1234.5678, 0.00001234, 1e-5, 1e-6, 1e-7, 1.5e-7, 0.000123, 1e15, 1e16, 1e17,
@@ -15,11 +15,11 @@ rng = Random.new(343)
 200.times { nums << rng.rand(0..100_000) / 100.0 }
 nums.uniq!
 numbers = nums.map do |n|
-  { "v" => n, "js" => Sirena::JsNumber.stringify(n), "ruby" => n.to_s, "round4" => n.round(4),
-    "write" => Sirena::Svg::Numbers.write(n) }
+  { "v" => n, "js" => Etassia::JsNumber.stringify(n), "ruby" => n.to_s, "round4" => n.round(4),
+    "write" => Etassia::Svg::Numbers.write(n) }
 end
 
-S = Sirena::Svg
+S = Etassia::Svg
 build = lambda do |spec|
   klass = S.const_get(spec["tag"] == "g" ? "Group" : spec["tag"].capitalize)
   obj = klass.new
@@ -84,15 +84,15 @@ escapes = ["plain", "a&b<c>d\"e'f", "nul\u0000x\u0001y\ttab\nnl\u{1F600}￾퟿"]
   { "in" => s, "text" => S::Escaping.escape_text(s), "attr" => S::Escaping.escape_attribute(s) }
 end
 
-themes = Sirena::Theme::Registry.list.map do |n|
-  t = Sirena::Theme::Registry.get(n)
+themes = Etassia::Theme::Registry.list.map do |n|
+  t = Etassia::Theme::Registry.get(n)
   { "name" => n.to_s, "background" => t.colors.background, "font_size_normal" => t.typography.font_size_normal,
     "flow3" => t.colors.palette(:flow, 3), "flow11" => t.colors.palette(:flow, 11),
     "shadow_enabled" => t.effects.shadow_enabled, "dash" => t.shapes.dash_pattern_dashed }
 end
 
 reads = ["14px", " 12.5", "-3e2x", ".5", "1.", "abc", "", "+7", "1e", "1e+", "0.5e-1"].map do |s|
-  { "in" => s, "out" => Sirena::Svg::Numbers.read(s) }
+  { "in" => s, "out" => Etassia::Svg::Numbers.read(s) }
 end
 
 puts JSON.generate({ "numbers" => numbers, "structures" => structures, "documents" => docs,

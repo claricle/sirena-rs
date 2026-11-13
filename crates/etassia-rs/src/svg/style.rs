@@ -1,4 +1,4 @@
-//! Port of `Sirena::Svg::Style`: CSS properties for an inline `style` value.
+//! Port of `Etassia::Svg::Style`: CSS properties for an inline `style` value.
 
 use super::number::ruby_float;
 

@@ -1,7 +1,7 @@
-//! Port of the elkrb 2.0.1 layered layout paths sirena exercises.
+//! Port of the elkrb 2.0.1 layered layout paths etassia exercises.
 //! Interface (fixed; recorded by golden/elk_dump.rb):
-//!   `layout(input)` takes the graph Hash sirena hands to `Elkrb.layout`
-//!   (JSON, string keys) and returns the projection sirena reads back:
+//!   `layout(input)` takes the graph Hash etassia hands to `Elkrb.layout`
+//!   (JSON, string keys) and returns the projection etassia reads back:
 //!   `{id,x,y,width,height,children:[..],edges:[{id,sections:[{startPoint,
 //!   endPoint,bendPoints}]}]}`. Anything not ported returns `Err(Unported)`.
 //!

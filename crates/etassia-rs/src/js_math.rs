@@ -1,10 +1,10 @@
 //! JavaScript's `Math` transcendentals, correctly rounded: the double nearest the true
-//! value, identical on every OS and in every sirena runtime (native, wasm, Python).
+//! value, identical on every OS and in every etassia runtime (native, wasm, Python).
 //! Current V8 returns the correctly rounded value for sin, cos, atan, atan2, log and
 //! log10 (measured on Chrome 156), so this is also the closest match to mermaid.
 //!
 //! Everything is exact integer arithmetic in 256-bit fixed point. It mirrors
-//! `lib/sirena/js_math.rb` in claricle/sirena step for step: keep the two in step.
+//! `lib/etassia/js_math.rb` in claricle/etassia step for step: keep the two in step.
 //! `hypot` is V8's own algorithm (plain IEEE arithmetic). `sqrt` is IEEE-exact and stays
 //! `f64::sqrt`.
 

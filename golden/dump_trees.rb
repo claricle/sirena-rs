@@ -2,7 +2,7 @@
 
 # Dumps the Ruby native parse tree of every .mmd under CORPUS_DIR as JSON.
 #
-#   ruby -I<sirena>/lib golden/dump_trees.rb <corpus_dir> <out_dir>
+#   ruby -I<etassia>/lib golden/dump_trees.rb <corpus_dir> <out_dir>
 #
 # corpus_dir holds <type>/<name>.mmd (the spec/mermaid layout, or golden/).
 # One <out_dir>/<type>/<name>.json per case:
@@ -11,7 +11,7 @@
 # length); hash keys are strings. The Rust parity test reads these files.
 require "json"
 require "fileutils"
-require "sirena"
+require "etassia"
 
 ENTRY_FOR = { git_graph: "gitgraph" }.freeze
 
@@ -30,27 +30,27 @@ end
 corpus, out = ARGV
 abort "usage: dump_trees.rb <corpus_dir> <out_dir>" unless corpus && out
 
-NAMES = Sirena::CorpusTypeNames::DIRECTORIES
-ARTIFACT = File.expand_path("lib/sirena/parser/native/mermaid.json",
-                            Gem.loaded_specs["sirena"]&.full_gem_path ||
-                            File.expand_path("../..", $LOADED_FEATURES.grep(/sirena\.rb\z/).first.to_s))
+NAMES = Etassia::CorpusTypeNames::DIRECTORIES
+ARTIFACT = File.expand_path("lib/etassia/parser/native/mermaid.json",
+                            Gem.loaded_specs["etassia"]&.full_gem_path ||
+                            File.expand_path("../..", $LOADED_FEATURES.grep(/etassia\.rb\z/).first.to_s))
 ENTRIES = JSON.parse(File.read(ARTIFACT))["entries"].keys.freeze
 
 def detect(body)
-  Sirena::Notation::Mermaid.detect_type(body)
-rescue Sirena::Engine::DiagramTypeError
+  Etassia::Notation::Mermaid.detect_type(body)
+rescue Etassia::Engine::DiagramTypeError
   nil
 end
 
 def dump_case(path, out)
   source = File.binread(path).force_encoding(Encoding::UTF_8)
-  body = Sirena::Source.split(source)[:body]
+  body = Etassia::Source.split(source)[:body]
   detected = detect(body)
   entry = detected && (ENTRY_FOR[detected] || detected.to_s)
   entry = nil unless ENTRIES.include?(entry)
   tree = nil
   if entry && body.valid_encoding?
-    raw = Sirena::Parser::Native.parse(entry, body)
+    raw = Etassia::Parser::Native.parse(entry, body)
     tree = wire(raw) unless raw.nil?
   end
   target = File.join(out, File.basename(File.dirname(path)),
