@@ -85,10 +85,12 @@ jobs:
             } > /tmp/bump-pr-body.md
             PR_URL=$(gh pr create --title "Release: bump etassia-native to ${VERSION}" \
               --body-file /tmp/bump-pr-body.md --head "$BRANCH")
-            gh pr merge --rebase "$PR_URL"
+            # The PAT may lack merge rights (fine-grained scopes); github.token
+            # has pull-requests: write and is allowed to merge.
+            GH_TOKEN="${{ github.token }}" gh pr merge --rebase "$PR_URL"
             PR_NUMBER=$(basename "$PR_URL")
             for i in $(seq 1 120); do
-              STATE=$(gh pr view "$PR_NUMBER" --json state --jq .state)
+              STATE=$(GH_TOKEN="${{ github.token }}" gh pr view "$PR_NUMBER" --json state --jq .state)
               [ "$STATE" = "MERGED" ] && break
               [ "$STATE" = "CLOSED" ] && { echo "Bump PR closed without merging"; exit 1; }
               sleep 30
