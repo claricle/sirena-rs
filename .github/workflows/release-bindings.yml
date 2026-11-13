@@ -159,6 +159,9 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with: { name: "cross-gem-${{ matrix.platform }}", path: pkg }
+      # Ubuntu runners ship ruby 3.0; the gem requires >= 3.1.
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: "3.4" }
       - run: |
           set -euo pipefail
           gem install --no-document pkg/etassia-native-*.gem
