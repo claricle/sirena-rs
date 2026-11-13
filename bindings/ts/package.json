@@ -1,9 +1,9 @@
 {
   "name": "etassia-ts",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TypeScript binding for the Etassia Rust runtime (etassia-core compiled to WebAssembly)",
   "license": "BSD-2-Clause",
-  "repository": { "type": "git", "url": "git+https://github.com/claricle/etassia-rs.git", "directory": "bindings/ts" },
+  "repository": { "type": "git", "url": "git+https://github.com/etassia/etassia-rs.git", "directory": "bindings/ts" },
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
