@@ -3,7 +3,7 @@
 //! `LayeredAlgorithm#route_orthogonal_edges` glue). The router also sizes the
 //! layer gaps during node placement (`slot_counts`).
 //!
-//! sirena declares no ports and no edge routing option, so the generic
+//! etassia declares no ports and no edge routing option, so the generic
 //! `EdgeRouter` only ever matters for self-loops and edges that cross no
 //! layer gap; both stay `Unported` (the golden corpus has neither). Junction
 //! points and edge labels are not part of the projection and are not

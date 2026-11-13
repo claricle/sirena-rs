@@ -1,4 +1,4 @@
-# Release pipeline for the sirena-native Ruby binding, on the
+# Release pipeline for the etassia-native Ruby binding, on the
 # parsanol-ruby model: a version bump landing on main IS the release
 # decision (leptris-ruby#452); dispatch bumps land as bump PRs whose
 # merge triggers this push path. Platform gems are cross-compiled for
@@ -24,7 +24,7 @@ on:
         type: string
 
 concurrency:
-  group: sirena-native-release
+  group: etassia-native-release
   cancel-in-progress: false
 
 permissions:
@@ -55,8 +55,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           read_version() {
-            ruby -Ibindings/ruby/lib -r sirena/native/version \
-              -e 'puts Sirena::Native::VERSION'
+            ruby -Ibindings/ruby/lib -r etassia/native/version \
+              -e 'puts Etassia::Native::VERSION'
           }
           if [ -z "${{ inputs.bump_type }}" ] || [ "${{ inputs.bump_type }}" = "skip" ]; then
             echo "release=true" >> "$GITHUB_OUTPUT"
@@ -79,7 +79,7 @@ jobs:
               echo ""
               echo "Merging publishes: the merge triggers the release workflow's push path."
             } > /tmp/bump-pr-body.md
-            PR_URL=$(gh pr create --title "Release: bump sirena-native to ${VERSION}" \
+            PR_URL=$(gh pr create --title "Release: bump etassia-native to ${VERSION}" \
               --body-file /tmp/bump-pr-body.md --head "$BRANCH")
             gh pr merge --auto --rebase "$PR_URL"
             PR_NUMBER=$(basename "$PR_URL")
@@ -126,7 +126,7 @@ jobs:
       - uses: oxidize-rb/actions/cross-gem@v1
         id: cross-gem
         env:
-          SIRENA_VENDOR_CDYLIB: "1"
+          ETASSIA_VENDOR_CDYLIB: "1"
         with:
           platform: ${{ matrix.platform }}
           ruby-versions: "3.1,3.2,3.3,3.4,4.0"
@@ -153,12 +153,12 @@ jobs:
       - run: |
           set -euo pipefail
           work="$(mktemp -d)"
-          gem install --no-document --install-dir "$work/gems" pkg/sirena-native-*.gem
+          gem install --no-document --install-dir "$work/gems" pkg/etassia-native-*.gem
           ruby -I"$work/gems" -e '
-            require "sirena/native"
-            abort "native library missing" unless Sirena::Native.native?
+            require "etassia/native"
+            abort "native library missing" unless Etassia::Native.native?
             svg = %(<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"></svg>)
-            out = Sirena::Native.render(svg)
+            out = Etassia::Native.render(svg)
             abort "empty render" if out.to_s.empty?
             puts "smoke OK: #{out.bytesize} bytes"'
 
@@ -177,8 +177,8 @@ jobs:
       - name: Package source gem
         working-directory: bindings/ruby
         run: |
-          gem build sirena-native.gemspec
-          mv sirena-native-*.gem ../pkg/
+          gem build etassia-native.gemspec
+          mv etassia-native-*.gem ../pkg/
       - uses: rubygems/configure-rubygems-credentials@main
       - name: Push Gem
         working-directory: pkg

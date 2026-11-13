@@ -1,4 +1,4 @@
-//! Text measurement, ported from `lib/sirena/text_measurement.rb` and its
+//! Text measurement, ported from `lib/etassia/text_measurement.rb` and its
 //! helpers. Pure Rust, no font file read at runtime: width is the sum of
 //! per-glyph advances (per-mille em) from tables generated out of the Ruby
 //! ones by `scripts/generate_text_tables.rb` (see `tables.rs`).

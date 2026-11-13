@@ -21,7 +21,7 @@ fn non_finite(x: f64) -> Option<String> {
     }
 }
 
-/// ECMA-262 `Number::toString` (Ruby `Sirena::JsNumber.stringify`):
+/// ECMA-262 `Number::toString` (Ruby `Etassia::JsNumber.stringify`):
 /// `1e21` -> `"1e+21"`, `1e-5` -> `"0.00001"`, `-0.0` -> `"0"`.
 pub fn fmt_num(x: f64) -> String {
     if let Some(s) = non_finite(x) {
@@ -101,12 +101,12 @@ pub fn round4(x: f64) -> f64 {
     f / s
 }
 
-/// Ruby `Sirena::Svg::Numbers.write`: `value.round(4).to_s`.
+/// Ruby `Etassia::Svg::Numbers.write`: `value.round(4).to_s`.
 pub fn write_num(x: f64) -> String {
     ruby_float(round4(x))
 }
 
-/// Ruby `Sirena::Svg::Numbers.read`: the leading SVG number of `s`
+/// Ruby `Etassia::Svg::Numbers.read`: the leading SVG number of `s`
 /// (`"14px"` -> `14.0`), or `None`.
 pub fn read_num(s: &str) -> Option<f64> {
     let b = s.trim_start().as_bytes();

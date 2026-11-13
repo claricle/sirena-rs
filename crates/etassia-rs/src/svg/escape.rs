@@ -1,4 +1,4 @@
-//! XML escaping, identical to Ruby `Sirena::Svg::Escaping`.
+//! XML escaping, identical to Ruby `Etassia::Svg::Escaping`.
 
 fn allowed(c: char) -> bool {
     matches!(c, '\t' | '\n' | '\r' | '\u{20}'..='\u{D7FF}' | '\u{E000}'..='\u{FFFD}' | '\u{10000}'..='\u{10FFFF}')

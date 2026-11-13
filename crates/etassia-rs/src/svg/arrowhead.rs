@@ -1,4 +1,4 @@
-//! Port of `Sirena::Svg::Arrowhead`: triangular arrowheads drawn from a path.
+//! Port of `Etassia::Svg::Arrowhead`: triangular arrowheads drawn from a path.
 
 use super::node::Elem;
 use super::number::{read_num, write_num};

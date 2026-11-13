@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-# Records every Elkrb.layout call sirena makes while rendering the flowchart,
+# Records every Elkrb.layout call etassia makes while rendering the flowchart,
 # state_diagram and class_diagram golden cases.
 #
-#   cd $SIRENA && bundle exec ruby /path/to/sirena-rs/golden/elk_dump.rb \
+#   cd $ETASSIA && bundle exec ruby /path/to/etassia-rs/golden/elk_dump.rb \
 #     <golden_dir> <out_dir>
 #
 # One <out_dir>/<type>/<case>.json per case:
 #   {"calls": [{"input": <graph Hash handed to Elkrb.layout>,
-#               "output": <what sirena reads back>}]}
+#               "output": <what etassia reads back>}]}
 # output = {"id","x","y","width","height","children":[...],
 #           "edges": [{"id","sections":[{"startPoint","endPoint","bendPoints"}]}]}
 # Floats are JSON numbers (Ruby shortest round-trip); read them with exact
@@ -20,7 +20,7 @@ require "json"
 require "timeout"
 
 $LOAD_PATH.unshift(File.join(Dir.pwd, "lib"))
-require "sirena"
+require "etassia"
 
 TYPES = %w[flowchart state_diagram class_diagram].freeze
 golden, out = ARGV
@@ -62,7 +62,7 @@ TYPES.each do |type|
     $calls = []
     begin
       Timeout.timeout(10) do
-        Sirena::Engine.new.render(File.binread(path), today: Date.new(2026, 1, 1))
+        Etassia::Engine.new.render(File.binread(path), today: Date.new(2026, 1, 1))
       end
     rescue StandardError, SystemStackError
       next

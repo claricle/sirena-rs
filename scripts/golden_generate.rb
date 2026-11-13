@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 # Generates golden/<type>/<case>.svg and golden/manifest.json from the Ruby
-# Sirena path. Run from a sirena checkout (feat/mermaid-parg or later):
+# Etassia path. Run from a etassia checkout (feat/mermaid-parg or later):
 #
-#   cd $SIRENA && bundle exec ruby /path/to/sirena-rs/scripts/golden_generate.rb
+#   cd $ETASSIA && bundle exec ruby /path/to/etassia-rs/scripts/golden_generate.rb
 #
-# Env: GOLDEN_OUT (default: <this repo>/golden), SIRENA_CORPUS (default:
+# Env: GOLDEN_OUT (default: <this repo>/golden), ETASSIA_CORPUS (default:
 # $PWD/spec/mermaid). Sources are copied next to each svg. Every spec/mermaid/*/*.mmd is rendered with today pinned
 # to 2026-01-01; cases that raise or time out are listed under "errors".
 require "bundler/setup"
@@ -19,7 +19,7 @@ $LOAD_PATH.unshift(File.join(Dir.pwd, "lib"))
 require "etassia"
 
 OUT = ENV.fetch("GOLDEN_OUT", File.expand_path("../golden", __dir__))
-CORPUS = ENV.fetch("SIRENA_CORPUS", File.join(Dir.pwd, "spec", "mermaid"))
+CORPUS = ENV.fetch("ETASSIA_CORPUS", File.join(Dir.pwd, "spec", "mermaid"))
 TODAY = Date.new(2026, 1, 1)
 
 FileUtils.rm_rf(OUT)

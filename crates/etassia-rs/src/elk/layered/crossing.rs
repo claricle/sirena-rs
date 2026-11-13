@@ -1,5 +1,5 @@
 //! Phase 3: crossing minimization (elkrb `Layered::CrossingMinimizer`,
-//! `DiscoveryOrder`, `PortOrder`). sirena always runs the model-order sweep
+//! `DiscoveryOrder`, `PortOrder`). etassia always runs the model-order sweep
 //! (`considerModelOrder.strategy = NODES_AND_EDGES`) or no sweep at all
 //! (`NONE`); the seeded random `LayerSweep` is `Unported`.
 use super::layering::{Item, Layering};
@@ -21,7 +21,7 @@ pub enum Side {
 }
 
 /// One slot on the EAST or WEST side of a layer item (an edge endpoint;
-/// sirena declares no ports).
+/// etassia declares no ports).
 #[derive(Debug, Clone)]
 pub struct Port {
     pub item: usize,

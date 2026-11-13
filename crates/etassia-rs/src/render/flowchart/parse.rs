@@ -883,7 +883,7 @@ fn scalar(v: &str) -> Result<Scalar, Error> {
     Ok(Scalar::Plain(v.to_string()))
 }
 
-/// `@{ shape: x, label: "text" }`: the label and shape it sets; keys sirena does not read are ignored.
+/// `@{ shape: x, label: "text" }`: the label and shape it sets; keys etassia does not read are ignored.
 fn node_data(body: &str) -> Result<(Option<Label>, Option<Shape>), Error> {
     let (mut label, mut shape) = (None, None);
     for (k, v) in data_entries(body)? {

@@ -1,4 +1,4 @@
-//! Port of `Sirena::Source.split`: strips the preamble (frontmatter, `%%{...}%%`
+//! Port of `Etassia::Source.split`: strips the preamble (frontmatter, `%%{...}%%`
 //! directives, `%%` comments) and returns the diagram body. Hand-written
 //! because the Ruby patterns use backreferences and lookahead.
 

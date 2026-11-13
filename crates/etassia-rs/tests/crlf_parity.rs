@@ -1,6 +1,6 @@
 //! CRLF parity: every golden source, CRLF-converted, renders byte-identically to
 //! Ruby's render of the same CRLF source. Ruby is not available in CI, so the test
-//! runs only when SIRENA_RUBY_DIR points at a sirena checkout (with its bundle).
+//! runs only when ETASSIA_RUBY_DIR points at a etassia checkout (with its bundle).
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
@@ -17,12 +17,12 @@ fn collect(dir: &Path, out: &mut Vec<PathBuf>) {
 
 #[test]
 fn crlf_sources_match_ruby() {
-    let Some(ruby_dir) = std::env::var_os("SIRENA_RUBY_DIR") else {
-        eprintln!("SKIPPED: set SIRENA_RUBY_DIR to a sirena checkout to run the CRLF parity test");
+    let Some(ruby_dir) = std::env::var_os("ETASSIA_RUBY_DIR") else {
+        eprintln!("SKIPPED: set ETASSIA_RUBY_DIR to a etassia checkout to run the CRLF parity test");
         return;
     };
     let golden = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../golden");
-    let tmp = std::env::temp_dir().join(format!("sirena-crlf-{}", std::process::id()));
+    let tmp = std::env::temp_dir().join(format!("etassia-crlf-{}", std::process::id()));
     let (corpus, out) = (tmp.join("corpus"), tmp.join("out"));
     let mut files = vec![];
     collect(&golden, &mut files);
@@ -40,7 +40,7 @@ fn crlf_sources_match_ruby() {
         .args(["-S", "bundle", "exec", "ruby"])
         .arg(script)
         .current_dir(&ruby_dir)
-        .env("SIRENA_CORPUS", &corpus)
+        .env("ETASSIA_CORPUS", &corpus)
         .env("GOLDEN_OUT", &out)
         .status()
         .expect("bundle runs");

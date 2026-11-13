@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
-# Times Rust render (sirena-ffi cdylib, called through bindings/ruby) against
-# Ruby render (the pure-Ruby Sirena engine in SIRENA_RUBY_ROOT) on every golden
+# Times Rust render (etassia-ffi cdylib, called through bindings/ruby) against
+# Ruby render (the pure-Ruby Etassia engine in ETASSIA_RUBY_ROOT) on every golden
 # case, then writes benchmarks/RESULTS.md.
 #
 #   ruby benchmarks/bench.rb
 #
 # Env:
-#   SIRENA_RUBY_ROOT  Ruby sirena checkout whose lib/ is loaded
-#                     (default /private/tmp/hk-sirena-parg)
+#   ETASSIA_RUBY_ROOT  Ruby etassia checkout whose lib/ is loaded
+#                     (default /private/tmp/hk-etassia-parg)
 #   BENCH_ITERATIONS  timed renders per case (default 5); one untimed warm-up first
 #   BENCH_OUT         markdown file to write (default benchmarks/RESULTS.md)
 #
 # Each side runs in its own child process: the Ruby checkout defines its own
-# Sirena::Native, which would clash with bindings/ruby in one process.
+# Etassia::Native, which would clash with bindings/ruby in one process.
 # A case is timed only when both sides render it; the rest are counted as skipped.
 
 require "date"
@@ -23,7 +23,7 @@ require "tempfile"
 
 ROOT = File.expand_path("..", __dir__)
 GOLDEN = File.join(ROOT, "golden")
-RUBY_ROOT = ENV.fetch("SIRENA_RUBY_ROOT", "/private/tmp/hk-sirena-parg")
+RUBY_ROOT = ENV.fetch("ETASSIA_RUBY_ROOT", "/private/tmp/hk-etassia-parg")
 ITERATIONS = Integer(ENV.fetch("BENCH_ITERATIONS", "5"))
 OUT = ENV.fetch("BENCH_OUT", File.join(__dir__, "RESULTS.md"))
 TODAY = Date.new(2026, 1, 1) # same pin as scripts/golden_generate.rb
@@ -34,15 +34,15 @@ end
 
 # Child-process side: render every case with one renderer and dump raw samples.
 def rust_renderer
-  require_relative "../bindings/ruby/lib/sirena/native"
-  lib = Sirena::Native.library or abort "no libsirena_ffi under target/release (run cargo build --release -p sirena-ffi)"
+  require_relative "../bindings/ruby/lib/etassia/native"
+  lib = Etassia::Native.library or abort "no libetassia_ffi under target/release (run cargo build --release -p etassia-ffi)"
   ->(source) { lib.render(source) }
 end
 
 def ruby_renderer
   $LOAD_PATH.unshift(File.join(RUBY_ROOT, "lib"))
-  require "sirena"
-  ->(source) { Sirena::Engine.new.render(source, today: TODAY) }
+  require "etassia"
+  ->(source) { Etassia::Engine.new.render(source, today: TODAY) }
 end
 
 def measure(source, render)
@@ -54,7 +54,7 @@ def measure(source, render)
   end
   { "status" => "ok", "samples_ms" => samples }
 rescue StandardError, SystemStackError => e
-  if e.class.name == "Sirena::Native::Unported"
+  if e.class.name == "Etassia::Native::Unported"
     { "status" => "unported", "message" => e.message[0, 120] }
   else
     { "status" => "error", "class" => e.respond_to?(:error_class) ? e.error_class : e.class.name }
@@ -72,8 +72,8 @@ end
 
 # Parent process: build, run both sides, summarize, write markdown.
 def build_ffi
-  ok = system("cargo", "build", "--release", "-p", "sirena-ffi", chdir: ROOT, out: File::NULL)
-  abort "cargo build --release -p sirena-ffi failed" unless ok
+  ok = system("cargo", "build", "--release", "-p", "etassia-ffi", chdir: ROOT, out: File::NULL)
+  abort "cargo build --release -p etassia-ffi failed" unless ok
 end
 
 def run_side(side)
@@ -160,8 +160,8 @@ def render_markdown(per_type, reasons, rust_count, ruby_count)
     | Ruby | #{RUBY_DESCRIPTION} |
     | rustc | #{command_output("rustc -V")} |
     | cargo | #{command_output("cargo -V")} |
-    | Ruby sirena checkout | #{RUBY_ROOT} (#{ruby_checkout_rev}) |
-    | Rust library | target/release/libsirena_ffi (release build, FFI call included) |
+    | Ruby etassia checkout | #{RUBY_ROOT} (#{ruby_checkout_rev}) |
+    | Rust library | target/release/libetassia_ffi (release build, FFI call included) |
     | Corpus | golden/*/*.mmd: #{rust_count} cases in the Rust run, #{ruby_count} in the Ruby run |
     | Iterations | #{ITERATIONS} timed per case after one untimed warm-up |
 
@@ -191,7 +191,7 @@ def render_markdown(per_type, reasons, rust_count, ruby_count)
       as rough orders of magnitude.
     - Only timing is measured; the outputs of the two renderers are not compared.
       The Ruby side is pinned to 2026-01-01 as in scripts/golden_generate.rb;
-      `sirena_render` takes no date argument.
+      `etassia_render` takes no date argument.
 
     ## Rerun
 
@@ -199,10 +199,10 @@ def render_markdown(per_type, reasons, rust_count, ruby_count)
 
     ```sh
     ruby benchmarks/bench.rb
-    # optional: SIRENA_RUBY_ROOT=/path/to/sirena-checkout BENCH_ITERATIONS=5 ruby benchmarks/bench.rb
+    # optional: ETASSIA_RUBY_ROOT=/path/to/etassia-checkout BENCH_ITERATIONS=5 ruby benchmarks/bench.rb
     ```
 
-    The script builds `sirena-ffi` in release mode, times each side in its own
+    The script builds `etassia-ffi` in release mode, times each side in its own
     process, and rewrites this file.
   MD
 end

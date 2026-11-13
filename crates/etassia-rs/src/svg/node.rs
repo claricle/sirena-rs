@@ -1,4 +1,4 @@
-//! SVG node tree and serializer (Ruby `Sirena::Svg::{Element,Group,Text,Document}`).
+//! SVG node tree and serializer (Ruby `Etassia::Svg::{Element,Group,Text,Document}`).
 
 use super::escape::{escape_attr, escape_text, valid_name};
 use super::number::{read_num, round4, ruby_float, write_num};

@@ -2,9 +2,9 @@
 //!
 //! Without Ruby: every golden case must detect as its manifest type and parse.
 //! With Ruby trees (`golden/dump_trees.rb`), set
-//!   SIRENA_TREES=<dir>   dump of golden/        (compared against golden/*.mmd)
-//!   SIRENA_CORPUS=<dir>  spec/mermaid           and
-//!   SIRENA_CORPUS_TREES=<dir> its dump
+//!   ETASSIA_TREES=<dir>   dump of golden/        (compared against golden/*.mmd)
+//!   ETASSIA_CORPUS=<dir>  spec/mermaid           and
+//!   ETASSIA_CORPUS_TREES=<dir> its dump
 //! and every tree, plus detect(), is compared with Ruby's.
 use serde_json::Value;
 use etassia_rs::parse::{detect, parse};
@@ -121,16 +121,16 @@ fn compare_dir(title: &str, corpus: &Path, trees: &Path) {
 
 #[test]
 fn parse_tree_parity_golden() {
-    match std::env::var("SIRENA_TREES") {
+    match std::env::var("ETASSIA_TREES") {
         Ok(t) => compare_dir("golden tree parity", &golden(), Path::new(&t)),
-        Err(_) => eprintln!("SIRENA_TREES unset: ruby tree parity skipped"),
+        Err(_) => eprintln!("ETASSIA_TREES unset: ruby tree parity skipped"),
     }
 }
 
 #[test]
 fn parse_tree_parity_corpus() {
-    match (std::env::var("SIRENA_CORPUS"), std::env::var("SIRENA_CORPUS_TREES")) {
+    match (std::env::var("ETASSIA_CORPUS"), std::env::var("ETASSIA_CORPUS_TREES")) {
         (Ok(c), Ok(t)) => compare_dir("corpus tree parity", Path::new(&c), Path::new(&t)),
-        _ => eprintln!("SIRENA_CORPUS/SIRENA_CORPUS_TREES unset: corpus parity skipped"),
+        _ => eprintln!("ETASSIA_CORPUS/ETASSIA_CORPUS_TREES unset: corpus parity skipped"),
     }
 }

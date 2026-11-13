@@ -1,7 +1,7 @@
-//! The layout options sirena passes, resolved against elkrb's registry
+//! The layout options etassia passes, resolved against elkrb's registry
 //! defaults (lib/elkrb/options/registry.rb). A graph or node reads only its
 //! own `layoutOptions` (no inheritance), as `Options::Resolver#get` does.
-//! An option key or value outside what sirena uses is `Unported`.
+//! An option key or value outside what etassia uses is `Unported`.
 use crate::Error;
 use serde_json::Value;
 

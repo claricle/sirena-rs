@@ -1,4 +1,4 @@
-//! Port of `Sirena::Notation::Mermaid::TYPES` patterns, in detection order.
+//! Port of `Etassia::Notation::Mermaid::TYPES` patterns, in detection order.
 //! Names are the corpus directory names.
 
 use regex::Regex;

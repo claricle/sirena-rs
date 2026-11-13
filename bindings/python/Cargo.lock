@@ -443,7 +443,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "sirena-py"
+name = "etassia-py"
 version = "0.0.0"
 dependencies = [
  "etassia-rs",

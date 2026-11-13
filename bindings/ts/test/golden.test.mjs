@@ -5,9 +5,9 @@ import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
-import { render, detect, UnportedError, SirenaError } from "../dist/index.js";
+import { render, detect, UnportedError, EtassiaError } from "../dist/index.js";
 
-const golden = process.env.SIRENA_GOLDEN_DIR ?? fileURLToPath(new URL("../../../golden", import.meta.url));
+const golden = process.env.ETASSIA_GOLDEN_DIR ?? fileURLToPath(new URL("../../../golden", import.meta.url));
 const manifest = JSON.parse(readFileSync(join(golden, "manifest.json"), "utf8"));
 const sha = (b) => createHash("sha256").update(b).digest("hex");
 
@@ -44,8 +44,8 @@ test("unported cases surface as UnportedError", () => {
   assert.ok(seen > 0, "expected at least one UnportedError from the error/ cases");
 });
 
-test("undetectable input throws SirenaError", () => {
-  assert.throws(() => detect("not a diagram at all"), SirenaError);
+test("undetectable input throws EtassiaError", () => {
+  assert.throws(() => detect("not a diagram at all"), EtassiaError);
 });
 
 test("detect names the diagram type", () => {
