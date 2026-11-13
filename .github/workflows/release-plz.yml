@@ -1,0 +1,51 @@
+# Release pipeline for the etassia-rs crates (parsanol-rs approach)
+#
+# On every push to main, release-plz computes the next version from
+# conventional commits, opens the release PR (merging it is the release
+# decision), and publishes the touched publishable crates to crates.io.
+#
+# Secrets required (repository settings):
+#   ETASSIA_CI_PAT_TOKEN  — PAT with repo scope; PRs created with GITHUB_TOKEN
+#                           do not trigger CI on themselves
+#   CARGO_REGISTRY_TOKEN  — crates.io token
+#
+# The etassia-ffi and etassia-wasm crates are publish = false: the cdylib
+# ships through the rubygems cross-gems (release-bindings.yml) and the wasm
+# package through npm, matching parsanol-rs's parsanol-ffi handling.
+
+name: Release-plz
+
+permissions:
+  pull-requests: write
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Serialize runs: two overlapping release-plz invocations raced on the
+# pre-merge snapshot and opened a duplicate release PR (parsanol-rs #227).
+concurrency:
+  group: release-plz
+  cancel-in-progress: false
+
+jobs:
+  release-plz:
+    name: Release-plz
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Run release-plz
+        uses: MarcoIeni/release-plz-action@v0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.ETASSIA_CI_PAT_TOKEN }}
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}

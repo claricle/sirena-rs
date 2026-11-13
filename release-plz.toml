@@ -1,0 +1,31 @@
+# Release-plz configuration for etassia-rs (ported from parsanol-rs)
+#
+# Automatic versioning and changelog generation from conventional commits.
+# See: https://release-plz.dev/docs/config
+
+[workspace]
+# Enable GitHub releases.
+git_release_enable = true
+
+# Update dependencies with `cargo update`
+dependencies_update = true
+
+[changelog]
+# Include commit body in changelog
+body = """
+{% for group, commits in commits | group_by(attribute="group") %}
+### {{ group | upper_first }}
+{% for commit in commits %}
+- {{ commit.message | upper_first }}\
+{% if commit.breaking %} (BREAKING){% endif %}\
+{% if commit.author != "github-actions[bot]" %} by @{{ commit.author }}{% endif %}\
+{% endfor %}
+{% endfor %}
+"""
+
+# Conventional commits configuration
+# See: https://www.conventionalcommits.org/
+# - feat: minor version bump
+# - fix: patch version bump
+# - feat! or fix!: major version bump (breaking change)
+# - docs, chore, refactor, test: no version bump (just changelog)
