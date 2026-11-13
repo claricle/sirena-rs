@@ -161,13 +161,12 @@ jobs:
         with: { name: "cross-gem-${{ matrix.platform }}", path: pkg }
       - run: |
           set -euo pipefail
-          work="$(mktemp -d)"
-          gem install --no-document --install-dir "$work/gems" pkg/etassia-native-*.gem
-          ruby -I"$work/gems" -e '
+          gem install --no-document pkg/etassia-native-*.gem
+          ruby -e '
             require "etassia/native"
             abort "native library missing" unless Etassia::Native.available?
-            svg = %(<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"></svg>)
-            out = Etassia::Native.render(svg)
+            src = "flowchart TD\n  A[Start] --> B[End]\n"
+            out = Etassia::Native.render(src)
             abort "empty render" if out.to_s.empty?
             puts "smoke OK: #{out.bytesize} bytes"'
 

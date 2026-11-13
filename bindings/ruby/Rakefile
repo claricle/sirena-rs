@@ -1,22 +1,8 @@
 # frozen_string_literal: true
 
-require "rspec/core/rake_task"
-
-spec = Gem::Specification.load("etassia-native.gemspec")
-
-RSpec::Core::RakeTask.new(:spec)
-
-# The cross-gem matrix drives this extension task per platform triple:
-# rake-compiler sets RUST_TARGET/CARGO_BUILD_TARGET and re-runs
-# ext/etassia_cdylib/extconf.rb, whose Makefile vendors the triple's
-# etassia-ffi cdylib into lib/etassia/native/ before packaging.
-require "rake/extensiontask"
-
-Rake::ExtensionTask.new("etassia_cdylib", spec) do |ext|
-  ext.cross_compile = true
-  ext.cross_platform = %w[
-    x86_64-linux aarch64-linux arm64-darwin x86_64-darwin x64-mingw-ucrt
-  ]
+desc "Run the binding specs (minitest)"
+task :spec do
+  sh "ruby", "-Ilib", "spec/native_spec.rb"
 end
 
 desc "Package the source gem (binary-free ruby shell)"

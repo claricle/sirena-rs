@@ -1,25 +1,24 @@
 # frozen_string_literal: true
 
+require_relative "lib/etassia/native/version"
+
 Gem::Specification.new do |spec|
   spec.name = "etassia-native"
-  spec.version = "0.0.0"
+  spec.version = Etassia::Native::VERSION
   spec.authors = ["Etassia contributors"]
   spec.summary = "Ruby binding to the etassia-ffi C ABI, with a pure-Ruby fallback"
   spec.license = "BSD-2-Clause"
   spec.required_ruby_version = ">= 3.1"
-  spec.files = Dir["lib/**/*.rb", "ext/etassia_cdylib/extconf.rb"]
-  # Binaries never enter the source gem: the cross-gem build vendors the
-  # triple's cdylib into lib/etassia/native/ only when ETASSIA_VENDOR_CDYLIB
-  # is set (the parsanol-ruby contract). Plain `gem build` stays
-  # binary-free and falls back to the pure-Ruby renderer at runtime.
+  spec.files = Dir["lib/**/*.rb"]
+  # Binaries are never tracked in git, and the ruby (source) gem stays
+  # slim: the etassia-ffi cdylib is vendored ONLY into platform gems by
+  # the cross-gem build (rakelib/compile.rake's native:<platform>
+  # tasks), never by a plain `gem build`.
   spec.files.reject! do |f|
     f =~ /\.(dll|so|dylib)\Z/ &&
       !(ENV["ETASSIA_VENDOR_CDYLIB"] == "1" &&
         f =~ %r{\Alib/etassia/native/(?:libetassia_ffi|etassia_ffi)\.(?:so|dylib|dll)\Z})
   end
-  # The cross-gem matrix drives this per target: its Makefile builds the
-  # etassia-ffi cdylib for the triple and vendors it into the gem.
-  spec.extensions = ["ext/etassia_cdylib/extconf.rb"]
   spec.require_paths = ["lib"]
   spec.add_dependency "ffi", "~> 1.16"
   spec.metadata["rubygems_mfa_required"] = "true"
