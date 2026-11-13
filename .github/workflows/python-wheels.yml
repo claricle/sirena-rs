@@ -84,6 +84,12 @@ jobs:
       run:
         shell: bash
     steps:
+      # Windows git defaults to core.autocrlf=true, which would rewrite the
+      # artifact/mermaid.json bytes to CRLF on checkout; the embedded artifact
+      # then fails its checksum on load. Keep LF.
+      - name: Keep LF checkouts
+        if: runner.os == 'Windows'
+        run: git config --global core.autocrlf false
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
