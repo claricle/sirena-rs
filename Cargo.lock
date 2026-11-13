@@ -228,6 +228,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "indexmap"
+version = "2.14.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc4e190f5d26ca7051642629da2c52fc03bde85a03197c99408dcd291734c855"
+dependencies = [
+ "equivalent",
+ "hashbrown",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -291,9 +301,9 @@ checksum = "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
 
 [[package]]
 name = "parsanol"
-version = "0.20.3"
+version = "0.20.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c452ad0ffc59ff11bcdb6c38e24cb0eb4613f0875d912caf10e8d2c58237934c"
+checksum = "27c0634a30199fabb9cb15ef49d42d2130fe3ec798e176a3202887499ded78e6"
 dependencies = [
  "ahash",
  "getrandom 0.3.4",
@@ -301,6 +311,7 @@ dependencies = [
  "hashbrown",
  "parsanol-derive",
  "regex",
+ "regex-automata",
  "regex-syntax",
  "serde",
  "serde_json",
@@ -309,9 +320,9 @@ dependencies = [
 
 [[package]]
 name = "parsanol-derive"
-version = "0.20.3"
+version = "0.20.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c012f01d67b456b25cb64fdc050f56eee2037c30780b2e8143b61d2a08cf5637"
+checksum = "51e020d741e0e9da0bdaceb6e96315346b108e6bd2e3529dffefe6b3064e54fe"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -419,6 +430,8 @@ version = "1.0.154"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e7e9cc8b1b85264074fbcc02a88680c4096b1e47df8f739dceb03bf482f04bd6"
 dependencies = [
+ "foldhash",
+ "indexmap",
  "itoa",
  "memchr",
  "serde",
