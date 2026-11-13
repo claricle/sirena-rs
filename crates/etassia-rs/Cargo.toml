@@ -3,7 +3,8 @@ name = "etassia-rs"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
-publish.workspace = true
+repository.workspace = true
+description = "Etassia core: parse and render diagram sources through parsanol grammars"
 
 [dependencies]
 parsanol = "0.20"

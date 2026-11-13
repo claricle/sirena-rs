@@ -6,4 +6,4 @@ members = ["crates/etassia-rs", "crates/etassia-ffi", "crates/etassia-wasm"]
 version = "0.0.0"
 edition = "2021"
 license = "BSD-2-Clause"
-publish = false
+repository = "https://github.com/etassia/etassia-rs"

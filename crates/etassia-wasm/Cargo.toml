@@ -3,7 +3,9 @@ name = "etassia-wasm"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
-publish.workspace = true
+repository.workspace = true
+publish = false
+description = "wasm cdylib for etassia; ships through the npm package, not crates.io"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
