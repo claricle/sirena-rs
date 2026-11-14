@@ -9,11 +9,11 @@ and TypeScript ([etassia/etassia-ts](https://github.com/etassia/etassia-ts)).
 
 ## RELEASING
 
-- **`etassia` (crates.io)**: release-plz opens the release PR from the
-  conventional commits; merging it publishes the crate.
-- **`etassia-native` (RubyGems)**: Actions > release-bindings > Run workflow;
-  the gem pipeline cuts the bump PR, tags `etassia-native-vX.Y.Z` and publishes
-  the six platform gems plus the source gem.
+- **`etassia` (crates.io)**: `.github/workflows/release-plz.yml` opens the
+  release PR from the conventional commits; merging it publishes the crate.
+- **`etassia-native` (RubyGems)**: run `.github/workflows/release-bindings.yml`
+  from Actions; the gem pipeline cuts the bump PR, tags `etassia-native-vX.Y.Z`
+  and publishes the six platform gems plus the source gem.
 
 ## DEVELOPMENT
 

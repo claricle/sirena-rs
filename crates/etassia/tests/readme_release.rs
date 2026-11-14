@@ -1,5 +1,5 @@
-//! The RELEASING section of the README must describe what release.yml and the
-//! repository actually do, or following it never starts a release.
+//! The RELEASING section of the README must describe what the repository
+//! actually does, or following it never starts a release.
 use std::fs;
 use std::path::PathBuf;
 
@@ -9,24 +9,36 @@ fn root_file(rel: &str) -> String {
 }
 
 #[test]
-fn readme_tags_match_release_workflow_triggers() {
+fn readme_release_flows_reference_existing_workflows() {
     let readme = root_file("README.md");
-    let workflow = root_file(".github/workflows/release.yml");
-    let mut tags = 0;
-    for line in readme.lines().filter(|l| l.starts_with("| `") && l.contains("-vX.Y.Z`")) {
-        let tag = line.trim_start_matches("| `").split("X.Y.Z").next().unwrap();
-        let trigger = format!("\"{tag}*\"");
-        assert!(workflow.contains(&trigger), "README tag {tag}X.Y.Z has no trigger {trigger} in release.yml");
-        tags += 1;
+    for workflow in ["release-plz.yml", "release-bindings.yml"] {
+        assert!(
+            readme.contains(workflow),
+            "README names {workflow} but the RELEASING section does not"
+        );
+        root_file(&format!(".github/workflows/{workflow}"));
     }
-    assert_eq!(tags, 3, "expected three tag rows in the README release table");
 }
 
 #[test]
-fn readme_trusted_publisher_owner_is_the_repo_owner() {
+fn readme_does_not_reference_removed_bindings_or_workflows() {
+    let readme = root_file("README.md");
+    for gone in [
+        "bindings/ts",
+        "bindings/python",
+        "release.yml",
+        "python-wheels.yml",
+        "npm-package.yml",
+        "smoke_installed_npm.mjs",
+    ] {
+        assert!(!readme.contains(gone), "README still references removed {gone}");
+    }
+}
+
+#[test]
+fn readme_owner_is_the_repo_owner() {
     let readme = root_file("README.md");
     assert!(!readme.contains("claricle"), "README still names the old owner claricle");
-    let flat = readme.split_whitespace().collect::<Vec<_>>().join(" ");
-    assert_eq!(flat.matches("owner `etassia`").count(), 2, "RubyGems and PyPI must use owner `etassia`");
-    assert!(flat.contains("org `etassia`"), "npm must use org `etassia`");
+    assert!(readme.contains("etassia/etassia-py"), "README must point Python at etassia/etassia-py");
+    assert!(readme.contains("etassia/etassia-ts"), "README must point TypeScript at etassia/etassia-ts");
 }
