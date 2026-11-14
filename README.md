@@ -1,36 +1,22 @@
 # etassia-rs
-Rust runtime for etassia with Ruby/TS/Python bindings (etassia/etassia#343)
+Rust runtime for etassia with the Ruby native gem (etassia/etassia#343)
 
 _Etassia_ comes from the Greek ἐκτάσσω, "drawn up in formation".
 
+The bindings live in their own repositories: Ruby (`etassia-native`, this
+repository's `bindings/ruby`), Python ([etassia/etassia-py](https://github.com/etassia/etassia-py))
+and TypeScript ([etassia/etassia-ts](https://github.com/etassia/etassia-ts)).
+
 ## RELEASING
 
-The tags, package names and manifests below still carry the `etassia` name that
-`.github/workflows/release.yml` triggers on; they change together with the gem rename.
+- **`etassia` (crates.io)**: release-plz opens the release PR from the
+  conventional commits; merging it publishes the crate.
+- **`etassia-native` (RubyGems)**: Actions > release-bindings > Run workflow;
+  the gem pipeline cuts the bump PR, tags `etassia-native-vX.Y.Z` and publishes
+  the six platform gems plus the source gem.
 
-Releases are cut by pushing a tag; `.github/workflows/release.yml` builds the
-package, smokes it, and publishes it. The tag version must equal the manifest
-version (nothing bumps it for you):
+## DEVELOPMENT
 
-| Tag | Package | Registry | Manifest |
-|---|---|---|---|
-| `etassia-native-vX.Y.Z` | `etassia-native` (6 platform gems + source gem) | RubyGems | `bindings/ruby/etassia-native.gemspec` |
-| `etassia-py-vX.Y.Z` | `etassia-py` (wheels + sdist) | PyPI | `bindings/python/pyproject.toml` |
-| `etassia-ts-vX.Y.Z` | `etassia-ts` | npm | `bindings/ts/package.json` |
-
-Dry run: Actions > release > Run workflow, pick a package, leave `publish` off.
-
-One-time setup per registry (etassia/etassia-rs, workflow `release.yml`; also
-create the GitHub environments `rubygems`, `pypi` and `npm`):
-
-- **RubyGems** (owner of the `etassia-native` name): rubygems.org > Profile >
-  Trusted publishers > add a pending publisher: gem `etassia-native`, owner
-  `etassia`, repository `etassia-rs`, workflow `release.yml`, environment `rubygems`.
-- **PyPI** (account that will own `etassia-py`): pypi.org > Publishing > add a
-  pending publisher: project `etassia-py`, owner `etassia`, repository
-  `etassia-rs`, workflow `release.yml`, environment `pypi`.
-- **npm** (owner of `etassia-ts`): npm cannot trust a package that does not exist
-  yet. Publish the first release once by hand (`npm publish --access public`
-  from `bindings/ts` after `npm run build`), then npmjs.com > package >
-  Settings > Trusted Publisher > GitHub Actions: org `etassia`, repository
-  `etassia-rs`, workflow `release.yml`, environment `npm`. Later releases use the tag.
+`.github/workflows/ci.yml` generates the goldens with Ruby on each runner OS
+(the corpus follows `Math.*` semantics, so Rust matches Ruby on the same
+machine) and runs `cargo test --workspace` against them.
