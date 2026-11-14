@@ -51,12 +51,12 @@ fn crlf_sources_match_ruby() {
         let rel = f.strip_prefix(&golden).unwrap();
         let Ok(want) = std::fs::read(out.join(rel.with_extension("svg"))) else { continue };
         let src = std::fs::read_to_string(corpus.join(rel)).unwrap();
-        match etassia_rs::render::render(&src) {
+        match etassia::render::render(&src) {
             Ok(got) if got.as_bytes() == want.as_slice() => ok += 1,
             Ok(_) => bad.push(format!("{} differs", rel.display())),
             // Unported is fine only when the LF original is declined too.
-            Err(etassia_rs::Error::Unported(_))
-                if etassia_rs::render::render(&std::fs::read_to_string(f).unwrap()).is_err() =>
+            Err(etassia::Error::Unported(_))
+                if etassia::render::render(&std::fs::read_to_string(f).unwrap()).is_err() =>
             {
                 declined += 1
             }

@@ -52,7 +52,7 @@ fn golden_byte_match() {
         let src = String::from_utf8(std::fs::read(dir.join(case)).unwrap()).unwrap();
         let want = std::fs::read(dir.join(case.replace(".mmd", ".svg"))).unwrap();
         let e = counts.entry(ty.clone()).or_default();
-        match etassia_rs::render(&src) {
+        match etassia::render(&src) {
             Ok(got) if got.as_bytes() == want.as_slice() => e.0 += 1,
             Ok(got) => {
                 e.1 += 1;

@@ -7,7 +7,7 @@
 //!   ETASSIA_CORPUS_TREES=<dir> its dump
 //! and every tree, plus detect(), is compared with Ruby's.
 use serde_json::Value;
-use etassia_rs::parse::{detect, parse};
+use etassia::parse::{detect, parse};
 use std::collections::BTreeMap;
 use std::fs;
 use std::path::{Path, PathBuf};

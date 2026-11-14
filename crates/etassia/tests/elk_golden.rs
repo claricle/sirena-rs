@@ -2,7 +2,7 @@
 //! golden/elk_dump.rb from elkrb 2.0.1). Floats compared by exact bits.
 //! Prints matched/unported/mismatch per type; a mismatch fails the test.
 use serde_json::Value;
-use etassia_rs::{elk, Error};
+use etassia::{elk, Error};
 use std::collections::BTreeMap;
 use std::path::PathBuf;
 

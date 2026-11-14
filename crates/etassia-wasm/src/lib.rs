@@ -6,7 +6,7 @@
 //! Rendering happens entirely here, so number formatting is the Rust formatter's.
 //! Status 0 = SVG / type name; 1 = JSON `{class,message,line,col}` (class
 //! "Unported" means the caller should use the Ruby fallback).
-use etassia_rs::Error;
+use etassia::Error;
 use std::cell::RefCell;
 
 thread_local! {
@@ -58,7 +58,7 @@ pub unsafe extern "C" fn etassia_dealloc(ptr: *mut u8, len: usize) {
 /// `ptr` must point to `len` readable bytes.
 #[no_mangle]
 pub unsafe extern "C" fn etassia_render(ptr: *const u8, len: usize) -> i32 {
-    store(src(ptr, len).and_then(etassia_rs::render))
+    store(src(ptr, len).and_then(etassia::render))
 }
 
 /// Detect the diagram type. Returns the status.
@@ -68,7 +68,7 @@ pub unsafe extern "C" fn etassia_render(ptr: *const u8, len: usize) -> i32 {
 #[no_mangle]
 pub unsafe extern "C" fn etassia_detect(ptr: *const u8, len: usize) -> i32 {
     store(src(ptr, len).and_then(|s| {
-        etassia_rs::detect(s)
+        etassia::detect(s)
             .ok_or_else(|| parse_err("DiagramTypeError", "cannot detect diagram type".into()))
     }))
 }

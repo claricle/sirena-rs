@@ -11,5 +11,5 @@ description = "wasm cdylib for etassia; ships through the npm package, not crate
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-etassia-rs = { path = "../etassia-rs" }
+etassia = { path = "../etassia" }
 

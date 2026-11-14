@@ -99,7 +99,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00d174d5400e5e8fd687ad1049e2f578285fa914201b1af7e8b112a4546bd826"
 
 [[package]]
-name = "etassia-rs"
+name = "etassia"
 version = "0.0.0"
 dependencies = [
  "num-bigint",
@@ -108,6 +108,14 @@ dependencies = [
  "parsanol",
  "regex",
  "serde_json",
+]
+
+[[package]]
+name = "etassia-py"
+version = "0.1.0"
+dependencies = [
+ "etassia",
+ "pyo3",
 ]
 
 [[package]]
@@ -440,14 +448,6 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest",
-]
-
-[[package]]
-name = "etassia-py"
-version = "0.0.0"
-dependencies = [
- "etassia-rs",
- "pyo3",
 ]
 
 [[package]]

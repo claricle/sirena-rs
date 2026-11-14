@@ -2,7 +2,7 @@
 //! only graph and node x/y/width/height (edge routing is a later phase).
 //! Prints matched/unported/mismatch per type; a mismatch fails the test.
 use serde_json::Value;
-use etassia_rs::{elk, Error};
+use etassia::{elk, Error};
 use std::collections::BTreeMap;
 use std::path::PathBuf;
 
