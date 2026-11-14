@@ -11,5 +11,5 @@ description = "C-ABI cdylib for etassia; ships through the rubygems cross-gems, 
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-etassia-rs = { path = "../etassia-rs" }
+etassia = { path = "../etassia" }
 serde_json = "1"

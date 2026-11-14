@@ -1,4 +1,4 @@
-# Release pipeline for the etassia-rs crates (parsanol-rs approach)
+# Release pipeline for the etassia crates (parsanol-rs approach)
 #
 # On every push to main, release-plz computes the next version from
 # conventional commits, opens the release PR (merging it is the release

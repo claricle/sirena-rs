@@ -109,7 +109,7 @@ jobs:
     uses: ./.github/workflows/npm-package.yml
 
   publish-npm:
-    name: publish etassia-ts (npm)
+    name: publish etassia (npm)
     needs: [plan, build-npm]
     if: needs.plan.outputs.publish == 'true'
     runs-on: ubuntu-latest
@@ -129,4 +129,4 @@ jobs:
       # Trusted publishing needs npm >= 11.5.1; Node 22 bundles an older npm.
       - run: npm install -g npm@^11.5.1
       - name: Publish with provenance
-        run: npm publish ./tarball/etassia-ts-*.tgz --provenance --access public
+        run: npm publish ./tarball/etassia-*.tgz --provenance --access public

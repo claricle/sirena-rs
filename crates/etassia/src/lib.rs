@@ -1,4 +1,4 @@
-//! etassia-rs: Rust runtime for Etassia. Unported types return
+//! etassia: Rust runtime for Etassia. Unported types return
 //! `Error::Unported` so callers can route to the Ruby fallback.
 pub mod elk;
 pub mod error;

@@ -1,5 +1,5 @@
 {
-  "name": "etassia-ts",
+  "name": "etassia",
   "version": "0.1.0",
   "description": "TypeScript binding for the Etassia Rust runtime (etassia-core compiled to WebAssembly)",
   "license": "BSD-2-Clause",

@@ -137,15 +137,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00d174d5400e5e8fd687ad1049e2f578285fa914201b1af7e8b112a4546bd826"
 
 [[package]]
-name = "etassia-ffi"
-version = "0.0.0"
-dependencies = [
- "etassia-rs",
- "serde_json",
-]
-
-[[package]]
-name = "etassia-rs"
+name = "etassia"
 version = "0.0.0"
 dependencies = [
  "num-bigint",
@@ -158,10 +150,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "etassia-ffi"
+version = "0.0.0"
+dependencies = [
+ "etassia",
+ "serde_json",
+]
+
+[[package]]
 name = "etassia-wasm"
 version = "0.0.0"
 dependencies = [
- "etassia-rs",
+ "etassia",
 ]
 
 [[package]]

@@ -2,7 +2,7 @@
 //! written by `scripts/text_parity_dump.rb`; floats are stored as u64 bits.
 
 use serde_json::Value;
-use etassia_rs::text::{self, timeline, Face};
+use etassia::text::{self, timeline, Face};
 
 fn fixture() -> Value {
     let path = concat!(

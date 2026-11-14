@@ -1,6 +1,6 @@
 //! Compares js_math against `<fn> <file>` lines of hex bit patterns (inputs..., expected).
 //! Usage: cargo run --release --example js_math_cmp -- <fn> <file> [limit]
-use etassia_rs::js_math as m;
+use etassia::js_math as m;
 use std::io::{BufRead, BufReader};
 
 fn main() {

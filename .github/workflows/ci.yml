@@ -90,7 +90,7 @@ jobs:
           maturin develop --release
           pytest -q -s
   ts:
-    # etassia-ts: etassia-rs compiled to wasm, every golden case byte-compared.
+    # etassia (npm): the etassia core compiled to wasm, every golden case byte-compared.
     # Math is js_math.rs on every target, so wasm must equal Ruby with no allowlist.
     strategy:
       fail-fast: false

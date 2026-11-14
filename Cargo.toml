@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/etassia-rs", "crates/etassia-ffi", "crates/etassia-wasm"]
+members = ["crates/etassia", "crates/etassia-ffi", "crates/etassia-wasm"]
 
 [workspace.package]
 version = "0.0.0"
