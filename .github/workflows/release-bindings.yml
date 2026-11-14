@@ -67,6 +67,7 @@ jobs:
             VERSION=$(read_version)
             TAG="v$VERSION"
             git tag -a "$TAG" -m "Release $VERSION" || true
+            git push origin "$TAG" || true
             echo "version=$VERSION" >> "$GITHUB_OUTPUT"
             echo "tag=$TAG" >> "$GITHUB_OUTPUT"
             echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
